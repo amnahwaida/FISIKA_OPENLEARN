@@ -32,6 +32,13 @@ $$ \Sigma F = m \cdot a $$
 $$ F_{\text{aksi}} = -F_{\text{reaksi}} $$
 - **Syarat:** Besar sama, arah berlawanan, bekerja pada dua benda berbeda, dan jenis gayanya sama.
 
+> [!WARNING]
+> **Batas Validitas (Keterbatasan) Hukum Newton:**
+> Hukum Newton yang elegan ini sejatinya **bukan** kebenaran absolut untuk seluruh skala alam semesta. Hukum ini terbukti **gagal** (tidak berlaku) pada dua kondisi ekstrem:
+> 1. Benda yang bergerak sangat cepat mendekati kecepatan cahaya (harus diganti dengan **Teori Relativitas Khusus** Einstein).
+> 2. Benda pada skala sub-atomik mikroskopis seperti elektron (harus diganti dengan **Mekanika Kuantum**).
+> Singkatnya, Mekanika Newtonian Klasik adalah "hampiran yang sangat luar biasa presisi untuk benda-benda makroskopis berkecepatan rendah di kehidupan sehari-hari."
+
 ---
 
 ## 2. Mengenal Jenis-Jenis Gaya
@@ -44,10 +51,18 @@ $$ F_{\text{aksi}} = -F_{\text{reaksi}} $$
 > - **Berat** ($w$): gaya tarik gravitasi, **vektor**, berubah sesuai nilai $g$ (satuan: Newton).
 > - Di bulan ($g_{bulan} \approx 1,6$ m/s²), massa Anda tetap 60 kg, tapi berat Anda hanya $96$ N (bukan $600$ N seperti di bumi).
 
+> [!NOTE]
+> **Wawasan Universal: Massa Inersial vs Massa Gravitasi**
+> Terdapat misteri fisika fundamental. Alam semesta mengizinkan dua cara mengukur massa:
+> 1. **Massa Inersial** ($m_i = \frac{\Sigma F}{a}$): Sifat "seberapa malas" benda itu merespons dorongan luar.
+> 2. **Massa Gravitasi** ($m_g = \frac{w}{g}$): Sifat "seberapa peka" benda itu ditarik oleh medan gravitasi planet.
+> Secara memukau, eksperimen saintis bertahun-tahun membuktikan bahwa nilai kedua massa yang secara konsep berbeda ini **sama persis mutlak** ($m_i = m_g$). Kesamaan misterius inilah yang memicu Einstein mencetuskan **"Prinsip Ekuivalensi"**, pondasi dari Teori Relativitas Umum (di mana gravitasi dijelaskan sebagai kelengkungan ruang-waktu, bukan tarikan gaya).
+
 ### 2.2 Daftar Gaya yang Harus Dikenal
 
 1. **Gaya Berat ($w$):** Gaya tarik bumi terhadap benda. Arahnya selalu **tegak lurus ke bawah** menuju pusat bumi.
    $$ w = m \cdot g $$
+   > *(Asal Usul Angka $g$): Nilai $g = 9,8 \text{ m/s}^2$ bukanlah konstanta ajaib, melainkan hasil hitungan murni dari **Hukum Gravitasi Universal Newton** ($g = \frac{G \cdot M_{planet}}{R_{planet}^2}$). Rumus ini membuktikan mengapa percepatan gravitasi di setiap planet pasti berbeda, sesuai racikan massa dan jari-jari planet tersebut.*
 2. **Gaya Normal ($N$):** Gaya tekan permukaan terhadap benda. Arahnya selalu **tegak lurus bidang sentuh**.
 
 > [!IMPORTANT]
