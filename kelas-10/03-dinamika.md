@@ -93,6 +93,12 @@ $$ F_{\text{aksi}} = -F_{\text{reaksi}} $$
 > 2. **Manajemen Panas:** Ban lebar mendistribusikan panas lebih merata, mencegah karet meleleh/aus terlalu cepat saat pengereman ekstrem.
 > Jadi, ban lebar bukan menambah nilai $\mu$ secara teori murni, melainkan menjaga performa cengkeraman tetap optimal di kondisi nyata.
 
+> [!IMPORTANT]
+> **Asal-usul Mikroskopis: Mengapa $\mu_s > \mu_k$?**
+> Di tingkat molekuler, tidak ada permukaan yang benar-benar halus. Saat dua benda diam bersentuhan, titik-titik puncak permukaan yang tidak rata akan saling "menempel" secara atomik, sebuah fenomena yang disebut **Cold Welding** (Pengelasan Dingin).
+> - **Pada kondisi statis:** Ikatan atomik ini memiliki waktu untuk terbentuk dengan kuat, sehingga butuh gaya besar untuk memutuskannya.
+> - **Pada kondisi kinetis (bergerak):** Benda meluncur terlalu cepat sehingga ikatan atomik tidak sempat terbentuk sempurna; benda hanya "melompati" puncak-puncak permukaan tersebut (seperti ban di atas kerikil). Inilah sebabnya gesekan saat bergerak selalu lebih ringan.
+
 > [!NOTE]
 > **Gaya Gesek Udara & Kecepatan Terminal:**
 > Dalam dunia nyata, benda jatuh mengalami hambatan udara ($F_{drag} = -kv$). Saat gaya hambat membesar hingga sama dengan gaya berat ($F_{drag} = w$), resultan gaya pembentuk percepatan menjadi nol ($\Sigma F = 0$). Pada titik ini, benda berhenti mengalami percepatan dan akan terus melaju ke bawah dengan kecepatan maksimal yang konstan (disebut **Kecepatan Terminal**). Inilah alasan penerjun payung bisa mendarat dengan aman.
@@ -195,13 +201,19 @@ Dua balok diletakkan bersentuhan berdampingan ($m_1$ dan $m_2$) di atas lantai l
 - **Gaya Kontak ($N_{12}$):** Gaya yang diberikan $m_1$ kepada $m_2$. Gaya ini adalah satu-satunya alasan $m_2$ bisa ikut melaju.
 - **Besar Gaya Kontak:** $\mathbf{N_{12} = m_2 \cdot a}$. (Arahnya ke kanan pada $m_2$ dan ke kiri pada $m_1$ sesuai Hukum III Newton).
 
-### 3.7 Percepatan Maksimum Alas (Benda di Bak Truk)
+### 3.7 Dinamika dalam Fluida (Archimedes + Newton)
+Dalam fluida (cair/gas), benda mengalami gaya ke atas ($F_a$) yang berlawanan dengan gravitasi. 
+- **Resultan Gaya:** $\Sigma F = w - F_a$ (jika mengabaikan gesekan fluida).
+- **Hukum Newton:** $m \cdot g - \rho_f \cdot V_{celup} \cdot g = m \cdot a$.
+- Jika benda bergerak cepat, tambahkan Gaya Stokes: $\Sigma F = w - F_a - f_{stokes}$.
+
+### 3.8 Percepatan Maksimum Alas (Benda di Bak Truk)
 Sebuah balok diletakkan secara bebas di atas bak truk yang melaju dengan percepatan $a$. Agar balok **tidak merosot ke belakang**, gaya gesek statis ($f_s$) antarmuka-lah yang menarik balok ke depan untuk "ikut melaju" bersama truk.
 - Syarat balok ikut melaju tanpa selip: $\Sigma F_{\text{balok}} = m_{\text{balok}} \cdot a \implies f_s = m \cdot a$
 - Batas percepatan truk maksimum sebelum selip ke belakang: 
   $f_{s,max} = m \cdot a_{max} \implies \mu_s \cdot mg = m \cdot a_{max} \implies \mathbf{a_{max} = \mu_s \cdot g}$
 
-### 3.7 Benda Bertumpuk (Stacked Blocks)
+### 3.9 Benda Bertumpuk (Stacked Blocks)
 Dua balok ditumpuk: balok A (atas, massa $m_A$) dan balok B (bawah, massa $m_B$). Gaya $F$ diterapkan pada balok A secara horizontal.
 - Gaya gesek statis antar permukaan ($f_{AB}$) adalah **satu-satunya gaya** yang menggerakkan balok B.
 - Percepatan sistem: $a = \frac{F}{m_A + m_B}$
@@ -267,6 +279,14 @@ Kondisi di mana sebuah benda diletakkan pada piringan yang berputar.
 - **Prinsip:** Gaya gesek statis ($f_s$) antarmuka berperan sebagai Penyedia Gaya Sentripetal.
 - **Syarat tidak terlempar:** $f_s \leq \mu_s \cdot N \implies m \omega^2 R \leq \mu_s mg$.
 - **Jarak Maksimum ($R_{max}$):** $\mathbf{R_{max} = \frac{\mu_s \cdot g}{\omega^2}}$.
+
+**Dinamika Rotor (Wahana Gravitron):**
+Wahana berbentuk silinder besar yang berputar di mana orang bersandar pada dindingnya. Saat lantai dilepas, orang tersebut tidak jatuh.
+- **Sumbu X (Horizontal):** Gaya Normal ($N$) dinding silinder menjadi penyedia Gaya Sentripetal ($F_s$):
+  $N = m \cdot \omega^2 \cdot R$.
+- **Sumbu Y (Vertikal):** Agar tidak jatuh, Gaya Gesek statis ke atas harus mengimbangi berat ke bawah:
+  $f_s = w \implies \mu_s \cdot N = mg$.
+- **Kecepatan Sudut Minimum ($\omega_{min}$):** $\mu_s (m \omega^2 R) = mg \implies \mathbf{\omega_{min} = \sqrt{\frac{g}{\mu_s R}}}$.
 
 **Tikungan Datar (Kasar):**
 
