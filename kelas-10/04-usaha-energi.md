@@ -151,7 +151,15 @@ $$ EM = EK + EP $$
 > **Preview: Energi Kinetik Rotasi ($EK_{rot}$):**
 > Benda yang tidak hanya bergeser tapi juga berputar (seperti roda menggelinding) memiliki energi tambahan:
 > $$ EK_{rot} = \frac{1}{2} I \omega^2 $$
-> - $I$ = Momen Inersia (ukuran kelembaman rotasi)
+
+> [!IMPORTANT]
+> **Divine Mastery: Usaha dan Daya Rotasi:**
+> Sebagaimana gaya ($F$) melakukan usaha translasional, **Torsi ($\tau$)** melakukan usaha rotasional:
+> - **Usaha Rotasi:** $W = \tau \cdot \theta$ (Torsi $\times$ Sudut)
+> - **Daya Rotasi:** $P = \tau \cdot \omega$ (Torsi $\times$ Kecepatan Sudut)
+> Inilah alasan mengapa motor listrik dengan "Torsi besar" bisa memberikan daya tarik instan yang luar biasa.
+
+--- $I$ = Momen Inersia (ukuran kelembaman rotasi)
 > - $\omega$ = Kecepatan sudut (rad/s)
 > Inilah alasan mengapa benda yang menggelinding di bidang miring akan tiba di bawah lebih lambat daripada benda yang meluncur licin; sebagian energi potensialnya "dicuri" untuk memutar benda tersebut.
 
@@ -280,7 +288,13 @@ Dalam dunia nyata, tidak ada mesin yang 100% mengubah energi input menjadi usaha
 
 $$ \eta = \frac{W_{\text{berguna}}}{W_{\text{input}}} \times 100\% = \frac{P_{\text{output}}}{P_{\text{input}}} \times 100\% $$
 
-- Efisiensi selalu bernilai $0\% < \eta \leq 100\%$.
+> [!TIP]
+> **Apex Insight: Daya Kendaraan Mendaki (The Mountaineering Power):**
+> Saat kendaraan mendaki bukit dengan sudut $\theta$ dan kecepatan konstan $v$, daya yang dibutuhkan mesin bukan sekadar melawan gesekan ($f_k$), tapi juga komponen berat ($mg\sin\theta$):
+> $$ P = (f_k + mg \sin\theta) \cdot v $$
+> Rumus ini membedakan pengemudi biasa dengan insinyur otomotif—daya mesin harus mampu mensuplai "energi gravitasi" setiap detiknya.
+
+--- Efisiensi selalu bernilai $0\% < \eta \leq 100\%$.
 - Mesin ideal ($\eta = 100\%$) tidak ada di alam nyata (Hukum Termodinamika ke-2).
 
 ---
@@ -320,7 +334,12 @@ $$ \mathbf{v_{esc} = \sqrt{2gR}} $$
 Dengan $g = 9,8$; $R_{\text{bumi}} = 6,4 \times 10^6$:
 $$ v_{esc} \approx 11.200 \text{ m/s} \approx \mathbf{11,2 \text{ km/s}} $$
 
-> [!CAUTION]
+> [!NOTE]
+> **Filosofi: Sumur Potensial (Potential Well):**
+> Mengapa $EP$ gravitasi universal bernilai **negatif** ($-\frac{GMm}{r}$)?
+> Tanda negatif melambangkan bahwa benda sedang **terikat** (unbound state). Nilai $EP=0$ berada di jarak tak hingga (bebas sepenuhnya). Semakin negatif nilainya, semakin dalam benda "terperosok" dalam sumur gravitasi planet tersebut. Anda butuh usaha positif untuk "memanjat keluar" menuju kebebasan ($tak \ hingga$).
+
+---> [!CAUTION]
 > **Fakta Mencengangkan:**
 > Kecepatan lepas tidak bergantung pada massa roket! Sebuah bola tenis dan pesawat ulang-alik membutuhkan kecepatan lepas yang sama. Yang berbeda hanyalah **energi (bahan bakar)** yang dibutuhkan untuk mencapai kecepatan tersebut.
 
@@ -369,6 +388,13 @@ $$ KM = \frac{2\pi r}{d} $$
 - $r$ = Jari-jari putaran (lengan gaya)
 - $d$ = Jarak antar ulir (pitch)
 
+### 9.7 Keuntungan Mekanis Nyata (Actual vs Ideal KM)
+Dalam dunia nyata, pesawat sederhana memiliki gesekan. Ini memunculkan dua jenis KM:
+1. **KM Ideal ($KM_I$):** Dihitung dari geometri alat (tanpa gesekan).
+2. **KM Nyata ($KM_A$):** Perbandingan gaya beban dan gaya kuasa yang sebenarnya diukur.
+Hubungannya melalui efisiensi ($\eta$):
+$$ KM_A = \eta \times KM_I $$
+
 > [!WARNING]
 > **"Tidak Ada Makan Siang Gratis":**
 > Pesawat sederhana memperkecil gaya, tetapi memperbesar jarak tempuh. Total **Usaha** yang dilakukan tetap sama (bahkan lebih besar jika ada gesekan). Ini adalah konsekuensi langsung dari Hukum Kekekalan Energi.
@@ -378,4 +404,4 @@ $$ KM = \frac{2\pi r}{d} $$
 ## Lihat Juga
 - [Dinamika](./03-dinamika.md)
 - [Momentum](./05-momentum.md)
-- [Latihan Soal Bab 4 — Set 4.1](./latihan-soal/04.1-pendahuluan-energi-latihan.md)
+- [Latihan Soal Bab 4](latihan-soal/README.md)
