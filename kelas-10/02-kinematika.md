@@ -103,8 +103,13 @@ GLBB adalah gerak benda pada lintasan lurus dengan **percepatan konstan ($a$ tet
 
 - **Rumus Utama GLBB:**
   1. $v_t = v_0 + a \cdot t$ (Mencari kecepatan akhir)
-  2. $s = v_0 \cdot t + \frac{1}{2} a \cdot t^2$ (Mencari perpindahan)
   3. $v_t^2 = v_0^2 + 2 \cdot a \cdot s$ (Mencari hubungan kecepatan dan jarak tanpa waktu)
+
+> [!TIP]
+> **Aplikasi: Analisis Jarak Henti (Stopping Distance)**
+> Seberapa jauh mobil meluncur setelah rem diinjak sampai berhenti ($v_t = 0$)?
+> Dari rumus 3: $0 = v_0^2 - 2as \implies \mathbf{s_{\text{henti}} = \frac{v_0^2}{2a}}$.
+> *Kesimpulan: Jika kecepatan mobil naik 2 kali lipat, jarak hentinya akan naik 4 kali lipat! Inilah mengapa mengebut sangat berbahaya.*
 
 - **Grafik GLBB:**
   - Grafik $a-t$ (Percepatan-Waktu) berupa garis lurus mendatar (asumsikan $a \neq 0$).
@@ -124,6 +129,10 @@ Memahami gerak melalui interpretasi visual:
   - Luas daerah di bawah kurva menunjukkan **perpindahan/jarak**.
 - **Grafik $a-t$:**
   - Luas daerah di bawah kurva menunjukkan **perubahan kecepatan**.
+
+> [!NOTE]
+> **Metode Luas Arbitrer (Intuisi Integral):**
+> Meskipun grafik $v-t$ tidak berbentuk trapesium sempurna (misal melengkung tak beraturan), prinsip **Luas di bawah kurva = Perpindahan** tetap berlaku secara universal. Di tingkat lanjut, luas ini dihitung dengan membagi area menjadi ribuan batang sangat tipis (Integral), membuktikan bahwa Kinematika adalah bahasa matematika yang sangat logis.
 
 > [!TIP]
 > **Kaitan Sempurna dengan Kalkulus:**
@@ -192,6 +201,13 @@ $$ \vec{v}(t) = (v_0 \cos \alpha) \hat{i} + (v_0 \sin \alpha - gt) \hat{j} $$
 
 **Analisis Sudut Elevasi Maksimum:**
 Jangkauan terjauh ($x_{\text{max}}$) akan dicapai jika $\sin 2\alpha$ bernilai maksimum (yaitu 1). Hal ini terjadi saat $2\alpha = 90^\circ$, atau **$\alpha = 45^\circ$**.
+
+> [!NOTE]
+> **Pembuktian Matematis:**
+> Rumus jangkauan: $x_{max} = \frac{v_0^2 \sin 2\alpha}{g}$.
+> Karena $v_0$ dan $g$ bernilai tetap dalam satu tembakan, maka $x_{max}$ hanya bergantung pada nilai $\sin 2\alpha$.
+> Nilai sinus tertinggi di matematika adalah **1**, yang dicapai oleh sudut **90°**.
+> Maka, $2\alpha = 90^\circ \implies \alpha = 45^\circ$.
 
 **Persamaan Lintasan ($y$ sebagai fungsi $x$):**
 Jika kita mengeliminasi variabel waktu ($t$), kita mendapatkan persamaan parabola murni:
