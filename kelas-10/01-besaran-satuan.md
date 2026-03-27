@@ -8,7 +8,47 @@ Fisika adalah ilmu yang mempelajari gejala alam melalui pengamatan dan pengukura
 
 ---
 
-## 1. Besaran dan Satuan: Bahasa Dasar Fisika
+## 1. Hakikat Fisika dan Prosedur Ilmiah
+
+Fisika adalah cabang sains yang mempelajari gejala alam secara fisis melalui pengamatan dan eksperimen. Secara mendalam, fisika memiliki tiga hakikat utama:
+1. **Fisika sebagai Produk (A Body of Knowledge):** Kumpulan pengetahuan yang disusun secara sistematis berupa fakta, konsep, prinsip, hukum, rumus, teori, dan model.
+2. **Fisika sebagai Proses (A Way of Investigating):** Serangkaian kegiatan ilmiah untuk menyusun produk fisika, yang dikenal sebagai **Metode Ilmiah**.
+3. **Fisika sebagai Sikap (A Way of Thinking):** Karakteristik yang harus dimiliki ilmuwan, seperti rasa ingin tahu, objektif, jujur, teliti, dan bertanggung jawab.
+
+### 1.1 Langkah-langkah Metode Ilmiah
+Untuk memecahkan masalah secara ilmiah, ilmuwan mengikuti prosedur baku:
+1. **Observasi:** Mengamati fenomena dan mengumpulkan data awal.
+2. **Rumusan Masalah:** Menentukan pertanyaan apa yang ingin dijawab.
+3. **Hipotesis:** Membuat dugaan sementara yang masuk akal.
+4. **Eksperimen:** Melakukan uji coba untuk membuktikan hipotesis.
+5. **Analisis Data:** Mengolah hasil eksperimen.
+6. **Kesimpulan:** Menentukan apakah hipotesis diterima atau ditolak.
+
+Dalam eksperimen, kita mengenal tiga jenis **Variabel**:
+- **Variabel Bebas:** Faktor yang diubah-ubah oleh peneliti.
+- **Variabel Terikat:** Faktor yang diukur atau diamati sebagai hasil dari perubahan.
+- **Variabel Kontrol:** Faktor yang dijaga tetap agar tidak memengaruhi hasil.
+
+---
+
+## 2. Keselamatan Kerja di Laboratorium
+
+Laboratorium fisika mengandung peralatan yang bisa berbahaya jika tidak digunakan dengan benar. Beberapa aturan dasar keselamatan kerja meliputi:
+1. **Pakaian:** Gunakan jas laboratorium, sepatu tertutup, dan ikat rambut panjang.
+2. **Prosedur:** Baca petunjuk praktikum dengan seksama sebelum memulai dan jangan makan/minum di lab.
+3. **Alat Elektronik:** Pastikan tangan kering saat menyentuh stop kontak dan matikan alat setelah selesai.
+
+### 2.1 Simbol Bahaya Kimia/Fisika
+Seringkali bahan di laboratorium diberi label simbol internasional untuk memperingatkan pengguna:
+- **Flammable:** Mudah terbakar.
+- **Toxic:** Beracun.
+- **Corrosive:** Dapat merusak jaringan tubuh atau logam.
+- **Explosive:** Mudah meledak.
+- **Radioactive:** Memancarkan radiasi berbahaya.
+
+---
+
+## 3. Besaran dan Satuan: Bahasa Dasar Fisika
 
 Fisika dimulai dengan mendefinisikan apa yang akan diukur. Sifat fisik yang dapat diukur dan dinyatakan dengan angka disebut sebagai **Besaran**. Untuk menyatakan besaran tersebut secara seragam di seluruh dunia, kita membutuhkan **Satuan**.
 
@@ -98,7 +138,7 @@ Berbeda dengan sistem desimal di atas, waktu menggunakan sistem berbasis 60 (Sek
 ---
 
 
-## 2. Alat Ukur dan Teknik Pengukuran
+## 4. Alat Ukur dan Teknik Pengukuran
 
 Mengukur adalah kegiatan membandingkan suatu besaran dengan besaran sejenis yang ditetapkan sebagai satuan. Berikut adalah instrumen pengukuran yang sering digunakan dalam laboratorium Fisika.
 
@@ -189,7 +229,7 @@ Mengacu pada rasio tersebut, berikut cara konversinya secara cepat:
 
 ---
 
-## 3. Ketidakpastian dalam Pengukuran
+## 5. Ketidakpastian dalam Pengukuran
 
 Tidak ada pengukuran yang benar-benar sempurna. Selalu ada selisih antara nilai terukur dengan nilai sebenarnya. Hal ini dipelajari dalam **Ketidakpastian Pengukuran**.
 
@@ -235,7 +275,7 @@ Maka laporan ditulis dalam format: **$(\bar{x} \pm \Delta x) \text{ Satuan}$**.
 
 ---
 
-## 4. Angka Penting dan Notasi Ilmiah
+## 6. Angka Penting dan Notasi Ilmiah
 
 Hasil pengukuran harus ditulis sesuai dengan ketelitian alat ukur melalui aturan **Angka Penting**. Secara umum, angka penting terdiri dari angka pasti dan satu angka terakhir yang ditaksir (angka ragu-ragu).
 
@@ -257,7 +297,7 @@ Penulisan angka dalam bentuk $a \times 10^n$ (dengan $1 \le a < 10$) untuk memud
 
 ---
 
-## 5. Besaran Skalar dan Vektor
+## 7. Besaran Skalar dan Vektor
 
 Banyak besaran fisika yang tidak cukup dinyatakan hanya dengan angka dan satuan. Kita membaginya menjadi dua kelompok berdasarkan ada atau tidaknya arah:
 
@@ -307,6 +347,16 @@ Vektor dapat dikalikan satu sama lain dengan dua metode matematis utama yang mem
    Digunakan ketika hasil kali kedua vektor menciptakan efek putaran (torsi) atau gaya pada sumbu ketiga (ruang 3D) yang tegak lurus dari kedua vektor asalnya. (Contoh fisis: Momen Gaya / Torsi $\vec{\tau} = \vec{r} \times \vec{F}$).
    $$ |\vec{A} \times \vec{B}| = |\vec{A}| \cdot |\vec{B}| \cdot \sin(\theta) $$
    *(Catatan: Penentuan arah vektor yang baru ditelusuri menggunakan insting Aturan Tangan Kanan dari $\vec{A}$ menuju $\vec{B}$).*
+
+### 7.5 Vektor Satuan ($\hat{i}, \hat{j}, \hat{k}$)
+Vektor satuan adalah vektor yang besarnya satu satuan dan berfungsi untuk menunjukkan arah dalam ruang koordinat.
+- **$\hat{i}$** menunjukkan arah sumbu $x$.
+- **$\hat{j}$** menunjukkan arah sumbu $y$.
+- **$\hat{k}$** menunjukkan arah sumbu $z$.
+
+Penulisan vektor $\vec{A}$ dalam koordinat dua dimensi adalah:
+$$ \vec{A} = A_x\hat{i} + A_y\hat{j} $$
+Di mana $A_x$ dan $A_y$ adalah komponen vektor pada sumbu $x$ dan $y$.
 
 ---
 
