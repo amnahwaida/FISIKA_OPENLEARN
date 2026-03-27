@@ -127,10 +127,15 @@ Dimana:
 > $$ W_{pegas} = \frac{1}{2}k x_1^2 - \frac{1}{2}k x_2^2 $$
 > Ini adalah **selisih luas trapesium** pada grafik $F$-$x$, bukan luas segitiga dari nol.
 
-### 3.4 Energi Mekanik Total ($EM$)
-Energi mekanik total suatu benda adalah jumlah dari energi kinetik dan energi potensialnya:
-
 $$ EM = EK + EP $$
+
+> [!TIP]
+> **Preview: Energi Kinetik Rotasi ($EK_{rot}$):**
+> Benda yang tidak hanya bergeser tapi juga berputar (seperti roda menggelinding) memiliki energi tambahan:
+> $$ EK_{rot} = \frac{1}{2} I \omega^2 $$
+> - $I$ = Momen Inersia (ukuran kelembaman rotasi)
+> - $\omega$ = Kecepatan sudut (rad/s)
+> Inilah alasan mengapa benda yang menggelinding di bidang miring akan tiba di bawah lebih lambat daripada benda yang meluncur licin; sebagian energi potensialnya "dicuri" untuk memutar benda tersebut.
 
 ---
 
@@ -212,6 +217,12 @@ $$ EM_1 + W_{gesek} = EM_2 $$
 $$ EK_1 + EP_1 - f_k \cdot s = EK_2 + EP_2 $$
 
 *(Energi yang "hilang" berubah menjadi energi panas/kalor, $Q = f_k \cdot s$).*
+
+> [!NOTE]
+> **Visualisasi: Metode Diagram Batang Energi (Bar Chart):**
+> Untuk mempermudah analisis HKEM, gunakan diagram batang untuk membandingkan $EK$ dan $EP$ di dua posisi berbeda.
+> - **Aturan:** Total tinggi batang di posisi 1 harus sama dengan total tinggi batang di posisi 2 (ditambah batang usaha non-konservatif jika ada).
+> - **Manfaat:** Sangat membantu memvisualisasikan "aliran" energi tanpa harus langsung masuk ke rumus angka yang rumit.
 
 ---
 
@@ -319,6 +330,16 @@ $$ KM = \frac{s}{h} = \frac{1}{\sin\theta} $$
 | **Katrol Tetap** | $1$ | Hanya mengubah arah gaya |
 | **Katrol Bebas** | $2$ | Memperkecil gaya $2\times$ |
 | **Katrol Majemuk** ($n$ tali) | $n$ | Memperkecil gaya $n$ kali |
+
+### 9.5 Roda Gigi (Gears)
+Gears mengubah torsi dan kecepatan putar. Keuntungan mekanisnya ditentukan oleh perbandingan jumlah gigi:
+$$ KM = \frac{\text{Jumlah Gigi Output}}{\text{Jumlah Gigi Input}} $$
+
+### 9.6 Sekrup
+Sekrup adalah bidang miring yang dililitkan pada sebuah silinder. Keuntungan mekanisnya sangat tinggi:
+$$ KM = \frac{2\pi r}{d} $$
+- $r$ = Jari-jari putaran (lengan gaya)
+- $d$ = Jarak antar ulir (pitch)
 
 > [!WARNING]
 > **"Tidak Ada Makan Siang Gratis":**
