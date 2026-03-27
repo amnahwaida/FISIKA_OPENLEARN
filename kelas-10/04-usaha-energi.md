@@ -23,6 +23,10 @@ Dalam Bab 3 (Dinamika), kita menganalisis gerak menggunakan **gaya** (vektor). B
 > **Filosofi Energi:**
 > Energi tidak pernah hilang dan tidak pernah muncul dari ketiadaan. Ia hanya **berpindah** dari satu bentuk ke bentuk lain. Prinsip ini adalah salah satu hukum paling fundamental di seluruh fisika: **Hukum Kekekalan Energi**.
 
+### 1.1 "The Apex": Teorema Noether (Asal-Usul Kekekalan)
+Mengapa energi harus kekal? Mengapa tidak bisa menghilang begitu saja?
+Jawaban terdalamnya ditemukan oleh fisikawan **Emmy Noether**: Energi kekal karena alam semesta memiliki **Simetri Translasi Waktu**. Artinya, hukum-hukum fisika hari ini sama persis dengan hukum fisika kemarin. Jika hukum alam berubah terhadap waktu, maka energi tidak akan kekal. Inilah alasan fundamental di balik kestabilan alam semesta kita.
+
 ---
 
 ## 2. Usaha (Work)
@@ -153,6 +157,12 @@ $$ EM = EK + EP $$
 > $$ EK_{rot} = \frac{1}{2} I \omega^2 $$
 
 > [!IMPORTANT]
+> **Einstein’s Rest Energy ($E = mc^2$):**
+> Tahukah Anda bahwa massa itu sendiri adalah "energi yang membeku"? Einstein membuktikan bahwa benda diam pun memiliki energi luar biasa besar karena massanya:
+> $$ E = m c^2 $$
+> Ini adalah jembatan menuju **Fisika Modern**. Satu gram massa yang berubah total menjadi energi setara dengan ledakan ribuan ton dinamit.
+
+> [!IMPORTANT]
 > **Divine Mastery: Usaha dan Daya Rotasi:**
 > Sebagaimana gaya ($F$) melakukan usaha translasional, **Torsi ($\tau$)** melakukan usaha rotasional:
 > - **Usaha Rotasi:** $W = \tau \cdot \theta$ (Torsi $\times$ Sudut)
@@ -206,6 +216,11 @@ Gaya yang usahanya **bergantung pada jalur** (panjang lintasan). Energi yang "hi
 **Usaha oleh gesekan:**
 $$ W_{gesek} = -f_k \cdot s $$
 *(Selalu negatif karena gesekan selalu berlawanan arah perpindahan).*
+
+### 5.3 Gaya sebagai Gradien Energi ($F = -\Delta EP / \Delta x$)
+Hubungan fundamental antara gaya dan energi potensial adalah: gaya selalu mengarah ke posisi dengan energi potensial terendah. Secara matematis (untuk satu dimensi):
+$$ F = -\frac{\Delta EP}{\Delta x} $$
+- Tanda **negatif** berarti gaya selalu "menurunkan" bukit energi potensial. Seperti bola yang selalu mencari dasar lembah, gaya gravitasi menarik benda ke bawah (EP rendah) dan gaya pegas menarik benda kembali ke titik setimbang.
 
 ---
 
