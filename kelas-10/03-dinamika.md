@@ -67,6 +67,10 @@ $$ F_{\text{aksi}} = -F_{\text{reaksi}} $$
 > **Sifat Adaptif Gaya Gesek Statis:**
 > Gaya gesek statis bersifat **menyesuaikan** diri dengan gaya dorong. Jika Anda mendorong meja dengan gaya 5 N dan meja diam, maka $f_s = 5$ N. Jika Anda dorong 10 N dan masih diam, $f_s = 10$ N. Rumus $f_{s,max} = \mu_s \cdot N$ hanya berlaku pada **batas maksimum** (tepat hendak bergerak).
 
+> [!NOTE]
+> **Gaya Gesek Udara & Kecepatan Terminal:**
+> Dalam dunia nyata, benda jatuh mengalami hambatan udara ($F_{drag} = -kv$). Saat gaya hambat membesar hingga sama dengan gaya berat ($F_{drag} = w$), resultan gaya pembentuk percepatan menjadi nol ($\Sigma F = 0$). Pada titik ini, benda berhenti mengalami percepatan dan akan terus melaju ke bawah dengan kecepatan maksimal yang konstan (disebut **Kecepatan Terminal**). Inilah alasan penerjun payung bisa mendarat dengan aman.
+
 5. **Gaya Pegas / Hukum Hooke ($F_p$):**
    $$ F_p = -k \cdot \Delta x $$
    - $k$ = konstanta pegas (N/m)
@@ -108,6 +112,12 @@ Kebalikan dari gaya tarik: jika benda **didorong** dengan sudut $\alpha$ ke bawa
 ### 3.4 Sistem Katrol (Atwood Machine)
 Dua massa $m_1$ dan $m_2$ dihubungkan tali melalui katrol ($m_2 > m_1$):
 
+> [!WARNING]
+> **Asumsi Fisika Kelas 10:**
+> 1. Katrol dianggap **licin ideal & tak bermassa** ($m_{katrol} = 0$).
+> 2. Akibatnya, tegangan tali di kiri dan kanan katrol dijamin **SAMA** besar ($T_1 = T_2 = T$).
+> *(Fakta Logis: Jika katrol memiliki massa, $T_1$ HARUS berbeda dengan $T_2$ untuk bisa memutar katrol yang masif tersebut — materi ini akan dipelajari di Eksplorasi Tingkat Lanjut Kelas 11: Dinamika Rotasi).*
+
 > [!NOTE]
 > **Derivasi Rumus Percepatan Katrol:**
 > Terapkan Hukum II Newton pada **masing-masing benda**:
@@ -127,20 +137,26 @@ Dua balok atau lebih dihubungkan dengan tali dan ditarik bersamaan bergerbong-ge
 - **Tegangan Tali ($T$):** Selalu tinjau benda yang "diseret" oleh tali tersebut. Tali menanggung beban benda di belakangnya.
   > Terapkan Hukum II Newton hanya pada benda di belakang tali: $\Sigma F_{\text{belakang}} = m_{\text{belakang}} \cdot a$.
 
-### 3.6 Benda Bertumpuk (Stacked Blocks)
+### 3.6 Percepatan Maksimum Alas (Benda di Bak Truk)
+Sebuah balok diletakkan secara bebas di atas bak truk yang melaju dengan percepatan $a$. Agar balok **tidak merosot ke belakang**, gaya gesek statis ($f_s$) antarmuka-lah yang menarik balok ke depan untuk "ikut melaju" bersama truk.
+- Syarat balok ikut melaju tanpa selip: $\Sigma F_{\text{balok}} = m_{\text{balok}} \cdot a \implies f_s = m \cdot a$
+- Batas percepatan truk maksimum sebelum selip ke belakang: 
+  $f_{s,max} = m \cdot a_{max} \implies \mu_s \cdot mg = m \cdot a_{max} \implies \mathbf{a_{max} = \mu_s \cdot g}$
+
+### 3.7 Benda Bertumpuk (Stacked Blocks)
 Dua balok ditumpuk: balok A (atas, massa $m_A$) dan balok B (bawah, massa $m_B$). Gaya $F$ diterapkan pada balok A secara horizontal.
 - Gaya gesek statis antar permukaan ($f_{AB}$) adalah **satu-satunya gaya** yang menggerakkan balok B.
 - Percepatan sistem: $a = \frac{F}{m_A + m_B}$
 - Gaya gesek pada B: $f_{AB} = m_B \cdot a$
 - **Syarat agar tidak selip:** $f_{AB} \leq \mu_s \cdot m_A \cdot g$
 
-### 3.7 Gaya pada Lift (Elevator)
+### 3.8 Gaya pada Lift (Elevator)
 - Lift Diam/GLB: $N = w = mg$
 - Lift Dipercepat ke Atas ($+a$): $N = m(g + a)$ (Terasa lebih berat)
 - Lift Dipercepat ke Bawah ($-a$): $N = m(g - a)$ (Terasa lebih ringan)
-- **Lift Jatuh Bebas ($a = g$):** $N = m(g - g) = 0$ (Keadaan *Weightless/Melayang*)
+- **Lift Jatuh Bebas ($a = g$):** $N = m(g - g) = 0$ (Keadaan *Weightless/Melayang/Tanpa Bobot*)
 
-### 3.8 Kesetimbangan Statis (Benda Digantung 2 Tali)
+### 3.9 Kesetimbangan Statis (Benda Digantung 2 Tali)
 Jika benda bermassa $m$ digantung oleh dua tali yang membentuk sudut $\alpha$ dan $\beta$ terhadap horizontal:
 - $\Sigma F_x = 0$: $T_1 \cos \alpha = T_2 \cos \beta$
 - $\Sigma F_y = 0$: $T_1 \sin \alpha + T_2 \sin \beta = mg$
@@ -180,6 +196,15 @@ $$ F_s = m \cdot a_s = m \cdot \frac{v^2}{R} = m \cdot \omega^2 \cdot R $$
 > - Horizontal: $N\sin\theta = m\frac{v^2}{R}$ ... (ii)
 > Bagi (ii) dengan (i): $\frac{\sin\theta}{\cos\theta} = \frac{v^2}{gR}$
 > $$ \tan \theta = \frac{v^2}{g \cdot R} $$
+
+**Ayunan Konis (Bandul Gerak Melingkar Horizontal):**
+
+> [!NOTE]
+> **Derivasi:** Secara matematis sangat identik dengan tikungan miring, di mana pembentuk sudut adalah **Tegangan Tali ($T$)** (menggantikan peran gaya Normal).
+> - Vertikal: $T\cos\theta = mg$ ... (i)
+> - Horizontal: $T\sin\theta = m\frac{v^2}{R}$ ... (ii)
+> Jika dibagi (ii) terhadap (i), masa konis memiliki hubungan yang sama dengan tikungan miring:
+> $$ \mathbf{\tan \theta = \frac{v^2}{g \cdot R}} $$
 
 ### 4.1 Gerak Melingkar Vertikal (Roller Coaster & Jembatan)
 Analisis gaya sangat bergantung pada arah kelengkungan dan posisi benda:
