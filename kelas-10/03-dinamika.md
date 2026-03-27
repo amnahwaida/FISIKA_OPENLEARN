@@ -87,6 +87,13 @@ $$ F_{\text{aksi}} = -F_{\text{reaksi}} $$
 > Gaya gesek statis bersifat **menyesuaikan** diri dengan gaya dorong. Jika Anda mendorong meja dengan gaya 5 N dan meja diam, maka $f_s = 5$ N. Jika Anda dorong 10 N dan masih diam, $f_s = 10$ N. Rumus $f_{s,max} = \mu_s \cdot N$ hanya berlaku pada **batas maksimum** (tepat hendak bergerak).
 
 > [!NOTE]
+> **Paradoks Ban Lebar (Gaya Gesek vs Luas Permukaan):**
+> Secara matematis, rumus $f = \mu \cdot N$ menunjukkan bahwa gaya gesek **tidak bergantung** pada luas permukaan sentuh. Lalu mengapa mobil balap F1 menggunakan ban yang sangat lebar?
+> 1. **Deformasi Material:** Ban karet bersifat lunak. Luas yang lebih besar memungkinkan lebih banyak molekul karet "mengunci" ke pori-pori aspal (*interlocking*).
+> 2. **Manajemen Panas:** Ban lebar mendistribusikan panas lebih merata, mencegah karet meleleh/aus terlalu cepat saat pengereman ekstrem.
+> Jadi, ban lebar bukan menambah nilai $\mu$ secara teori murni, melainkan menjaga performa cengkeraman tetap optimal di kondisi nyata.
+
+> [!NOTE]
 > **Gaya Gesek Udara & Kecepatan Terminal:**
 > Dalam dunia nyata, benda jatuh mengalami hambatan udara ($F_{drag} = -kv$). Saat gaya hambat membesar hingga sama dengan gaya berat ($F_{drag} = w$), resultan gaya pembentuk percepatan menjadi nol ($\Sigma F = 0$). Pada titik ini, benda berhenti mengalami percepatan dan akan terus melaju ke bawah dengan kecepatan maksimal yang konstan (disebut **Kecepatan Terminal**). Inilah alasan penerjun payung bisa mendarat dengan aman.
 
@@ -255,6 +262,12 @@ $$ F_s = m \cdot a_s = m \cdot \frac{v^2}{R} = m \cdot \omega^2 \cdot R $$
 
 **Kasus Populer:**
 
+**Dinamika Meja Putar (Rotating Platform):**
+Kondisi di mana sebuah benda diletakkan pada piringan yang berputar.
+- **Prinsip:** Gaya gesek statis ($f_s$) antarmuka berperan sebagai Penyedia Gaya Sentripetal.
+- **Syarat tidak terlempar:** $f_s \leq \mu_s \cdot N \implies m \omega^2 R \leq \mu_s mg$.
+- **Jarak Maksimum ($R_{max}$):** $\mathbf{R_{max} = \frac{\mu_s \cdot g}{\omega^2}}$.
+
 **Tikungan Datar (Kasar):**
 
 > [!NOTE]
@@ -271,6 +284,7 @@ $$ F_s = m \cdot a_s = m \cdot \frac{v^2}{R} = m \cdot \omega^2 \cdot R $$
 > - Horizontal: $N\sin\theta = m\frac{v^2}{R}$ ... (ii)
 > Bagi (ii) dengan (i): $\frac{\sin\theta}{\cos\theta} = \frac{v^2}{gR}$
 > $$ \tan \theta = \frac{v^2}{g \cdot R} $$
+> *Pada kecepatan ini (Kecepatan Ideal), kendaraan berbelok murni mengandalkan kemiringan jalan tanpa memerlukan bantuan gaya gesek sama sekali.*
 
 **Tikungan Miring dan Kasar (Full Analysis):**
 Kondisi ini mempertimbangkan adanya gaya gesek ($\mu_s$) pada lintasan miring. Ini adalah kasus dinamika paling kompleks untuk tikungan.
