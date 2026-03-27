@@ -56,7 +56,11 @@ GLB adalah gerak benda pada lintasan lurus dengan **kecepatan konstan ($v$ tetap
 
 ### 2.1 Logika Gerak Menyusul
 Kasus di mana benda B mengejar benda A yang berada di depannya. Syarat benda B menyusul benda A adalah **Posisi Akhir Sama ($x_A = x_B$)** pada waktu yang sama ($t$).
-$$ x_{0A} + v_A \cdot t = x_{0B} + v_B \cdot t $$
+
+- **Jika Keduanya GLB:**
+  $$ x_{0A} + v_A \cdot t = x_{0B} + v_B \cdot t $$
+- **Jika Salah Satu atau Keduanya GLBB:**
+  Gunakan persamaan posisi GLBB ($s = v_0 t + \frac{1}{2}at^2$) dan selesaikan persamaan kuadrat untuk mencari $t$.
 
 ---
 
@@ -98,6 +102,11 @@ Benda dilempar ke atas dengan $v_0$ tertentu. Benda akan melambat karena gravita
 ### 4.3 Gerak Vertikal ke Bawah (GVB)
 Benda dilempar ke bawah dengan kecepatan awal ($v_0 \neq 0$). Gunakan rumus GLBB dengan mengganti $a = +g$.
 
+### 4.4 Pertemuan Dua Benda di Udara
+Jika benda A dilempar ke atas dari tanah dan benda B dijatuhkan dari ketinggian $H$ di atasnya, mereka akan bertemu jika:
+$$ y_A + y_B = H $$
+(dengan $y_A$ adalah posisi bola A dan $y_B$ adalah jarak jatuh bola B).
+
 ---
 
 ## 5. Gerak Parabola (Projectile Motion)
@@ -125,6 +134,10 @@ $$ \vec{v}(t) = (v_0 \cos \alpha) \hat{i} + (v_0 \sin \alpha - gt) \hat{j} $$
 
 **Analisis Sudut Elevasi Maksimum:**
 Jangkauan terjauh ($x_{\text{max}}$) akan dicapai jika $\sin 2\alpha$ bernilai maksimum (yaitu 1). Hal ini terjadi saat $2\alpha = 90^\circ$, atau **$\alpha = 45^\circ$**.
+
+**Persamaan Lintasan ($y$ sebagai fungsi $x$):**
+Jika kita mengeliminasi variabel waktu ($t$), kita mendapatkan persamaan parabola murni:
+$$ y = x \tan \alpha - \frac{gx^2}{2v_0^2 \cos^2 \alpha} $$
 
 ---
 
