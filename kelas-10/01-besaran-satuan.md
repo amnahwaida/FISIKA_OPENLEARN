@@ -193,11 +193,20 @@ Mengacu pada rasio tersebut, berikut cara konversinya secara cepat:
 
 Tidak ada pengukuran yang benar-benar sempurna. Selalu ada selisih antara nilai terukur dengan nilai sebenarnya. Hal ini dipelajari dalam **Ketidakpastian Pengukuran**.
 
-### 3.1 Pengukuran Tunggal
+### 3.1 Jenis-jenis Kesalahan Pengukuran
+Kesalahan (Error) dalam pengukuran menyebabkan hasil ukur menjadi tidak pasti. Ada tiga jenis kesalahan utama:
+1. **Kesalahan Umum (Kecerobohan):** Disebabkan oleh keterbatasan pengamat, seperti salah membaca skala atau salah mengatur posisi alat ukur.
+2. **Kesalahan Sistematis:** Bersumber dari alat ukurnya itu sendiri.
+   - **Kesalahan Kalibrasi:** Nilai skala pada alat ukur tidak tepat sejak diproduksi.
+   - **Kesalahan Titik Nol (Zero Error):** Jarum penunjuk tidak berada tepat di angka nol saat sebelum digunakan.
+   - **Kesalahan Paralaks:** Sudut pandang mata pengamat tidak tegak lurus dengan jarum/skala ukur, sehingga nilai terbaca meleset.
+3. **Kesalahan Acak:** Disebabkan oleh fluktuasi halus yang tidak dapat dihindari, seperti perubahan tegangan listrik mendadak, getaran bumi, atau perubahan suhu ruangan secara tak terduga.
+
+### 3.2 Pengukuran Tunggal
 Dilakukan hanya satu kali. Ketidakpastiannya ($\Delta x$) biasanya diambil dari setengah nilai skala terkecil (NST) alat ukur:
 $$ \Delta x = \frac{1}{2} \times \text{NST} $$
 
-### 3.2 Pengukuran Berulang
+### 3.3 Pengukuran Berulang
 Dilakukan beberapa kali untuk meminimalkan ralat acak. Data hasil pengukuran dilaporkan dalam bentuk rata-rata ($\bar{x}$) dan ketidakpastian ($\Delta x$) yang dihitung menggunakan statistik:
 
 1. **Nilai Rata-rata ($\bar{x}$):**
@@ -215,6 +224,14 @@ Dilakukan beberapa kali untuk meminimalkan ralat acak. Data hasil pengukuran dil
 Hasil akhir dilaporkan sebagai:
 $$ x = \bar{x} \pm \Delta x $$
 Maka laporan ditulis dalam format: **$(\bar{x} \pm \Delta x) \text{ Satuan}$**.
+
+3. **Ketidakpastian Relatif (KSR):**
+   Untuk mengetahui persentase ketelitian alat atau percobaan, digunakan rasio persentase ralat terhadap rata-rata:
+   $$ \text{KSR} = \left(\frac{\Delta x}{\bar{x}}\right) \times 100\% $$
+   *Aturan Penulisan Angka Penting dari KSR:*
+   - Jika KSR sekitar $10\%$, berhak atas **2 Angka Penting**.
+   - Jika KSR sekitar $1\%$, berhak atas **3 Angka Penting**.
+   - Jika KSR sekitar $0,1\%$, berhak atas **4 Angka Penting**.
 
 ---
 
@@ -277,6 +294,19 @@ Jika terdapat lebih dari dua vektor menyebar merata, cara penyelesaian paling am
 
 Setelah semua gaya dipecah, jumlahkan per masing-masing sumbu ($\sum F_x$ dan $\sum F_y$). Resultan totalnya ditegakkan kembali dengan Phytagoras:
 $$ R_{\text{total}} = \sqrt{(\sum F_x)^2 + (\sum F_y)^2} $$
+
+#### C. Perkalian Vektor (Dot Product & Cross Product)
+Vektor dapat dikalikan satu sama lain dengan dua metode matematis utama yang memiliki signifikansi fisis berbeda:
+
+1. **Perkalian Titik (Dot Product) $\rightarrow$ Menghasilkan Skalar**
+   Digunakan ketika dua vektor dikalikan untuk mendapatkan nilai energi/besaran yang tidak punya arah. (Contoh fisis: Usaha matematis $W = \vec{F} \cdot \vec{s}$).
+   $$ \vec{A} \cdot \vec{B} = |\vec{A}| \cdot |\vec{B}| \cdot \cos(\theta) $$
+   *(Catatan: Karena berupa skalar, hasilnya cukup berupa nilai numerik tunggal tanpa arah).*
+
+2. **Perkalian Silang (Cross Product) $\rightarrow$ Menghasilkan Vektor Baru**
+   Digunakan ketika hasil kali kedua vektor menciptakan efek putaran (torsi) atau gaya pada sumbu ketiga (ruang 3D) yang tegak lurus dari kedua vektor asalnya. (Contoh fisis: Momen Gaya / Torsi $\vec{\tau} = \vec{r} \times \vec{F}$).
+   $$ |\vec{A} \times \vec{B}| = |\vec{A}| \cdot |\vec{B}| \cdot \sin(\theta) $$
+   *(Catatan: Penentuan arah vektor yang baru ditelusuri menggunakan insting Aturan Tangan Kanan dari $\vec{A}$ menuju $\vec{B}$).*
 
 ---
 
