@@ -35,6 +35,17 @@ Selamat datang di Bank Soal Kelas 10. Kerjakan soal-soal di bawah ini untuk meng
 - [4.9 Pesawat Sederhana](./04.9-pesawat-sederhana-latihan.md)
 
 5. [Latihan: Momentum, Impuls, Tumbukan](./05-momentum-latihan.md)
+### Bab 5: Momentum, Impuls, dan Tumbukan
+- [5.1 Pendahuluan & Konsep Momentum](./05.1-pendahuluan-momentum-latihan.md)
+- [5.2 Momentum Linear](./05.2-momentum-latihan.md)
+- [5.3 Impuls](./05.3-impuls-latihan.md)
+- [5.4 Hukum Kekekalan Momentum Linear](./05.4-hkml-latihan.md)
+- [5.5 Tumbukan (Lenting & Tidak Lenting)](./05.5-tumbukan-latihan.md)
+- [5.6 Tumbukan 2 Dimensi](./05.6-tumbukan-2d-latihan.md)
+- [5.7 Pusat Massa](./05.7-pusat-massa-latihan.md)
+- [5.8 Hubungan Momentum & Energi](./05.8-momentum-energi-latihan.md)
+- [5.9 Aplikasi Elite (Pendulum Balistik & Roket)](./05.9-aplikasi-elite-latihan.md)
+
 6. [Latihan: Suhu, Kalor, Perpindahan Kalor](./06-kalor-latihan.md)
 7. [Latihan: Gelombang, Bunyi, Efek Doppler](./07-gelombang-bunyi-latihan.md)
 8. [Latihan: Cermin, Lensa, Alat Optik](./08-optik-latihan.md)
