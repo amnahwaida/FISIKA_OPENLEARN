@@ -86,6 +86,12 @@ $$ F_{\text{aksi}} = -F_{\text{reaksi}} $$
 > **Gaya Gesek Udara & Kecepatan Terminal:**
 > Dalam dunia nyata, benda jatuh mengalami hambatan udara ($F_{drag} = -kv$). Saat gaya hambat membesar hingga sama dengan gaya berat ($F_{drag} = w$), resultan gaya pembentuk percepatan menjadi nol ($\Sigma F = 0$). Pada titik ini, benda berhenti mengalami percepatan dan akan terus melaju ke bawah dengan kecepatan maksimal yang konstan (disebut **Kecepatan Terminal**). Inilah alasan penerjun payung bisa mendarat dengan aman.
 
+> [!TIP]
+> **Hukum Stokes (Gaya Hambat Fluida Kental):**
+> Jika benda berbentuk bola berjari-jari $r$ bergerak dalam fluida kental dengan koefisien viskositas $\eta$, gaya hambatnya dirumuskan sebagai:
+> $$ F_s = 6\pi \eta r v $$
+> Rumus ini menjelaskan mengapa tetesan air hujan atau kelereng dalam oli memiliki kecepatan jatuh yang terkendali.
+
 5. **Gaya Pegas / Hukum Hooke ($F_p$):**
    $$ F_p = -k \cdot \Delta x $$
    - $k$ = konstanta pegas (N/m)
@@ -133,8 +139,14 @@ Dua massa $m_1$ dan $m_2$ dihubungkan tali melalui katrol ($m_2 > m_1$):
 > 2. Akibatnya, tegangan tali di kiri dan kanan katrol dijamin **SAMA** besar ($T_1 = T_2 = T$).
 > *(Fakta Logis: Jika katrol memiliki massa, $T_1$ HARUS berbeda dengan $T_2$ untuk bisa memutar katrol yang masif tersebut — materi ini akan dipelajari di Eksplorasi Tingkat Lanjut Kelas 11: Dinamika Rotasi).*
 
+> [!TIP]
+> **Katrol Bebas (Movable Pulley):**
+> Berbeda dengan katrol tetap, katrol bebas ikut bergerak naik/turun bersama beban.
+> - **Tegangan Tali:** Jika satu ujung tali diikat di atap dan ujung lain ditarik, katrol ditopang oleh dua bagian tali. Gaya tarik $F = \frac{1}{2} w$.
+> - **Hubungan Percepatan:** Jika beban pada katrol bebas naik sejauh $x$, tali yang ditarik harus bergerak sejauh $2x$. Maka percepatannya: $\mathbf{a_{\text{tarik}} = 2 \cdot a_{\text{beban}}}$.
+
 > [!NOTE]
-> **Derivasi Rumus Percepatan Katrol:**
+> **Derivasi Rumus Percepatan Katrol Tetap (Atwood):**
 > Terapkan Hukum II Newton pada **masing-masing benda**:
 > - Benda 1 (naik): $T - m_1 g = m_1 a$ ... (i)
 > - Benda 2 (turun): $m_2 g - T = m_2 a$ ... (ii)
@@ -172,9 +184,21 @@ Dua balok ditumpuk: balok A (atas, massa $m_A$) dan balok B (bawah, massa $m_B$)
 - **Lift Jatuh Bebas ($a = g$):** $N = m(g - g) = 0$ (Keadaan *Weightless/Melayang/Tanpa Bobot*)
 
 ### 3.9 Kesetimbangan Statis (Benda Digantung 2 Tali)
-Jika benda bermassa $m$ digantung oleh dua tali yang membentuk sudut $\alpha$ dan $\beta$ terhadap horizontal:
+Jika benda bermassa $m$ digantung oleh dua tali yang membentuk sudut $\alpha$ and $\beta$ terhadap horizontal:
 - $\Sigma F_x = 0$: $T_1 \cos \alpha = T_2 \cos \beta$
 - $\Sigma F_y = 0$: $T_1 \sin \alpha + T_2 \sin \beta = mg$
+
+### 3.10 Benda pada Dinding Vertikal
+Menahan benda (massa $m$) agar tidak jatuh dengan menekannya secara horizontal (gaya $F$) ke arah dinding.
+- **Sumbu X (Horizontal):** $\Sigma F_x = 0 \implies F = N$. (Gaya tekan sama dengan gaya Normal dinding).
+- **Sumbu Y (Vertikal):** Agar tidak jatuh, $\Sigma F_y = 0 \implies f_s = mg$. (Gaya gesek statis menyeimbangkan berat).
+- **Syarat Minimum:** $F \geq \frac{mg}{\mu_s}$.
+
+> [!IMPORTANT]
+> **PRO-TIP: Metode "Garis Gaya" (Shortcut Percepatan Sistem)**
+> Untuk sistem benda-benda yang terhubung tali tanpa massa katrol:
+> $$ a = \frac{\Sigma F_{\text{pendorong}} - \Sigma F_{\text{penghambat}}}{\Sigma m_{\text{total}}} $$
+> *Metode ini sangat cepat untuk menghitung percepatan sistem tanpa harus mengurai FBD satu per satu.*
 
 ---
 
