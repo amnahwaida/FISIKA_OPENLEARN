@@ -18,10 +18,14 @@ $$ \Sigma F = 0 $$
   - Koin di atas kertas tetap diam saat kertas ditarik dengan cepat.
   - Benda di dashboard mobil terlempar ke samping saat belok tajam (benda mempertahankan arah lurus).
 
-### 1.2 Hukum II Newton (Hukum Percepatan)
-"Percepatan sebuah benda berbanding lurus dengan resultan gaya yang bekerja dan berbanding terbalik dengan massanya."
 $$ \Sigma F = m \cdot a $$
 - Satuan Gaya ($F$): Newton (N) atau kg·m/s².
+
+> [!IMPORTANT]
+> **Hukum II Newton Versi Sejati (Momentum):**
+> Newton sebenarnya merumuskan hukum ini sebagai laju perubahan momentum terhadap waktu:
+> $$ F = \frac{\Delta p}{\Delta t} = \frac{\Delta (m \cdot v)}{\Delta t} $$
+> Bentuk $F = ma$ hanyalah turunan jika **massa tetap**. Versi momentum ini jauh lebih fundamental karena dapat menjelaskan sistem di mana massa berubah, seperti roket yang kehilangan massa bahan bakar saat meluncur atau air yang menyembur dari selang.
 
 > [!NOTE]
 > **Hubungan Hukum I dan II:**
@@ -206,11 +210,14 @@ Menahan benda (massa $m$) agar tidak jatuh dengan menekannya secara horizontal (
 - **Sumbu Y (Vertikal):** Agar tidak jatuh, $\Sigma F_y = 0 \implies f_s = mg$. (Gaya gesek statis menyeimbangkan berat).
 - **Syarat Minimum:** $F \geq \frac{mg}{\mu_s}$.
 
-> [!IMPORTANT]
-> **PRO-TIP: Metode "Garis Gaya" (Shortcut Percepatan Sistem)**
-> Untuk sistem benda-benda yang terhubung tali tanpa massa katrol:
 > $$ a = \frac{\Sigma F_{\text{pendorong}} - \Sigma F_{\text{penghambat}}}{\Sigma m_{\text{total}}} $$
 > *Metode ini sangat cepat untuk menghitung percepatan sistem tanpa harus mengurai FBD satu per satu.*
+
+### 3.11 Gaya Tahanan Media (Penetrasi)
+Kasus benda (seperti peluru atau paku) yang menembus sebuah medium padat sejauh $s$ sebelum akhirnya berhenti.
+- **Strategi:** Gunakan perpaduan GLBB dan Hukum II Newton.
+- Percepatan hambat ($a$) didapat dari: $v_t^2 = v_0^2 + 2as$. (Karena berhenti, $v_t = 0$).
+- Gaya tahanan rata-rata media ($F_{hambat}$): $\mathbf{F = m \cdot a}$. (Arahnya berlawanan dengan arah masuknya benda).
 
 ---
 
@@ -225,9 +232,12 @@ $$ F_s = m \cdot a_s = m \cdot \frac{v^2}{R} = m \cdot \omega^2 \cdot R $$
 > - Pada tikungan: $F_s$ = Gaya Gesek ($f_s$) atau komponen Normal ($N\sin\theta$).
 > - Pada orbit planet: $F_s$ = Gaya Gravitasi.
 
-> [!NOTE]
 > **Gaya Sentrifugal (Klarifikasi):**
 > Gaya sentrifugal adalah **gaya semu (fictitious force)** yang hanya muncul di kerangka acuan yang berputar (non-inersial). Dalam kerangka inersial (pengamat diam), gaya ini **tidak ada**. Jadi, dalam analisis soal SMA yang menggunakan kerangka inersial, **jangan gunakan gaya sentrifugal**.
+
+> [!TIP]
+> **Mengapa Astronaut Melayang? (Weightlessness di Orbit)**
+> Astronaut di Stasiun Luar Angkasa (ISS) tampak melayang **bukan** karena tidak ada gravitasi (gravitasi di ketinggian ISS masih sekitar 90% dari bumi). Mereka melayang karena ISS dan seluruh isinya sedang dalam kondisi **jatuh bebas (free fall)** yang abadi mengelilingi kelengkungan bumi. Karena lantai ISS jatuh dengan percepatan yang sama dengan astronautnya, maka Gaya Normal ($N$) menjadi nol. Inilah definisi fisis dari "Weightlessness".
 
 **Kasus Populer:**
 
