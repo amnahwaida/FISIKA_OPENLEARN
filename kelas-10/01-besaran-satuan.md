@@ -52,7 +52,7 @@ Seringkali bahan di laboratorium diberi label simbol internasional untuk memperi
 
 Fisika dimulai dengan mendefinisikan apa yang akan diukur. Sifat fisik yang dapat diukur dan dinyatakan dengan angka disebut sebagai **Besaran**. Untuk menyatakan besaran tersebut secara seragam di seluruh dunia, kita membutuhkan **Satuan**.
 
-### 1.1 Besaran Pokok (SI)
+### 3.1 Besaran Pokok (SI)
 Terdapat tujuh besaran dasar yang disepakati secara internasional (Sistem Internasional/SI) sebagai penyusun utama segala besaran lainnya.
 
 | Besaran Pokok | Satuan (SI) | Simbol | Dimensi |
@@ -65,7 +65,7 @@ Terdapat tujuh besaran dasar yang disepakati secara internasional (Sistem Intern
 | Intensitas Cahaya | candela | cd | [J] |
 | Jumlah Zat | mol | mol | [N] |
 
-### 1.2 Besaran Turunan dan Dimensi
+### 3.2 Besaran Turunan dan Dimensi
 Besaran yang diturunkan dari kombinasi besaran pokok disebut **Besaran Turunan**. **Dimensi** digunakan untuk menggambarkan bagaimana suatu besaran turunan tersusun dari besaran pokok. Analisis dimensi sangat berguna untuk membuktikan kebenaran sebuah persamaan fisika.
 
 Berikut adalah 7 contoh cara menurunkan dimensi dari yang paling sederhana hingga lebih kompleks:
@@ -79,7 +79,7 @@ Berikut adalah 7 contoh cara menurunkan dimensi dari yang paling sederhana hingg
 | 5 | **Percepatan** | $v / t$ | $[L][T]^{-1} / [T]$ | $[L][T]^{-2}$ |
 | 6 | **Gaya** | $m \times a$ | $[M] \times [L][T]^{-2}$ | $[M][L][T]^{-2}$ |
 | 7 | **Usaha** | $F \times s$ | $[M][L][T]^{-2} \times [L]$ | $[M][L]^2[T]^{-2}$ |
-### 1.3 Konversi Satuan dan Sistem Awalan
+### 3.3 Konversi Satuan dan Sistem Awalan
 Dalam Fisika, kita sering berhadapan dengan angka yang sangat besar atau sangat kecil. Untuk itu, kita menggunakan **Awalan Satuan** (seperti kilo, centi, mili) dan teknik **Konversi Satuan**.
 
 #### A. Konversi Satuan Panjang dan Massa
@@ -199,12 +199,12 @@ Alat ukur panjang paling presisi dengan ketelitian hingga 0,01 mm. Sangat cocok 
   <p style="font-size: 14px; color: #666; font-style: italic; margin-top: 15px;">Simulasi: Putaran bidal mikrometer untuk menyesuaikan jepitan benda.</p>
 </div>
 
-### 2.4 Neraca Ohaus
+### 4.4 Neraca Ohaus
 Alat ukur massa benda di laboratorium dengan ketelitian hingga 0,1 gram. Bekerja dengan cara menggeser beban (anting) pada lengan neraca hingga mencapai kesetimbangan.
 - **Nilai Skala Terkecil (NST):** 0,1 g
 - **Ketidakpastian ($\Delta x$):** $\frac{1}{2} \times 0,1 \text{ g} = 0,05 \text{ g}$
 
-### 2.5 Termometer (Alat Ukur Suhu)
+### 4.5 Termometer (Alat Ukur Suhu)
 Suhu adalah derajat panas atau dinginnya suatu benda. Kita mengukurnya dengan termometer. Meskipun kita sering menggunakan Celsius, **Satuan Internasional (SI) untuk suhu adalah Kelvin (K)**.
 
 Berikut adalah 4 skala pengukuran suhu beserta titik beku air (bawah) dan titik didih air (atas) pada tekanan 1 atm:
@@ -214,7 +214,10 @@ Berikut adalah 4 skala pengukuran suhu beserta titik beku air (bawah) dan titik 
 - **Kelvin ($\text{K}$):** Titik bawah $273$, titik atas $373$. (Skala $100$). 
 *(Catatan: Kelvin merupakan skala mutlak sehingga penulisannya tidak menggunakan simbol derajat $\circ$)*.
 
-Dari rentang skalanya ($100 : 80 : 180 : 100$), kita dapat menyederhanakan rasio perbandingan matematika antar termometer menjadi **$5 : 4 : 9 : 5$**.
+Dikenal pula konsep **Termometer Skala Sembarang (Skala X)**. Jika sebuah termometer memiliki titik beku $X_b$ dan titik didih $X_a$, maka konversi nilai ke Celsius ($C$) menggunakan perbandingan linear:
+$$ \frac{X - X_b}{X_a - X_b} = \frac{C - 0}{100 - 0} $$
+
+Dari rentang skalanya ($100 : 80 : 180 : 100$), kita dapat menyederhanakan rasio perbandingan matematika antar termometer standar menjadi **$5 : 4 : 9 : 5$**.
 
 **Rumus Praktis Konversi Skala Suhu:**
 Mengacu pada rasio tersebut, berikut cara konversinya secara cepat:
@@ -334,11 +337,15 @@ Operasi penjumlahan, pengurangan, perkalian, atau pembagian pada besaran skalar 
 ### 5.4 Operasi Besaran Vektor
 Berbeda dengan skalar, besaran vektor **tidak bisa** langsung dijumlahkan secara numerik karena terikat oleh arah. Penjumlahan beberapa vektor akan menghasilkan panah baru yang disebut **Resultan ($R$)**.
 
-#### A. Penjumlahan Vektor (Metode Analitis Sudut Apit)
-Metode ini digunakan untuk menjumlahkan dua vektor yang pangkalnya bertemu dan membentuk sudut apit lurus $\alpha$. Rumus matematis menghitung kuat resultan ($R$) antara dua vektor ($F_1$ dan $F_2$) adalah menggunakan Rumus Cosinus:
-$$ R = \sqrt{F_1^2 + F_2^2 + 2 \cdot F_1 \cdot F_2 \cdot \cos(\alpha)} $$
+#### A. Penjumlahan dan Selisih Vektor (Metode Analitis Sudut Apit)
+Metode ini digunakan untuk dua vektor yang pangkalnya bertemu dan membentuk sudut apit $\alpha$.
 
-- _Kondisi khusus:_ 
+1. **Penjumlahan Vektor ($R = F_1 + F_2$):**
+   $$ R = \sqrt{F_1^2 + F_2^2 + 2 \cdot F_1 \cdot F_2 \cdot \cos(\alpha)} $$
+2. **Selisih Dua Vektor ($R = F_1 - F_2$):**
+   $$ R = \sqrt{F_1^2 + F_2^2 - 2 \cdot F_1 \cdot F_2 \cdot \cos(\alpha)} $$
+
+- _Kondisi khusus (Penjumlahan):_ 
   - Jika searah ($\alpha = 0^\circ$): $R = F_1 + F_2$ (Maksimum).
   - Jika berlawanan arah ($\alpha = 180^\circ$): $R = |F_1 - F_2|$ (Minimum).
   - Jika tegak lurus ($\alpha = 90^\circ$): $R = \sqrt{F_1^2 + F_2^2}$ (Phytagoras).
@@ -350,6 +357,10 @@ Jika terdapat lebih dari dua vektor menyebar merata, cara penyelesaian paling am
 
 Setelah semua gaya dipecah, jumlahkan per masing-masing sumbu ($\sum F_x$ dan $\sum F_y$). Resultan totalnya ditegakkan kembali dengan Phytagoras:
 $$ R_{\text{total}} = \sqrt{(\sum F_x)^2 + (\sum F_y)^2} $$
+
+**Arah Resultan Vektor ($\theta$):**
+Arah resultan terhadap sumbu $x$ positif dapat dicari dengan fungsi tangen:
+$$ \tan(\theta) = \frac{\sum F_y}{\sum F_x} \implies \theta = \arctan\left(\frac{\sum F_y}{\sum F_x}\right) $$
 
 #### C. Perkalian Vektor (Dot Product & Cross Product)
 Vektor dapat dikalikan satu sama lain dengan dua metode matematis utama yang memiliki signifikansi fisis berbeda:
