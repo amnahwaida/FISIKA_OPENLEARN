@@ -57,7 +57,17 @@ Selamat datang di Bank Soal Kelas 10. Kerjakan soal-soal di bawah ini untuk meng
 - [6.8 Perpindahan Kalor (Konduksi, Konveksi, Radiasi)](./06.8-perpindahan-kalor-latihan.md)
 - [6.9 Aplikasi Elite (EK Mekanik & Radiasi)](./06.9-aplikasi-elite-kalor-latihan.md)
 
-7. [Latihan: Gelombang, Bunyi, Efek Doppler](./07-gelombang-bunyi-latihan.md)
+### Bab 7: Gelombang, Bunyi, dan Efek Doppler
+- [7.1 Sifat Dasar & Parameter Gelombang](./07.1-sifat-dasar-latihan.md)
+- [7.2 Persamaan Matematis Gelombang Berjalan](./07.2-persamaan-berjalan-latihan.md)
+- [7.3 Gelombang Stasioner (Berdiri) Terjebak](./07.3-gelombang-stasioner-latihan.md)
+- [7.4 Kecepatan Bunyi & Hukum Melde Dawai](./07.4-hukum-melde-latihan.md)
+- [7.5 Resonansi Sumber Bunyi (Pipa Organa)](./07.5-resonansi-organa-latihan.md)
+- [7.6 Intensitas dan Logaritma Desibel (TI)](./07.6-intensitas-desibel-latihan.md)
+- [7.7 Efek Doppler Terapan Tanda Mutlak](./07.7-efek-doppler-latihan.md)
+- [7.8 Layangan Bunyi (Acoustic Beats)](./07.8-layangan-bunyi-latihan.md)
+- [7.9 Aplikasi Gelombang Elite (Sonic Boom)](./07.9-aplikasi-elite-gelombang-latihan.md)
+
 8. [Latihan: Cermin, Lensa, Alat Optik](./08-optik-latihan.md)
 
 ---
