@@ -172,6 +172,11 @@ $$ y(t) = H + v_0 \sin \alpha \cdot t - \frac{1}{2}gt^2 $$
 **Sifat Sudut Komplementer:**
 Jangkauan mendatar ($x_{\text{max}}$) akan bernilai sama untuk dua sudut elevasi $\theta_1$ dan $\theta_2$ yang berjumlah $90^\circ$ (misal $30^\circ$ dan $60^\circ$).
 
+> [!WARNING]
+> **Jebakan Soal (Titik Tertinggi):**
+> Pada titik tertinggi gerak parabola, kecepatan benda **TIDAK NOL**. Hanya kecepatan vertikal ($v_y$) yang nol, sedangkan kecepatan horizontal ($v_x$) tetap ada. 
+> Kecepatan total di puncak adalah: $\mathbf{v_{\text{puncak}} = v_0 \cos \alpha}$.
+
 > [!TIP]
 > **Logika Fisika Parabola:**
 > - Kenapa $v_y = 0$ di puncak? Karena gravitasi terus menarik benda ke bawah hingga kecepatan naiknya habis tepat di titik tertinggi.
@@ -187,9 +192,15 @@ GMB adalah gerak benda dalam lintasan lingkaran dengan laju tetap, namun arah ke
 - **Frekuensi ($f$):** Jumlah putaran tiap detik. ($f = n / t$, satuan Hertz).
 - **Periode ($T$):** Waktu untuk satu kali putaran penuh. ($T = t / n$, satuan sekon). ($T = 1/f$).
 - **Kecepatan Sudut ($\omega$):** Sudut yang ditempuh per satuan waktu.
-  $$ \omega = 2\pi f = \frac{2\pi}{T} \text{ (rad/s)} $$
+  $$ \omega = \frac{2\pi}{T} = 2\pi f $$
 - **Kecepatan Linear ($v$):** Laju pada pinggir lingkaran.
   $$ v = \omega \cdot R $$
+
+> [!NOTE]
+> **Asal-usul $v = \omega R$:**
+> Dari definisi panjang busur lingkaran: $s = \theta \cdot R$.
+> Jika kita bagi kedua ruas dengan waktu ($t$):
+> $\frac{s}{t} = \frac{\theta}{t} \cdot R \implies \mathbf{v = \omega R}$.
 
 ### 7.2 Percepatan Sentripetal ($a_s$)
 Meskipun lajunya tetap, ada percepatan yang arahnya selalu menuju pusat lingkaran untuk membelokkan arah benda.
@@ -216,6 +227,18 @@ GMBB adalah gerak melingkar dengan **Percepatan Sudut ($\alpha$)** konstan.
 ### 7.5 Percepatan Total ($a_{\text{tot}}$)
 Pada GMBB, benda memiliki dua percepatan yang saling tegak lurus ($a_s$ dan $a_t$):
 $$ a_{\text{tot}} = \sqrt{a_s^2 + a_t^2} $$
+
+### 7.6 Analogi Gerak: Lurus vs Melingkar
+GMBB memiliki pola rumus yang identik dengan GLBB. Anda cukup mengganti variabelnya saja:
+
+| Besaran | Gerak Lurus (GLBB) | Gerak Melingkar (GMBB) | Hubungan Kedua Gerak |
+| :--- | :--- | :--- | :--- |
+| **Posisi** | Jarak/Perpindahan ($s$) | Posisi Sudut ($\theta$) | $s = \theta \cdot R$ |
+| **Kecepatan** | Kecepatan ($v$) | Kecepatan Sudut ($\omega$) | $v = \omega \cdot R$ |
+| **Percepatan** | Percepatan ($a$) | Percepatan Sudut ($\alpha$) | $a_t = \alpha \cdot R$ |
+| **Rumus 1** | $v_t = v_0 + a t$ | $\omega_t = \omega_0 + \alpha t$ | — |
+| **Rumus 2** | $s = v_0 t + \frac{1}{2} a t^2$ | $\theta = \omega_0 t + \frac{1}{2} \alpha t^2$ | — |
+| **Rumus 3** | $v_t^2 = v_0^2 + 2 a s$ | $\omega_t^2 = \omega_0^2 + 2 \alpha \theta$ | — |
 
 ---
 
