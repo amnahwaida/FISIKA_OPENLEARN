@@ -164,6 +164,29 @@ Alat ukur massa benda di laboratorium dengan ketelitian hingga 0,1 gram. Bekerja
 - **Nilai Skala Terkecil (NST):** 0,1 g
 - **Ketidakpastian ($\Delta x$):** $\frac{1}{2} \times 0,1 \text{ g} = 0,05 \text{ g}$
 
+### 2.5 Termometer (Alat Ukur Suhu)
+Suhu adalah derajat panas atau dinginnya suatu benda. Kita mengukurnya dengan termometer. Meskipun kita sering menggunakan Celsius, **Satuan Internasional (SI) untuk suhu adalah Kelvin (K)**.
+
+Berikut adalah 4 skala pengukuran suhu beserta titik beku air (bawah) dan titik didih air (atas) pada tekanan 1 atm:
+- **Celsius ($^\circ\text{C}$):** Titik bawah $0^\circ$, titik atas $100^\circ$. (Skala $100$).
+- **Reamur ($^\circ\text{R}$):** Titik bawah $0^\circ$, titik atas $80^\circ$. (Skala $80$).
+- **Fahrenheit ($^\circ\text{F}$):** Titik bawah $32^\circ$, titik atas $212^\circ$. (Skala $180$).
+- **Kelvin ($\text{K}$):** Titik bawah $273$, titik atas $373$. (Skala $100$). 
+*(Catatan: Kelvin merupakan skala mutlak sehingga penulisannya tidak menggunakan simbol derajat $\circ$)*.
+
+Dari rentang skalanya ($100 : 80 : 180 : 100$), kita dapat menyederhanakan rasio perbandingan matematika antar termometer menjadi **$5 : 4 : 9 : 5$**.
+
+**Rumus Praktis Konversi Skala Suhu:**
+Mengacu pada rasio tersebut, berikut cara konversinya secara cepat:
+- **C ke R:** $\text{R} = \frac{4}{5} \times \text{C}$
+- **R ke C:** $\text{C} = \frac{5}{4} \times \text{R}$
+- **C ke F:** $\text{F} = (\frac{9}{5} \times \text{C}) + 32$
+- **F ke C:** $\text{C} = \frac{5}{9} \times (\text{F} - 32)$
+- **C ke K:** $\text{K} = \text{C} + 273$
+
+> [!TIP]
+> **Logika Menghafal:** Semua konversi berbentuk *($\frac{\text{Rasio Tujuan}}{\text{Rasio Asal}} \times \text{Suhu Asal}$)*. Khusus untuk Fahrenheit, ingat bahwa dia "start" dari angka 32, sehingga harus ada proses penambahan atau pengurangan 32.
+
 ---
 
 ## 3. Ketidakpastian dalam Pengukuran
