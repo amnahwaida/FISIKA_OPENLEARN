@@ -55,6 +55,14 @@ Fisika dimulai dengan mendefinisikan apa yang akan diukur. Sifat fisik yang dapa
 ### 3.1 Besaran Pokok (SI)
 Terdapat tujuh besaran dasar yang disepakati secara internasional (Sistem Internasional/SI) sebagai penyusun utama segala besaran lainnya.
 
+> [!IMPORTANT]
+> **Redefinisi SI Modern (2019):**
+> Sejak 20 Mei 2019, satuan SI tidak lagi didefinisikan berdasarkan benda fisik (seperti batang platina), melainkan berdasarkan **Konstanta Alam** yang tetap:
+> - **Massa (kg):** Didefinisikan melalui Konstanta Planck ($h$).
+> - **Waktu (s):** Didefinisikan melalui transisi energi atom Sesium.
+> - **Panjang (m):** Didefinisikan melalui kecepatan cahaya ($c$).
+> Perubahan ini memastikan standar pengukuran tetap akurat di mana pun, bahkan di luar angkasa.
+
 | Besaran Pokok | Satuan (SI) | Simbol | Dimensi |
 | :--- | :--- | :---: | :---: |
 | Panjang | meter | m | [L] |
@@ -79,6 +87,15 @@ Berikut adalah 7 contoh cara menurunkan dimensi dari yang paling sederhana hingg
 | 5 | **Percepatan** | $v / t$ | $[L][T]^{-1} / [T]$ | $[L][T]^{-2}$ |
 | 6 | **Gaya** | $m \times a$ | $[M] \times [L][T]^{-2}$ | $[M][L][T]^{-2}$ |
 | 7 | **Usaha** | $F \times s$ | $[M][L][T]^{-2} \times [L]$ | $[M][L]^2[T]^{-2}$ |
+
+> [!TIP]
+> **Dimensional Discovery (Sakti Menebak Rumus):**
+> Kita bisa menebak hubungan antar besaran hanya dari dimensinya. Contoh: Periode ayunan ($T$) diduga tergantung pada panjang tali ($l$) dan gravitasi ($g$).
+> - Dimensi $T$ adalah $[T]$.
+> - Dimensi $l$ adalah $[L]$.
+> - Dimensi $g$ adalah $[L][T]^{-2}$.
+> Agar hasilnya adalah dimensi $[T]$, maka rumusnya harus melibatkan akar dari $l/g$. Inilah asal-usul rumus $T = 2\pi\sqrt{l/g}$.
+
 ### 3.3 Konversi Satuan dan Sistem Awalan
 Dalam Fisika, kita sering berhadapan dengan angka yang sangat besar atau sangat kecil. Untuk itu, kita menggunakan **Awalan Satuan** (seperti kilo, centi, mili) dan teknik **Konversi Satuan**.
 
@@ -285,6 +302,12 @@ Jika kita melakukan perhitungan menggunakan dua atau lebih hasil pengukuran yang
 - **Perkalian dan Pembagian ($Z = A \times B$ atau $Z = A / B$):**
   Ralat relatifnya dijumlahkan.
   $$ \frac{\Delta Z}{Z} = \frac{\Delta A}{A} + \frac{\Delta B}{B} $$
+
+> [!NOTE]
+> **Propagasi Ralat Independen (Metode RSS):**
+> Jika ralat $A$ dan $B$ saling bebas (tidak berhubungan), maka untuk penjumlahan/pengurangan, ralat totalnya lebih akurat jika menggunakan akar jumlah kuadrat:
+> $$ \Delta Z = \sqrt{\Delta A^2 + \Delta B^2} $$
+> Ini adalah standar profesional di laboratorium riset untuk menghasilkan nilai ketidakpastian yang lebih objektif secara statistik.
 
 ---
 
