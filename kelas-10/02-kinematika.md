@@ -46,6 +46,18 @@ Pada tingkat lanjut, besaran kinematika didefinisikan menggunakan operasi turuna
   $$ a(t) = \frac{dv}{dt} $$
 *(Contoh: Jika $r(t) = 2t^3$, maka $v(t) = 6t^2$ dan $a(t) = 12t$).*
 
+### 1.5 Filosofi "Keluarga" Kinematika
+Ketiga besaran utama kinematika saling terhubung dalam satu aliran logika waktu:
+```mermaid
+graph LR
+    P[Posisi] -- "Seberapa cepat posisi berubah?" --> V[Kecepatan]
+    V -- "Seberapa cepat kecepatan berubah?" --> A[Percepatan]
+    A -. "Berapa total kecepatan yang terkumpul?" .-> V
+    V -. "Berapa total posisi yang ditempuh?" .-> P
+```
+- **Turun ($\downarrow$):** Menggunakan operasi **Turunan (Derivatif)**.
+- **Naik ($\uparrow$):** Menggunakan operasi **Integral**.
+
 ---
 
 ## 2. Gerak Lurus Beraturan (GLB)
@@ -193,8 +205,11 @@ Jangkauan mendatar ($x_{\text{max}}$) akan bernilai sama untuk dua sudut elevasi
 ---
 
 ## 7. Gerak Melingkar Beraturan (GMB)
-
 GMB adalah gerak benda dalam lintasan lingkaran dengan laju tetap, namun arah kecepatannya selalu berubah (kecepatan linearnya tidak konstan).
+
+> [!NOTE]
+> **Makna Filosofis "Beraturan":**
+> Dalam Fisika, kata "Beraturan" pada GMB merujuk pada **Besar Kecepatan (Laju)** yang konstan. Namun secara **Vektor**, gerak ini sebenarnya tidak beraturan karena arahnya terus "dipaksa" berubah oleh pusat lingkaran. Itulah sebabnya GMB memiliki percepatan ($a_s$) meski angkanya terlihat stabil.
 
 ### 7.1 Besaran-Besaran GMB
 - **Frekuensi ($f$):** Jumlah putaran tiap detik. ($f = n / t$, satuan Hertz).
@@ -257,6 +272,10 @@ GMBB memiliki pola rumus yang identik dengan GLBB. Anda cukup mengganti variabel
 | **Rumus 1** | $v_t = v_0 + a t$ | $\omega_t = \omega_0 + \alpha t$ | — |
 | **Rumus 2** | $s = v_0 t + \frac{1}{2} a t^2$ | $\theta = \omega_0 t + \frac{1}{2} \alpha t^2$ | — |
 | **Rumus 3** | $v_t^2 = v_0^2 + 2 a s$ | $\omega_t^2 = \omega_0^2 + 2 \alpha \theta$ | — |
+
+### 7.7 Aplikasi Nyata: Menikung Tajam
+Pernahkah Anda melihat pelari atletik atau pembalap motor mencondongkan badan ke arah dalam saat menikung? 
+Secara kinematika, mereka sedang berusaha menciptakan kemiringan agar ada komponen percepatan yang mampu mengubah arah kecepatan motor/tubuh mereka secara efektif menuju pusat tikungan ($a_s$). Tanpa kemiringan atau gesekan yang cukup, benda akan cenderung bergerak lurus (Inersia) dan keluar dari lintasan.
 
 ---
 
