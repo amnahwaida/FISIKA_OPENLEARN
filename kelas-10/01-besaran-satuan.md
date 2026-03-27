@@ -233,7 +233,7 @@ Mengacu pada rasio tersebut, berikut cara konversinya secara cepat:
 
 Tidak ada pengukuran yang benar-benar sempurna. Selalu ada selisih antara nilai terukur dengan nilai sebenarnya. Hal ini dipelajari dalam **Ketidakpastian Pengukuran**.
 
-### 3.1 Jenis-jenis Kesalahan Pengukuran
+### 5.1 Jenis-jenis Kesalahan Pengukuran
 Kesalahan (Error) dalam pengukuran menyebabkan hasil ukur menjadi tidak pasti. Ada tiga jenis kesalahan utama:
 1. **Kesalahan Umum (Kecerobohan):** Disebabkan oleh keterbatasan pengamat, seperti salah membaca skala atau salah mengatur posisi alat ukur.
 2. **Kesalahan Sistematis:** Bersumber dari alat ukurnya itu sendiri.
@@ -242,11 +242,11 @@ Kesalahan (Error) dalam pengukuran menyebabkan hasil ukur menjadi tidak pasti. A
    - **Kesalahan Paralaks:** Sudut pandang mata pengamat tidak tegak lurus dengan jarum/skala ukur, sehingga nilai terbaca meleset.
 3. **Kesalahan Acak:** Disebabkan oleh fluktuasi halus yang tidak dapat dihindari, seperti perubahan tegangan listrik mendadak, getaran bumi, atau perubahan suhu ruangan secara tak terduga.
 
-### 3.2 Pengukuran Tunggal
+### 5.2 Pengukuran Tunggal
 Dilakukan hanya satu kali. Ketidakpastiannya ($\Delta x$) biasanya diambil dari setengah nilai skala terkecil (NST) alat ukur:
 $$ \Delta x = \frac{1}{2} \times \text{NST} $$
 
-### 3.3 Pengukuran Berulang
+### 5.3 Pengukuran Berulang
 Dilakukan beberapa kali untuk meminimalkan ralat acak. Data hasil pengukuran dilaporkan dalam bentuk rata-rata ($\bar{x}$) dan ketidakpastian ($\Delta x$) yang dihitung menggunakan statistik:
 
 1. **Nilai Rata-rata ($\bar{x}$):**
@@ -273,27 +273,43 @@ Maka laporan ditulis dalam format: **$(\bar{x} \pm \Delta x) \text{ Satuan}$**.
    - Jika KSR sekitar $1\%$, berhak atas **3 Angka Penting**.
    - Jika KSR sekitar $0,1\%$, berhak atas **4 Angka Penting**.
 
+### 5.4 Propagasi Ralat (Ketidakpastian pada Operasi Matematika)
+Jika kita melakukan perhitungan menggunakan dua atau lebih hasil pengukuran yang masing-masing memiliki ketidakpastian ($A \pm \Delta A$ dan $B \pm \Delta B$), maka ralat hasil akhirnya ($\Delta Z$) mengikuti aturan:
+
+- **Penjumlahan dan Pengurangan ($Z = A \pm B$):**
+  Ralat mutlaknya dijumlahkan.
+  $$ \Delta Z = \Delta A + \Delta B $$
+- **Perkalian dan Pembagian ($Z = A \times B$ atau $Z = A / B$):**
+  Ralat relatifnya dijumlahkan.
+  $$ \frac{\Delta Z}{Z} = \frac{\Delta A}{A} + \frac{\Delta B}{B} $$
+
 ---
 
 ## 6. Angka Penting dan Notasi Ilmiah
 
 Hasil pengukuran harus ditulis sesuai dengan ketelitian alat ukur melalui aturan **Angka Penting**. Secara umum, angka penting terdiri dari angka pasti dan satu angka terakhir yang ditaksir (angka ragu-ragu).
 
-### 4.1 Aturan Penulisan Angka Penting
+### 6.1 Aturan Penulisan Angka Penting
 1. **Semua angka bukan nol** adalah Angka Penting (AP). (Contoh: 123,4 memiliki 4 AP).
 2. **Angka nol di antara angka bukan nol** adalah AP. (Contoh: 2005 memiliki 4 AP).
 3. **Angka nol di sebelah kanan angka bukan nol** dalam bilangan desimal adalah AP. (Contoh: 0,500 memiliki 3 AP).
 4. **Angka nol di sebelah kiri angka bukan nol** (angka desimal < 1) **bukan** AP. (Contoh: 0,0025 memiliki 2 AP).
 5. **Angka nol di sebelah kanan angka tanpa tanda desimal** biasanya bukan AP, kecuali jika diberi tanda khusus (garis bawah). (Contoh: 1200 memiliki 2 AP).
 
-### 4.2 Aturan Operasi Angka Penting
+### 6.2 Aturan Operasi Angka Penting
 - **Penjumlahan & Pengurangan:** Hasilnya hanya boleh mengandung **satu angka taksiran**. (Aturan praktis: Ikuti jumlah angka di belakang koma yang paling sedikit).
 - **Perkalian & Pembagian:** Hasilnya harus mengikuti **jumlah Angka Penting yang paling sedikit** dari komponen yang dioperasikan.
 - **Pemangkatan & Pengakaran:** Hasilnya mengikuti jumlah Angka Penting pada angka yang dipangkatkan atau diakarkan.
 
-### 4.3 Notasi Ilmiah
+### 6.3 Notasi Ilmiah
 Penulisan angka dalam bentuk $a \times 10^n$ (dengan $1 \le a < 10$) untuk memudahkan penulisan angka sangat besar atau sangat kecil.
 - Contoh: $300.000.000 \text{ m/s} \rightarrow 3,0 \times 10^8 \text{ m/s}$ (memiliki 2 AP).
+
+### 6.4 Aturan Pembulatan Khusus Angka 5 (Oemardjati/Genap-Ganjil)
+Dalam pengukuran presisi tinggi, jika angka terakhir yang dibuang adalah tepat angka **5**, maka berlaku aturan:
+- Jika angka sebelumnya **Ganjil**, maka dibulatkan **Ke Atas**. (Contoh: $2,35 \rightarrow 2,4$)
+- Jika angka sebelumnya **Genap**, maka dibulatkan **Ke Bawah/Tetap**. (Contoh: $2,45 \rightarrow 2,4$)
+*(Hal ini dilakukan agar secara statistik hasil rata-rata pengukuran tidak condong ke atas).*
 
 ---
 
@@ -354,9 +370,12 @@ Vektor satuan adalah vektor yang besarnya satu satuan dan berfungsi untuk menunj
 - **$\hat{j}$** menunjukkan arah sumbu $y$.
 - **$\hat{k}$** menunjukkan arah sumbu $z$.
 
-Penulisan vektor $\vec{A}$ dalam koordinat dua dimensi adalah:
-$$ \vec{A} = A_x\hat{i} + A_y\hat{j} $$
-Di mana $A_x$ dan $A_y$ adalah komponen vektor pada sumbu $x$ dan $y$.
+Penulisan vektor $\vec{A}$ dalam koordinat tiga dimensi adalah:
+$$ \vec{A} = A_x\hat{i} + A_y\hat{j} + A_z\hat{k} $$
+
+**Besar (Magnitude) Vektor 3D:**
+Untuk mencari panjang (magnitude) vektor di ruang tiga dimensi, kita menggunakan pengembangan teorema Pythagoras:
+$$ |\vec{A}| = \sqrt{A_x^2 + A_y^2 + A_z^2} $$
 
 ---
 
