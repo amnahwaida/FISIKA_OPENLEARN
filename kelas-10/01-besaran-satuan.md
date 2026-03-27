@@ -48,9 +48,14 @@ Seringkali bahan di laboratorium diberi label simbol internasional untuk memperi
 
 ---
 
-## 3. Besaran dan Satuan: Bahasa Dasar Fisika
-
 Fisika dimulai dengan mendefinisikan apa yang akan diukur. Sifat fisik yang dapat diukur dan dinyatakan dengan angka disebut sebagai **Besaran**. Untuk menyatakan besaran tersebut secara seragam di seluruh dunia, kita membutuhkan **Satuan**.
+
+> [!TIP]
+> **Etika Penulisan SI (NIST Standards):**
+> 1. **Nama Satuan:** Jika ditulis lengkap, gunakan huruf kecil semua (kecuali di awal kalimat). Contoh: `5 newton`, `10 ampere`.
+> 2. **Simbol Satuan:** Gunakan huruf besar jika diambil dari nama orang (`N`, `A`, `K`), dan huruf kecil jika bukan (`m`, `kg`, `s`).
+> 3. **Spasi:** Selalu beri spasi antara angka dan satuan. Contoh: `5 m` (Benar), `5m` (Salah).
+> 4. **Bentuk Jamak:** Jangan tambahkan "s" di akhir simbol. Contoh: `5 kg` (Benar), `5 kgs` (Salah).
 
 ### 3.1 Besaran Pokok (SI)
 Terdapat tujuh besaran dasar yang disepakati secara internasional (Sistem Internasional/SI) sebagai penyusun utama segala besaran lainnya.
@@ -303,6 +308,11 @@ Jika kita melakukan perhitungan menggunakan dua atau lebih hasil pengukuran yang
   Ralat relatifnya dijumlahkan.
   $$ \frac{\Delta Z}{Z} = \frac{\Delta A}{A} + \frac{\Delta B}{B} $$
 
+- **Fungsi Pangkat ($Z = X^n$):**
+  Ralat relatif dikali dengan pangkatnya.
+  $$ \frac{\Delta Z}{Z} = |n| \frac{\Delta X}{X} $$
+  *(Contoh: Jika panjang rusuk kubus memiliki ralat 1%, maka ralat volumenya otomatis 3%).*
+
 > [!NOTE]
 > **Propagasi Ralat Independen (Metode RSS):**
 > Jika ralat $A$ dan $B$ saling bebas (tidak berhubungan), maka untuk penjumlahan/pengurangan, ralat totalnya lebih akurat jika menggunakan akar jumlah kuadrat:
@@ -362,6 +372,19 @@ Berbeda dengan skalar, besaran vektor **tidak bisa** langsung dijumlahkan secara
 
 #### A. Penjumlahan dan Selisih Vektor (Metode Analitis Sudut Apit)
 Metode ini digunakan untuk dua vektor yang pangkalnya bertemu dan membentuk sudut apit $\alpha$.
+
+> [!TIP]
+> **Cheat Sheet Trigonometri (Senjata Vektor):**
+> Untuk mempermudah perhitungan, berikut nilai sudut yang sangat sering muncul:
+> | Sudut ($\theta$) | $\sin \theta$ | $\cos \theta$ | $\tan \theta$ |
+> | :---: | :---: | :---: | :---: |
+> | **$0^\circ$** | $0$ | $1$ | $0$ |
+> | **$30^\circ$** | $1/2$ | $1/2\sqrt{3}$ | $1/3\sqrt{3}$ |
+> | **$37^\circ$** | **$0,6$** ($3/5$) | **$0,8$** ($4/5$) | $3/4$ |
+> | **$45^\circ$** | $1/2\sqrt{2}$ | $1/2\sqrt{2}$ | $1$ |
+> | **$53^\circ$** | **$0,8$** ($4/5$) | **$0,6$** ($3/5$) | $4/3$ |
+> | **$60^\circ$** | $1/2\sqrt{3}$ | $1/2$ | $\sqrt{3}$ |
+> | **$90^\circ$** | $1$ | $0$ | $\sim$ |
 
 1. **Penjumlahan Vektor ($R = F_1 + F_2$):**
    $$ R = \sqrt{F_1^2 + F_2^2 + 2 \cdot F_1 \cdot F_2 \cdot \cos(\alpha)} $$
