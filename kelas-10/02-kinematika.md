@@ -34,6 +34,12 @@ $$ \vec{v}_{\text{total}} = \vec{v}_p + \vec{v}_s $$
 Jika perahu menyeberang tegak lurus arus, besar kecepatan resultannya adalah:
 $$ v_{\text{res}} = \sqrt{v_p^2 + v_s^2} $$
 
+> [!IMPORTANT]
+> **Notasi Vektor Formal Kecepatan Relatif:**
+> Secara umum, kecepatan benda A terhadap benda B ($\vec{v}_{AB}$) didefinisikan sebagai selisih vektor keduanya:
+> $$ \vec{v}_{AB} = \vec{v}_A - \vec{v}_B = (v_{Ax} - v_{Bx})\hat{i} + (v_{Ay} - v_{By})\hat{j} $$
+> Konsep ini sangat vital untuk menganalisis pergerakan pesawat di tengah angin kencang dari sudut sembarang.
+
 ### 1.3 Percepatan (Acceleration)
 Perubahan kecepatan tiap satuan waktu. Percepatan bernilai positif ($+$) berarti benda dipercepat, sedangkan negatif ($-$) berarti benda diperlambat.
 $$ a = \frac{\Delta v}{\Delta t} = \frac{v_t - v_0}{t} $$
@@ -71,13 +77,14 @@ GLB adalah gerak benda pada lintasan lurus dengan **kecepatan konstan ($v$ tetap
   - Grafik $s-t$ (Jarak-Waktu) berupa garis lurus miring ke atas (linear).
   - Grafik $v-t$ (Kecepatan-Waktu) berupa garis lurus mendatar (horizontal).
 
-### 2.1 Logika Gerak Menyusul
-Kasus di mana benda B mengejar benda A yang berada di depannya. Syarat benda B menyusul benda A adalah **Posisi Akhir Sama ($x_A = x_B$)** pada waktu yang sama ($t$).
-
-- **Jika Keduanya GLB:**
-  $$ x_{0A} + v_A \cdot t = x_{0B} + v_B \cdot t $$
+- **Jika Keduanya GLB (Berlawanan Arah/Berpapasan):**
+  Dua benda terpisah jarak $D$. Waktu bertemu ($t$):
+  $$ t = \frac{D}{v_A + v_B} $$
+- **Jika Keduanya GLB (Searah/Menyusul):**
+  Benda B mengejar A. Waktu menyusul ($t$):
+  $$ t = \frac{\Delta x_{awal}}{v_B - v_A} $$
 - **Jika Salah Satu atau Keduanya GLBB:**
-  Gunakan persamaan posisi GLBB ($s = v_0 t + \frac{1}{2}at^2$) dan selesaikan persamaan kuadrat untuk mencari $t$.
+  Gunakan persamaan posisi GLBB ($s = v_0 t + \frac{1}{2}at^2$) dan selesaikan persamaan kuadrat untuk mencari $t$. (Pastikan arah $a$ positif/negatif sesuai acuan).
 
 ---
 
@@ -117,6 +124,12 @@ Memahami gerak melalui interpretasi visual:
   - Luas daerah di bawah kurva menunjukkan **perpindahan/jarak**.
 - **Grafik $a-t$:**
   - Luas daerah di bawah kurva menunjukkan **perubahan kecepatan**.
+
+> [!TIP]
+> **Kaitan Sempurna dengan Kalkulus:**
+> 1. **Kecepatan Sesaat:** Secara grafis adalah **kemiringan (gradien) garis singgung** kurva posisi-waktu ($s-t$).
+> 2. **Percepatan Sesaat:** Adalah kemiringan garis singgung kurva kecepatan-waktu ($v-t$).
+> Jika grafik $s-t$ melengkung semakin tajam ke atas, gradiennya bertambah, yang berarti benda sedang dipercepat.
 
 ---
 
@@ -192,6 +205,15 @@ $$ y(t) = H + v_0 \sin \alpha \cdot t - \frac{1}{2}gt^2 $$
 **Sifat Sudut Komplementer:**
 Jangkauan mendatar ($x_{\text{max}}$) akan bernilai sama untuk dua sudut elevasi $\theta_1$ dan $\theta_2$ yang berjumlah $90^\circ$ (misal $30^\circ$ dan $60^\circ$).
 
+> [!IMPORTANT]
+> **Gerak Parabola pada Bidang Miring:**
+> Jika sasaran berada pada tanah yang miring dengan sudut $\beta$:
+> 1. **Metode Putar Sumbu:** Anggap sumbu X sejajar bidang miring.
+> 2. Akibatnya, gravitasi memiliki komponen di sumbu X ($g \sin \beta$) dan sumbu Y ($g \cos \beta$).
+> 3. Gerak di sumbu X bukan lagi GLB, melainkan **GLBB diperlambat**.
+> $$ x(t) = (v_0 \cos \theta)t - \frac{1}{2}(g \sin \beta)t^2 $$
+> $$ y(t) = (v_0 \sin \theta)t - \frac{1}{2}(g \cos \beta)t^2 $$
+
 > [!WARNING]
 > **Jebakan Soal (Titik Tertinggi):**
 > Pada titik tertinggi gerak parabola, kecepatan benda **TIDAK NOL**. Hanya kecepatan vertikal ($v_y$) yang nol, sedangkan kecepatan horizontal ($v_x$) tetap ada. 
@@ -231,9 +253,15 @@ GMB adalah gerak benda dalam lintasan lingkaran dengan laju tetap, namun arah ke
 > Jika kita bagi kedua ruas dengan waktu ($t$):
 > $\frac{s}{t} = \frac{\theta}{t} \cdot R \implies \mathbf{v = \omega R}$.
 
-### 7.2 Percepatan Sentripetal ($a_s$)
-Meskipun lajunya tetap, ada percepatan yang arahnya selalu menuju pusat lingkaran untuk membelokkan arah benda.
 $$ a_s = \frac{v^2}{R} = \omega^2 \cdot R $$
+
+> [!NOTE]
+> **Derivasi Geometris $a_s$:**
+> Saat benda bergerak dari posisi 1 ke posisi 2 dalam waktu singkat $\Delta t$, vektor kecepatannya berubah arah sebesar $\Delta \theta$.
+> Jika kita gambar selisih vektor kecepatannya ($\Delta \vec{v}$), akan terbentuk segitiga yang sebangun dengan segitiga posisi-jari-jari.
+> Perbandingan sisi: $\frac{\Delta v}{v} = \frac{\Delta s}{R}$.
+> Karena $\Delta s = v \cdot \Delta t$, maka $\frac{\Delta v}{v} = \frac{v \cdot \Delta t}{R} \implies \frac{\Delta v}{\Delta t} = \frac{v^2}{R} \mathbf{= a_s}$.
+> *Arah $\Delta v$ (dan $a_s$) selalu menuju pusat lingkaran.*
 
 > [!NOTE]
 > **Kenapa $a_s$ tegak lurus $v$?**
