@@ -70,8 +70,17 @@ Kasus di mana benda B mengejar benda A yang berada di depannya. Syarat benda B m
 ---
 
 ## 3. Gerak Lurus Berubah Beraturan (GLBB)
-
 GLBB adalah gerak benda pada lintasan lurus dengan **percepatan konstan ($a$ tetap)**. Artinya, kecepatannya berubah secara teratur.
+
+> [!NOTE]
+> **Asal-usul (Derivasi) Rumus GLBB:**
+> 1. **Rumus 1:** Berasal dari definisi $a = (v_t - v_0)/t \implies \mathbf{v_t = v_0 + at}$.
+> 2. **Rumus 2:** Berasal dari luas daerah di bawah grafik $v-t$ (Trapesium).
+>    $s = \text{Luas} = \frac{(v_0 + v_t)}{2} \cdot t$. Substitusi $v_t$ dari rumus 1:
+>    $s = \frac{(v_0 + v_0 + at)}{2} \cdot t = \mathbf{v_0 t + \frac{1}{2}at^2}$.
+> 3. **Rumus 3:** Kuadratkan rumus 1: $v_t^2 = (v_0 + at)^2 = v_0^2 + 2v_0at + a^2t^2$.
+>    Faktorkan $2a$: $v_t^2 = v_0^2 + 2a(v_0t + \frac{1}{2}at^2)$. Substitusi Rumus 2:
+>    $\mathbf{v_t^2 = v_0^2 + 2as}$.
 
 - **Rumus Utama GLBB:**
   1. $v_t = v_0 + a \cdot t$ (Mencari kecepatan akhir)
@@ -88,33 +97,44 @@ GLBB adalah gerak benda pada lintasan lurus dengan **percepatan konstan ($a$ tet
 
 ---
 
-## 4. Gerak Vertikal (Gerak Satu Dimensi dengan Gravitasi)
+## 4. Analisis Grafik Gerak
+Memahami gerak melalui interpretasi visual:
+- **Grafik $s-t$:** Kemiringan (gradien) garis menunjukkan **kecepatan**. Jika garis melengkung (parabola), benda memiliki **percepatan**.
+- **Grafik $v-t$:**
+  - Kemiringan garis menunjukkan **percepatan**.
+  - Luas daerah di bawah kurva menunjukkan **perpindahan/jarak**.
+- **Grafik $a-t$:**
+  - Luas daerah di bawah kurva menunjukkan **perubahan kecepatan**.
+
+---
+
+## 5. Gerak Vertikal (Gerak Satu Dimensi dengan Gravitasi)
 
 Gerak vertikal adalah aplikasi nyata GLBB di mana percepatan yang dialami benda adalah percepatan gravitasi bumi ($g \approx 9,8 \text{ m/s}^2$ atau sering dibulatkan menjadi $10 \text{ m/s}^2$).
 
-### 4.1 Gerak Jatuh Bebas (GJB)
+### 5.1 Gerak Jatuh Bebas (GJB)
 Benda dijatuhkan tanpa kecepatan awal ($v_0 = 0$).
 - $v_t = g \cdot t$
 - $h = \frac{1}{2} \cdot g \cdot t^2$
 - $v_t = \sqrt{2 \cdot g \cdot h}$
 
-### 4.2 Gerak Vertikal ke Atas (GVA)
+### 5.2 Gerak Vertikal ke Atas (GVA)
 Benda dilempar ke atas dengan $v_0$ tertentu. Benda akan melambat karena gravitasi bersifat menghambat ($-g$).
 - **Di titik tertinggi:** Kecepatan sesaat benda adalah nol ($v_t = 0$).
 - $h_{\text{max}} = \frac{v_0^2}{2g}$
 - $t_{\text{naik}} = \frac{v_0}{g}$
 
-### 4.3 Gerak Vertikal ke Bawah (GVB)
+### 5.3 Gerak Vertikal ke Bawah (GVB)
 Benda dilempar ke bawah dengan kecepatan awal ($v_0 \neq 0$). Gunakan rumus GLBB dengan mengganti $a = +g$.
 
-### 4.4 Pertemuan Dua Benda di Udara
+### 5.4 Pertemuan Dua Benda di Udara
 Jika benda A dilempar ke atas dari tanah dan benda B dijatuhkan dari ketinggian $H$ di atasnya, mereka akan bertemu jika:
 $$ y_A + y_B = H $$
 (dengan $y_A$ adalah posisi bola A dan $y_B$ adalah jarak jatuh bola B).
 
 ---
 
-## 5. Gerak Parabola (Projectile Motion)
+## 6. Gerak Parabola (Projectile Motion)
 
 Gerak parabola adalah perpaduan dua gerak pada dua sumbu koordinat yang saling tegak lurus:
 1. **Sumbu X (Horizontal):** Bergerak secara **GLB** (kecepatan tetap $v_x = v_0 \cos \alpha$).
@@ -152,13 +172,18 @@ $$ y(t) = H + v_0 \sin \alpha \cdot t - \frac{1}{2}gt^2 $$
 **Sifat Sudut Komplementer:**
 Jangkauan mendatar ($x_{\text{max}}$) akan bernilai sama untuk dua sudut elevasi $\theta_1$ dan $\theta_2$ yang berjumlah $90^\circ$ (misal $30^\circ$ dan $60^\circ$).
 
+> [!TIP]
+> **Logika Fisika Parabola:**
+> - Kenapa $v_y = 0$ di puncak? Karena gravitasi terus menarik benda ke bawah hingga kecepatan naiknya habis tepat di titik tertinggi.
+> - Kenapa waktu naik = waktu turun? Karena percepatan gravitasi yang memperlambat saat naik besarnya sama dengan yang mempercepat saat turun (Azas Simetri).
+
 ---
 
-## 6. Gerak Melingkar Beraturan (GMB)
+## 7. Gerak Melingkar Beraturan (GMB)
 
 GMB adalah gerak benda dalam lintasan lingkaran dengan laju tetap, namun arah kecepatannya selalu berubah (kecepatan linearnya tidak konstan).
 
-### 6.1 Besaran-Besaran GMB
+### 7.1 Besaran-Besaran GMB
 - **Frekuensi ($f$):** Jumlah putaran tiap detik. ($f = n / t$, satuan Hertz).
 - **Periode ($T$):** Waktu untuk satu kali putaran penuh. ($T = t / n$, satuan sekon). ($T = 1/f$).
 - **Kecepatan Sudut ($\omega$):** Sudut yang ditempuh per satuan waktu.
@@ -166,24 +191,29 @@ GMB adalah gerak benda dalam lintasan lingkaran dengan laju tetap, namun arah ke
 - **Kecepatan Linear ($v$):** Laju pada pinggir lingkaran.
   $$ v = \omega \cdot R $$
 
-### 6.2 Percepatan Sentripetal ($a_s$)
+### 7.2 Percepatan Sentripetal ($a_s$)
 Meskipun lajunya tetap, ada percepatan yang arahnya selalu menuju pusat lingkaran untuk membelokkan arah benda.
 $$ a_s = \frac{v^2}{R} = \omega^2 \cdot R $$
 
-### 6.3 Hubungan Roda-Roda
+> [!IMPORTANT]
+> **Miskonsepsi Umum:**
+> "Benda di GMB tidak punya percepatan karena kecepatannya tetap."
+> **Faktanya:** Laju memang tetap, tapi **Vektor Kecepatan** berubah arah setiap saat. Perubahan arah ini adalah bukti adanya percepatan sentripetal.
+
+### 7.3 Hubungan Roda-Roda
 1. **Dua Roda Seporos (Satu As):**
    Arah putar sama dan **Kecepatan Sudut sama ($\omega_A = \omega_B$)**.
 2. **Dua Roda Bersinggungan / Dihubungkan Sabuk:**
    Arah putar bisa sama (sabuk lurus) atau beda (bersinggungan), namun **Kecepatan Linear sama ($v_A = v_B$)**.
 
-### 6.4 Gerak Melingkar Berubah Beraturan (GMBB)
+### 7.4 Gerak Melingkar Berubah Beraturan (GMBB)
 GMBB adalah gerak melingkar dengan **Percepatan Sudut ($\alpha$)** konstan.
 - **Kecepatan Sudut Akhir:** $\omega_t = \omega_0 + \alpha \cdot t$
 - **Posisi Sudut (Sudut Tempuh):** $\theta = \omega_0 \cdot t + \frac{1}{2} \alpha \cdot t^2$
 - **Percepatan Tangensial ($a_t$):** Percepatan yang sejajar lintasan (mengubah laju linear).
   $$ a_t = \alpha \cdot R $$
 
-### 6.5 Percepatan Total ($a_{\text{tot}}$)
+### 7.5 Percepatan Total ($a_{\text{tot}}$)
 Pada GMBB, benda memiliki dua percepatan yang saling tegak lurus ($a_s$ dan $a_t$):
 $$ a_{\text{tot}} = \sqrt{a_s^2 + a_t^2} $$
 
