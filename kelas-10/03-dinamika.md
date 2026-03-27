@@ -102,6 +102,14 @@ $$ F_{\text{aksi}} = -F_{\text{reaksi}} $$
    - $\Delta x$ = perubahan panjang pegas dari posisi alami
    - Tanda negatif menunjukkan gaya **pemulih** (berlawanan arah simpangan).
 
+> [!TIP]
+> **Susunan Pegas (Seri & Paralel):**
+> Seringkali beberapa pegas digabung untuk mendapatkan kekuatan tertentu:
+> 1. **Susunan Seri:** Pegas disusun berderet. Gaya pada tiap pegas sama, tapi pertambahan panjangnya dijumlahkan.
+>    $$ \frac{1}{k_{p pengganti}} = \frac{1}{k_1} + \frac{1}{k_2} + ... $$
+> 2. **Susunan Paralel:** Pegas disusun sejajar. Pertambahan panjang tiap pegas sama, tapi gayanya dijumlahkan.
+>    $$ k_{p pengganti} = k_1 + k_2 + ... $$
+
 ---
 
 ## 3. Aplikasi Hukum Newton (Problem Solving)
@@ -148,6 +156,12 @@ Dua massa $m_1$ dan $m_2$ dihubungkan tali melalui katrol ($m_2 > m_1$):
 > Berbeda dengan katrol tetap, katrol bebas ikut bergerak naik/turun bersama beban.
 > - **Tegangan Tali:** Jika satu ujung tali diikat di atap dan ujung lain ditarik, katrol ditopang oleh dua bagian tali. Gaya tarik $F = \frac{1}{2} w$.
 > - **Hubungan Percepatan:** Jika beban pada katrol bebas naik sejauh $x$, tali yang ditarik harus bergerak sejauh $2x$. Maka percepatannya: $\mathbf{a_{\text{tarik}} = 2 \cdot a_{\text{beban}}}$.
+
+> [!NOTE]
+> **Sistem Katrol Majemuk (Block and Tackle):**
+> Merupakan gabungan beberapa katrol tetap dan bebas. Gunanya untuk mendapatkan **Keuntungan Mekanis ($KM$)** yang besar.
+> - **Rumus KM:** $KM = n$ (di mana $n$ adalah jumlah tali yang menahan beban bergerak/beban bawah).
+> - **Gaya Tarik ($F$):** $F = \frac{w}{KM}$. (Semakin banyak katrol, semakin ringan gaya tariknya).
 
 > [!NOTE]
 > **Derivasi Rumus Percepatan Katrol Tetap (Atwood):**
@@ -264,6 +278,10 @@ Kondisi ini mempertimbangkan adanya gaya gesek ($\mu_s$) pada lintasan miring. I
   $$ v_{max} = \sqrt{g R \left( \frac{\tan \theta + \mu_s}{1 - \mu_s \tan \theta} \right)} $$
 - **Kecepatan Minimum ($v_{min}$):** Kecepatan terendah agar kendaraan tidak merosot **turun** ke dalam tikungan.
   $$ v_{min} = \sqrt{g R \left( \frac{\tan \theta - \mu_s}{1 + \mu_s \tan \theta} \right)} $$
+
+> [!WARNING]
+> **Bahaya Kecepatan Terlalu Rendah:**
+> Pada tikungan miring yang curam ($\theta$ besar), jika kendaraan melaju terlalu pelan ($v < v_{min}$), komponen gaya berat $mg\sin\theta$ akan mengalahkan gaya gesek ke atas, sehingga kendaraan justru akan meluncur jatuh ke arah pusat lingkaran (jatuh ke "bawah" tanjakan).
 
 **Ayunan Konis (Bandul Gerak Melingkar Horizontal):**
 
