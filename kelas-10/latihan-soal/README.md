@@ -46,7 +46,17 @@ Selamat datang di Bank Soal Kelas 10. Kerjakan soal-soal di bawah ini untuk meng
 - [5.8 Hubungan Momentum & Energi](./05.8-momentum-energi-latihan.md)
 - [5.9 Aplikasi Elite (Pendulum Balistik & Roket)](./05.9-aplikasi-elite-latihan.md)
 
-6. [Latihan: Suhu, Kalor, Perpindahan Kalor](./06-kalor-latihan.md)
+### Bab 6: Suhu, Kalor, dan Perpindahan Kalor
+- [6.1 Pendahuluan Suhu vs Kalor](./06.1-suhu-kalor-latihan.md)
+- [6.2 Konversi Skala Termometer](./06.2-konversi-suhu-latihan.md)
+- [6.3 Pemuaian Zat](./06.3-pemuaian-latihan.md)
+- [6.4 Kalor Pemanasan & Kapasitas Kalor](./06.4-kalor-spesifik-latihan.md)
+- [6.5 Perubahan Wujud & Kalor Laten](./06.5-kalor-laten-latihan.md)
+- [6.6 Grafik Pemanasan (Kurva Suhu-Waktu)](./06.6-grafik-pemanasan-latihan.md)
+- [6.7 Asas Black & Keseimbangan Termal](./06.7-asas-black-latihan.md)
+- [6.8 Perpindahan Kalor (Konduksi, Konveksi, Radiasi)](./06.8-perpindahan-kalor-latihan.md)
+- [6.9 Aplikasi Elite (EK Mekanik & Radiasi)](./06.9-aplikasi-elite-kalor-latihan.md)
+
 7. [Latihan: Gelombang, Bunyi, Efek Doppler](./07-gelombang-bunyi-latihan.md)
 8. [Latihan: Cermin, Lensa, Alat Optik](./08-optik-latihan.md)
 
