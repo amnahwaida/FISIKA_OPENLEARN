@@ -85,6 +85,12 @@ Zat cair umumnya hanya mengalami **pemuaian volume**. Namun, ada satu pengecuali
 > **Divine Insight: Mengapa Danau Membeku dari Atas?**
 > Saat suhu udara turun mendekati $0^\circ\text{C}$, air di permukaan menjadi dingin hingga $4^\circ\text{C}$. Karena massa jenisnya maksimum, air ini tenggelam ke dasar. Proses ini terus berlanjut hingga *seluruh* danau bersuhu $4^\circ\text{C}$. Saat suhu permukaan turun menjadi $0^\circ\text{C}$, es terbentuk. Es ini memiliki massa jenis lebih ringan dari air $4^\circ\text{C}$ di bawahnya, sehingga ia mengapung. Lapisan es ini kemudian bertindak sebagai selimut pelindung, menjaga air di bawahnya tetap cair agar ikan bertahan hidup selama musim dingin!
 
+### 3.3 "Grandmaster Apex": Tegangan Termal (Thermal Stress)
+Apa yang terjadi jika sebatang logam dipanaskan ($\Delta T$) tetapi ujung-ujungnya **ditahan kaku** sehingga tidak bisa memuai? Benda tersebut akan membangkitkan **Gaya Internal** yang sangat merusak untuk memaksa memuai.
+Berdasarkan modulus elastisitas Young ($Y$):
+$$ F = Y \cdot A \cdot \alpha \cdot \Delta T $$
+> Inilah alasan jembatan tanpa celah memuai akan hancur melengkung. Gaya termal ini bisa mencapai jutaan Newton!
+
 ---
 
 ## 4. Kalor Pemanasan dan Kapasitas Kalor
@@ -120,6 +126,10 @@ $$ Q = m \cdot L $$
 - **Melebur / Membeku:** Gunakan Kalor Lebur ($L_f$).
 - **Menguap / Mengembun:** Gunakan Kalor Uap ($L_v$).
 
+### 5.1 Kalor Sublimasi (Padat $\leftrightarrow$ Gas)
+Zat tertentu seperti Es Kering ($CO_2$ padat) atau kapur barus dapat menyublim menyerap kalor lompat wujud tanpa melewati fase cair. Laten Kalor Sublimasi ($L_s$) didefinisikan secara konseptual setara dengan totalitas kalor lebur ditambah kalor uap:
+$$ L_s \approx L_f + L_v $$
+
 ---
 
 ## 6. Grafik Pemanasan (Kurva Suhu-Waktu)
@@ -151,6 +161,13 @@ $$ Q_{\text{lepas}} = Q_{\text{terima}} $$
 > [!TIP]
 > **Strategi Soal Es & Air:**
 > Jika mencampur es dan air bersuhu panas, jangan langsung berasumsi suhu akhirnya ($T_a$) berada di atas $0^\circ\text{C}$. Bisa jadi air panas tidak cukup energinya untuk meleburkan seluruh es! Suhu akhirnya mungkin akan mengendap konstan di $0^\circ\text{C}$ dengan sebagian es masih tersisa!
+
+### 7.1 Kalorimeter Non-Ideal (Wadah Aktif)
+Di soal tingkat dasar, wadah pencampur (Kalorimeter) diabaikan massa dan kapasitas kalornya. Di dunia nyata (dan OSN), **wadah logam juga ikut menyerap kalor**.
+Maka rumus kesetimbangan meluas menjadi:
+$$ Q_{lepas} = Q_{terima(\text{Zat Cair})} + Q_{terima(\text{Kalorimeter})} $$
+
+> **Nilai Air (Water Equivalent - $W_k$):** Untuk mempermudah, kapasitas kalor wadah sering disetarakan seperti sekian gram "massa air" fiktif ($W_k = \frac{C_{\text{wadah}}}{c_{\text{air}}}$). Siswa cukup menambahkan gram ini ke total massa air dingin seolah-olah volume air bertambah.
 
 ---
 
