@@ -83,6 +83,11 @@ Balok di bidang miring dengan sudut $\theta$:
 - Komponen gaya berat tegak lurus bidang: $w \cos \theta = m \cdot g \cdot \cos \theta$
 - **Gaya Normal:** $N = m \cdot g \cdot \cos \theta$ (jika tidak ada gaya luar lain).
 
+> [!NOTE]
+> **Sudut Kritis (Sudut Repos):**
+> Merupakan sudut kemiringan ($\theta_c$) di mana benda **tepat akan meluncur** ke bawah. Pada kondisi ini, gaya penggerak sama dengan gaya gesek statis maksimum.
+> $mg\sin\theta_c = \mu_s \cdot mg\cos\theta_c \implies \mathbf{\tan\theta_c = \mu_s}$.
+
 ### 3.2 Gaya Tarik pada Sudut Miring (Decomposition)
 Jika sebuah benda di bidang datar ditarik dengan gaya $F$ yang membentuk sudut $\alpha$ terhadap horizontal:
 - Komponen gaya horizontal (penggerak): $F_x = F \cos \alpha$
@@ -116,20 +121,26 @@ Dua massa $m_1$ dan $m_2$ dihubungkan tali melalui katrol ($m_2 > m_1$):
 > Substitusi kembali ke persamaan (i) untuk mendapatkan **Tegangan Tali**:
 > $$ \mathbf{T = \frac{2 m_1 m_2 g}{m_1 + m_2}} $$
 
-### 3.5 Benda Bertumpuk (Stacked Blocks)
+### 3.5 Sistem Benda Terhubung Tali (Sistem Kereta & Katrol Meja)
+Dua balok atau lebih dihubungkan dengan tali dan ditarik bersamaan bergerbong-gerbong.
+- **Percepatan Sistem:** $a = \frac{\Sigma F_{\text{penggerak}} - \Sigma f_k}{m_{\text{total}}}$
+- **Tegangan Tali ($T$):** Selalu tinjau benda yang "diseret" oleh tali tersebut. Tali menanggung beban benda di belakangnya.
+  > Terapkan Hukum II Newton hanya pada benda di belakang tali: $\Sigma F_{\text{belakang}} = m_{\text{belakang}} \cdot a$.
+
+### 3.6 Benda Bertumpuk (Stacked Blocks)
 Dua balok ditumpuk: balok A (atas, massa $m_A$) dan balok B (bawah, massa $m_B$). Gaya $F$ diterapkan pada balok A secara horizontal.
 - Gaya gesek statis antar permukaan ($f_{AB}$) adalah **satu-satunya gaya** yang menggerakkan balok B.
 - Percepatan sistem: $a = \frac{F}{m_A + m_B}$
 - Gaya gesek pada B: $f_{AB} = m_B \cdot a$
 - **Syarat agar tidak selip:** $f_{AB} \leq \mu_s \cdot m_A \cdot g$
 
-### 3.6 Gaya pada Lift (Elevator)
+### 3.7 Gaya pada Lift (Elevator)
 - Lift Diam/GLB: $N = w = mg$
 - Lift Dipercepat ke Atas ($+a$): $N = m(g + a)$ (Terasa lebih berat)
 - Lift Dipercepat ke Bawah ($-a$): $N = m(g - a)$ (Terasa lebih ringan)
 - **Lift Jatuh Bebas ($a = g$):** $N = m(g - g) = 0$ (Keadaan *Weightless/Melayang*)
 
-### 3.7 Kesetimbangan Statis (Benda Digantung 2 Tali)
+### 3.8 Kesetimbangan Statis (Benda Digantung 2 Tali)
 Jika benda bermassa $m$ digantung oleh dua tali yang membentuk sudut $\alpha$ dan $\beta$ terhadap horizontal:
 - $\Sigma F_x = 0$: $T_1 \cos \alpha = T_2 \cos \beta$
 - $\Sigma F_y = 0$: $T_1 \sin \alpha + T_2 \sin \beta = mg$
@@ -170,17 +181,24 @@ $$ F_s = m \cdot a_s = m \cdot \frac{v^2}{R} = m \cdot \omega^2 \cdot R $$
 > Bagi (ii) dengan (i): $\frac{\sin\theta}{\cos\theta} = \frac{v^2}{gR}$
 > $$ \tan \theta = \frac{v^2}{g \cdot R} $$
 
-### 4.1 Gerak Melingkar Vertikal (Roller Coaster)
-Analisis gaya di dua titik krusial:
+### 4.1 Gerak Melingkar Vertikal (Roller Coaster & Jembatan)
+Analisis gaya sangat bergantung pada arah kelengkungan dan posisi benda:
+
+**Pada Roller Coaster / Lilitan Tali:**
 - **Titik Terendah:** $T - mg = m\frac{v^2}{R} \implies T = m\left(\frac{v^2}{R} + g\right)$
 - **Titik Tertinggi:** $T + mg = m\frac{v^2}{R} \implies T = m\left(\frac{v^2}{R} - g\right)$
 
 > [!NOTE]
 > **Derivasi Kecepatan Minimum di Puncak:**
-> Agar tali tidak kendur, syaratnya $T \geq 0$. Pada batas kritis ($T = 0$):
-> $mg = m\frac{v_{min}^2}{R}$
-> Massa saling menghilangkan:
-> $$ v_{min} = \sqrt{g \cdot R} $$
+> Agar tali / lintasan tidak kendur, syarat batasnya $T \geq 0$. Pada batas kritis ($T = 0$):
+> $mg = m\frac{v_{min}^2}{R} \implies \mathbf{v_{min} = \sqrt{g \cdot R}}$
+
+**Gaya Normal Kendaraan pada Jembatan/Lembah:**
+- **Puncak Bukit Cembung:** Analog dengan titik tertinggi. Gaya berat mengarah ke pusat. 
+  $mg - N = m\frac{v^2}{R}$.
+  *(Jika $v$ melebihi $\sqrt{gR}$, maka kecepatan sentripetal yang dibutuhkan terlalu besar, Normal menjadi nol, dan mobil terbang lepas dari jalan).*
+- **Dasar Lembah Cekung:** Analog dengan titik terendah. Gaya normal mengarah ke pusat.
+  $N - mg = m\frac{v^2}{R}$.
 
 ---
 
