@@ -33,6 +33,14 @@ $$ v_{\text{res}} = \sqrt{v_p^2 + v_s^2} $$
 Perubahan kecepatan tiap satuan waktu. Percepatan bernilai positif ($+$) berarti benda dipercepat, sedangkan negatif ($-$) berarti benda diperlambat.
 $$ a = \frac{\Delta v}{\Delta t} = \frac{v_t - v_0}{t} $$
 
+### 1.4 Kinematika dengan Analisis Vektor (Kalkulus Dasar)
+Pada tingkat lanjut, besaran kinematika didefinisikan menggunakan operasi turunan (derivatif):
+- **Kecepatan Sesaat ($v$):** Turunan pertama fungsi posisi ($r$) terhadap waktu.
+  $$ v(t) = \frac{dr}{dt} $$
+- **Percepatan Sesaat ($a$):** Turunan pertama fungsi kecepatan ($v$) terhadap waktu.
+  $$ a(t) = \frac{dv}{dt} $$
+*(Contoh: Jika $r(t) = 2t^3$, maka $v(t) = 6t^2$ dan $a(t) = 12t$).*
+
 ---
 
 ## 2. Gerak Lurus Beraturan (GLB)
@@ -45,6 +53,10 @@ GLB adalah gerak benda pada lintasan lurus dengan **kecepatan konstan ($v$ tetap
 - **Grafik GLB:**
   - Grafik $s-t$ (Jarak-Waktu) berupa garis lurus miring ke atas (linear).
   - Grafik $v-t$ (Kecepatan-Waktu) berupa garis lurus mendatar (horizontal).
+
+### 2.1 Logika Gerak Menyusul
+Kasus di mana benda B mengejar benda A yang berada di depannya. Syarat benda B menyusul benda A adalah **Posisi Akhir Sama ($x_A = x_B$)** pada waktu yang sama ($t$).
+$$ x_{0A} + v_A \cdot t = x_{0B} + v_B \cdot t $$
 
 ---
 
@@ -106,8 +118,13 @@ Koordinat peluru pada sembarang waktu $t$ selama di udara:
 - **Posisi Mendatar ($x$):** $x(t) = v_0 \cos \alpha \cdot t$
 - **Posisi Vertikal ($y$):** $y(t) = v_0 \sin \alpha \cdot t - \frac{1}{2}gt^2$
 
-**Kecepatan Setiap Saat ($v_t$):**
 $$ v_t = \sqrt{v_x^2 + v_{ty}^2} \quad \text{di mana } v_{ty} = v_0 \sin \alpha - gt $$
+
+**Vektor Kecepatan dalam Notasi $\hat{i}, \hat{j}$:**
+$$ \vec{v}(t) = (v_0 \cos \alpha) \hat{i} + (v_0 \sin \alpha - gt) \hat{j} $$
+
+**Analisis Sudut Elevasi Maksimum:**
+Jangkauan terjauh ($x_{\text{max}}$) akan dicapai jika $\sin 2\alpha$ bernilai maksimum (yaitu 1). Hal ini terjadi saat $2\alpha = 90^\circ$, atau **$\alpha = 45^\circ$**.
 
 ---
 
