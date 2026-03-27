@@ -23,6 +23,11 @@ Sebelum kita masuk ke jenis-jenis gerak, sangat penting untuk memahami perbedaan
 - **Kecepatan (Vektor):** Perpindahan per satuan waktu.
   $$ \vec{v} = \frac{\Delta \vec{x}}{\Delta t} = \frac{\vec{x}_t - \vec{x}_0}{t_t - t_0} $$
 
+> [!TIP]
+> **Kecepatan Rata-rata Lintasan Bertahap:**
+> Jika benda menempuh paruh jarak pertama dengan $v_1$ dan paruh jarak kedua dengan $v_2$, kecepatan rata-ratanya adalah **rata-rata harmonik**:
+> $$ v_{avg} = \frac{2 \cdot v_1 \cdot v_2}{v_1 + v_2} $$
+
 **Kecepatan Relatif 2 Dimensi (Kasus Vektor):**
 Jika sebuah benda (misal perahu) bergerak dengan kecepatan $\vec{v}_p$ di atas medium (misal sungai) yang juga bergerak dengan kecepatan $\vec{v}_s$, maka kecepatan total perahu terhadap pengamat diam di pinggir adalah:
 $$ \vec{v}_{\text{total}} = \vec{v}_p + \vec{v}_s $$
@@ -138,6 +143,14 @@ Jangkauan terjauh ($x_{\text{max}}$) akan dicapai jika $\sin 2\alpha$ bernilai m
 **Persamaan Lintasan ($y$ sebagai fungsi $x$):**
 Jika kita mengeliminasi variabel waktu ($t$), kita mendapatkan persamaan parabola murni:
 $$ y = x \tan \alpha - \frac{gx^2}{2v_0^2 \cos^2 \alpha} $$
+
+**Penembakan dari Ketinggian ($H$):**
+Jika benda ditembakkan dari puncak gedung setinggi $H$, maka posisi vertikalnya terhadap tanah adalah:
+$$ y(t) = H + v_0 \sin \alpha \cdot t - \frac{1}{2}gt^2 $$
+*(Benda mencapai tanah saat $y = 0$).*
+
+**Sifat Sudut Komplementer:**
+Jangkauan mendatar ($x_{\text{max}}$) akan bernilai sama untuk dua sudut elevasi $\theta_1$ dan $\theta_2$ yang berjumlah $90^\circ$ (misal $30^\circ$ dan $60^\circ$).
 
 ---
 
