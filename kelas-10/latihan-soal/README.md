@@ -34,7 +34,7 @@ Selamat datang di Bank Soal Kelas 10. Kerjakan soal-soal di bawah ini untuk meng
 - [4.8 Aplikasi Elite (Loop & Escape Velocity)](./04.8-aplikasi-elite-latihan.md)
 - [4.9 Pesawat Sederhana](./04.9-pesawat-sederhana-latihan.md)
 
-5. [Latihan: Momentum, Impuls, Tumbukan](./05-momentum-latihan.md)
+
 ### Bab 5: Momentum, Impuls, dan Tumbukan
 - [5.1 Pendahuluan & Konsep Momentum](./05.1-pendahuluan-momentum-latihan.md)
 - [5.2 Momentum Linear](./05.2-momentum-latihan.md)

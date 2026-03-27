@@ -33,6 +33,12 @@ Momentum linear ($\vec{p}$) adalah besaran **vektor** yang menggambarkan kuantit
 
 $$ \vec{p} = m \cdot \vec{v} $$
 
+> [!IMPORTANT]
+> **Eternal Bridge: Momentum Relativistik:**
+> Pada kecepatan mendekati cahaya, massa benda tampak bertambah ($m_{\text{rel}} = \gamma m_0$). Oleh karena itu, rumus momentum menjadi:
+> $$ \vec{p} = \gamma m_0 \vec{v} = \frac{m_0 \vec{v}}{\sqrt{1 - \frac{v^2}{c^2}}} $$
+> Tanpa faktor Lorentz ($\gamma$), perhitungan momentum roket antar bintang atau partikel atom akan salah total.
+
 Dimana:
 - $\vec{p}$ = Momentum (kg·m/s)
 - $m$ = Massa benda (kg)
@@ -114,7 +120,11 @@ $$ m_1 v_1 + m_2 v_2 = m_1 v_1' + m_2 v_2' $$
 
 **Q.E.D.** — Momentum total sistem selalu konstan.
 
-### 4.2 Syarat Berlakunya HKML
+### 4.3 "The Apex": Teorema Noether (Simetri Translasi Ruang)
+Mengapa momentum harus kekal? 
+Fisikawan Emmy Noether membuktikan bahwa momentum kekal karena alam semesta memiliki **Simetri Translasi Ruang** (Homogenitas Ruang). Artinya, hukum fisika di Jakarta sama dengan hukum fisika di bulan Mars. Karena hukum alam tidak bergantung pada *lokasi* spesifik di ruang hampa, maka momentum sistem tertutup harus bernilai tetap. Inilah landasan filosofis terdalam dari mekanika.
+
+### 4.4 Syarat Berlakunya HKML
 HKML hanya berlaku jika:
 1. **Sistem tertutup** (tidak ada gaya luar netto yang bekerja, atau gaya luar jauh lebih kecil dari gaya internal tumbukan).
 2. **Resultan gaya luar = 0** ($\Sigma \vec{F}_{ext} = 0$).
@@ -187,6 +197,10 @@ Dalam tumbukan miring (seperti bola biliar), HKML berlaku **secara terpisah** pa
 3. Terapkan HKML pada masing-masing sumbu secara independen.
 4. Gabungkan hasil untuk mendapatkan besar dan arah kecepatan akhir.
 
+> [!IMPORTANT]
+> **Apex Detail: Tumbukan Miring & Restitusi ($e$):**
+> Pada tumbukan 2D, koefisien restitusi ($e$) **HANYA** berlaku pada komponen kecepatan yang tegak lurus bidang sentuh (sumbu normal). Komponen kecepatan yang sejajar bidang sentuh (sumbu tangensial) tidak berubah jika bidang tersebut licin sempurna.
+
 > [!TIP]
 > **Fakta Biliar:**
 > Pada tumbukan lenting sempurna antara dua bola bermassa sama (salah satu diam), sudut antara kedua bola setelah tumbukan selalu **$90°$**. Ini adalah konsekuensi matematis murni dari HKML + Kekekalan EK.
@@ -202,6 +216,13 @@ $$ x_{cm} = \frac{\sum m_i x_i}{\sum m_i} = \frac{m_1 x_1 + m_2 x_2 + \ldots}{m_
 
 ### 7.2 Kecepatan Pusat Massa
 $$ v_{cm} = \frac{p_{total}}{m_{total}} = \frac{m_1 v_1 + m_2 v_2}{m_1 + m_2} $$
+
+### 7.3 Massa Tereduksi (Reduced Mass - $\mu$)
+Untuk sistem dua benda yang saling berinteraksi (seperti planet dan satelit, atau dua atom), kita bisa menyederhanakan masalah dengan menganggap salah satu benda diam dan benda lainnya memiliki massa "terreduksi":
+
+$$ \mu = \frac{m_1 \cdot m_2}{m_1 + m_2} $$
+
+Ini adalah teknik "Sakti" untuk menghitung energi kinetik relatif sistem tanpa harus menganalisis dua benda secara terpisah: $EK_{\text{rel}} = \frac{1}{2}\mu v_{\text{rel}}^2$.
 
 > [!IMPORTANT]
 > **Properti Ajaib Pusat Massa:**
