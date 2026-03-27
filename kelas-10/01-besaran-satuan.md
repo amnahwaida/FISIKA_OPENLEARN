@@ -78,6 +78,12 @@ Terdapat tujuh besaran dasar yang disepakati secara internasional (Sistem Intern
 | Intensitas Cahaya | candela | cd | [J] |
 | Jumlah Zat | mol | mol | [N] |
 
+> [!NOTE]
+> **Misteri Variasi Nilai Gravitasi ($g$):**
+> Mengapa di buku teks nilai $g$ sering berbeda ($9,8$ vs $10$)?
+> - **Fakta:** Gravitasi bumi tidak seragam. Di kutub, gravitasi lebih besar ($9,83 \text{ m/s}^2$) karena jarak ke pusat bumi lebih dekat. Di khatulistiwa, lebih kecil ($9,78 \text{ m/s}^2$) karena rotasi bumi.
+> - **Standar:** Nilai $9,80665 \text{ m/s}^2$ adalah standar percepatan normal gravitasi laut yang disepakati internasional. Angka $10 \text{ m/s}^2$ hanyalah pembulatan untuk mempermudah perhitungan soal sekolah.
+
 ### 3.2 Besaran Turunan dan Dimensi
 Besaran yang diturunkan dari kombinasi besaran pokok disebut **Besaran Turunan**. **Dimensi** digunakan untuk menggambarkan bagaimana suatu besaran turunan tersusun dari besaran pokok. Analisis dimensi sangat berguna untuk membuktikan kebenaran sebuah persamaan fisika.
 
@@ -233,7 +239,7 @@ Berikut adalah 4 skala pengukuran suhu beserta titik beku air (bawah) dan titik 
 - **Celsius ($^\circ\text{C}$):** Titik bawah $0^\circ$, titik atas $100^\circ$. (Skala $100$).
 - **Reamur ($^\circ\text{R}$):** Titik bawah $0^\circ$, titik atas $80^\circ$. (Skala $80$).
 - **Fahrenheit ($^\circ\text{F}$):** Titik bawah $32^\circ$, titik atas $212^\circ$. (Skala $180$).
-- **Kelvin ($\text{K}$):** Titik bawah $273$, titik atas $373$. (Skala $100$). 
+- **Kelvin ($\text{K}$):** Titik bawah $273$, titik atas $373$. (Skala $100$).
 *(Catatan: Kelvin merupakan skala mutlak sehingga penulisannya tidak menggunakan simbol derajat $\circ$)*.
 
 Dikenal pula konsep **Termometer Skala Sembarang (Skala X)**. Jika sebuah termometer memiliki titik beku $X_b$ dan titik didih $X_a$, maka konversi nilai ke Celsius ($C$) menggunakan perbandingan linear:
@@ -325,6 +331,14 @@ Jika kita melakukan perhitungan menggunakan dua atau lebih hasil pengukuran yang
 
 Hasil pengukuran harus ditulis sesuai dengan ketelitian alat ukur melalui aturan **Angka Penting**. Secara umum, angka penting terdiri dari angka pasti dan satu angka terakhir yang ditaksir (angka ragu-ragu).
 
+> [!TIP]
+> **Seni Interpolasi (Membaca Angka Taksiran):**
+> Bagaimana cara mendapatkan "Angka Ragu-ragu"?
+> Pada alat analog (seperti mistar), jika ujung benda berada tepat di tengah antara garis `5,1 cm` dan `5,2 cm`, mata kita melakukan **Interpolasi**. Kita memperkirakan bahwa ia berada di posisi `5,15 cm`.
+> - **5,1** adalah Angka Pasti (karena ada garis skalanya).
+> - **0,05** adalah Angka Taksiran (hasil perkiraan mata manusia).
+> Tanpa angka taksiran ini, informasi presisi alat ukur akan terbuang sia-sia.
+
 ### 6.1 Aturan Penulisan Angka Penting
 1. **Semua angka bukan nol** adalah Angka Penting (AP). (Contoh: 123,4 memiliki 4 AP).
 2. **Angka nol di antara angka bukan nol** adalah AP. (Contoh: 2005 memiliki 4 AP).
@@ -414,12 +428,12 @@ Vektor dapat dikalikan satu sama lain dengan dua metode matematis utama yang mem
 1. **Perkalian Titik (Dot Product) $\rightarrow$ Menghasilkan Skalar**
    Digunakan ketika dua vektor dikalikan untuk mendapatkan nilai energi/besaran yang tidak punya arah. (Contoh fisis: Usaha matematis $W = \vec{F} \cdot \vec{s}$).
    $$ \vec{A} \cdot \vec{B} = |\vec{A}| \cdot |\vec{B}| \cdot \cos(\theta) $$
-   *(Catatan: Karena berupa skalar, hasilnya cukup berupa nilai numerik tunggal tanpa arah).*
+   * **Interpretasi Geometris:** Perkalian antara besar satu vektor dengan **Proyeksi (Bayangan)** vektor lainnya yang searah.
 
 2. **Perkalian Silang (Cross Product) $\rightarrow$ Menghasilkan Vektor Baru**
    Digunakan ketika hasil kali kedua vektor menciptakan efek putaran (torsi) atau gaya pada sumbu ketiga (ruang 3D) yang tegak lurus dari kedua vektor asalnya. (Contoh fisis: Momen Gaya / Torsi $\vec{\tau} = \vec{r} \times \vec{F}$).
    $$ |\vec{A} \times \vec{B}| = |\vec{A}| \cdot |\vec{B}| \cdot \sin(\theta) $$
-   *(Catatan: Penentuan arah vektor yang baru ditelusuri menggunakan insting Aturan Tangan Kanan dari $\vec{A}$ menuju $\vec{B}$).*
+   * **Interpretasi Geometris:** Besarnya perkalian ini sama dengan **Luas Jajar Genjang** yang dibentuk oleh kedua vektor tersebut. Semakin tegak lurus kedua vektor, semakin besar luas (efek putarannya).
 
 ### 7.5 Vektor Satuan ($\hat{i}, \hat{j}, \hat{k}$)
 Vektor satuan adalah vektor yang besarnya satu satuan dan berfungsi untuk menunjukkan arah dalam ruang koordinat.
