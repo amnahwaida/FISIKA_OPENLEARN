@@ -121,6 +121,12 @@ Dimana:
 > Gaya pegas menurut Hukum Hooke: $F = k \cdot \Delta x$. Grafik $F$ vs $\Delta x$ adalah garis lurus melalui titik asal. Usaha yang dilakukan pegas (= energi yang tersimpan) adalah luas segitiga di bawah garis tersebut:
 > $$ W = \text{Luas} = \frac{1}{2} \times \text{alas} \times \text{tinggi} = \frac{1}{2} \times \Delta x \times k\Delta x = \frac{1}{2} k (\Delta x)^2 $$
 
+> [!TIP]
+> **Usaha Pegas dari Posisi Non-Nol ($x_1 \to x_2$):**
+> Jika pegas sudah teregang dari $x_1$ dan ditarik lebih jauh ke $x_2$, maka usahanya bukan $\frac{1}{2}kx_2^2$ saja, melainkan:
+> $$ W_{pegas} = \frac{1}{2}k x_1^2 - \frac{1}{2}k x_2^2 $$
+> Ini adalah **selisih luas trapesium** pada grafik $F$-$x$, bukan luas segitiga dari nol.
+
 ### 3.4 Energi Mekanik Total ($EM$)
 Energi mekanik total suatu benda adalah jumlah dari energi kinetik dan energi potensialnya:
 
@@ -174,7 +180,21 @@ $$ W_{gesek} = -f_k \cdot s $$
 
 ## 6. Hukum Kekekalan Energi Mekanik (HKEM)
 
-### 6.1 Sistem Konservatif (Tanpa Gesekan)
+### 6.1 Derivasi HKEM dari Teorema Usaha-Energi (Bukti Formal)
+Mengapa HKEM berlaku? Karena ia **lahir** dari Teorema Usaha-Energi.
+
+**Bukti:**
+Jika satu-satunya gaya yang bekerja adalah gravitasi, maka:
+$$ W_{gravitasi} = \Delta EK $$
+Usaha gravitasi juga sama dengan negatif perubahan Energi Potensial:
+$$ W_{gravitasi} = -(EP_2 - EP_1) = EP_1 - EP_2 $$
+Substitusi:
+$$ EP_1 - EP_2 = EK_2 - EK_1 $$
+Pindahkan ruas:
+$$ \mathbf{EK_1 + EP_1 = EK_2 + EP_2} $$
+**Q.E.D.** (Quod Erat Demonstrandum — Terbukti!)
+
+### 6.2 Sistem Konservatif (Tanpa Gesekan)
 Jika **hanya gaya konservatif** yang bekerja, maka energi mekanik total di setiap titik selalu sama:
 
 $$ EM_1 = EM_2 $$
@@ -185,7 +205,7 @@ $$ \frac{1}{2}mv_1^2 + mgh_1 = \frac{1}{2}mv_2^2 + mgh_2 $$
 > **Keindahan HKEM:**
 > Perhatikan bahwa massa ($m$) bisa **dicoret** dari kedua ruas! Artinya, kecepatan benda di dasar luncuran **tidak bergantung pada massanya**, hanya pada ketinggian. Sebuah kelereng dan bola bowling akan tiba di bawah dengan kecepatan yang sama (tanpa gesekan).
 
-### 6.2 Sistem Non-Konservatif (Dengan Gesekan)
+### 6.3 Sistem Non-Konservatif (Dengan Gesekan)
 Jika ada gaya gesekan, maka energi mekanik berkurang sebesar usaha gesekan:
 
 $$ EM_1 + W_{gesek} = EM_2 $$
@@ -264,6 +284,45 @@ $$ v_{esc} \approx 11.200 \text{ m/s} \approx \mathbf{11,2 \text{ km/s}} $$
 > [!CAUTION]
 > **Fakta Mencengangkan:**
 > Kecepatan lepas tidak bergantung pada massa roket! Sebuah bola tenis dan pesawat ulang-alik membutuhkan kecepatan lepas yang sama. Yang berbeda hanyalah **energi (bahan bakar)** yang dibutuhkan untuk mencapai kecepatan tersebut.
+
+---
+
+## 9. Pesawat Sederhana dan Keuntungan Mekanis
+
+Pesawat sederhana adalah alat yang mempermudah pekerjaan manusia. Prinsip dasarnya: **Usaha Input = Usaha Output** (dalam kondisi ideal tanpa gesekan).
+$$ F_1 \cdot s_1 = F_2 \cdot s_2 $$
+
+### 9.1 Keuntungan Mekanis (KM)
+Keuntungan Mekanis menyatakan berapa kali lipat gaya diperkuat oleh pesawat sederhana:
+$$ KM = \frac{F_{beban}}{F_{kuasa}} = \frac{s_{kuasa}}{s_{beban}} $$
+
+### 9.2 Tuas (Pengungkit)
+Tuas dibagi menjadi tiga jenis berdasarkan posisi titik tumpu (T), beban (B), dan kuasa (K):
+| Jenis | Susunan | Contoh |
+| :---: | :--- | :--- |
+| **I** | B — T — K | Gunting, Jungkat-jungkit |
+| **II** | T — B — K | Pembuka botol, Gerobak |
+| **III** | T — K — B | Pinset, Lengan manusia |
+
+Rumus Tuas:
+$$ F_1 \cdot l_1 = F_2 \cdot l_2 $$
+$$ KM = \frac{l_{kuasa}}{l_{beban}} $$
+
+### 9.3 Bidang Miring
+Bidang miring memperkecil gaya yang dibutuhkan untuk menaikkan benda ke ketinggian $h$ dengan menempuh lintasan miring sepanjang $s$:
+$$ F \cdot s = W \cdot h \implies F = W \cdot \frac{h}{s} = mg \sin\theta $$
+$$ KM = \frac{s}{h} = \frac{1}{\sin\theta} $$
+
+### 9.4 Katrol
+| Jenis | KM | Keterangan |
+| :--- | :---: | :--- |
+| **Katrol Tetap** | $1$ | Hanya mengubah arah gaya |
+| **Katrol Bebas** | $2$ | Memperkecil gaya $2\times$ |
+| **Katrol Majemuk** ($n$ tali) | $n$ | Memperkecil gaya $n$ kali |
+
+> [!WARNING]
+> **"Tidak Ada Makan Siang Gratis":**
+> Pesawat sederhana memperkecil gaya, tetapi memperbesar jarak tempuh. Total **Usaha** yang dilakukan tetap sama (bahkan lebih besar jika ada gesekan). Ini adalah konsekuensi langsung dari Hukum Kekekalan Energi.
 
 ---
 
