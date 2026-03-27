@@ -13,12 +13,19 @@ Sir Isaac Newton merumuskan tiga hukum dasar yang menjadi fondasi mekanika klasi
 "Setiap benda akan tetap diam atau bergerak lurus beraturan jika tidak ada gaya luar yang bekerja padanya."
 $$ \Sigma F = 0 $$
 - **Inersia:** Kecenderungan benda untuk mempertahankan keadaannya.
-- **Contoh:** Tubuh terdorong ke depan saat mobil direm mendadak.
+- **Contoh-contoh kehidupan nyata:**
+  - Tubuh terdorong ke depan saat mobil direm mendadak.
+  - Koin di atas kertas tetap diam saat kertas ditarik dengan cepat.
+  - Benda di dashboard mobil terlempar ke samping saat belok tajam (benda mempertahankan arah lurus).
 
 ### 1.2 Hukum II Newton (Hukum Percepatan)
 "Percepatan sebuah benda berbanding lurus dengan resultan gaya yang bekerja dan berbanding terbalik dengan massanya."
 $$ \Sigma F = m \cdot a $$
 - Satuan Gaya ($F$): Newton (N) atau kg·m/s².
+
+> [!NOTE]
+> **Hubungan Hukum I dan II:**
+> Hukum I Newton sebenarnya adalah **kasus khusus** dari Hukum II ketika $a = 0$. Jika $a = 0$, maka $\Sigma F = m \cdot 0 = 0$. Inilah mengapa Hukum I menyatakan "$\Sigma F = 0$" untuk benda diam atau GLB. Ketiga hukum Newton bukan tiga hal terpisah — mereka adalah **satu kesatuan logika**.
 
 ### 1.3 Hukum III Newton (Aksi-Reaksi)
 "Setiap ada gaya aksi, akan selalu ada gaya reaksi yang besarnya sama, arahnya berlawanan, dan bekerja pada dua benda yang berbeda."
@@ -49,6 +56,7 @@ $$ F_{\text{aksi}} = -F_{\text{reaksi}} $$
 > - Bidang miring sudut $\theta$: $N = mg\cos\theta$
 > - Di dalam lift naik ($+a$): $N = m(g+a)$
 > - Ditarik ke atas dengan gaya $F$: $N = mg - F\sin\alpha$
+> - **Didorong ke bawah** dengan gaya $F$: $N = mg + F\sin\alpha$
 
 3. **Gaya Tegangan Tali ($T$):** Gaya pada tali yang tegang. Arahnya menjauhi benda yang ditinjau.
 4. **Gaya Gesek ($f$):** Gaya yang menghambat gerak benda. Arahnya berlawanan dengan arah gerak/kecenderungan gerak.
@@ -82,7 +90,17 @@ Jika sebuah benda di bidang datar ditarik dengan gaya $F$ yang membentuk sudut $
 - **Gaya Normal menjadi:** $N = mg - F \sin \alpha$
 - Percepatan: $a = \frac{F\cos\alpha - \mu_k(mg - F\sin\alpha)}{m}$
 
-### 3.3 Sistem Katrol (Atwood Machine)
+### 3.3 Gaya Dorong pada Sudut ke Bawah (Push Force)
+Kebalikan dari gaya tarik: jika benda **didorong** dengan sudut $\alpha$ ke bawah:
+- Komponen horizontal tetap: $F_x = F \cos \alpha$
+- Komponen vertikal kini **menambah** Normal: $N = mg + F \sin \alpha$
+- Gesek jadi lebih besar: $f_k = \mu_k \cdot (mg + F\sin\alpha)$
+
+> [!TIP]
+> **Menarik vs Mendorong: Mana Lebih Efisien?**
+> **Menarik** selalu lebih efisien daripada mendorong pada sudut yang sama, karena menarik mengurangi gaya Normal (dan gesek), sedangkan mendorong menambah gaya Normal (dan gesek).
+
+### 3.4 Sistem Katrol (Atwood Machine)
 Dua massa $m_1$ dan $m_2$ dihubungkan tali melalui katrol ($m_2 > m_1$):
 
 > [!NOTE]
@@ -98,18 +116,23 @@ Dua massa $m_1$ dan $m_2$ dihubungkan tali melalui katrol ($m_2 > m_1$):
 > Substitusi kembali ke persamaan (i) untuk mendapatkan **Tegangan Tali**:
 > $$ \mathbf{T = \frac{2 m_1 m_2 g}{m_1 + m_2}} $$
 
-### 3.4 Benda Bertumpuk (Stacked Blocks)
+### 3.5 Benda Bertumpuk (Stacked Blocks)
 Dua balok ditumpuk: balok A (atas, massa $m_A$) dan balok B (bawah, massa $m_B$). Gaya $F$ diterapkan pada balok A secara horizontal.
 - Gaya gesek statis antar permukaan ($f_{AB}$) adalah **satu-satunya gaya** yang menggerakkan balok B.
 - Percepatan sistem: $a = \frac{F}{m_A + m_B}$
 - Gaya gesek pada B: $f_{AB} = m_B \cdot a$
 - **Syarat agar tidak selip:** $f_{AB} \leq \mu_s \cdot m_A \cdot g$
 
-### 3.5 Gaya pada Lift (Elevator)
+### 3.6 Gaya pada Lift (Elevator)
 - Lift Diam/GLB: $N = w = mg$
 - Lift Dipercepat ke Atas ($+a$): $N = m(g + a)$ (Terasa lebih berat)
 - Lift Dipercepat ke Bawah ($-a$): $N = m(g - a)$ (Terasa lebih ringan)
 - **Lift Jatuh Bebas ($a = g$):** $N = m(g - g) = 0$ (Keadaan *Weightless/Melayang*)
+
+### 3.7 Kesetimbangan Statis (Benda Digantung 2 Tali)
+Jika benda bermassa $m$ digantung oleh dua tali yang membentuk sudut $\alpha$ dan $\beta$ terhadap horizontal:
+- $\Sigma F_x = 0$: $T_1 \cos \alpha = T_2 \cos \beta$
+- $\Sigma F_y = 0$: $T_1 \sin \alpha + T_2 \sin \beta = mg$
 
 ---
 
@@ -117,17 +140,47 @@ Dua balok ditumpuk: balok A (atas, massa $m_A$) dan balok B (bawah, massa $m_B$)
 Agar benda dapat bergerak melingkar, harus ada gaya yang mengarah ke pusat lingkaran, disebut **Gaya Sentripetal ($F_s$)**.
 $$ F_s = m \cdot a_s = m \cdot \frac{v^2}{R} = m \cdot \omega^2 \cdot R $$
 
+> [!WARNING]
+> **Gaya Sentripetal BUKAN Gaya Baru!**
+> $F_s$ adalah **peran** yang dimainkan oleh gaya yang sudah ada. Jangan pernah menggambar "$F_s$" sebagai gaya tambahan di Diagram Benda Bebas (FBD). Identifikasi gaya aslinya:
+> - Pada tali: $F_s$ = Tegangan Tali ($T$).
+> - Pada tikungan: $F_s$ = Gaya Gesek ($f_s$) atau komponen Normal ($N\sin\theta$).
+> - Pada orbit planet: $F_s$ = Gaya Gravitasi.
+
+> [!NOTE]
+> **Gaya Sentrifugal (Klarifikasi):**
+> Gaya sentrifugal adalah **gaya semu (fictitious force)** yang hanya muncul di kerangka acuan yang berputar (non-inersial). Dalam kerangka inersial (pengamat diam), gaya ini **tidak ada**. Jadi, dalam analisis soal SMA yang menggunakan kerangka inersial, **jangan gunakan gaya sentrifugal**.
+
 **Kasus Populer:**
-- **Tikungan Datar (Kasar):** $v_{\text{max}} = \sqrt{\mu_s \cdot g \cdot R}$
-- **Tikungan Miring (Licin):** $\tan \theta = \frac{v^2}{g \cdot R}$
+
+**Tikungan Datar (Kasar):**
+
+> [!NOTE]
+> **Derivasi:** Gaya gesek statis berperan sebagai $F_s$:
+> $f_s = F_s \implies \mu_s \cdot mg = m\frac{v^2}{R}$
+> Massa saling menghilangkan:
+> $$ v_{max} = \sqrt{\mu_s \cdot g \cdot R} $$
+
+**Tikungan Miring (Licin):**
+
+> [!NOTE]
+> **Derivasi:** Komponen Normal menyediakan $F_s$:
+> - Vertikal: $N\cos\theta = mg$ ... (i)
+> - Horizontal: $N\sin\theta = m\frac{v^2}{R}$ ... (ii)
+> Bagi (ii) dengan (i): $\frac{\sin\theta}{\cos\theta} = \frac{v^2}{gR}$
+> $$ \tan \theta = \frac{v^2}{g \cdot R} $$
 
 ### 4.1 Gerak Melingkar Vertikal (Roller Coaster)
 Analisis gaya di dua titik krusial:
 - **Titik Terendah:** $T - mg = m\frac{v^2}{R} \implies T = m\left(\frac{v^2}{R} + g\right)$
 - **Titik Tertinggi:** $T + mg = m\frac{v^2}{R} \implies T = m\left(\frac{v^2}{R} - g\right)$
 
-**Syarat kecepatan minimum di puncak** agar tali tidak kendur ($T \geq 0$):
-$$ v_{min} = \sqrt{g \cdot R} $$
+> [!NOTE]
+> **Derivasi Kecepatan Minimum di Puncak:**
+> Agar tali tidak kendur, syaratnya $T \geq 0$. Pada batas kritis ($T = 0$):
+> $mg = m\frac{v_{min}^2}{R}$
+> Massa saling menghilangkan:
+> $$ v_{min} = \sqrt{g \cdot R} $$
 
 ---
 
