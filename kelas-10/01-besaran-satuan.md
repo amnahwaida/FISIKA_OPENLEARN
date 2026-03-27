@@ -254,7 +254,30 @@ Memiliki **nilai (magnitude)** dan **arah**. Arah sangat menentukan hasil akhir 
 
 > **Penting:** Dalam penulisan, simbol besaran vektor biasanya ditebalkan (Contoh: **F**) atau diberi tanda anak panah di atasnya ($\vec{F}$). Secara visual, vektor digambarkan dengan anak panah, di mana panjang panah menyatakan besarnya nilai dan ujung panah menyatakan arahnya.
 
+### 5.3 Operasi Besaran Skalar
+Operasi penjumlahan, pengurangan, perkalian, atau pembagian pada besaran skalar dapat dilakukan menggunakan operasi aljabar biasa. Syarat utama untuk menjumlahkan atom mengurangkan besaran skalar adalah **satuannya harus sama**.
+- **Contoh:** Massa $3 \text{ kg} + 2 \text{ kg} = 5 \text{ kg}$. (Jika berbeda satuan: $1 \text{ jam} + 30 \text{ menit}$, harus disamakan terlebih dahulu menjadi $90 \text{ menit}$ atau $1,5 \text{ jam}$).
+
+### 5.4 Operasi Besaran Vektor
+Berbeda dengan skalar, besaran vektor **tidak bisa** langsung dijumlahkan secara numerik karena terikat oleh arah. Penjumlahan beberapa vektor akan menghasilkan panah baru yang disebut **Resultan ($R$)**.
+
+#### A. Penjumlahan Vektor (Metode Analitis Sudut Apit)
+Metode ini digunakan untuk menjumlahkan dua vektor yang pangkalnya bertemu dan membentuk sudut apit lurus $\alpha$. Rumus matematis menghitung kuat resultan ($R$) antara dua vektor ($F_1$ dan $F_2$) adalah menggunakan Rumus Cosinus:
+$$ R = \sqrt{F_1^2 + F_2^2 + 2 \cdot F_1 \cdot F_2 \cdot \cos(\alpha)} $$
+
+- _Kondisi khusus:_ 
+  - Jika searah ($\alpha = 0^\circ$): $R = F_1 + F_2$ (Maksimum).
+  - Jika berlawanan arah ($\alpha = 180^\circ$): $R = |F_1 - F_2|$ (Minimum).
+  - Jika tegak lurus ($\alpha = 90^\circ$): $R = \sqrt{F_1^2 + F_2^2}$ (Phytagoras).
+
+#### B. Penguraian Vektor ke Sumbu Koordinat (Metode Komponen XY)
+Jika terdapat lebih dari dua vektor menyebar merata, cara penyelesaian paling aman adalah menguraikan setiap kemiringan menjadi komponen horizontal (Sumbu $X$) dan komponen vertikal (Sumbu $Y$) menggunakan prinsip trigonometri sudut $\theta$ (sudut kemiringan terhadap sumbu mendatar).
+- **Proyeksi Sumbu X:** $F_x = F \cdot \cos(\theta)$
+- **Proyeksi Sumbu Y:** $F_y = F \cdot \sin(\theta)$
+
+Setelah semua gaya dipecah, jumlahkan per masing-masing sumbu ($\sum F_x$ dan $\sum F_y$). Resultan totalnya ditegakkan kembali dengan Phytagoras:
+$$ R_{\text{total}} = \sqrt{(\sum F_x)^2 + (\sum F_y)^2} $$
 
 ---
 
-*(Seluruh pembahasan contoh soal dan aplikasi perhitungan vektor telah tersedia di halaman [Latihan Soal Kelas 10](./latihan-soal/README.md))*
+*(Seluruh pembahasan contoh soal dan aplikasi perhitungan vektor di atas telah tersedia di halaman [Latihan Soal Kelas 10](./latihan-soal/README.md))*
