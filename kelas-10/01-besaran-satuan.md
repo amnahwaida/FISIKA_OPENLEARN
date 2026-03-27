@@ -94,6 +94,16 @@ Berikut adalah 7 contoh cara menurunkan dimensi dari yang paling sederhana hingg
 | 1 | **Luas** | $p \times l$ | $[L] \times [L]$ | $[L]^2$ |
 | 2 | **Volume** | $p \times l \times t$ | $[L] \times [L] \times [L]$ | $[L]^3$ |
 | 3 | **Massa Jenis** | $m / V$ | $[M] / [L]^3$ | $[M][L]^{-3}$ |
+
+> [!IMPORTANT]
+> **Prinsip Homogenitas Dimensi (Equation Auditor):**
+> Sebuah persamaan fisika dinyatakan benar secara dimensi jika **setiap suku** yang dipisahkan oleh tanda $+$, $-$, atau $=$ memiliki dimensi yang identik.
+> - **Contoh:** $s = v_0 t + \frac{1}{2} a t^2$
+> - Suku 1 ($s$): $[L]$
+> - Suku 2 ($v_0 t$): $[L][T]^{-1} \times [T] = [L]$
+> - Suku 3 ($at^2$): $[L][T]^{-2} \times [T]^2 = [L]$
+> Karena semua suku berdimensi $[L]$, rumus ini **Lulus Audit Dimensi**. Jika ada satu suku saja yang berbeda, rumus tersebut pasti salah!
+
 | 4 | **Kecepatan** | $s / t$ | $[L] / [T]$ | $[L][T]^{-1}$ |
 | 5 | **Percepatan** | $v / t$ | $[L][T]^{-1} / [T]$ | $[L][T]^{-2}$ |
 | 6 | **Gaya** | $m \times a$ | $[M] \times [L][T]^{-2}$ | $[M][L][T]^{-2}$ |
@@ -264,14 +274,17 @@ Mengacu pada rasio tersebut, berikut cara konversinya secara cepat:
 
 Tidak ada pengukuran yang benar-benar sempurna. Selalu ada selisih antara nilai terukur dengan nilai sebenarnya. Hal ini dipelajari dalam **Ketidakpastian Pengukuran**.
 
-### 5.1 Jenis-jenis Kesalahan Pengukuran
-Kesalahan (Error) dalam pengukuran menyebabkan hasil ukur menjadi tidak pasti. Ada tiga jenis kesalahan utama:
-1. **Kesalahan Umum (Kecerobohan):** Disebabkan oleh keterbatasan pengamat, seperti salah membaca skala atau salah mengatur posisi alat ukur.
-2. **Kesalahan Sistematis:** Bersumber dari alat ukurnya itu sendiri.
-   - **Kesalahan Kalibrasi:** Nilai skala pada alat ukur tidak tepat sejak diproduksi.
-   - **Kesalahan Titik Nol (Zero Error):** Jarum penunjuk tidak berada tepat di angka nol saat sebelum digunakan.
-   - **Kesalahan Paralaks:** Sudut pandang mata pengamat tidak tegak lurus dengan jarum/skala ukur, sehingga nilai terbaca meleset.
-3. **Kesalahan Acak:** Disebabkan oleh fluktuasi halus yang tidak dapat dihindari, seperti perubahan tegangan listrik mendadak, getaran bumi, atau perubahan suhu ruangan secara tak terduga.
+### 5.3 Kesalahan dalam Pengukuran
+Secara umum, kesalahan (error) dibagi menjadi tiga kategori:
+1. **Kesalahan Umum (Gross Error):** Akibat kekeliruan manusia (salah baca, salah tulis).
+2. **Kesalahan Sistematik:** Akibat alat (skala rusak, titik nol tidak tepat).
+3. **Kesalahan Acak:** Akibat fluktuasi lingkungan (suhu, getaran).
+
+> [!WARNING]
+> **Anatomi Kesalahan Paralaks:**
+> Paralaks adalah pergeseran semu posisi benda jika dilihat dari sudut yang berbeda.
+> - **Penyebab:** Adanya jarak antara jarum/skala dengan objek yang diukur.
+> - **Solusi:** Mata harus berada tepat **Tegak Lurus** di atas skala. Pandangan miring akan menyebabkan bayangan objek "bergeser" ke angka yang salah, menciptakan bias data mikroskopik.
 
 ### 5.2 Pengukuran Tunggal
 Dilakukan hanya satu kali. Ketidakpastiannya ($\Delta x$) biasanya diambil dari setengah nilai skala terkecil (NST) alat ukur:
@@ -405,7 +418,7 @@ Metode ini digunakan untuk dua vektor yang pangkalnya bertemu dan membentuk sudu
 2. **Selisih Dua Vektor ($R = F_1 - F_2$):**
    $$ R = \sqrt{F_1^2 + F_2^2 - 2 \cdot F_1 \cdot F_2 \cdot \cos(\alpha)} $$
 
-- _Kondisi khusus (Penjumlahan):_ 
+- _Kondisi khusus (Penjumlahan):_
   - Jika searah ($\alpha = 0^\circ$): $R = F_1 + F_2$ (Maksimum).
   - Jika berlawanan arah ($\alpha = 180^\circ$): $R = |F_1 - F_2|$ (Minimum).
   - Jika tegak lurus ($\alpha = 90^\circ$): $R = \sqrt{F_1^2 + F_2^2}$ (Phytagoras).
@@ -440,6 +453,15 @@ Vektor satuan adalah vektor yang besarnya satu satuan dan berfungsi untuk menunj
 - **$\hat{i}$** menunjukkan arah sumbu $x$.
 - **$\hat{j}$** menunjukkan arah sumbu $y$.
 - **$\hat{k}$** menunjukkan arah sumbu $z$.
+
+> [!TIP]
+> **Unit Vector Mastery (Aturan Cepat Perkalian):**
+> | Operasi | Aturan Main |
+> | :--- | :--- |
+> | **Dot Product** | Identik = 1, Berbeda = 0. ($\hat{i} \cdot \hat{i} = 1$; $\hat{i} \cdot \hat{j} = 0$) |
+> | **Cross Product** | **Aturan Siklik:** $i \to j \to k \to i$ |
+> | | $(\hat{i} \times \hat{j} = \hat{k})$; $(\hat{j} \times \hat{k} = \hat{i})$; $(\hat{k} \times \hat{i} = \hat{j})$ |
+> | | Jika arahnya terbalik, hasilnya negatif $(\hat{j} \times \hat{i} = -\hat{k})$. |
 
 Penulisan vektor $\vec{A}$ dalam koordinat tiga dimensi adalah:
 $$ \vec{A} = A_x\hat{i} + A_y\hat{j} + A_z\hat{k} $$
