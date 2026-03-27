@@ -112,6 +112,14 @@ Memahami gerak melalui interpretasi visual:
 
 Gerak vertikal adalah aplikasi nyata GLBB di mana percepatan yang dialami benda adalah percepatan gravitasi bumi ($g \approx 9,8 \text{ m/s}^2$ atau sering dibulatkan menjadi $10 \text{ m/s}^2$).
 
+> [!TIP]
+> **Aturan Tanda (+) dan (-) Gravitasi:**
+> Untuk konsistensi, gunakan acuan **Vektor**:
+> - Arah **Ke Atas** = Positif ($+$).
+> - Arah **Ke Bawah** = Negatif ($-$).
+> - Karena gravitasi selalu menarik **ke bawah**, maka dalam perhitungan (GVA/GJB) nilai $g$ selalu **$-10 \text{ m/s}^2$** jika posisi awal dianggap nol.
+> - *Catatan: Banyak buku menyederhanakan GJB dengan $+g$ karena benda searah gravitasi, namun aturan vektor di atas lebih aman untuk soal kompleks.*
+
 ### 5.1 Gerak Jatuh Bebas (GJB)
 Benda dijatuhkan tanpa kecepatan awal ($v_0 = 0$).
 - $v_t = g \cdot t$
@@ -196,6 +204,12 @@ GMB adalah gerak benda dalam lintasan lingkaran dengan laju tetap, namun arah ke
 - **Kecepatan Linear ($v$):** Laju pada pinggir lingkaran.
   $$ v = \omega \cdot R $$
 
+> [!TIP]
+> **Pintasan Konversi RPM:**
+> Satuan **RPM** (Rotations Per Minute) adalah satuan frekuensi yang sering muncul di alat teknik (mesin).
+> $$ 1 \text{ RPM} = \frac{2\pi}{60} \text{ rad/s} = \frac{\pi}{30} \mathbf{\text{ rad/s}} $$
+> *(Contoh: $300 \text{ RPM} = 300 \cdot \frac{\pi}{30} = 10\pi \text{ rad/s}$).*
+
 > [!NOTE]
 > **Asal-usul $v = \omega R$:**
 > Dari definisi panjang busur lingkaran: $s = \theta \cdot R$.
@@ -205,6 +219,10 @@ GMB adalah gerak benda dalam lintasan lingkaran dengan laju tetap, namun arah ke
 ### 7.2 Percepatan Sentripetal ($a_s$)
 Meskipun lajunya tetap, ada percepatan yang arahnya selalu menuju pusat lingkaran untuk membelokkan arah benda.
 $$ a_s = \frac{v^2}{R} = \omega^2 \cdot R $$
+
+> [!NOTE]
+> **Kenapa $a_s$ tegak lurus $v$?**
+> Jika percepatan memiliki komponen searah $v$, maka **laju** benda akan berubah (bertambah/berkurang). Karena pada GMB laju benda konstan, maka seluruh percepatan harus tegak lurus searah jari-jari hanya untuk mengubah **arah** gerak benda.
 
 > [!IMPORTANT]
 > **Miskonsepsi Umum:**
