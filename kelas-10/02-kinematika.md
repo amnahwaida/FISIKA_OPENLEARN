@@ -127,6 +127,16 @@ Memahami gerak melalui interpretasi visual:
 - **Grafik $v-t$:**
   - Kemiringan garis menunjukkan **percepatan**.
   - Luas daerah di bawah kurva menunjukkan **perpindahan/jarak**.
+
+### 4.1 Mastery Framework: Strategi Gerak Bertahap
+Dalam soal nyata, sering ditemukan benda yang bergerak dalam beberapa fase (misal: dipercepat, lalu kecepatan tetap, lalu diperlambat).
+- **Kunci Utama:** Pecah soal menjadi beberapa interval waktu ($t_1, t_2, ...$).
+- **Prinsip Kontinuitas:** Kecepatan akhir pada fase 1 ($v_{t1}$) otomatis menjadi kecepatan awal pada fase 2 ($v_{02}$).
+- **Skema Penyelesaian:** 
+  Total Jarak $= s_1 + s_2 + s_3 + ...$
+  Total Waktu $= t_1 + t_2 + t_3 + ...$
+
+---
 - **Grafik $a-t$:**
   - Luas daerah di bawah kurva menunjukkan **perubahan kecepatan**.
 
@@ -159,6 +169,12 @@ Benda dijatuhkan tanpa kecepatan awal ($v_0 = 0$).
 - $v_t = g \cdot t$
 - $h = \frac{1}{2} \cdot g \cdot t^2$
 - $v_t = \sqrt{2 \cdot g \cdot h}$
+
+> [!IMPORTANT]
+> **Paradoks Galileo: Bulu vs Bola Besi**
+> Aristotle berpendapat benda berat jatuh lebih cepat. Galileo membantahnya: Dalam kondisi **Vakum** (tanpa udara), bulu dan bola besi jatuh dengan percepatan yang **sama persis**.
+> - **Di Udara:** Bulu tertahan oleh gaya hambat udara yang besar dibanding beratnya.
+> - **Hukum Alam:** Gravitasi memberikan percepatan $g$ yang sama pada *semua* materi, tanpa mempedulikan massanya.
 
 ### 5.2 Gerak Vertikal ke Atas (GVA)
 Benda dilempar ke atas dengan $v_0$ tertentu. Benda akan melambat karena gravitasi bersifat menghambat ($-g$).
@@ -198,6 +214,10 @@ $$ v_t = \sqrt{v_x^2 + v_{ty}^2} \quad \text{di mana } v_{ty} = v_0 \sin \alpha 
 
 **Vektor Kecepatan dalam Notasi $\hat{i}, \hat{j}$:**
 $$ \vec{v}(t) = (v_0 \cos \alpha) \hat{i} + (v_0 \sin \alpha - gt) \hat{j} $$
+
+**Vektor Posisi dalam Notasi $\hat{i}, \hat{j}$:**
+Untuk mengetahui koordinat persis benda di ruang 2D pada waktu $t$:
+$$ \vec{r}(t) = (v_0 \cos \alpha \cdot t) \hat{i} + (v_0 \sin \alpha \cdot t - \frac{1}{2}gt^2) \hat{j} $$
 
 **Analisis Sudut Elevasi Maksimum:**
 Jangkauan terjauh ($x_{\text{max}}$) akan dicapai jika $\sin 2\alpha$ bernilai maksimum (yaitu 1). Hal ini terjadi saat $2\alpha = 90^\circ$, atau **$\alpha = 45^\circ$**.
