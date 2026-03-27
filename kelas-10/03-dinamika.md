@@ -164,7 +164,13 @@ Dua balok atau lebih dihubungkan dengan tali dan ditarik bersamaan bergerbong-ge
 - **Tegangan Tali ($T$):** Selalu tinjau benda yang "diseret" oleh tali tersebut. Tali menanggung beban benda di belakangnya.
   > Terapkan Hukum II Newton hanya pada benda di belakang tali: $\Sigma F_{\text{belakang}} = m_{\text{belakang}} \cdot a$.
 
-### 3.6 Percepatan Maksimum Alas (Benda di Bak Truk)
+### 3.6 Gaya Kontak Benda Berdampingan
+Dua balok diletakkan bersentuhan berdampingan ($m_1$ dan $m_2$) di atas lantai licin, lalu didorong dengan gaya $F$ dari sisi $m_1$.
+- **Percepatan Sistem:** $a = \frac{F}{m_1 + m_2}$
+- **Gaya Kontak ($N_{12}$):** Gaya yang diberikan $m_1$ kepada $m_2$. Gaya ini adalah satu-satunya alasan $m_2$ bisa ikut melaju.
+- **Besar Gaya Kontak:** $\mathbf{N_{12} = m_2 \cdot a}$. (Arahnya ke kanan pada $m_2$ dan ke kiri pada $m_1$ sesuai Hukum III Newton).
+
+### 3.7 Percepatan Maksimum Alas (Benda di Bak Truk)
 Sebuah balok diletakkan secara bebas di atas bak truk yang melaju dengan percepatan $a$. Agar balok **tidak merosot ke belakang**, gaya gesek statis ($f_s$) antarmuka-lah yang menarik balok ke depan untuk "ikut melaju" bersama truk.
 - Syarat balok ikut melaju tanpa selip: $\Sigma F_{\text{balok}} = m_{\text{balok}} \cdot a \implies f_s = m \cdot a$
 - Batas percepatan truk maksimum sebelum selip ke belakang: 
@@ -184,9 +190,15 @@ Dua balok ditumpuk: balok A (atas, massa $m_A$) dan balok B (bawah, massa $m_B$)
 - **Lift Jatuh Bebas ($a = g$):** $N = m(g - g) = 0$ (Keadaan *Weightless/Melayang/Tanpa Bobot*)
 
 ### 3.9 Kesetimbangan Statis (Benda Digantung 2 Tali)
-Jika benda bermassa $m$ digantung oleh dua tali yang membentuk sudut $\alpha$ and $\beta$ terhadap horizontal:
-- $\Sigma F_x = 0$: $T_1 \cos \alpha = T_2 \cos \beta$
+Jika benda bermassa $m$ digantung oleh dua tali yang membentuk sudut $\alpha$ dan $\beta$ terhadap horizontal:
+- $\Sigma F_x = 0$: $T_1 \cos \alpha = $T_2 \cos \beta$
 - $\Sigma F_y = 0$: $T_1 \sin \alpha + T_2 \sin \beta = mg$
+
+> [!TIP]
+> **Teorema Lami (Shortcut Aturan Sinus):**
+> Jika sebuah titik setimbang dipengaruhi oleh 3 gaya ($F_1, F_2, F_3$), maka berlaku hubungan:
+> $$ \frac{F_1}{\sin \theta_1} = \frac{F_2}{\sin \theta_2} = \frac{F_3}{\sin \theta_3} $$
+> *Di mana $\theta_n$ adalah sudut yang dibentuk oleh dua gaya lainnya (sudut di depan gaya tersebut).*
 
 ### 3.10 Benda pada Dinding Vertikal
 Menahan benda (massa $m$) agar tidak jatuh dengan menekannya secara horizontal (gaya $F$) ke arah dinding.
@@ -235,6 +247,13 @@ $$ F_s = m \cdot a_s = m \cdot \frac{v^2}{R} = m \cdot \omega^2 \cdot R $$
 > - Horizontal: $N\sin\theta = m\frac{v^2}{R}$ ... (ii)
 > Bagi (ii) dengan (i): $\frac{\sin\theta}{\cos\theta} = \frac{v^2}{gR}$
 > $$ \tan \theta = \frac{v^2}{g \cdot R} $$
+
+**Tikungan Miring dan Kasar (Full Analysis):**
+Kondisi ini mempertimbangkan adanya gaya gesek ($\mu_s$) pada lintasan miring. Ini adalah kasus dinamika paling kompleks untuk tikungan.
+- **Kecepatan Maksimum ($v_{max}$):** Kecepatan tertinggi sebelum kendaraan selip **naik** ke luar tikungan.
+  $$ v_{max} = \sqrt{g R \left( \frac{\tan \theta + \mu_s}{1 - \mu_s \tan \theta} \right)} $$
+- **Kecepatan Minimum ($v_{min}$):** Kecepatan terendah agar kendaraan tidak merosot **turun** ke dalam tikungan.
+  $$ v_{min} = \sqrt{g R \left( \frac{\tan \theta - \mu_s}{1 + \mu_s \tan \theta} \right)} $$
 
 **Ayunan Konis (Bandul Gerak Melingkar Horizontal):**
 
