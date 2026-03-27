@@ -73,6 +73,24 @@ Jika gaya tidak konstan (berubah-ubah), maka usaha **tidak bisa** dihitung langs
 
 ---
 
+### 2.5 Konversi Energi Global (Multidisiplin)
+Meskipun satuan SI usaha adalah Joule, berbagai cabang ilmu menggunakan satuan lain. Berikut adalah tabel "Mastery" untuk persiapan bab selanjutnya:
+
+| Satuan | Simbol | Nilai dalam Joule | Penggunaan Utama |
+| :--- | :---: | :--- | :--- |
+| **kalori** | `kal` | $1 \text{ kal} \approx 4,186 \text{ J}$ | Termodinamika & Gizi |
+| **electron-Volt** | `eV` | $1,6 \times 10^{-19} \text{ J}$ | Fisika Atom & Nuklir |
+| **kilowatt-hour** | `kWh` | $3,6 \times 10^{6} \text{ J}$ | Teknik Listrik (PLN) |
+| **erg** | `erg` | $10^{-7} \text{ J}$ | Sistem CGS (Legacy) |
+
+### 2.6 Paradoks Usaha: Fisika vs Biologis
+Mengapa kita lelah saat menahan beban diam?
+- **Fisika:** $s = 0$, maka $W = 0$. Tidak ada energi yang dipindahkan ke benda.
+- **Biologis:** Otot manusia mempertahankan ketegangan dengan kontraksi mikro terus-menerus (*twitch*). Secara mikroskopis, sel otot berpindah dan membakar ATP (energi kimia). 
+- **Divine Insight:** Kelelahan Anda adalah proses internal tubuh (Biologi), bukan transfer mekanis ke benda (Fisika).
+
+---
+
 ## 3. Energi
 
 Energi adalah kemampuan suatu benda atau sistem untuk melakukan usaha. Dalam mekanika, ada dua bentuk energi utama:
@@ -218,6 +236,16 @@ $$ EK_1 + EP_1 - f_k \cdot s = EK_2 + EP_2 $$
 
 *(Energi yang "hilang" berubah menjadi energi panas/kalor, $Q = f_k \cdot s$).*
 
+### 6.4 Shortcut: Sistem Katrol via HKEM (Atwood System)
+Mencari kecepatan dua benda ($m_1, m_2$) yang terhubung katrol menggunakan HKEM jauh lebih cepat daripada Hukum Newton.
+
+**Rumus Cepat (Mulai dari diam):**
+$$ v = \sqrt{\frac{2 \cdot \Delta h \cdot (m_{turun} - m_{naik})}{m_{total}}} $$
+
+> [!TIP]
+> **Mengapa Ini Efektif?**
+> Kita tidak perlu memecah Gaya Tegangan Tali ($T$) karena Tegangan Tali adalah **Gaya Internal**. Dalam analisis energi sistem total, gaya internal saling meniadakan. Cukup lihat siapa yang kehilangan $EP$ dan siapa yang mendapat $EK$.
+
 > [!NOTE]
 > **Visualisasi: Metode Diagram Batang Energi (Bar Chart):**
 > Untuk mempermudah analisis HKEM, gunakan diagram batang untuk membandingkan $EK$ dan $EP$ di dua posisi berbeda.
@@ -350,4 +378,4 @@ $$ KM = \frac{2\pi r}{d} $$
 ## Lihat Juga
 - [Dinamika](./03-dinamika.md)
 - [Momentum](./05-momentum.md)
-- [Latihan Soal Bab 4](./latihan-soal/04.1-usaha-energi-latihan.md)
+- [Latihan Soal Bab 4 — Set 4.1](./latihan-soal/04.1-pendahuluan-energi-latihan.md)

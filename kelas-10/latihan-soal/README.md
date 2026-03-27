@@ -23,7 +23,17 @@ Selamat datang di Bank Soal Kelas 10. Kerjakan soal-soal di bawah ini untuk meng
 - [Set 3.3: Sistem Katrol (Atwood)](./03.3-sistem-katrol-latihan.md)
 - [Set 3.4: Gaya Kontak & Lift](./03.4-gaya-kontak-lift-latihan.md)
 - [Set 3.5: Dinamika Gerak Melingkar](./03.5-dinamika-melingkar-latihan.md)
-4. [Latihan: Usaha, Energi, Pesawat Sederhana](./04-usaha-energi-latihan.md)
+### Bab 4: Usaha, Energi, dan Daya
+- [4.1 Pendahuluan & Konsep Energi](./04.1-pendahuluan-energi-latihan.md)
+- [4.2 Konsep Usaha (Work)](./04.2-usaha-latihan.md)
+- [4.3 Jenis-Jenis Energi](./04.3-energi-latihan.md)
+- [4.4 Teorema Usaha-Energi](./04.4-teorema-usaha-energi-latihan.md)
+- [4.5 Gaya Konservatif & Non-Konservatif](./04.5-gaya-konservatif-latihan.md)
+- [4.6 Hukum Kekekalan Energi Mekanik](./04.6-hkem-latihan.md)
+- [4.7 Daya dan Efisiensi](./04.7-daya-efisiensi-latihan.md)
+- [4.8 Aplikasi Elite (Loop & Escape Velocity)](./04.8-aplikasi-elite-latihan.md)
+- [4.9 Pesawat Sederhana](./04.9-pesawat-sederhana-latihan.md)
+
 5. [Latihan: Momentum, Impuls, Tumbukan](./05-momentum-latihan.md)
 6. [Latihan: Suhu, Kalor, Perpindahan Kalor](./06-kalor-latihan.md)
 7. [Latihan: Gelombang, Bunyi, Efek Doppler](./07-gelombang-bunyi-latihan.md)
