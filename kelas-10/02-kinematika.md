@@ -40,9 +40,20 @@ $$ v_{\text{res}} = \sqrt{v_p^2 + v_s^2} $$
 > $$ \vec{v}_{AB} = \vec{v}_A - \vec{v}_B = (v_{Ax} - v_{Bx})\hat{i} + (v_{Ay} - v_{By})\hat{j} $$
 > Konsep ini sangat vital untuk menganalisis pergerakan pesawat di tengah angin kencang dari sudut sembarang.
 
+> [!TIP]
+> **Aplikasi Navigasi: Heading vs Track**
+> - **Heading:** Arah ke mana hidung pesawat/kapal diarahkan.
+> - **Track (Course):** Arah gerak nyata pesawat terhadap bumi (hasil resultan dengan angin/arus).
+> Agar pesawat bisa terbang lurus ke Timur sementara angin bertiup dari Utara, pilot harus mengarahkan hidung pesawat sedikit ke arah North-East (*Heading*) agar hasil resultannya tetap tepat ke East (*Track*).
+
 ### 1.3 Percepatan (Acceleration)
 Perubahan kecepatan tiap satuan waktu. Percepatan bernilai positif ($+$) berarti benda dipercepat, sedangkan negatif ($-$) berarti benda diperlambat.
 $$ a = \frac{\Delta v}{\Delta t} = \frac{v_t - v_0}{t} $$
+
+> [!WARNING]
+> **Miskonsepsi Titik Balik (v = 0 ≠ a = 0):**
+> Saat Anda melempar bola ke atas, di titik tertinggi kecepatannya adalah **nol ($v=0$)**. Namun, percepatannya **TIDAK nol**, melainkan tetap $g = -10 \text{ m/s}^2$ (gravitasi). Jika percepatannya nol saat $v=0$, maka bola akan melayang selamanya di puncak. 
+> *Ingat: Berhenti sejenak untuk berbalik arah tetap memerlukan percepatan!*
 
 ### 1.4 Kinematika dengan Analisis Vektor (Kalkulus Dasar)
 Pada tingkat lanjut, besaran kinematika didefinisikan menggunakan operasi turunan (derivatif):
@@ -324,6 +335,13 @@ GMBB adalah gerak melingkar dengan **Percepatan Sudut ($\alpha$)** konstan.
 ### 7.5 Percepatan Total ($a_{\text{tot}}$)
 Pada GMBB, benda memiliki dua percepatan yang saling tegak lurus ($a_s$ dan $a_t$):
 $$ a_{\text{tot}} = \sqrt{a_s^2 + a_t^2} $$
+
+> [!IMPORTANT]
+> **Generalisasi Percepatan pada Kurva Sembarang:**
+> Konsep $a_s$ dan $a_t$ tidak hanya berlaku untuk lingkaran, tapi untuk **semua lintasan melengkung** (seperti mobil di tikungan jalan raya):
+> - **$a_s$ (Sentripetal):** Komponen percepatan yang tegak lurus kecepatan, berfungsi mengubah **Arah**.
+> - **$a_t$ (Tangensial):** Komponen percepatan yang searah kecepatan, berfungsi mengubah **Laju**.
+> Jika Anda menyetir mobil sambil menambah gas di tikungan, Anda sedang mengalami kedua percepatan ini secara bersamaan.
 
 ### 7.6 Analogi Gerak: Lurus vs Melingkar
 GMBB memiliki pola rumus yang identik dengan GLBB. Anda cukup mengganti variabelnya saja:
