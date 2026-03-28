@@ -37,5 +37,16 @@ Repositori ini memuat seluruh latihan soal untuk materi Fisika Tingkat Sekolah M
 - [3.8 Titik Lagrange & Medan Nol](./03.8-titik-lagrange-latihan.md)
 - [3.9 Aplikasi Astronomi & Ruang-Waktu](./03.9-aplikasi-astronomi-latihan.md)
 
+### Bab 4: Getaran Harmonis & Mekanika Pegas
+- [4.1 Hukum Hooke & Gaya Pemulih](./04.1-gaya-pemulih-latihan.md)
+- [4.2 Kinematika Simpangan GHS](./04.2-simpangan-ghs-latihan.md)
+- [4.3 Kecepatan & Percepatan Maksimum](./04.3-kecepatan-percepatan-ghs-latihan.md)
+- [4.4 Dinamika Osilator Pegas](./04.4-periode-pegas-latihan.md)
+- [4.5 Rahasia Periode Bandul Sederhana](./04.5-periode-bandul-latihan.md)
+- [4.6 Rekayasa Susunan Pegas Seri-Paralel](./04.6-susunan-pegas-latihan.md)
+- [4.7 Kekekalan Energi Mekanik GHS](./04.7-energi-ghs-latihan.md)
+- [4.8 Analogi GMB & Dasar Trigonometri](./04.8-analogi-gmb-latihan.md)
+- [4.9 Fenomena Resonansi & Getaran Paksa](./04.9-resonansi-getaran-latihan.md)
+
 ---
 [< Kembali ke Daftar Materi Kelas 11](../README.md)
