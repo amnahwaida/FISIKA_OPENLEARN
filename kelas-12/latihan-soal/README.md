@@ -70,6 +70,17 @@ Daftar latihan soal disusun berdasarkan bab untuk mempermudah pemahaman konsep t
 - [6.8 Alat Ukur Radiasi & Dosis Serap](./06.8-detektor-radiasi-latihan.md)
 - [6.9 Carbon Dating & Aplikasi Isotop](./06.9-karbon-dating-latihan.md)
 
+### Bab 7: Fisika Modern & Relativitas Khusus
+- [7.1 Dilatasi Waktu & Paradoks Kembar Einstein](./07.1-dilatasi-waktu-latihan.md)
+- [7.2 Kontraksi Panjang & Geometri Ruang Relativistik](./07.2-kontraksi-panjang-latihan.md)
+- [7.3 Analisis Massa-Energi $E=mc^2$](./07.3-massa-energi-relativistik-latihan.md)
+- [7.4 Efek Fotolistrik & Kuantisasi Cahaya](./07.4-efek-fotolistrik-latihan.md)
+- [7.5 Efek Compton & Momentum Foton](./07.5-efek-compton-latihan.md)
+- [7.6 Panjang Gelombang De Broglie Materi](./07.6-panjang-gelombang-debroglie-latihan.md)
+- [7.7 Ketidakpastian Heisenberg & Batas Alam](./07.7-ketidakpastian-heisenberg-latihan.md)
+- [7.8 Radiasi Benda Hitam & Hukum Wien](./07.8-radiasi-benda-hitam-latihan.md)
+- [7.9 Model Atom Bohr & Spektrum Hidrogen](./07.9-atom-bohr-spektrum-latihan.md)
+
 ---
 
 [< Kembali ke Daftar Materi Kelas 12](../README.md)
