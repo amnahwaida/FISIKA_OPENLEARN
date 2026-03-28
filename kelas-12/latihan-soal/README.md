@@ -59,6 +59,17 @@ Daftar latihan soal disusun berdasarkan bab untuk mempermudah pemahaman konsep t
 - [5.8 Frekuensi Resonansi & Tuning Radio](./05.8-resonansi-radio-latihan.md)
 - [5.9 Sistem Inverter & Konversi Energi](./05.9-inverter-rectifier-latihan.md)
 
+### Bab 6: Fisika Inti & Radioaktivitas
+- [6.1 Struktur Inti & Gaya Nuklir Kuat](./06.1-struktur-inti-latihan.md)
+- [6.2 Analisis Defek Massa & Energi Ikat](./06.2-energi-ikat-latihan.md)
+- [6.3 Mekanisme Peluruhan Alfha, Beta, Gamma](./06.3-peluruhan-radiasi-latihan.md)
+- [6.4 Kalkulasi Waktu Paruh & Aktivitas](./06.4-waktu-paruh-latihan.md)
+- [6.5 Transmutasi & Deret Radioaktif](./06.5-transmutasi-unsur-latihan.md)
+- [6.6 Reaksi Fisi & Reaktor Nuklir](./06.6-fisi-nuklir-latihan.md)
+- [6.7 Reaksi Fusi & Energi Termonuklir](./06.7-fusi-termonuklir-latihan.md)
+- [6.8 Alat Ukur Radiasi & Dosis Serap](./06.8-detektor-radiasi-latihan.md)
+- [6.9 Carbon Dating & Aplikasi Isotop](./06.9-karbon-dating-latihan.md)
+
 ---
 
 [< Kembali ke Daftar Materi Kelas 12](../README.md)
