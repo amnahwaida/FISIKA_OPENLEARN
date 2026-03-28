@@ -7,6 +7,7 @@ Selamat datang di materi Fisika Kelas 11. Berikut adalah daftar bab yang dapat d
 3. [Hukum Newton tentang Gravitasi, Kepler](./03-gravitasi.md)
 4. [Getaran Harmonis Sederhana](./04-getaran.md)
 5. [Interferensi, Difraksi, Polarisasi Cahaya](./05-gelombang-cahaya.md)
+6. [Alat-Alat Optik Lanjut (Mikroskop & Teleskop)](./06-alat-optik.md)
 
 ---
 [< Kembali ke Beranda Utama](../README.md)

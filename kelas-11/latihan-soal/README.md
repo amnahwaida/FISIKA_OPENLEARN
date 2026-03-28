@@ -59,5 +59,16 @@ Repositori ini memuat seluruh latihan soal untuk materi Fisika Tingkat Sekolah M
 - [5.8 Seni Interferensi Lapisan Tipis](./05.8-lapisan-tipis-latihan.md)
 - [5.9 Penyerapan Getaran Polarisasi Cahaya](./05.9-polarisasi-cahaya-latihan.md)
 
+### Bab 6: Instrumen & Alat-Alat Optik Lanjut
+- [6.1 Anatomi Optik Mata & Kamera](./06.1-mata-kamera-latihan.md)
+- [6.2 Analisis Cacat Mata Miopi](./06.2-cacat-mata-miopi-latihan.md)
+- [6.3 Hipermetropi & Presbiopi](./06.3-hipermetropi-presbiopi-latihan.md)
+- [6.4 Penggunaan Lup Kaca Pembesar](./06.4-kaca-pembesar-lup-latihan.md)
+- [6.5 Mekanika Lensa Mikroskop Majemuk](./06.5-mikroskop-akomodasi-latihan.md)
+- [6.6 Teropong Bintang (Teleskop Bias)](./06.6-teropong-bintang-latihan.md)
+- [6.7 Teropong Bumi (Lensa Pembalik)](./06.7-teropong-bumi-latihan.md)
+- [6.8 Keunggulan Teropong Pantul](./06.8-teropong-pantul-latihan.md)
+- [6.9 Teropong Angkasa JWST & Modern](./06.9-teknologi-optik-latihan.md)
+
 ---
 [< Kembali ke Daftar Materi Kelas 11](../README.md)
