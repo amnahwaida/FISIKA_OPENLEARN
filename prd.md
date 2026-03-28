@@ -127,7 +127,9 @@ Materi harus dipecah menjadi file `.md` terpisah per Bab/Sub-bab agar mudah diba
 - **Rumus Matematika:**
   - GitHub Markdown sekarang mendukung sintaks LaTeX secara native.
   - **Inline:** `$ F = m \cdot a $`
-  - **Block:** `$$
+  - **Block:** `
+
+$$
 \Large E = mc^2
 $$`
   - Pastikan tidak ada spasi antara tanda `$` dan rumus untuk inline.
@@ -151,6 +153,7 @@ Setiap file materi harus memiliki struktur standar berikut:
 Penjelasan teks...
 
 ## Rumus Utama
+
 $$
 \Large F = m \cdot a
 $$

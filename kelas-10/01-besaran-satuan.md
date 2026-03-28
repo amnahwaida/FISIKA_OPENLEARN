@@ -149,6 +149,7 @@ Konversi ini menggunakan aturan dasar "Tangga Satuan". Setiap perpindahan satu l
 Konversi satuan berpangkat mengikuti aturan eksponensial. Jika tangga satuan panjang memiliki faktor 10, maka satuan berpangkat memiliki faktor pengali **$10^n$**, di mana **$n$** adalah pangkat dari satuan tersebut.
 
 **Logika Perhitungan:**
+
 $$
 \Large \text{Faktor Konversi} = (10^{\text{jumlah tangga}})^n
 $$
@@ -159,9 +160,11 @@ $$
      - Langkah 1: Dari `m` ke `cm` turun **2 tangga**.
      - Langkah 2: Faktor pengali = $(10^2)^2 = 10^4 = 10.000$.
      - Langkah 3:
-       $$
-       \Large 5 \times 10.000 = \mathbf{50.000 \text{ cm}^2}
-       $$
+       
+
+$$
+\Large 5 \times 10.000 = \mathbf{50.000 \text{ cm}^2}
+$$
 
 2. **Satuan Volume ($n=3$):**
    Setiap turun satu tangga, nilai dikali $10^3 = \mathbf{1.000}$. Sebaliknya, setiap naik satu tangga dibagi $1.000$.
@@ -187,15 +190,12 @@ $$
 
 </div>
 
-
 #### C. Konversi Satuan Lain (Waktu)
 Berbeda dengan sistem desimal di atas, waktu menggunakan sistem berbasis 60 (Seksagesimal):
 - $1 \text{ jam} = 60 \text{ menit} = 3.600 \text{ sekon}$
 - $1 \text{ hari} = 24 \text{ jam} = 86.400 \text{ sekon}$
 
-
 ---
-
 
 ## 4. Alat Ukur dan Teknik Pengukuran
 
@@ -274,6 +274,7 @@ Berikut adalah 4 skala pengukuran suhu beserta titik beku air (bawah) dan titik 
 *(Catatan: Kelvin merupakan skala mutlak sehingga penulisannya tidak menggunakan simbol derajat $\circ$)*.
 
 Dikenal pula konsep **Termometer Skala Sembarang (Skala X)**. Jika sebuah termometer memiliki titik beku $X_b$ dan titik didih $X_a$, maka konversi nilai ke Celsius ($C$) menggunakan perbandingan linear:
+
 $$
 \Large \frac{X - X_b}{X_a - X_b} = \frac{C - 0}{100 - 0}
 $$
@@ -311,6 +312,7 @@ Secara umum, kesalahan (error) dibagi menjadi tiga kategori:
 
 ### 5.2 Pengukuran Tunggal
 Dilakukan hanya satu kali. Ketidakpastiannya ($\Delta x$) biasanya diambil dari setengah nilai skala terkecil (NST) alat ukur:
+
 $$
 \Large \Delta x = \frac{1}{2} \times \text{NST}
 $$
@@ -319,14 +321,18 @@ $$
 Dilakukan beberapa kali untuk meminimalkan ralat acak. Data hasil pengukuran dilaporkan dalam bentuk rata-rata ($\bar{x}$) dan ketidakpastian ($\Delta x$) yang dihitung menggunakan statistik:
 
 1. **Nilai Rata-rata ($\bar{x}$):**
-   $$
-   \Large \bar{x} = \frac{\sum x_i}{n} = \frac{x_1 + x_2 + \dots + x_n}{n}
-   $$
+   
+
+$$
+\Large \bar{x} = \frac{\sum x_i}{n} = \frac{x_1 + x_2 + \dots + x_n}{n}
+$$
    *Keterangan: $\sum x_i$ adalah jumlah seluruh data, dan $n$ adalah jumlah pengulangan.*
 
 2. **Ketidakpastian Pengukuran Berulang ($\Delta x$):**
    Menggunakan simpangan baku rata-rata untuk memberikan estimasi ralat:
-   $$
+   
+
+$$
 \Large \Delta x = \frac{1}{n} \sqrt{\frac{n \sum x_i^2 - (\sum x_i)^2}{n-1}}
 $$
    *Keterangan:*
@@ -335,6 +341,7 @@ $$
    - $\sum x_i^2$: Jumlah dari setiap kuadrat nilai data.
 
 Hasil akhir dilaporkan sebagai:
+
 $$
 \Large x = \bar{x} \pm \Delta x
 $$
@@ -342,7 +349,9 @@ Maka laporan ditulis dalam format: **$(\bar{x} \pm \Delta x) \text{ Satuan}$**.
 
 3. **Ketidakpastian Relatif (KSR):**
    Untuk mengetahui persentase ketelitian alat atau percobaan, digunakan rasio persentase ralat terhadap rata-rata:
-   $$
+   
+
+$$
 \Large \text{KSR} = \left(\frac{\Delta x}{\bar{x}}\right) \times 100\%
 $$
    *Aturan Penulisan Angka Penting dari KSR:*
@@ -355,18 +364,24 @@ Jika kita melakukan perhitungan menggunakan dua atau lebih hasil pengukuran yang
 
 - **Penjumlahan dan Pengurangan ($Z = A \pm B$):**
   Ralat mutlaknya dijumlahkan.
-  $$
+  
+
+$$
 \Large \Delta Z = \Delta A + \Delta B
 $$
 - **Perkalian dan Pembagian ($Z = A \times B$ atau $Z = A / B$):**
   Ralat relatifnya dijumlahkan.
-  $$
+  
+
+$$
 \Large \frac{\Delta Z}{Z} = \frac{\Delta A}{A} + \frac{\Delta B}{B}
 $$
 
 - **Fungsi Pangkat ($Z = X^n$):**
   Ralat relatif dikali dengan pangkatnya.
-  $$
+  
+
+$$
 \Large \frac{\Delta Z}{Z} = |n| \frac{\Delta X}{X}
 $$
   *(Contoh: Jika panjang rusuk kubus memiliki ralat 1%, maka ralat volumenya otomatis 3%).*
@@ -374,7 +389,9 @@ $$
 > [!NOTE]
 > **Propagasi Ralat Independen (Metode RSS):**
 > Jika ralat $A$ dan $B$ saling bebas (tidak berhubungan), maka untuk penjumlahan/pengurangan, ralat totalnya lebih akurat jika menggunakan akar jumlah kuadrat:
-> $$
+> 
+
+$$
 \Large \Delta Z = \sqrt{\Delta A^2 + \Delta B^2}
 $$
 > Ini adalah standar profesional di laboratorium riset untuk menghasilkan nilai ketidakpastian yang lebih objektif secara statistik.
@@ -459,13 +476,17 @@ Metode ini digunakan untuk dua vektor yang pangkalnya bertemu dan membentuk sudu
 </div>
 
 1. **Penjumlahan Vektor ($R = F_1 + F_2$):**
-   $$
-   \Large R = \sqrt{F_1^2 + F_2^2 + 2 \cdot F_1 \cdot F_2 \cdot \cos(\alpha)}
-   $$
+   
+
+$$
+\Large R = \sqrt{F_1^2 + F_2^2 + 2 \cdot F_1 \cdot F_2 \cdot \cos(\alpha)}
+$$
 2. **Selisih Dua Vektor ($R = F_1 - F_2$):**
-   $$
-   \Large R = \sqrt{F_1^2 + F_2^2 - 2 \cdot F_1 \cdot F_2 \cdot \cos(\alpha)}
-   $$
+   
+
+$$
+\Large R = \sqrt{F_1^2 + F_2^2 - 2 \cdot F_1 \cdot F_2 \cdot \cos(\alpha)}
+$$
 
 - _Kondisi khusus (Penjumlahan):_
   - Jika searah ($\alpha = 0^\circ$): $R = F_1 + F_2$ (Maksimum).
@@ -478,12 +499,14 @@ Jika terdapat lebih dari dua vektor menyebar merata, cara penyelesaian paling am
 - **Proyeksi Sumbu Y:** $F_y = F \cdot \sin(\theta)$
 
 Setelah semua gaya dipecah, jumlahkan per masing-masing sumbu ($\sum F_x$ dan $\sum F_y$). Resultan totalnya ditegakkan kembali dengan Phytagoras:
+
 $$
 \Large R_{\text{total}} = \sqrt{(\sum F_x)^2 + (\sum F_y)^2}
 $$
 
 **Arah Resultan Vektor ($\theta$):**
 Arah resultan terhadap sumbu $x$ positif dapat dicari dengan fungsi tangen:
+
 $$
 \Large \tan(\theta) = \frac{\sum F_y}{\sum F_x} \implies \theta = \arctan\left(\frac{\sum F_y}{\sum F_x}\right)
 $$
@@ -493,14 +516,18 @@ Vektor dapat dikalikan satu sama lain dengan dua metode matematis utama yang mem
 
 1. **Perkalian Titik (Dot Product) $\rightarrow$ Menghasilkan Skalar**
    Digunakan ketika dua vektor dikalikan untuk mendapatkan nilai energi/besaran yang tidak punya arah. (Contoh fisis: Usaha matematis $W = \vec{F} \cdot \vec{s}$).
-   $$
+   
+
+$$
 \Large \vec{A} \cdot \vec{B} = |\vec{A}| \cdot |\vec{B}| \cdot \cos(\theta)
 $$
    * **Interpretasi Geometris:** Perkalian antara besar satu vektor dengan **Proyeksi (Bayangan)** vektor lainnya yang searah.
 
 2. **Perkalian Silang (Cross Product) $\rightarrow$ Menghasilkan Vektor Baru**
    Digunakan ketika hasil kali kedua vektor menciptakan efek putaran (torsi) atau gaya pada sumbu ketiga (ruang 3D) yang tegak lurus dari kedua vektor asalnya. (Contoh fisis: Momen Gaya / Torsi $\vec{\tau} = \vec{r} \times \vec{F}$).
-   $$
+   
+
+$$
 \Large |\vec{A} \times \vec{B}| = |\vec{A}| \cdot |\vec{B}| \cdot \sin(\theta)
 $$
    * **Interpretasi Geometris:** Besarnya perkalian ini sama dengan **Luas Jajar Genjang** yang dibentuk oleh kedua vektor tersebut. Semakin tegak lurus kedua vektor, semakin besar luas (efek putarannya).
@@ -525,12 +552,14 @@ Vektor satuan adalah vektor yang besarnya satu satuan dan berfungsi untuk menunj
 </div>
 
 Penulisan vektor $\vec{A}$ dalam koordinat tiga dimensi adalah:
+
 $$
 \Large \vec{A} = A_x\hat{i} + A_y\hat{j} + A_z\hat{k}
 $$
 
 **Besar (Magnitude) Vektor 3D:**
 Untuk mencari panjang (magnitude) vektor di ruang tiga dimensi, kita menggunakan pengembangan teorema Pythagoras:
+
 $$
 \Large |\vec{A}| = \sqrt{A_x^2 + A_y^2 + A_z^2}
 $$

@@ -45,6 +45,7 @@ Setiap gelombang memiliki karakteristik matematis yang saling terikat:
 Gelombang yang amplitudonya tetap di setiap titik yang dilewati.
 
 **Persamaan Simpangan ($y$):**
+
 $$
 \Large y = \pm A \sin(\omega t \mp kx)
 $$
@@ -60,12 +61,14 @@ Hasil superposisi (perpaduan) antara gelombang datang dan gelombang pantul. Ampl
 
 ### 4.1 Ujung Tetap (Terikat)
 Simpangan di ujung pantul selalu nol (Simpul).
+
 $$
 \Large y_s = 2A \sin(kx) \cos(\omega t)
 $$
 
 ### 4.2 Ujung Bebas
 Simpangan di ujung pantul selalu maksimum (Perut).
+
 $$
 \Large y_s = 2A \cos(kx) \sin(\omega t)
 $$
@@ -87,9 +90,11 @@ $$
 Cahaya melewati dua celah sempit dan membentuk pola garis **Terang** dan **Gelap** di layar.
 
 - **Syarat Terang (Maksimum):**
-  $$
-  \Large d \sin \theta = n \cdot \lambda \quad \text{atau} \quad \frac{d \cdot y}{L} = n \cdot \lambda
-  $$
+  
+
+$$
+\Large d \sin \theta = n \cdot \lambda \quad \text{atau} \quad \frac{d \cdot y}{L} = n \cdot \lambda
+$$
 - **$n$:** Orde (0, 1, 2, ...).
 - **$y$:** Jarak dari pusat terang.
 
@@ -108,6 +113,7 @@ Rumus pusat terang sama dengan interferensi Young: $d \sin \theta = n \lambda$.
 Pernah melihat warna warni di gelembung sabun atau tumpahan bensin? Itu adalah interferensi cahaya yang memantul dari permukaan atas dan bawah lapisan tipis.
 
 **Syarat Terang (Penguatan):**
+
 $$
 \Large 2nt \cos r = (m - \frac{1}{2}) \lambda
 $$
@@ -120,9 +126,11 @@ $$
 Cahaya alami bergetar ke segala arah. **Polarisasi** adalah proses membatasi getaran cahaya hanya pada satu arah saja. 
 
 - **Hukum Malus:** Intensitas cahaya setelah melewati dua polarisator:
-  $$
-  \Large I = I_0 \cos^2 \theta
-  $$
+  
+
+$$
+\Large I = I_0 \cos^2 \theta
+$$
 - **Sudut Brewster:** Cahaya terpolarisasi sempurna saat memantul dengan sudut $\tan \theta_p = \frac{n_2}{n_1}$.
 
 ---

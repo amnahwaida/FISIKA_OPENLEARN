@@ -38,7 +38,9 @@ $$
 > [!IMPORTANT]
 > **Eternal Bridge: Momentum Relativistik:**
 > Pada kecepatan mendekati cahaya, massa benda tampak bertambah ($m_{\text{rel}} = \gamma m_0$). Oleh karena itu, rumus momentum menjadi:
-> $$
+> 
+
+$$
 \Large \vec{p} = \gamma m_0 \vec{v} = \frac{m_0 \vec{v}}{\sqrt{1 - \frac{v^2}{c^2}}}
 $$
 > Tanpa faktor Lorentz ($\gamma$), perhitungan momentum roket antar bintang atau partikel atom akan salah total.
@@ -86,7 +88,9 @@ Ini adalah **Teorema Impuls-Momentum**: Impuls yang diberikan pada benda sama de
 > [!NOTE]
 > **Asal-Usul Teorema:**
 > Dari $F = \frac{\Delta p}{\Delta t}$, kalikan kedua ruas dengan $\Delta t$:
-> $$
+> 
+
+$$
 \Large F \cdot \Delta t = \Delta p
 $$
 > Ruas kiri = Impuls. Ruas kanan = Perubahan momentum. Q.E.D.
@@ -126,18 +130,23 @@ Dari $F = \frac{\Delta p}{\Delta t}$, jika $\Delta p$ sama, maka:
 Perhatikan dua benda ($m_1, m_2$) yang saling berinteraksi (tumbukan):
 - Menurut Newton III: $\vec{F}_{12} = -\vec{F}_{21}$ (aksi-reaksi)
 - Maka:
-  $$
-  \Large \frac{\Delta \vec{p}_1}{\Delta t} = -\frac{\Delta \vec{p}_2}{\Delta t}
-  $$
+  
+
+$$
+\Large \frac{\Delta \vec{p}_1}{\Delta t} = -\frac{\Delta \vec{p}_2}{\Delta t}
+$$
 - Kalikan $\Delta t$: $\Delta \vec{p}_1 = -\Delta \vec{p}_2$
 - Artinya:
-  $$
-  \Large \Delta \vec{p}_1 + \Delta \vec{p}_2 = 0
-  $$
+  
+
+$$
+\Large \Delta \vec{p}_1 + \Delta \vec{p}_2 = 0
+$$
 
 $$
 \Large \mathbf{\vec{p}_{total,\text{awal}} = \vec{p}_{total,\text{akhir}}}
 $$
+
 $$
 \Large m_1 v_1 + m_2 v_2 = m_1 v_1' + m_2 v_2'
 $$
@@ -185,9 +194,11 @@ Dua hukum berlaku sekaligus:
 2. **Kekekalan EK:** $\frac{1}{2}m_1 v_1^2 + \frac{1}{2}m_2 v_2^2 = \frac{1}{2}m_1 v_1'^2 + \frac{1}{2}m_2 v_2'^2$
 
 **Rumus Cepat (target awalnya diam, $v_2 = 0$):**
+
 $$
 \Large v_1' = \frac{m_1 - m_2}{m_1 + m_2} v_1
 $$
+
 $$
 \Large v_2' = \frac{2m_1}{m_1 + m_2} v_1
 $$
@@ -204,6 +215,7 @@ Kedua benda **menyatu** setelah tumbukan dan bergerak dengan kecepatan yang sama
 $$
 \Large m_1 v_1 + m_2 v_2 = (m_1 + m_2) v'
 $$
+
 $$
 \Large v' = \frac{m_1 v_1 + m_2 v_2}{m_1 + m_2}
 $$
@@ -211,7 +223,9 @@ $$
 > [!CAUTION]
 > **Energi "Hilang":**
 > Pada tumbukan tidak lenting sempurna, energi kinetik yang hilang berubah menjadi panas, bunyi, dan deformasi. Jumlah energi yang hilang:
-> $$
+> 
+
+$$
 \Large \Delta EK = \frac{1}{2} \frac{m_1 m_2}{m_1 + m_2} (v_1 - v_2)^2
 $$
 
@@ -257,6 +271,7 @@ $$
 $$
 
 ### 7.2 Kecepatan Pusat Massa
+
 $$
 \Large v_{cm} = \frac{p_{total}}{m_{total}} = \frac{m_1 v_1 + m_2 v_2}{m_1 + m_2}
 $$
@@ -288,7 +303,9 @@ $$
 > [!NOTE]
 > **Asal-Usul:**
 > Dari $p = mv \implies v = \frac{p}{m}$. Substitusi ke $EK = \frac{1}{2}mv^2$:
-> $$
+> 
+
+$$
 \Large EK = \frac{1}{2}m\left(\frac{p}{m}\right)^2 = \frac{p^2}{2m}
 $$
 > Rumus ini sangat berguna dalam soal olimpiade yang melibatkan momentum dan energi sekaligus.
@@ -309,6 +326,7 @@ Sebuah peluru bermassa $m$ menghantam balok bermassa $M$ yang tergantung (pendul
 2. **HKEM** (setelah tumbukan, balok+peluru berayun naik): $\frac{1}{2}(m+M)v'^2 = (m+M)gh$
 
 **Rumus Cepat Kecepatan Peluru:**
+
 $$
 \Large v_{peluru} = \frac{m + M}{m} \sqrt{2gh}
 $$
@@ -321,6 +339,7 @@ $$
 Roket bekerja berdasarkan HKML: gas dikeluarkan ke belakang, roket terdorong ke depan.
 
 **Persamaan Gaya Dorong Roket:**
+
 $$
 \Large F_{thrust} = v_{rel} \cdot \frac{dm}{dt}
 $$
@@ -333,6 +352,7 @@ $$
 
 ### 9.3 Ledakan (Kebalikan Tumbukan)
 Pada ledakan, benda yang awalnya diam terpecah menjadi beberapa bagian. HKML tetap berlaku:
+
 $$
 \Large 0 = m_1 v_1' + m_2 v_2' + \ldots
 $$

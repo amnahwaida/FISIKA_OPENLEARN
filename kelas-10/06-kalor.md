@@ -48,11 +48,13 @@ Setiap skala memiliki titik tetap bawah (es mencair) dan titik tetap atas (air m
 </div>
 
 **Rumus Umum Konversi:**
+
 $$
 \Large \frac{T_X - TitikBawah_X}{TitikAtas_X - TitikBawah_X} = \frac{T_Y - TitikBawah_Y}{TitikAtas_Y - TitikBawah_Y}
 $$
 
 **Perbandingan Skala (C : R : F : K):**
+
 $$
 \Large 5 : 4 : 9 : 5
 $$
@@ -69,23 +71,31 @@ Ketika dipanaskan, partikel zat bergetar lebih kuat, sehingga jarak antar partik
 
 ### 3.1 Pemuaian Zat Padat
 1. **Pemuaian Panjang ($\Delta L$):** Berlaku untuk benda berbentuk kawat/batang.
-   $$
-   \Large \Delta L = L_0 \cdot \alpha \cdot \Delta T
-   $$
-   $$
+   
+
+$$
+\Large \Delta L = L_0 \cdot \alpha \cdot \Delta T
+$$
+   
+
+$$
 \Large L_t = L_0 (1 + \alpha \Delta T)
 $$
    ($\alpha$ = koefisien muai panjang)
 
 2. **Pemuaian Luas ($\Delta A$):** Benda berupa lempengan.
-   $$
-   \Large \Delta A = A_0 \cdot \beta \cdot \Delta T \quad (\beta = 2\alpha)
-   $$
+   
+
+$$
+\Large \Delta A = A_0 \cdot \beta \cdot \Delta T \quad (\beta = 2\alpha)
+$$
 
 3. **Pemuaian Volume ($\Delta V$):** Benda pejal/3D.
-   $$
-   \Large \Delta V = V_0 \cdot \gamma \cdot \Delta T \quad (\gamma = 3\alpha)
-   $$
+   
+
+$$
+\Large \Delta V = V_0 \cdot \gamma \cdot \Delta T \quad (\gamma = 3\alpha)
+$$
 
 > [!WARNING]
 > **Aplikasi Teknis: Kaca Tahan Panas**
@@ -104,6 +114,7 @@ Zat cair umumnya hanya mengalami **pemuaian volume**. Namun, ada satu pengecuali
 ### 3.3 "Grandmaster Apex": Tegangan Termal (Thermal Stress)
 Apa yang terjadi jika sebatang logam dipanaskan ($\Delta T$) tetapi ujung-ujungnya **ditahan kaku** sehingga tidak bisa memuai? Benda tersebut akan membangkitkan **Gaya Internal** yang sangat merusak untuk memaksa memuai.
 Berdasarkan modulus elastisitas Young ($Y$):
+
 $$
 \Large F = Y \cdot A \cdot \alpha \cdot \Delta T
 $$
@@ -131,6 +142,7 @@ Dimana:
 
 **Kapasitas Kalor ($C$):**
 Besaran untuk satu benda utuh (bukan per kg massa).
+
 $$
 \Large C = m \cdot c \implies Q = C \cdot \Delta T
 $$
@@ -152,6 +164,7 @@ $$
 
 ### 5.1 Kalor Sublimasi (Padat $\leftrightarrow$ Gas)
 Zat tertentu seperti Es Kering ($CO_2$ padat) atau kapur barus dapat menyublim menyerap kalor lompat wujud tanpa melewati fase cair. Laten Kalor Sublimasi ($L_s$) didefinisikan secara konseptual setara dengan totalitas kalor lebur ditambah kalor uap:
+
 $$
 \Large L_s \approx L_f + L_v
 $$
@@ -193,6 +206,7 @@ $$
 ### 7.1 Kalorimeter Non-Ideal (Wadah Aktif)
 Di soal tingkat dasar, wadah pencampur (Kalorimeter) diabaikan massa dan kapasitas kalornya. Di dunia nyata (dan OSN), **wadah logam juga ikut menyerap kalor**.
 Maka rumus kesetimbangan meluas menjadi:
+
 $$
 \Large Q_{lepas} = Q_{terima(\text{Zat Cair})} + Q_{terima(\text{Kalorimeter})}
 $$
@@ -208,6 +222,7 @@ Terdapat tiga mode dasar bagaimana energi panas berpindah ruang:
 ### 8.1 Konduksi (Rambatan)
 Perpindahan kalor melalui benda padat tanpa materi yang ikut berpindah (disebabkan getaran elektron & kisi atom).
 **Laju Kalor ($H = Q/t$):**
+
 $$
 \Large H = \frac{k \cdot A \cdot \Delta T}{L}
 $$
@@ -216,6 +231,7 @@ $$
 
 ### 8.2 Konveksi (Aliran)
 Perpindahan kalor yang disertai perpindahan massanya (terjadi pada fluida: cairan/gas).
+
 $$
 \Large H = h \cdot A \cdot \Delta T
 $$
@@ -225,6 +241,7 @@ $$
 ### 8.3 Radiasi (Pancaran)
 Perpindahan kalor dalam bentuk gelombang elektromagnetik (inframerah) **tanpa memerlukan medium**. Inilah cara energi matahari menembus ruang hampa mencapai bumi.
 **Hukum Stefan-Boltzmann (Daya Radiasi, $P$):**
+
 $$
 \Large P = e \cdot \sigma \cdot A \cdot T^4
 $$
@@ -239,9 +256,11 @@ $$
 ### 9.1 Kesetaraan Mekanik-Kalor (Joule's Experiment)
 James Prescott Joule membuktikan bahwa "Kalor" dan "Usaha Mekanik" adalah hal yang sama (keduanya energi).
 **Konversi Dewa:**
+
 $$
 \Large 1 \text{ kalori} = 4,184 \text{ Joule}
 $$
+
 $$
 \Large 1 \text{ Joule} = 0,24 \text{ kalori}
 $$

@@ -25,6 +25,7 @@
 **Fluida** adalah segala zat yang tak bisa mempertahankan bentuk kaku (tidak mampu menahan tegangan geser), sehingga ia akan mengalir mengikut wadah. Fluida mencakup **Zat Cair** (Volume tetap) dan **Gas** (Otomatis berekspansi memenuhi ruang).
 
 Parameter sakral fluida adalah **Massa Jenis ($\rho$) / Kerapatan:**
+
 $$
 \Large \rho = \frac{m}{V} \quad (\text{kg/m}^3)
 $$
@@ -32,6 +33,7 @@ $$
 
 ### 1.1 Tekanan Hidrostatis ($P_h$)
 Tekanan akibat timpaan beban berat air yang menindas dari atas tubuh Anda ke kedalaman menukik.
+
 $$
 \Large P_h = \rho \cdot g \cdot h
 $$
@@ -39,6 +41,7 @@ $$
 
 ### 1.2 Tekanan Total Absolut ($P_{abs}$)
 Di Bumi terbuka, dasar palung mariana tidak hanya menanggung himpitan kolong air laut, namun juga wajib memikul tekanan tumpukan gumpalan langit lapisan atmosfer murni di atas laut tersebut ($P_0 \approx 1 \text{ atm} = 1,01 \times 10^5 \text{ Pascal}$).
+
 $$
 \Large P_{total} = P_0 + P_h = P_0 + (\rho \cdot g \cdot h)
 $$
@@ -55,13 +58,16 @@ Blaise Pascal menghancurleburkan batasan gaya manusia lewat hukum magis:
 **"Tekanan diam yang dikenakan fluida di dalam ruang kubik tertutup, akan dihamburkan menembak ke SEGALA ARAH dengan kekuatan utuh tidak berkurang sepersenpun!"**
 
 Artinya, Tekanan pomp kecil ($P_1$) mutlak sama gedorannya dengan Tekanan pipa raksasa ($P_2$):
+
 $$
 \Large P_1 = P_2 \implies \frac{F_1}{A_1} = \frac{F_2}{A_2}
 $$
 
 > [!TIP]
 > **Sulap Dongkrak Hidrolik Bengkel Mobil:** Bagaimana jari mungil anak kecil ($F_1 = 50 \text{ N}$ tekan di sedotan kecil luas murni $A_1 = 1 \text{ cm}^2$) bisa melanting menaikkan truk tonase raksasa ($F_2 \impliedby ?$) di pipa pijak bantal besar ($A_2 = 1.000 \text{ cm}^2$)?
-> $$
+> 
+
+$$
 \Large F_2 = F_1 \times \left(\frac{A_2}{A_1}\right) = 50 \times 1000 = \mathbf{50.000 \text{ Newton (Truk 5 Ton Terangkat Jari!)}}
 $$
 > Mekanisme inilah alasan injakan rem depan pedal kecil jari kaki pengemudi mobil diubah menjadi sergapan cengkram balok besi kaliper merobek roda lari truk baja tronton pemicu rem hidrolik!
@@ -83,6 +89,7 @@ $$
 
 ### 3.2 Misteri Keringanan Misterius (Berat Semu, $W'$ atau $W_{semu}$)
 Mengapa Anda kuat membopong gerbong manusia hidup gempal saat berenang tumpu di kolam, namun lengan akan memelintir patah tulang letih gontai lumpuh bila membopong ia keluar lari dari air tangga ombak? Kerena campur tangan Bantuan Dewa Apung ($F_a$) menopang mengurangi!
+
 $$
 \Large W_{\text{semu}} = W_{\text{asli udara}} - F_a
 $$
@@ -93,6 +100,7 @@ $$
 ## 4. Tegangan Permukaan & Batas Kapilaritas
 
 Tegangan gesekan selabut memaku permukaan cairan rahim disebabkan tarikan rantai gila molekul air sesamanya (Gaya ikat **Kohesi** memburu diri absolut saling kepal ke tengah). Hal inilah yang menitah bentuk air mendarat lali membola di talas (mengincar volume rahim terhemat sfera) dan mengawinkan jarum serangga ngengat rawa Nyamuk Berjalan terbang di air dan patahan koin klip besi tak jebol mengapung pelan di piring air!
+
 $$
 \Large \gamma = \frac{F}{d} \ \quad (\text{Newton/meter})
 $$
@@ -103,6 +111,7 @@ $$
 
 ### 4.2 Kapilaritas Menarik Ke Puncak Pohon (Hukum Jurin)
 Inilah trik mukjizat pohon Redwood menjulang merangkak menyekah meresap tetesan air menyedot tanah ke akar setinggi awan gumpal langit. Air sanggup **MENDANGAK MEMANJAT PIPA LUBANG SEMPIT** celah urat tanpa mesin hisap motor sama sekali belaka mendatangi daun melipati gravitasi! 
+
 $$
 \Large y = \frac{2 \gamma \cos \theta}{\rho \cdot g \cdot R}
 $$
@@ -114,16 +123,19 @@ Ketinggian memanjat naik ($y$) menembus mendesak semakin jauh mutlak memuncak bi
 
 Kita tinggalkan air statis dan terjun ke putaran pusaran deras keran memancar!
 **Debit ($Q$)** adalah volume galon kubik raksasa air yang dipompa dimuntahkan disembur paksa lari per detiknya waktu mutlak.
+
 $$
 \Large Q = \frac{V}{t} \quad (\text{m}^3\text{/s})
 $$
 Karena volume murni ($V$) balok adalah Luas alas terali pipa potong penampang melintang mutlak ($A$) dikali pergeseran pancaran melesat jauh ruang gerak lari ($x = v \cdot t$), debit menjelma wujud rahasia kedua:
+
 $$
 \Large Q = A \cdot v
 $$
 
 ### 5.1 Persamaan Talian Darah Kontinuitas Pipa
 Setiap tetes aliran mutlak hampa kompresi tumpat murni (Hukum Kekekalan Massa)! Jika pipa mendadak menciut menyempit leher botol mencekik, air TIDAK mengendap parkir macet di pinggir persis laksana mobil jalan tol tumpukan antrean! Air murka nekat memelanting lari seratus kali lipat melesat mengerikan memecah mendongkrak **KECEPATAN MURNINYA**!
+
 $$
 \Large Q_1 = Q_2 \implies A_1 \cdot v_1 = A_2 \cdot v_2
 $$
@@ -134,6 +146,7 @@ $$
 ## 6. Asas Fundamental Bernoulli
 
 Daniel Bernoulli ($1738$) menurunkan kengerian mukjizat fisika maut dari Kekekalan Mekanik Energi Mutlak (Kerja $P$, Kinetik $\frac{1}{2}mv^2$, dan Potensial $mgh$):
+
 $$
 \Large P_1 + \frac{1}{2} \rho v_1^2 + \rho g h_1 = P_2 + \frac{1}{2} \rho v_2^2 + \rho g h_2
 $$
@@ -155,6 +168,7 @@ Tangki air dilubangi mendadak tertebas setajam silet dari kejauhan kedalaman mel
 ### 7.2 Tabung Venturimeter (Pengukur Debit Laju PIPA Utama Pabrik)
 Pipa leher gembung disambung sengaja corong ciut sempit menyiksa ($A_2$). Pipa ini ditusuk sengaja dicolok jarum manometer raksa pemantau ganda (atau celah bening tekanan U) untuk mengintip perselisihan hancur anjloknya tekanan akibat air dijerat lari memecut maut lewat masuk pipa picing.
 Rumus Dasar Laju Air Memasuki Perangkap Venturi (Tanpa Cairan Rawa Tambahan):
+
 $$
 \Large v_1 = \sqrt{\frac{2 \cdot g \cdot h}{\left(\frac{A_1}{A_2}\right)^2 - 1}}
 $$
@@ -166,6 +180,7 @@ $$
 
 ### 8.1 Tabung Pitot Jarum Pengukur Jet Supersonik
 Ditempel di bibir moncong jet tempur, jarum bolong berujung buntung huruf L mencegat tabrakan hantam sengit aliran udara keras murni dari angkasa luar, menyumbat rem mendadak mematikan laju udara mati seketika diam menabrak ($v = 0$ di ujung lubang stagnasi titik hisap). Tekanan hancur membanting beda mencelik ke layar meteran pilot membongkar kecepatan murni lari siluman jet menembus langit:
+
 $$
 \Large v_{\text{pesawat}} = \sqrt{\frac{2 \cdot \rho_{\text{Cairan\_Manometer Timbangan}} \cdot g \cdot h}{\rho_{\text{udara luar terbang}}}}
 $$
@@ -175,9 +190,11 @@ Pesawat rongsok Boeing bertonase ribuan MegaTon mampu ngangkang murni terangkat 
 - Jarak udara membanting membelah lewat lari punggung ATAS sayap wajib menyusuri melengkung gundukan jauh lebih berputar panjeng panjang. Terpaksa, lari melesat Udara atas **Lebar Cepat Lebih Gila** ($v_{\text{atas}} > v_{\text{bawah}}$).
 - Hukum Bernoulli meneriak: Jika gerak meriam $v_{\text{atas}}$ cepat lari, maka Tekanan atap Langit Sayap $P_{\text{atas}}$ Anjlok Hancur Hampa Kempos Kosong ($P_{\text{atas}} < P_{\text{bawah}}$) menyurut drastis.
 - Perbedaan Tekanan bawah padat vs atas bolong mendongkrak **Angkat Menyedor Mutlak (Lift Force $F_{\text{angkat}}$):**
-  $$
-  \Large F_{\text{angkat}} = (P_{\text{bawah}} - P_{\text{atas}}) \cdot A \implies F_{\text{angkat}} = \frac{1}{2} \rho_{\text{udara}} \cdot (v_{\text{atas}}^2 - v_{\text{bawah}}^2) \cdot A_{\text{sayap}}
-  $$
+  
+
+$$
+\Large F_{\text{angkat}} = (P_{\text{bawah}} - P_{\text{atas}}) \cdot A \implies F_{\text{angkat}} = \frac{1}{2} \rho_{\text{udara}} \cdot (v_{\text{atas}}^2 - v_{\text{bawah}}^2) \cdot A_{\text{sayap}}
+$$
 Syarat lepas landas roda lari selamat (*Take Off*): Dorongan mutlak angkat maut menyedot ini wajib menang lebih gigih galak membanjir hancurkan tarikan mati total Massa beratan Pesawat baja ($F_{\text{angkat}} > W_{\text{pesawat}}$). 
 
 ---
@@ -189,6 +206,7 @@ Kenyataan asli realitas minyak Bumi, lumpur, oli rem kental lengket gila parah. 
 
 **Hukum Sir George Stokes Gesek Tenggelam Berlumpur:**
 Kelereng baja dijatuhkan lurus meluncur dalam drum raksasa tabung oli kental hitam lengket tidak akan pernah melaju akselerasi meledak ke bawah sejadi gravitasi lliar awam membelah. Ia akan dijegal serbuk mengerem hisap hampa seret tarung dari segala dinding kulitnya (*Drag Fluid Force / $F_s$*):
+
 $$
 \Large F_s = 6 \cdot \pi \cdot \eta \cdot r \cdot v
 $$
@@ -198,6 +216,7 @@ $$
 
 **Velositas Tertinggi Final Maut Konstan Absolut (Terminal Velocity mutlak / $v_t$):**
 Benda mati tersebut di suatu milidetik melaju di lumpur lambat laut, Gaya hantu gesek Stokes akan mengungguli membela hancur seri gaya gravitasi bongkah, menjadikannya jatuh bukan memecut gila pelesakan, namun jatuh luruh terayun malas pelan diam Kecepatan Konstan Absolut seratus persen stabil merapat selamanya hingga rebah menyentuh memukul maut lantai tanki bumi. 
+
 $$
 \Large v_t = \frac{2 \cdot r^2 \cdot g (\rho_{\text{bola baja benda}} - \rho_{\text{oli fluida}})}{9 \cdot \eta}
 $$

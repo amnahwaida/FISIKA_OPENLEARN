@@ -49,6 +49,7 @@
 
 **Persamaan Dasar Cepat Rambat ($v$):**
 Kecepatan rambat energi gelombang ditentukan oleh besaran ruang dan waktu ini:
+
 $$
 \Large v = \lambda \cdot f = \frac{\lambda}{T}
 $$
@@ -72,6 +73,7 @@ $$
   - Pilih **$(+)$** jika merambat mendekat ke arah Kiri (sumbu $-x$).
 
 **Beda Fase ($\Delta \varphi$):** Menentukan sinkronisasi dua titik pada gelombang:
+
 $$
 \Large \Delta \varphi = \frac{\Delta x}{\lambda}
 $$
@@ -101,6 +103,7 @@ Bunyi adalah *gelombang mekanik longitudinal* perantara (udara, air, atau besi l
 
 **1. Percobaan Melde (Kecepatan Bunyi Tali/Dawai Gitar):**
 Laju perambatan mekanik ini dipengaruhi **tekanan ketegangan** tarik ($F$) dan ketebalan material linier murni (**Massa per Satuan Panjang**, $\mu = m/L$):
+
 $$
 \Large v = \sqrt{\frac{F}{\mu}} \quad \text{atau} \quad v = \sqrt{\frac{F \cdot L}{m}}
 $$
@@ -110,6 +113,7 @@ $$
 
 **2. Kecepatan Bunyi di Gas/Udara Udara:**
 Bergantung murni pada Termodinamika (suhu absolut):
+
 $$
 \Large v = \sqrt{\frac{\gamma \cdot R \cdot T}{M}}
 $$
@@ -124,13 +128,18 @@ Alat musik bernada tercipta ketika gelombang menjebak diri dalam stasioner spasi
 ### 6.1 Dawai (Gitar, Biola)
 - Syarat ujung: Terikat $\leftrightarrow$ Terikat (Simpul di kedua ujung).
 - Panjang efektif terbentuk pola perut murni:
-  $$
-  \Large L = (n+1) \cdot \frac{\lambda}{2}
-  $$
+  
+
+$$
+\Large L = (n+1) \cdot \frac{\lambda}{2}
+$$
 - Modulus deret Frekuensinya:
-  $$
-  \Large f_0 : f_1 : f_2 = 1 : 2 : 3 \dots
-  $$
+  
+
+$$
+\Large f_0 : f_1 : f_2 = 1 : 2 : 3 \dots
+$$
+
 $$
 \Large f_n = (n+1) \frac{v}{2L}
 $$
@@ -138,16 +147,20 @@ $$
 ### 6.2 Pipa Organa Terbuka - POT (Suling Bambu, Trompet)
 - Syarat ujung udara: Terbuka kedua rongganya (Perut di kedua ujung corong).
 - Sama mutlak polanya matematisnya dengan dawai. Deret $1 : 2 : 3 \dots$
-  $$
-  \Large f_n = (n+1) \frac{v}{2L}
-  $$
+  
+
+$$
+\Large f_n = (n+1) \frac{v}{2L}
+$$
 
 ### 6.3 Pipa Organa Tertutup - PTB (Botol ditiup, Klarinet)
 - Syarat: Satu tertutup (Simpul tembok), satu ujung tiup terbuka (Perut hembus udara).
 - Deret Pipa Tertutup kehilangan bilangan genap (*Murni harmonik aneh ganjil*): $1 : 3 : 5 \dots$
-  $$
-  \Large f_n = (2n+1) \frac{v}{4L}
-  $$
+  
+
+$$
+\Large f_n = (2n+1) \frac{v}{4L}
+$$
 
 ---
 
@@ -155,6 +168,7 @@ $$
 
 ### 7.1 Intensitas (Totalitas Fisik Energi Energi Nyata)
 Berapa daya bising sumber terhambur luang menjauh dari Anda berdasarkan hukum Kuadrat Terbalik.
+
 $$
 \Large I = \frac{P}{A} = \frac{P}{4\pi r^2} \quad \text{(W/m}^2\text{)}
 $$
@@ -195,6 +209,7 @@ Di mana:
 
 ### 8.2 Layangan Bunyi (Acoustic Beats)
 Ketika musisi tuning dua senar berlainan Hz sedikit sekali (contoh satu $440 \text{ Hz}$, satunya $443 \text{ Hz}$). Kedua senar menggemarakan getaran yang secara bergantian saling menginterferensi konstruksi dan hancur konstan (*wow-wow-wow* suara pelayangan getar).
+
 $$
 \Large f_{\text{layangan}} = |f_1 - f_2|
 $$

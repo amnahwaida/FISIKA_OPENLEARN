@@ -31,18 +31,21 @@ Gas Ideal adalah benda hantu siluman ciptaan fisika: Tidak peduli jenis gasnya (
 
 **Hukum Pamungkas Gas Boyle-Gay Lussac Murni:**
 Tekanan ($P$), Volume ($V$), dan Suhu Absolut Mutlak Kelvin ($T$) diikat pelukan kosmik konstan murni:
+
 $$
 \Large \frac{P_1 \cdot V_1}{T_1} = \frac{P_2 \cdot V_2}{T_2}
 $$
 
 Tatkala mol partikel dihitung spesifik, persamaannya dibelah mematikan:
 **Dalam Skala Makro Molar Kimia ($n$ = mol):**
+
 $$
 \Large P \cdot V = n \cdot R \cdot T
 $$
 - $R$ = Tetapan Gas Universal Mutlak ($8,314 \text{ J/mol}\cdot\text{K}$).
 
 **Dalam Skala Mikro Cakaran Molekul Spesifik ($N$ = jumlah total juta atom bertabrakan):**
+
 $$
 \Large P \cdot V = N \cdot k \cdot T
 $$
@@ -56,6 +59,7 @@ Apa arti dari Panci mendidih memanas murni naik suhunya dari $30 \text{ C}$ mene
 Panci itu sejatinya SEDANG DIPENUHI BILIUNAN MOLEKUL AIR YANG MEMACU KECEPATAN BERLARINYA MENAMBARR PELURH SUPER MENYAPU MENDOBRAK DINDING PANCI MAKIN KENCANG! **Suhu hanyalah ilusi dari KECEPATAN TABRAKAN MOLEKUL ($v$).**
 
 **Root Mean Square Velocity (Akar Kuadrat Rata-Rata Kecepatan Pecahan):**
+
 $$
 \Large v_{rms} = \sqrt{\frac{3 \cdot R \cdot T}{M}} \quad \text{atau} \quad v_{rms} = \sqrt{\frac{3 \cdot k \cdot T}{m_0}}
 $$
@@ -87,6 +91,7 @@ Dua atom terikat barbel ikatan bisa meliuk menari gasing mutlak!
 
 **"Energi Panci Mustahil Lahir Gaib atau Lenyap Hangus Sia-sia!"**
 Energi panas disuap pasok ke dalam kawah tabung tabung ($Q$) pastinya pecah terbagi murni mutlak: 1) Digunakan Murni MEMBAKAR MENDIDIHKAN Hawa Panas tabung ($\Delta U$ Energi Dalam), dan 2) Digunakan murni MENDOBRAK MENDESAK PISTON TABUNG (Usaha Kerja Mesin Ekstpansi $W$).
+
 $$
 \Large Q = \Delta U + W
 $$
@@ -128,9 +133,11 @@ Botol silinder dikubur murni rendam di kolam perairan lautan panas raksasa (Rese
 - **Perubahan Energi Dalam Hampa Beku:** $\Delta U = 0$ (Rata suhu stabil).
 - Seluruh Kalor Suap langsung membius ditukar 100 persen tuntas laku memutar otot mesin murni mutlak: **$Q = W_{\text{Logaritma Murni}}$**. 
 - Usaha Integral Melengkung Log Natural:
-  $$
-  \Large W = n \cdot R \cdot T \cdot \ln\left(\frac{V_2}{V_1}\right)
-  $$
+  
+
+$$
+\Large W = n \cdot R \cdot T \cdot \ln\left(\frac{V_2}{V_1}\right)
+$$
 
 ### 4. Adiabatik (Tembakan Rudal Terisolasi Cepat Kilat Kebut, $Q=0$)
 Botol Termos tebal berlapis Styrofoam dan busa gila tahan panas seratus persen murni tak mengijikan rembes sekutip elektron kalor menyusup atau lari ghaib membocori keluar ($\mathbf{Q_{\text{Masuk/Keluar}} = 0}$). Atap piston ditendang meledak ekspansi kilat hitungan mikrodetik menyilet angkasa.
@@ -148,10 +155,12 @@ Nicolas Léonard Sadi Carnot (1824) memaku impian abadi para insinyur: **Adakah 
 Siklus Carnot adalah "Mesin Paling Dewa Idaman yang Tidak Mungkin Dikalahkan Kesempurnaannya" (Terdiri dari siklik murni: Isotermal Ekspansi $\to$ Adiabatik Ekspansi $\to$ Isotermal Kompresi $\to$ Adiabatik Kompresi Membalik Asal Titik A).  
 
 Keseimbangan Rumus Maksimal Efisiensi Roda Emas Murni ($\eta$):
+
 $$
 \Large \eta = \left( 1 - \frac{Q_{\text{buang dingin laut}}}{Q_{\text{suap api panas raksasa}}} \right) \times 100\%
 $$
 Kala Tuhan mencipta Mesin Ghaib Termal Sempurna Carnot, energi Kalor diringkas takluk setara dengan angka Suhu Mutlak KELVIN-nya! 
+
 $$
 \Large \eta_{Max\_Alam\_Semesta} = \left( 1 - \frac{T_r \ (\text{Suhu Knalpot Dingin KELVIN})}{T_t \ (\text{Suhu Tungku Bara KELVIN})} \right) \times 100\%
 $$
@@ -164,11 +173,13 @@ $$
 Hukum Alam membuktikan panas lari mutlak membanjiri ruang dingin secara otodidak (Clausius statement). Mustahil murni memaksakan menjarah hawa sejuk dari dalam balok es dibuang memindah dibakar disebar luar ke aspal jalanan panas gurun ... MELAINKAN Jika dan Murni JIKA dibantu peras gila setrum listrik murni **Kompresor Usaha dari luar PLN Murni ($W$)**! Inilah dasar pendirian sakral AC dan Kulkas Kedinginan Mutlak.  
 
 Mesin pengeruk peras dingin ini tak memakai nilai cacat Efisiensi (\%). Mereka bangga menggunakan patokan Nilai Bintang Sakti **Koefisien Performansi Maut Kerja (KP atau $C_p$)**:
+
 $$
 \Large K_p = \frac{Q_r \ (\text{Kalor tersadap dalam Box Es Kulkas dingin})}{W \ (\text{Daya tagih Listrik Memeras Kompresor Tegangan murni})}
 $$  
 
 Jika diringkas kembali mencium mencontek Skala Absolut Carnot mesin idaman Tuhan (Murni T Kelvin):
+
 $$
 \Large K_p = \frac{T_r \ (\text{Suhu Dingin Kulkas Dalam})}{T_t \ (\text{Suhu Panas Kondensor Pantat Kulkas Luar}) - T_r}
 $$
@@ -180,6 +191,7 @@ $$
 ## 9. Hukum II Termodinamika & Hukum Entropi ($\Delta S$)
 
 Fisika mekanika Newtonian mengijinkan telur pecah menyatukan lemparan dirinya pecah mendarat lantai terbang murni membalik ke meja berbentuk bulat oval kencang (Hukum Newton bisa dibalik mundur waktunya). Tapi Realita Semesta Alam Murni mendikte keras **Panah Waktu Hanya Merayap Maju Satu Arah Penghancuran. Telur Hancur Takkan Kembali Sempurna Mulus Tetas**. Alam selalu berlari berlomba melesat menuju Puncakan KEKACAUBALAUAN BERANTAKAN SEMBARA MUTLAK MURNI **(Entropi Meningkat Mutlak).**
+
 $$
 \Large \Delta S = \frac{Q_{\text{Kalor diserap murni Reversible}}}{T \text{ (Suhu Tetap Kelvin)}}
 $$

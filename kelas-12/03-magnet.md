@@ -33,6 +33,7 @@ Hukum Biot-Savart secara matematis mendefinisikan kontribusi kecil medan magnet 
 
 **Kawat Lurus Sangat Panjang:**
 Pada jarak $a$ dari kawat lurus tak hingga:
+
 $$
 \Large B = \frac{\mu_0 \cdot I}{2\pi \cdot a}
 $$
@@ -44,6 +45,7 @@ $$
 
 ### 3.1 Kawat Melingkar
 Kuat medan magnet di pusat lingkaran dengan jari-jari $a$ dan $N$ lilitan:
+
 $$
 \Large B = \frac{\mu_0 \cdot I \cdot N}{2a}
 $$
@@ -58,11 +60,13 @@ Kawat yang dililitkan rapat pada silinder panjang. Di dalam solenoida, medan mag
 ## 4. Hukum Ampere & Toroida
 
 **Hukum Ampere:** Analog dengan hukum Gauss pada listrik, hukum ini mempermudah perhitungan medan pada sistem simetri tinggi.
+
 $$
 \Large \oint \mathbf{B} \cdot d\mathbf{l} = \mu_0 \cdot I_{enc}
 $$
 
 **Toroida:** Solenoida yang ditekuk menjadi lingkaran (seperti donat).
+
 $$
 \Large B = \frac{\mu_0 \cdot I \cdot N}{2\pi \cdot r}
 $$
@@ -72,12 +76,14 @@ $$
 ## 5. Gaya Lorentz (Muatan Titik)
 
 Muatan $q$ yang bergerak dengan kecepatan $\mathbf{v}$ di dalam medan magnet $\mathbf{B}$ akan mengalami gaya magnet.
+
 $$
 \Large \mathbf{F} = q (\mathbf{v} \times \mathbf{B}) \implies F = q \cdot v \cdot B \sin \theta
 $$
 
 **Lintasan Partikel:**
 Jika $\mathbf{v} \perp \mathbf{B}$, partikel akan bergerak **Melingkar** dengan jari-jari siklotron:
+
 $$
 \Large R = \frac{m \cdot v}{q \cdot B}
 $$
@@ -87,6 +93,7 @@ $$
 ## 6. Gaya Lorentz (Kawat Berarus)
 
 Kawat sepanjang $L$ yang dialiri arus $I$ dalam medan $B$ akan merasakan gaya mekanik (prinsip pengeras suara/speaker).
+
 $$
 \Large F = B \cdot I \cdot L \sin \theta
 $$
@@ -95,15 +102,18 @@ $$
 Dua kawat sejajar akan berinteraksi:
 - **Tarik-menarik:** Jika arus searah.
 - **Tolak-menolak:** Jika arus berlawanan arah.
-  $$
-  \Large F/L = \frac{\mu_0 \cdot I_1 \cdot I_2}{2\pi \cdot a}
-  $$
+  
+
+$$
+\Large F/L = \frac{\mu_0 \cdot I_1 \cdot I_2}{2\pi \cdot a}
+$$
 
 ---
 
 ## 7. Torsi pada Loop & Motor DC
 
 Loop kawat berarus dalam medan magnet homogen tidak hanya menerima gaya, tetapi juga **Momen Gaya (Torsi)** yang membuatnya berputar.
+
 $$
 \Large \tau = N \cdot I \cdot A \cdot B \sin \theta
 $$
