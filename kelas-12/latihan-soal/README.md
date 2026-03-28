@@ -37,6 +37,17 @@ Daftar latihan soal disusun berdasarkan bab untuk mempermudah pemahaman konsep t
 - [3.8 Mekanika Spin & Sifat Bahan](./03.8-sifat-bahan-magnet-latihan.md)
 - [3.9 Spektrometer Massa & Teknologi Maglev](./03.9-siklotron-spektrometer-latihan.md)
 
+### Bab 4: Induksi Elektromagnetik
+- [4.1 Fluks Magnetik & Hukum Faraday](./04.1-fluks-faraday-latihan.md)
+- [4.2 Hukum Lenz & Arah Arus Induksi](./04.2-hukum-lenz-latihan.md)
+- [4.3 Ggl Induksi Konduktor Bergerak](./04.3-ggl-konduktor-latihan.md)
+- [4.4 Karakteristik Induktansi Diri](./04.4-induktansi-diri-latihan.md)
+- [4.5 Tabungan Energi Medan Magnet](./04.5-energi-induktor-latihan.md)
+- [4.6 Dinamika Generator Arus Bolak-Balik](./04.6-generator-ac-latihan.md)
+- [4.7 Transformator Ideal & Perbandingan](./04.7-transformator-ideal-latihan.md)
+- [4.8 Analisis Efisiensi & Rugi Trafo](./04.8-efisiensi-trafo-latihan.md)
+- [4.9 Teknologi Wireless & Induksi Masak](./04.9-teknologi-induksi-latihan.md)
+
 ---
 
 [< Kembali ke Daftar Materi Kelas 12](../README.md)
