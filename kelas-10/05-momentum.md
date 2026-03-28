@@ -39,9 +39,13 @@ $$
 > **Eternal Bridge: Momentum Relativistik:**
 > Pada kecepatan mendekati cahaya, massa benda tampak bertambah ($m_{\text{rel}} = \gamma m_0$). Oleh karena itu, rumus momentum menjadi:
 > 
-> $$
+>
+
+$$
 > \Large \vec{p} = \gamma m_0 \vec{v} = \frac{m_0 \vec{v}}{\sqrt{1 - \frac{v^2}{c^2}}}
-> $$
+>
+$$
+
 > 
 > Tanpa faktor Lorentz ($\gamma$), perhitungan momentum roket antar bintang atau partikel atom akan salah total.
 

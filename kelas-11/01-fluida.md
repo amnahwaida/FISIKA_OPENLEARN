@@ -55,9 +55,12 @@ $$
 > [!TIP]
 > **Dongkrak Hidrolik:**
 > 
-> $$
+>
+
+$$
 > \Large F_2 = F_1 \times \frac{A_2}{A_1}
-> $$
+>
+$$
 
 ---
 

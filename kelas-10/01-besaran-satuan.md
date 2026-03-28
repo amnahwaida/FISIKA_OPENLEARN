@@ -112,10 +112,14 @@ Berikut adalah 7 contoh cara menurunkan dimensi dari yang paling sederhana hingg
 > - Suku 3 ($at^2$): $[L][T]^{-2} \times [T]^2 = [L]$
 > Karena semua suku berdimensi $[L]$, rumus ini **Lulus Audit Dimensi**. Jika ada satu suku saja yang berbeda, rumus tersebut pasti salah!
 
+<div align="center">
+
 | 4 | **Kecepatan** | $s / t$ | $[L] / [T]$ | $[L][T]^{-1}$ |
 | 5 | **Percepatan** | $v / t$ | $[L][T]^{-1} / [T]$ | $[L][T]^{-2}$ |
 | 6 | **Gaya** | $m \times a$ | $[M] \times [L][T]^{-2}$ | $[M][L][T]^{-2}$ |
 | 7 | **Usaha** | $F \times s$ | $[M][L][T]^{-2} \times [L]$ | $[M][L]^2[T]^{-2}$ |
+
+</div>
 
 > [!TIP]
 > **Dimensional Discovery (Sakti Menebak Rumus):**
