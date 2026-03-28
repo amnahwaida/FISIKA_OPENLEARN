@@ -6,6 +6,8 @@ Selamat datang di gerbang pertama perjalanan Fisika Anda. Kelas 10 berfokus pada
 
 ## 🗂️ Kurikulum Teori
 
+<div align="center">
+
 | No | Materi Pembelajaran | Fokus Konsep | Link |
 | :---: | :--- | :--- | :---: |
 | 1 | **Besaran & Satuan** | Pengukuran, Dimensi, & Vektor | [Buka](./01-besaran-satuan.md) |
@@ -16,6 +18,8 @@ Selamat datang di gerbang pertama perjalanan Fisika Anda. Kelas 10 berfokus pada
 | 6 | **Suhu & Kalor** | Termodinamika Dasar & Perpindahan | [Buka](./06-kalor.md) |
 | 7 | **Gelombang Bunyi** | Sifat Gelombang & Efek Doppler | [Buka](./07-gelombang-bunyi.md) |
 | 8 | **Optik Geometri** | Cermin, Lensa, & Alat Optik | [Buka](./08-optik.md) |
+
+</div>
 
 ---
 

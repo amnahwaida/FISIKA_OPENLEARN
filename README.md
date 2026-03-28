@@ -10,11 +10,15 @@ Selamat datang di **Fisika OpenLearn**, sebuah repositori kurikulum Fisika SMA y
 
 Repositori ini dibagi menjadi tiga tingkatan utama sesuai dengan kurikulum nasional, yang telah diperkaya dengan materi pengayaan olimpiade dan pengantar universitas.
 
+<div align="center">
+
 | Kelas | Fokus Domain | Status | Link |
 | :---: | :--- | :---: | :---: |
 | **Kelas 10** | Mekanika Klasik, Besaran, & Optik Dasar | ✅ Complete | [Masuk](./kelas-10/) |
 | **Kelas 11** | Fluida, Termodinamika, & Gelombang | ✅ Complete | [Masuk](./kelas-11/) |
 | **Kelas 12** | Elektromagnetisme, Fisika Inti, & Relativitas | 🔱 Divine | [Masuk](./kelas-12/) |
+
+</div>
 
 ---
 

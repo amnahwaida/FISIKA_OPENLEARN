@@ -6,6 +6,8 @@ Selamat datang di puncak kurikulum Fisika SMA. Kelas 12 adalah tempat di mana se
 
 ## 🗂️ Kurikulum Teori (Standard Divine Genesis)
 
+<div align="center">
+
 | No | Materi Pembelajaran | Fokus Konsep | Link |
 | :---: | :--- | :--- | :---: |
 | 1 | **Listrik Statis** | Gauss, Potensial, & Kapasitor | [Buka](./01-listrik-statis.md) |
@@ -15,6 +17,8 @@ Selamat datang di puncak kurikulum Fisika SMA. Kelas 12 adalah tempat di mana se
 | 5 | **Arus Bolak-Balik** | Rangkaian RLC & Resonansi | [Buka](./05-arus-ac.md) |
 | 6 | **Fisika Inti** | Nuklir, Fisi, Fusi, & Radiasi | [Buka](./06-fisika-inti.md) |
 | 7 | **Fisika Modern** | Relativitas Einstein & Kuantum | [Buka](./07-relativitas.md) |
+
+</div>
 
 ---
 

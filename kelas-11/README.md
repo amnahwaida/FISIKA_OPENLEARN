@@ -6,6 +6,8 @@ Kelas 11 membawa Anda melampaui benda titik sederhana menuju analisis sistem yan
 
 ## 🗂️ Kurikulum Teori
 
+<div align="center">
+
 | No | Materi Pembelajaran | Fokus Konsep | Link |
 | :---: | :--- | :--- | :---: |
 | 1 | **Fluida Statis & Dinamis** | Archimedes, Bernoulli, & Viskositas | [Buka](./01-fluida.md) |
@@ -14,6 +16,8 @@ Kelas 11 membawa Anda melampaui benda titik sederhana menuju analisis sistem yan
 | 4 | **Getaran Harmonis** | Osilasi Pegas & Bandul | [Buka](./04-getaran.md) |
 | 5 | **Gelombang Cahaya** | Interferensi, Difraksi, & Polarisasi | [Buka](./05-gelombang-cahaya.md) |
 | 6 | **Alat Optik Lanjut** | Mikroskop & Teleskop Modern | [Buka](./06-alat-optik.md) |
+
+</div>
 
 ---
 
