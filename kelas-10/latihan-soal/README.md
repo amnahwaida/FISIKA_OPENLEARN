@@ -68,7 +68,16 @@ Selamat datang di Bank Soal Kelas 10. Kerjakan soal-soal di bawah ini untuk meng
 - [7.8 Layangan Bunyi (Acoustic Beats)](./07.8-layangan-bunyi-latihan.md)
 - [7.9 Aplikasi Gelombang Elite (Sonic Boom)](./07.9-aplikasi-elite-gelombang-latihan.md)
 
-8. [Latihan: Cermin, Lensa, Alat Optik](./08-optik-latihan.md)
+### Bab 8: Cermin, Lensa, dan Alat Optik
+- [8.1 Sifat Cahaya & Pemantulan Cermin Datar](./08.1-pemantulan-datar-latihan.md)
+- [8.2 Cermin Lengkung (Sferis) dan Aturan Tanda](./08.2-cermin-lengkung-latihan.md)
+- [8.3 Pembiasan dan Hukum Snellius](./08.3-pembiasan-snellius-latihan.md)
+- [8.4 Lensa Tipis dan Kekuatan Dioptri](./08.4-lensa-tipis-latihan.md)
+- [8.5 Rumus Pembuat Lensa (Lens Maker's Equation)](./08.5-rumus-pembuat-lensa-latihan.md)
+- [8.6 Mata Manusia dan Reparasi Kacamata](./08.6-cacat-mata-latihan.md)
+- [8.7 Kaca Pembesar (Lup)](./08.7-lup-pembesar-latihan.md)
+- [8.8 Alat Optik Instrumen Majemuk (Mikroskop & Teleskop)](./08.8-mikroskop-teleskop-latihan.md)
+- [8.9 Aplikasi Elite & Filosofi Ruang (Aberasi)](./08.9-aplikasi-elite-optik-latihan.md)
 
 ---
 [< Kembali ke Daftar Materi Kelas 10](../README.md)
