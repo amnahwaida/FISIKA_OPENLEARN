@@ -11,20 +11,26 @@ Sir Isaac Newton merumuskan tiga hukum dasar yang menjadi fondasi mekanika klasi
 
 ### 1.1 Hukum I Newton (Hukum Kelembaman/Inersia)
 "Setiap benda akan tetap diam atau bergerak lurus beraturan jika tidak ada gaya luar yang bekerja padanya."
-$$ \Sigma F = 0 $$
+$$
+\Large \Sigma F = 0
+$$
 - **Inersia:** Kecenderungan benda untuk mempertahankan keadaannya.
 - **Contoh-contoh kehidupan nyata:**
   - Tubuh terdorong ke depan saat mobil direm mendadak.
   - Koin di atas kertas tetap diam saat kertas ditarik dengan cepat.
   - Benda di dashboard mobil terlempar ke samping saat belok tajam (benda mempertahankan arah lurus).
 
-$$ \Sigma F = m \cdot a $$
+$$
+\Large \Sigma F = m \cdot a
+$$
 - Satuan Gaya ($F$): Newton (N) atau kg·m/s².
 
 > [!IMPORTANT]
 > **Hukum II Newton Versi Sejati (Momentum):**
 > Newton sebenarnya merumuskan hukum ini sebagai laju perubahan momentum terhadap waktu:
-> $$ F = \frac{\Delta p}{\Delta t} = \frac{\Delta (m \cdot v)}{\Delta t} $$
+> $$
+\Large F = \frac{\Delta p}{\Delta t} = \frac{\Delta (m \cdot v)}{\Delta t}
+$$
 > Bentuk $F = ma$ hanyalah turunan jika **massa tetap**. Versi momentum ini jauh lebih fundamental karena dapat menjelaskan sistem di mana massa berubah, seperti roket yang kehilangan massa bahan bakar saat meluncur atau air yang menyembur dari selang.
 
 > [!NOTE]
@@ -33,7 +39,9 @@ $$ \Sigma F = m \cdot a $$
 
 ### 1.3 Hukum III Newton (Aksi-Reaksi)
 "Setiap ada gaya aksi, akan selalu ada gaya reaksi yang besarnya sama, arahnya berlawanan, dan bekerja pada dua benda yang berbeda."
-$$ F_{\text{aksi}} = -F_{\text{reaksi}} $$
+$$
+\Large F_{\text{aksi}} = -F_{\text{reaksi}}
+$$
 - **Syarat:** Besar sama, arah berlawanan, bekerja pada dua benda berbeda, dan jenis gayanya sama.
 
 > [!WARNING]
@@ -65,7 +73,9 @@ $$ F_{\text{aksi}} = -F_{\text{reaksi}} $$
 ### 2.2 Daftar Gaya yang Harus Dikenal
 
 1. **Gaya Berat ($w$):** Gaya tarik bumi terhadap benda. Arahnya selalu **tegak lurus ke bawah** menuju pusat bumi.
-   $$ w = m \cdot g $$
+   $$
+\Large w = m \cdot g
+$$
    > *(Asal Usul Angka $g$): Nilai $g = 9,8 \text{ m/s}^2$ bukanlah konstanta ajaib, melainkan hasil hitungan murni dari **Hukum Gravitasi Universal Newton** ($g = \frac{G \cdot M_{planet}}{R_{planet}^2}$). Rumus ini membuktikan mengapa percepatan gravitasi di setiap planet pasti berbeda, sesuai racikan massa dan jari-jari planet tersebut.*
 2. **Gaya Normal ($N$):** Gaya tekan permukaan terhadap benda. Arahnya selalu **tegak lurus bidang sentuh**.
 
@@ -106,11 +116,15 @@ $$ F_{\text{aksi}} = -F_{\text{reaksi}} $$
 > [!TIP]
 > **Hukum Stokes (Gaya Hambat Fluida Kental):**
 > Jika benda berbentuk bola berjari-jari $r$ bergerak dalam fluida kental dengan koefisien viskositas $\eta$, gaya hambatnya dirumuskan sebagai:
-> $$ F_s = 6\pi \eta r v $$
+> $$
+\Large F_s = 6\pi \eta r v
+$$
 > Rumus ini menjelaskan mengapa tetesan air hujan atau kelereng dalam oli memiliki kecepatan jatuh yang terkendali.
 
 5. **Gaya Pegas / Hukum Hooke ($F_p$):**
-   $$ F_p = -k \cdot \Delta x $$
+   $$
+\Large F_p = -k \cdot \Delta x
+$$
    - $k$ = konstanta pegas (N/m)
    - $\Delta x$ = perubahan panjang pegas dari posisi alami
    - Tanda negatif menunjukkan gaya **pemulih** (berlawanan arah simpangan).
@@ -119,9 +133,13 @@ $$ F_{\text{aksi}} = -F_{\text{reaksi}} $$
 > **Susunan Pegas (Seri & Paralel):**
 > Seringkali beberapa pegas digabung untuk mendapatkan kekuatan tertentu:
 > 1. **Susunan Seri:** Pegas disusun berderet. Gaya pada tiap pegas sama, tapi pertambahan panjangnya dijumlahkan.
->    $$ \frac{1}{k_{p pengganti}} = \frac{1}{k_1} + \frac{1}{k_2} + ... $$
+>    $$
+\Large \frac{1}{k_{p pengganti}} = \frac{1}{k_1} + \frac{1}{k_2} + ...
+$$
 > 2. **Susunan Paralel:** Pegas disusun sejajar. Pertambahan panjang tiap pegas sama, tapi gayanya dijumlahkan.
->    $$ k_{p pengganti} = k_1 + k_2 + ... $$
+>    $$
+\Large k_{p pengganti} = k_1 + k_2 + ...
+$$
 
 ---
 
@@ -184,10 +202,14 @@ Dua massa $m_1$ dan $m_2$ dihubungkan tali melalui katrol ($m_2 > m_1$):
 > 
 > Jumlahkan kedua persamaan (T saling menghilangkan):
 > $m_2 g - m_1 g = (m_1 + m_2) a$
-> $$ \mathbf{a = \frac{(m_2 - m_1) \cdot g}{m_1 + m_2}} $$
+> $$
+\Large \mathbf{a = \frac{(m_2 - m_1) \cdot g}{m_1 + m_2}}
+$$
 > 
 > Substitusi kembali ke persamaan (i) untuk mendapatkan **Tegangan Tali**:
-> $$ \mathbf{T = \frac{2 m_1 m_2 g}{m_1 + m_2}} $$
+> $$
+\Large \mathbf{T = \frac{2 m_1 m_2 g}{m_1 + m_2}}
+$$
 
 ### 3.5 Sistem Benda Terhubung Tali (Sistem Kereta & Katrol Meja)
 Dua balok atau lebih dihubungkan dengan tali dan ditarik bersamaan bergerbong-gerbong.
@@ -234,7 +256,9 @@ Jika benda bermassa $m$ digantung oleh dua tali yang membentuk sudut $\alpha$ da
 > [!TIP]
 > **Teorema Lami (Shortcut Aturan Sinus):**
 > Jika sebuah titik setimbang dipengaruhi oleh 3 gaya ($F_1, F_2, F_3$), maka berlaku hubungan:
-> $$ \frac{F_1}{\sin \theta_1} = \frac{F_2}{\sin \theta_2} = \frac{F_3}{\sin \theta_3} $$
+> $$
+\Large \frac{F_1}{\sin \theta_1} = \frac{F_2}{\sin \theta_2} = \frac{F_3}{\sin \theta_3}
+$$
 > *Di mana $\theta_n$ adalah sudut yang dibentuk oleh dua gaya lainnya (sudut di depan gaya tersebut).*
 
 ### 3.10 Benda pada Dinding Vertikal
@@ -243,7 +267,9 @@ Menahan benda (massa $m$) agar tidak jatuh dengan menekannya secara horizontal (
 - **Sumbu Y (Vertikal):** Agar tidak jatuh, $\Sigma F_y = 0 \implies f_s = mg$. (Gaya gesek statis menyeimbangkan berat).
 - **Syarat Minimum:** $F \geq \frac{mg}{\mu_s}$.
 
-> $$ a = \frac{\Sigma F_{\text{pendorong}} - \Sigma F_{\text{penghambat}}}{\Sigma m_{\text{total}}} $$
+> $$
+\Large a = \frac{\Sigma F_{\text{pendorong}} - \Sigma F_{\text{penghambat}}}{\Sigma m_{\text{total}}}
+$$
 > *Metode ini sangat cepat untuk menghitung percepatan sistem tanpa harus mengurai FBD satu per satu.*
 
 ### 3.11 Gaya Tahanan Media (Penetrasi)
@@ -256,7 +282,9 @@ Kasus benda (seperti peluru atau paku) yang menembus sebuah medium padat sejauh 
 
 ## 4. Dinamika Gerak Melingkar
 Agar benda dapat bergerak melingkar, harus ada gaya yang mengarah ke pusat lingkaran, disebut **Gaya Sentripetal ($F_s$)**.
-$$ F_s = m \cdot a_s = m \cdot \frac{v^2}{R} = m \cdot \omega^2 \cdot R $$
+$$
+\Large F_s = m \cdot a_s = m \cdot \frac{v^2}{R} = m \cdot \omega^2 \cdot R
+$$
 
 > [!WARNING]
 > **Gaya Sentripetal BUKAN Gaya Baru!**
@@ -294,7 +322,9 @@ Wahana berbentuk silinder besar yang berputar di mana orang bersandar pada dindi
 > **Derivasi:** Gaya gesek statis berperan sebagai $F_s$:
 > $f_s = F_s \implies \mu_s \cdot mg = m\frac{v^2}{R}$
 > Massa saling menghilangkan:
-> $$ v_{max} = \sqrt{\mu_s \cdot g \cdot R} $$
+> $$
+\Large v_{max} = \sqrt{\mu_s \cdot g \cdot R}
+$$
 
 **Tikungan Miring (Licin):**
 
@@ -303,15 +333,21 @@ Wahana berbentuk silinder besar yang berputar di mana orang bersandar pada dindi
 > - Vertikal: $N\cos\theta = mg$ ... (i)
 > - Horizontal: $N\sin\theta = m\frac{v^2}{R}$ ... (ii)
 > Bagi (ii) dengan (i): $\frac{\sin\theta}{\cos\theta} = \frac{v^2}{gR}$
-> $$ \tan \theta = \frac{v^2}{g \cdot R} $$
+> $$
+\Large \tan \theta = \frac{v^2}{g \cdot R}
+$$
 > *Pada kecepatan ini (Kecepatan Ideal), kendaraan berbelok murni mengandalkan kemiringan jalan tanpa memerlukan bantuan gaya gesek sama sekali.*
 
 **Tikungan Miring dan Kasar (Full Analysis):**
 Kondisi ini mempertimbangkan adanya gaya gesek ($\mu_s$) pada lintasan miring. Ini adalah kasus dinamika paling kompleks untuk tikungan.
 - **Kecepatan Maksimum ($v_{max}$):** Kecepatan tertinggi sebelum kendaraan selip **naik** ke luar tikungan.
-  $$ v_{max} = \sqrt{g R \left( \frac{\tan \theta + \mu_s}{1 - \mu_s \tan \theta} \right)} $$
+  $$
+\Large v_{max} = \sqrt{g R \left( \frac{\tan \theta + \mu_s}{1 - \mu_s \tan \theta} \right)}
+$$
 - **Kecepatan Minimum ($v_{min}$):** Kecepatan terendah agar kendaraan tidak merosot **turun** ke dalam tikungan.
-  $$ v_{min} = \sqrt{g R \left( \frac{\tan \theta - \mu_s}{1 + \mu_s \tan \theta} \right)} $$
+  $$
+\Large v_{min} = \sqrt{g R \left( \frac{\tan \theta - \mu_s}{1 + \mu_s \tan \theta} \right)}
+$$
 
 > [!WARNING]
 > **Bahaya Kecepatan Terlalu Rendah:**
@@ -324,7 +360,9 @@ Kondisi ini mempertimbangkan adanya gaya gesek ($\mu_s$) pada lintasan miring. I
 > - Vertikal: $T\cos\theta = mg$ ... (i)
 > - Horizontal: $T\sin\theta = m\frac{v^2}{R}$ ... (ii)
 > Jika dibagi (ii) terhadap (i), masa konis memiliki hubungan yang sama dengan tikungan miring:
-> $$ \mathbf{\tan \theta = \frac{v^2}{g \cdot R}} $$
+> $$
+\Large \mathbf{\tan \theta = \frac{v^2}{g \cdot R}}
+$$
 
 ### 4.1 Gerak Melingkar Vertikal (Roller Coaster & Jembatan)
 Analisis gaya sangat bergantung pada arah kelengkungan dan posisi benda:

@@ -49,7 +49,9 @@
 
 **Persamaan Dasar Cepat Rambat ($v$):**
 Kecepatan rambat energi gelombang ditentukan oleh besaran ruang dan waktu ini:
-$$ v = \lambda \cdot f = \frac{\lambda}{T} $$
+$$
+\Large v = \lambda \cdot f = \frac{\lambda}{T}
+$$
 
 ---
 
@@ -57,7 +59,9 @@ $$ v = \lambda \cdot f = \frac{\lambda}{T} $$
 
 Sebuah gelombang yang secara kontinyu terus menjalar menjauhi sumber memiliki persamaan simpangan matematis sebagai fungsi ruang ($x$) dan waktu ($t$):
 
-$$ y = \pm A \sin(\omega t \pm kx) $$
+$$
+\Large y = \pm A \sin(\omega t \pm kx)
+$$
 
 **Pembongkaran Anatomi Persamaan:**
 - $A$: Amplitudo (Pilih $+$ jika getar pertama ke Atas, $-$ jika ke Bawah).
@@ -68,7 +72,9 @@ $$ y = \pm A \sin(\omega t \pm kx) $$
   - Pilih **$(+)$** jika merambat mendekat ke arah Kiri (sumbu $-x$).
 
 **Beda Fase ($\Delta \varphi$):** Menentukan sinkronisasi dua titik pada gelombang:
-$$ \Delta \varphi = \frac{\Delta x}{\lambda} $$
+$$
+\Large \Delta \varphi = \frac{\Delta x}{\lambda}
+$$
 Jika $\Delta \varphi = 1, 2, 3...$ (sefase). Jika $\Delta \varphi = 1/2, 3/2...$ (berlawanan fase sempurna).
 
 ---
@@ -95,14 +101,18 @@ Bunyi adalah *gelombang mekanik longitudinal* perantara (udara, air, atau besi l
 
 **1. Percobaan Melde (Kecepatan Bunyi Tali/Dawai Gitar):**
 Laju perambatan mekanik ini dipengaruhi **tekanan ketegangan** tarik ($F$) dan ketebalan material linier murni (**Massa per Satuan Panjang**, $\mu = m/L$):
-$$ v = \sqrt{\frac{F}{\mu}} \quad \text{atau} \quad v = \sqrt{\frac{F \cdot L}{m}} $$
+$$
+\Large v = \sqrt{\frac{F}{\mu}} \quad \text{atau} \quad v = \sqrt{\frac{F \cdot L}{m}}
+$$
 
 > [!IMPORTANT]
 > Meruncingkan pemahaman: senar gitar paling tipis ($\mu$ sangat kecil) menghasilkan $v$ tertinggi, getaran tercepat, frekuensi tinggi (nada nyaring treble). Sedangkan senar tebal paling atas berfrekuensi rendah mendalam (Bass).
 
 **2. Kecepatan Bunyi di Gas/Udara Udara:**
 Bergantung murni pada Termodinamika (suhu absolut):
-$$ v = \sqrt{\frac{\gamma \cdot R \cdot T}{M}} $$
+$$
+\Large v = \sqrt{\frac{\gamma \cdot R \cdot T}{M}}
+$$
 Maka suara berjalan murni lebih lambat di Rusia (Suhu T dingin) ketimbang gurun Arab membara.
 
 ---
@@ -115,17 +125,23 @@ Alat musik bernada tercipta ketika gelombang menjebak diri dalam stasioner spasi
 - Syarat ujung: Terikat $\leftrightarrow$ Terikat (Simpul di kedua ujung).
 - Panjang efektif terbentuk pola perut murni: $L = (n+1) \cdot \frac{\lambda}{2}$.
 - Modulus deret Frekuensinya: $f_0 : f_1 : f_2 = 1 : 2 : 3 \dots$
-$$ f_n = (n+1) \frac{v}{2L} $$
+$$
+\Large f_n = (n+1) \frac{v}{2L}
+$$
 
 ### 6.2 Pipa Organa Terbuka - POT (Suling Bambu, Trompet)
 - Syarat ujung udara: Terbuka kedua rongganya (Perut di kedua ujung corong).
 - Sama mutlak polanya matematisnya dengan dawai. Deret $1 : 2 : 3 \dots$
-$$ f_n = (n+1) \frac{v}{2L} $$
+$$
+\Large f_n = (n+1) \frac{v}{2L}
+$$
 
 ### 6.3 Pipa Organa Tertutup - PTB (Botol ditiup, Klarinet)
 - Syarat: Satu tertutup (Simpul tembok), satu ujung tiup terbuka (Perut hembus udara).
 - Deret Pipa Tertutup kehilangan bilangan genap (*Murni harmonik aneh ganjil*): $1 : 3 : 5 \dots$
-$$ f_n = (2n+1) \frac{v}{4L} $$
+$$
+\Large f_n = (2n+1) \frac{v}{4L}
+$$
 
 ---
 
@@ -133,14 +149,18 @@ $$ f_n = (2n+1) \frac{v}{4L} $$
 
 ### 7.1 Intensitas (Totalitas Fisik Energi Energi Nyata)
 Berapa daya bising sumber terhambur luang menjauh dari Anda berdasarkan hukum Kuadrat Terbalik.
-$$ I = \frac{P}{A} = \frac{P}{4\pi r^2} \quad \text{(W/m}^2\text{)} $$
+$$
+\Large I = \frac{P}{A} = \frac{P}{4\pi r^2} \quad \text{(W/m}^2\text{)}
+$$
 - $P$ = Daya sumber alat bising (Watt).
 - $r$ = Jarak pendengar membentang ke sumber (m). Menjauh 2 kali lipat maka suara melemah $1/4$ mengecil ekstrem.
 
 ### 7.2 Taraf Intensitas (Skala Logaritmis "Telinga Manusia")
 Telinga manusia sanggup menguji ambang dengar terseram nyamuk terbang ($I_0 = 10^{-12} \text{ W/m}^2$) hingga raungan terdepan maut ($1 \text{ W/m}^2$ pekak gendang telinga robek). Oleh sistem fisiologis manusia, skala jangkauan $1$ Triliun kali beda energi ini diringkas Alexander Graham Bell ke dalam **Desibel (dB)** via algoritme alamiah skala 10-an Logaritma:
 
-$$ TI = 10 \cdot \log\left(\frac{I}{I_0}\right) \quad (\text{Skala Desibel - dB}) $$
+$$
+\Large TI = 10 \cdot \log\left(\frac{I}{I_0}\right) \quad (\text{Skala Desibel - dB})
+$$
 
 > **Rumus Ajaib OSN dan Ujian (Metode Jual-Beli Praktis Taraf Modifikator)**
 > - Jika jumlah mesin/sumber bising ditaruh berlipat ganda $n$ kali lipat buah: **$TI_{\text{baru}} = TI_A + 10 \log(n)$**.
@@ -153,7 +173,9 @@ $$ TI = 10 \cdot \log\left(\frac{I}{I_0}\right) \quad (\text{Skala Desibel - dB}
 ### 8.1 Efek Doppler
 Fenomena mengeras meninggi nyaring *Frekuensi sirine ambulan mendekati Anda*, mendadak seret memelan merenggang saat menjauhi lenyap (*niiiooongg*). Saat bergerak, sumber bunyi itu menabrak/mendesak gelombangnya sendiri ataupun Pendengar ikut lari memborong gelombang.
 
-$$ f_p = \frac{v \pm v_p \pm v_w}{v \pm v_s \pm v_w} \cdot f_s $$
+$$
+\Large f_p = \frac{v \pm v_p \pm v_w}{v \pm v_s \pm v_w} \cdot f_s
+$$
 Di mana:
 - $v$ = kecepatan rambat bunyi bebas.
 - $f_p$ = frekuensi di benak pendengar, $f_s$ = frekuensi asli sumber.
@@ -167,7 +189,9 @@ Di mana:
 
 ### 8.2 Layangan Bunyi (Acoustic Beats)
 Ketika musisi tuning dua senar berlainan Hz sedikit sekali (contoh satu $440 \text{ Hz}$, satunya $443 \text{ Hz}$). Kedua senar menggemarakan getaran yang secara bergantian saling menginterferensi konstruksi dan hancur konstan (*wow-wow-wow* suara pelayangan getar).
-$$ f_{\text{layangan}} = |f_1 - f_2| $$
+$$
+\Large f_{\text{layangan}} = |f_1 - f_2|
+$$
 
 ---
 

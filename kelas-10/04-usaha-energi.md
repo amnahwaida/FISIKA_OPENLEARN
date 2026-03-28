@@ -34,7 +34,9 @@ Jawaban terdalamnya ditemukan oleh fisikawan **Emmy Noether**: Energi kekal kare
 ### 2.1 Definisi Formal
 Usaha ($W$) adalah transfer energi yang terjadi ketika sebuah **gaya** menyebabkan benda mengalami **perpindahan**. Secara matematis, usaha adalah **perkalian titik (Dot Product)** antara vektor gaya dan vektor perpindahan:
 
-$$ W = \vec{F} \cdot \vec{s} = F \cdot s \cdot \cos\theta $$
+$$
+\Large W = \vec{F} \cdot \vec{s} = F \cdot s \cdot \cos\theta
+$$
 
 Dimana:
 - $W$ = Usaha (Joule, J)
@@ -63,10 +65,14 @@ Dimana:
 
 ### 2.3 Usaha oleh Beberapa Gaya
 Jika banyak gaya bekerja pada satu benda, maka usaha total adalah jumlah usaha masing-masing gaya:
-$$ W_{total} = W_1 + W_2 + W_3 + \ldots $$
+$$
+\Large W_{total} = W_1 + W_2 + W_3 + \ldots
+$$
 
 Atau ekuivalen, usaha oleh resultan gaya:
-$$ W_{total} = \Sigma F \cdot s \cdot \cos\theta $$
+$$
+\Large W_{total} = \Sigma F \cdot s \cdot \cos\theta
+$$
 
 ### 2.4 Usaha dari Grafik Gaya vs Perpindahan ($F$-$s$)
 Jika gaya tidak konstan (berubah-ubah), maka usaha **tidak bisa** dihitung langsung dengan $W = Fs$. Sebaliknya, usaha adalah **luas daerah di bawah kurva** pada grafik $F$ terhadap $s$.
@@ -110,7 +116,9 @@ Energi adalah kemampuan suatu benda atau sistem untuk melakukan usaha. Dalam mek
 ### 3.1 Energi Kinetik ($EK$)
 Energi yang dimiliki benda karena **geraknya**.
 
-$$ EK = \frac{1}{2} m v^2 $$
+$$
+\Large EK = \frac{1}{2} m v^2
+$$
 
 Dimana:
 - $m$ = Massa benda (kg)
@@ -119,15 +127,21 @@ Dimana:
 > [!NOTE]
 > **Asal-Usul Rumus $EK = \frac{1}{2}mv^2$:**
 > Dari Hukum Newton II: $F = ma$. Jika gaya konstan bekerja pada benda dari diam ($v_0 = 0$) sejauh $s$:
-> $$ W = F \cdot s = (ma)(s) $$
+> $$
+\Large W = F \cdot s = (ma)(s)
+$$
 > Dari kinematika: $v^2 = 2as \implies s = \frac{v^2}{2a}$. Substitusi:
-> $$ W = ma \cdot \frac{v^2}{2a} = \frac{1}{2}mv^2 $$
+> $$
+\Large W = ma \cdot \frac{v^2}{2a} = \frac{1}{2}mv^2
+$$
 > Maka usaha yang dilakukan gaya tersebut tersimpan sebagai energi kinetik.
 
 ### 3.2 Energi Potensial Gravitasi ($EP$)
 Energi yang dimiliki benda karena **posisinya** terhadap titik acuan (ketinggian).
 
-$$ EP = mgh $$
+$$
+\Large EP = mgh
+$$
 
 Dimana:
 - $h$ = Ketinggian benda terhadap titik acuan (m)
@@ -140,7 +154,9 @@ Dimana:
 ### 3.3 Energi Potensial Pegas ($EP_{\text{pegas}}$)
 Energi yang tersimpan dalam pegas yang terkompresi atau teregang.
 
-$$ EP_{\text{pegas}} = \frac{1}{2} k (\Delta x)^2 $$
+$$
+\Large EP_{\text{pegas}} = \frac{1}{2} k (\Delta x)^2
+$$
 
 Dimana:
 - $k$ = Konstanta pegas / kekakuan pegas (N/m)
@@ -149,25 +165,35 @@ Dimana:
 > [!NOTE]
 > **Asal-Usul Rumus (Dari Grafik Luas):**
 > Gaya pegas menurut Hukum Hooke: $F = k \cdot \Delta x$. Grafik $F$ vs $\Delta x$ adalah garis lurus melalui titik asal. Usaha yang dilakukan pegas (= energi yang tersimpan) adalah luas segitiga di bawah garis tersebut:
-> $$ W = \text{Luas} = \frac{1}{2} \times \text{alas} \times \text{tinggi} = \frac{1}{2} \times \Delta x \times k\Delta x = \frac{1}{2} k (\Delta x)^2 $$
+> $$
+\Large W = \text{Luas} = \frac{1}{2} \times \text{alas} \times \text{tinggi} = \frac{1}{2} \times \Delta x \times k\Delta x = \frac{1}{2} k (\Delta x)^2
+$$
 
 > [!TIP]
 > **Usaha Pegas dari Posisi Non-Nol ($x_1 \to x_2$):**
 > Jika pegas sudah teregang dari $x_1$ dan ditarik lebih jauh ke $x_2$, maka usahanya bukan $\frac{1}{2}kx_2^2$ saja, melainkan:
-> $$ W_{pegas} = \frac{1}{2}k x_1^2 - \frac{1}{2}k x_2^2 $$
+> $$
+\Large W_{pegas} = \frac{1}{2}k x_1^2 - \frac{1}{2}k x_2^2
+$$
 > Ini adalah **selisih luas trapesium** pada grafik $F$-$x$, bukan luas segitiga dari nol.
 
-$$ EM = EK + EP $$
+$$
+\Large EM = EK + EP
+$$
 
 > [!TIP]
 > **Preview: Energi Kinetik Rotasi ($EK_{rot}$):**
 > Benda yang tidak hanya bergeser tapi juga berputar (seperti roda menggelinding) memiliki energi tambahan:
-> $$ EK_{rot} = \frac{1}{2} I \omega^2 $$
+> $$
+\Large EK_{rot} = \frac{1}{2} I \omega^2
+$$
 
 > [!IMPORTANT]
 > **Einstein’s Rest Energy ($E = mc^2$):**
 > Tahukah Anda bahwa massa itu sendiri adalah "energi yang membeku"? Einstein membuktikan bahwa benda diam pun memiliki energi luar biasa besar karena massanya:
-> $$ E = m c^2 $$
+> $$
+\Large E = m c^2
+$$
 > Ini adalah jembatan menuju **Fisika Modern**. Satu gram massa yang berubah total menjadi energi setara dengan ledakan ribuan ton dinamit.
 
 > [!IMPORTANT]
@@ -188,8 +214,12 @@ $$ EM = EK + EP $$
 ### 4.1 Pernyataan Teorema (The Bridge)
 Ini adalah "jembatan" paling penting yang menghubungkan konsep Usaha dan Energi:
 
-$$ W_{total} = \Delta EK = EK_2 - EK_1 $$
-$$ W_{total} = \frac{1}{2}mv_2^2 - \frac{1}{2}mv_1^2 $$
+$$
+\Large W_{total} = \Delta EK = EK_2 - EK_1
+$$
+$$
+\Large W_{total} = \frac{1}{2}mv_2^2 - \frac{1}{2}mv_1^2
+$$
 
 > [!IMPORTANT]
 > **Makna Fisis:**
@@ -222,12 +252,16 @@ Gaya yang usahanya **bergantung pada jalur** (panjang lintasan). Energi yang "hi
 **Contoh:** Gesekan ($f_k$), Hambatan Udara.
 
 **Usaha oleh gesekan:**
-$$ W_{gesek} = -f_k \cdot s $$
+$$
+\Large W_{gesek} = -f_k \cdot s
+$$
 *(Selalu negatif karena gesekan selalu berlawanan arah perpindahan).*
 
 ### 5.3 Gaya sebagai Gradien Energi ($F = -\Delta EP / \Delta x$)
 Hubungan fundamental antara gaya dan energi potensial adalah: gaya selalu mengarah ke posisi dengan energi potensial terendah. Secara matematis (untuk satu dimensi):
-$$ F = -\frac{\Delta EP}{\Delta x} $$
+$$
+\Large F = -\frac{\Delta EP}{\Delta x}
+$$
 - Tanda **negatif** berarti gaya selalu "menurunkan" bukit energi potensial. Seperti bola yang selalu mencari dasar lembah, gaya gravitasi menarik benda ke bawah (EP rendah) dan gaya pegas menarik benda kembali ke titik setimbang.
 
 ---
@@ -239,21 +273,35 @@ Mengapa HKEM berlaku? Karena ia **lahir** dari Teorema Usaha-Energi.
 
 **Bukti:**
 Jika satu-satunya gaya yang bekerja adalah gravitasi, maka:
-$$ W_{gravitasi} = \Delta EK $$
+$$
+\Large W_{gravitasi} = \Delta EK
+$$
 Usaha gravitasi juga sama dengan negatif perubahan Energi Potensial:
-$$ W_{gravitasi} = -(EP_2 - EP_1) = EP_1 - EP_2 $$
+$$
+\Large W_{gravitasi} = -(EP_2 - EP_1) = EP_1 - EP_2
+$$
 Substitusi:
-$$ EP_1 - EP_2 = EK_2 - EK_1 $$
+$$
+\Large EP_1 - EP_2 = EK_2 - EK_1
+$$
 Pindahkan ruas:
-$$ \mathbf{EK_1 + EP_1 = EK_2 + EP_2} $$
+$$
+\Large \mathbf{EK_1 + EP_1 = EK_2 + EP_2}
+$$
 **Q.E.D.** (Quod Erat Demonstrandum — Terbukti!)
 
 ### 6.2 Sistem Konservatif (Tanpa Gesekan)
 Jika **hanya gaya konservatif** yang bekerja, maka energi mekanik total di setiap titik selalu sama:
 
-$$ EM_1 = EM_2 $$
-$$ EK_1 + EP_1 = EK_2 + EP_2 $$
-$$ \frac{1}{2}mv_1^2 + mgh_1 = \frac{1}{2}mv_2^2 + mgh_2 $$
+$$
+\Large EM_1 = EM_2
+$$
+$$
+\Large EK_1 + EP_1 = EK_2 + EP_2
+$$
+$$
+\Large \frac{1}{2}mv_1^2 + mgh_1 = \frac{1}{2}mv_2^2 + mgh_2
+$$
 
 > [!NOTE]
 > **Keindahan HKEM:**
@@ -262,8 +310,12 @@ $$ \frac{1}{2}mv_1^2 + mgh_1 = \frac{1}{2}mv_2^2 + mgh_2 $$
 ### 6.3 Sistem Non-Konservatif (Dengan Gesekan)
 Jika ada gaya gesekan, maka energi mekanik berkurang sebesar usaha gesekan:
 
-$$ EM_1 + W_{gesek} = EM_2 $$
-$$ EK_1 + EP_1 - f_k \cdot s = EK_2 + EP_2 $$
+$$
+\Large EM_1 + W_{gesek} = EM_2
+$$
+$$
+\Large EK_1 + EP_1 - f_k \cdot s = EK_2 + EP_2
+$$
 
 *(Energi yang "hilang" berubah menjadi energi panas/kalor, $Q = f_k \cdot s$).*
 
@@ -271,7 +323,9 @@ $$ EK_1 + EP_1 - f_k \cdot s = EK_2 + EP_2 $$
 Mencari kecepatan dua benda ($m_1, m_2$) yang terhubung katrol menggunakan HKEM jauh lebih cepat daripada Hukum Newton.
 
 **Rumus Cepat (Mulai dari diam):**
-$$ v = \sqrt{\frac{2 \cdot \Delta h \cdot (m_{turun} - m_{naik})}{m_{total}}} $$
+$$
+\Large v = \sqrt{\frac{2 \cdot \Delta h \cdot (m_{turun} - m_{naik})}{m_{total}}}
+$$
 
 > [!TIP]
 > **Mengapa Ini Efektif?**
@@ -290,16 +344,22 @@ $$ v = \sqrt{\frac{2 \cdot \Delta h \cdot (m_{turun} - m_{naik})}{m_{total}}} $$
 ### 7.1 Daya ($P$)
 Daya adalah laju transfer energi atau laju melakukan usaha per satuan waktu:
 
-$$ P = \frac{W}{t} $$
+$$
+\Large P = \frac{W}{t}
+$$
 
 Satuan SI-nya adalah **Watt** ($\text{W} = \text{J/s}$).
 
 **Rumus Alternatif (untuk kecepatan konstan):**
-$$ P = F \cdot v $$
+$$
+\Large P = F \cdot v
+$$
 
 > [!NOTE]
 > **Asal-Usul $P = Fv$:**
-> $$ P = \frac{W}{t} = \frac{F \cdot s}{t} = F \cdot \frac{s}{t} = F \cdot v $$
+> $$
+\Large P = \frac{W}{t} = \frac{F \cdot s}{t} = F \cdot \frac{s}{t} = F \cdot v
+$$
 > Rumus ini sangat berguna untuk menghitung daya mesin kendaraan yang bergerak dengan kecepatan konstan melawan gaya hambat.
 
 **Satuan Praktis:**
@@ -309,12 +369,16 @@ $$ P = F \cdot v $$
 ### 7.2 Efisiensi ($\eta$)
 Dalam dunia nyata, tidak ada mesin yang 100% mengubah energi input menjadi usaha berguna. Selalu ada energi yang "bocor" menjadi panas, bunyi, atau getaran.
 
-$$ \eta = \frac{W_{\text{berguna}}}{W_{\text{input}}} \times 100\% = \frac{P_{\text{output}}}{P_{\text{input}}} \times 100\% $$
+$$
+\Large \eta = \frac{W_{\text{berguna}}}{W_{\text{input}}} \times 100\% = \frac{P_{\text{output}}}{P_{\text{input}}} \times 100\%
+$$
 
 > [!TIP]
 > **Apex Insight: Daya Kendaraan Mendaki (The Mountaineering Power):**
 > Saat kendaraan mendaki bukit dengan sudut $\theta$ dan kecepatan konstan $v$, daya yang dibutuhkan mesin bukan sekadar melawan gesekan ($f_k$), tapi juga komponen berat ($mg\sin\theta$):
-> $$ P = (f_k + mg \sin\theta) \cdot v $$
+> $$
+\Large P = (f_k + mg \sin\theta) \cdot v
+$$
 > Rumus ini membedakan pengemudi biasa dengan insinyur otomotif—daya mesin harus mampu mensuplai "energi gravitasi" setiap detiknya.
 
 --- Efisiensi selalu bernilai $0\% < \eta \leq 100\%$.
@@ -329,12 +393,20 @@ Sebuah benda meluncur dari ketinggian $H$ dan memasuki sebuah loop (lingkaran ve
 
 **Syarat di Puncak Loop:**
 Di titik tertinggi lingkaran, gaya sentripetal disediakan oleh berat benda (gaya normal minimum = 0):
-$$ mg = \frac{mv_{top}^2}{R} \implies v_{top}^2 = gR $$
+$$
+\Large mg = \frac{mv_{top}^2}{R} \implies v_{top}^2 = gR
+$$
 
 **Gunakan HKEM (dari awal ke puncak loop):**
-$$ mgH = mg(2R) + \frac{1}{2}mv_{top}^2 $$
-$$ gH = 2gR + \frac{1}{2}(gR) $$
-$$ \mathbf{H_{min} = \frac{5}{2}R} $$
+$$
+\Large mgH = mg(2R) + \frac{1}{2}mv_{top}^2
+$$
+$$
+\Large gH = 2gR + \frac{1}{2}(gR)
+$$
+$$
+\Large \mathbf{H_{min} = \frac{5}{2}R}
+$$
 
 > [!IMPORTANT]
 > **Hasil Luar Biasa:**
@@ -344,18 +416,30 @@ $$ \mathbf{H_{min} = \frac{5}{2}R} $$
 Berapakah kecepatan minimum yang dibutuhkan roket agar bisa lepas dari gravitasi bumi?
 
 **Energi Potensial Gravitasi Universal:**
-$$ EP = -\frac{GMm}{r} $$
+$$
+\Large EP = -\frac{GMm}{r}
+$$
 
 **Syarat Lepas:** Di titik tak hingga ($r \to \infty$), energi potensial = 0 dan kecepatan minimum = 0.
-$$ EK_1 + EP_1 = 0 $$
-$$ \frac{1}{2}mv_{esc}^2 - \frac{GMm}{R} = 0 $$
-$$ v_{esc} = \sqrt{\frac{2GM}{R}} $$
+$$
+\Large EK_1 + EP_1 = 0
+$$
+$$
+\Large \frac{1}{2}mv_{esc}^2 - \frac{GMm}{R} = 0
+$$
+$$
+\Large v_{esc} = \sqrt{\frac{2GM}{R}}
+$$
 
 Substitusi $g = \frac{GM}{R^2} \implies GM = gR^2$:
-$$ \mathbf{v_{esc} = \sqrt{2gR}} $$
+$$
+\Large \mathbf{v_{esc} = \sqrt{2gR}}
+$$
 
 Dengan $g = 9,8$; $R_{\text{bumi}} = 6,4 \times 10^6$:
-$$ v_{esc} \approx 11.200 \text{ m/s} \approx \mathbf{11,2 \text{ km/s}} $$
+$$
+\Large v_{esc} \approx 11.200 \text{ m/s} \approx \mathbf{11,2 \text{ km/s}}
+$$
 
 > [!NOTE]
 > **Filosofi: Sumur Potensial (Potential Well):**
@@ -371,11 +455,15 @@ $$ v_{esc} \approx 11.200 \text{ m/s} \approx \mathbf{11,2 \text{ km/s}} $$
 ## 9. Pesawat Sederhana dan Keuntungan Mekanis
 
 Pesawat sederhana adalah alat yang mempermudah pekerjaan manusia. Prinsip dasarnya: **Usaha Input = Usaha Output** (dalam kondisi ideal tanpa gesekan).
-$$ F_1 \cdot s_1 = F_2 \cdot s_2 $$
+$$
+\Large F_1 \cdot s_1 = F_2 \cdot s_2
+$$
 
 ### 9.1 Keuntungan Mekanis (KM)
 Keuntungan Mekanis menyatakan berapa kali lipat gaya diperkuat oleh pesawat sederhana:
-$$ KM = \frac{F_{beban}}{F_{kuasa}} = \frac{s_{kuasa}}{s_{beban}} $$
+$$
+\Large KM = \frac{F_{beban}}{F_{kuasa}} = \frac{s_{kuasa}}{s_{beban}}
+$$
 
 ### 9.2 Tuas (Pengungkit)
 Tuas dibagi menjadi tiga jenis berdasarkan posisi titik tumpu (T), beban (B), dan kuasa (K):
@@ -390,13 +478,21 @@ Tuas dibagi menjadi tiga jenis berdasarkan posisi titik tumpu (T), beban (B), da
 </div>
 
 Rumus Tuas:
-$$ F_1 \cdot l_1 = F_2 \cdot l_2 $$
-$$ KM = \frac{l_{kuasa}}{l_{beban}} $$
+$$
+\Large F_1 \cdot l_1 = F_2 \cdot l_2
+$$
+$$
+\Large KM = \frac{l_{kuasa}}{l_{beban}}
+$$
 
 ### 9.3 Bidang Miring
 Bidang miring memperkecil gaya yang dibutuhkan untuk menaikkan benda ke ketinggian $h$ dengan menempuh lintasan miring sepanjang $s$:
-$$ F \cdot s = W \cdot h \implies F = W \cdot \frac{h}{s} = mg \sin\theta $$
-$$ KM = \frac{s}{h} = \frac{1}{\sin\theta} $$
+$$
+\Large F \cdot s = W \cdot h \implies F = W \cdot \frac{h}{s} = mg \sin\theta
+$$
+$$
+\Large KM = \frac{s}{h} = \frac{1}{\sin\theta}
+$$
 
 ### 9.4 Katrol
 <div align="center">
@@ -411,11 +507,15 @@ $$ KM = \frac{s}{h} = \frac{1}{\sin\theta} $$
 
 ### 9.5 Roda Gigi (Gears)
 Gears mengubah torsi dan kecepatan putar. Keuntungan mekanisnya ditentukan oleh perbandingan jumlah gigi:
-$$ KM = \frac{\text{Jumlah Gigi Output}}{\text{Jumlah Gigi Input}} $$
+$$
+\Large KM = \frac{\text{Jumlah Gigi Output}}{\text{Jumlah Gigi Input}}
+$$
 
 ### 9.6 Sekrup
 Sekrup adalah bidang miring yang dililitkan pada sebuah silinder. Keuntungan mekanisnya sangat tinggi:
-$$ KM = \frac{2\pi r}{d} $$
+$$
+\Large KM = \frac{2\pi r}{d}
+$$
 - $r$ = Jari-jari putaran (lengan gaya)
 - $d$ = Jarak antar ulir (pitch)
 
@@ -424,7 +524,9 @@ Dalam dunia nyata, pesawat sederhana memiliki gesekan. Ini memunculkan dua jenis
 1. **KM Ideal ($KM_I$):** Dihitung dari geometri alat (tanpa gesekan).
 2. **KM Nyata ($KM_A$):** Perbandingan gaya beban dan gaya kuasa yang sebenarnya diukur.
 Hubungannya melalui efisiensi ($\eta$):
-$$ KM_A = \eta \times KM_I $$
+$$
+\Large KM_A = \eta \times KM_I
+$$
 
 > [!WARNING]
 > **"Tidak Ada Makan Siang Gratis":**

@@ -20,11 +20,15 @@
 ## 1. Hakikat Arus & Mekanika Drif Elektron
 
 Arus listrik ($I$) adalah laju aliran muatan menembus suatu penampang per satuan waktu.
-$$ I = \frac{dQ}{dt} \approx \frac{\Delta Q}{\Delta t} \quad (\text{Ampere}) $$
+$$
+\Large I = \frac{dQ}{dt} \approx \frac{\Delta Q}{\Delta t} \quad (\text{Ampere})
+$$
 
 **Kecepatan Drif ($v_d$):**
 Meskipun sinyal listrik merambat mendekati kecepatan cahaya, elektron fisik sebenarnya bergerak sangat lambat (hanyut) akibat tumbukan konstan dengan ion logam.
-$$ I = n \cdot q \cdot A \cdot v_d $$
+$$
+\Large I = n \cdot q \cdot A \cdot v_d
+$$
 - $n$: densitas elektron bebas.
 - $v_d$: kecepatan drif ($ \sim 10^{-4} \text{ m/s}$).
 
@@ -33,11 +37,15 @@ $$ I = n \cdot q \cdot A \cdot v_d $$
 ## 2. Hambatan Jenis & Efek Suhu
 
 Hambatan ($R$) kawat penghantar dipengaruhi oleh geometri dan jenis material.
-$$ R = \rho \cdot \frac{L}{A} $$
+$$
+\Large R = \rho \cdot \frac{L}{A}
+$$
 
 **Ketergantungan Suhu:**
 Getaran atom logam meningkat seiring suhu, menghambat laju elektron.
-$$ R = R_0 (1 + \alpha \cdot \Delta T) $$
+$$
+\Large R = R_0 (1 + \alpha \cdot \Delta T)
+$$
 - $\alpha$: koefisien suhu hambatan ($/^\circ\text{C}$).
 
 ---
@@ -45,7 +53,9 @@ $$ R = R_0 (1 + \alpha \cdot \Delta T) $$
 ## 3. Hukum Ohm & Material Non-Ohmik
 
 **Hukum Ohm:** Untuk banyak material (terutama logam pada suhu konstan), arus sebanding dengan tegangan.
-$$ V = I \cdot R $$
+$$
+\Large V = I \cdot R
+$$
 
 **Non-Ohmik:** Beberapa komponen seperti Dioda, LED, dan Termistor tidak memiliki grafik V-I linear. Hambatannya berubah-ubah tergantung tegangan yang diberikan (Hambatan Dinamis).
 
@@ -54,18 +64,24 @@ $$ V = I \cdot R $$
 ## 4. Hukum Kirchhoff I (Node Rule)
 
 Berdasarkan hukum **Kekekalan Muatan**, total arus yang masuk ke titik percabangan harus sama dengan total arus yang keluar.
-$$ \sum I_{\text{masuk}} = \sum I_{\text{keluar}} $$
+$$
+\Large \sum I_{\text{masuk}} = \sum I_{\text{keluar}}
+$$
 
 ---
 
 ## 5. Hukum Kirchhoff II (Loop Rule)
 
 Berdasarkan hukum **Kekekalan Energi**, jumlah perubahan potensial (Ggl dan penurunan tegangan) dalam suatu lintasan tertutup (loop) adalah NOL.
-$$ \sum \varepsilon + \sum (I \cdot R) = 0 $$
+$$
+\Large \sum \varepsilon + \sum (I \cdot R) = 0
+$$
 
 **Sumber Tegangan Riil:**
 Baterai memiliki **Hambatan Dalam ($r$)**. Tegangan jepit ($V_{jepit}$) selalu lebih kecil dari Ggl ($\varepsilon$) saat arus mengalir.
-$$ V_{jepit} = \varepsilon - I \cdot r $$
+$$
+\Large V_{jepit} = \varepsilon - I \cdot r
+$$
 
 ---
 
@@ -81,9 +97,13 @@ $$ V_{jepit} = \varepsilon - I \cdot r $$
 ## 7. Disipasi Daya & Energi Joule
 
 Energi listrik yang hilang menjadi panas (Efek Joule) saat melewati hambatan.
-$$ W = V \cdot I \cdot t = I^2 \cdot R \cdot t $$
+$$
+\Large W = V \cdot I \cdot t = I^2 \cdot R \cdot t
+$$
 **Daya Listrik ($P$):**
-$$ P = \frac{W}{t} = V \cdot I = I^2 \cdot R = \frac{V^2}{R} $$
+$$
+\Large P = \frac{W}{t} = V \cdot I = I^2 \cdot R = \frac{V^2}{R}
+$$
 
 > [!TIP]
 > Untuk transmisi jarak jauh, tegangan dinaikkan (High Voltage) agar arus ($I$) mengecil, sehingga rugi-rugi daya ($I^2 R$) di kabel transmisi menjadi minimal.
@@ -102,7 +122,9 @@ Galvanometer dasar memiliki batas ukur sangat kecil.
 
 **Potensiometer:** Alat ukur tegangan yang tidak mengambil arus dari rangkaian yang diukur (**Null Method**).
 Prinsipnya membandingkan Ggl yang tidak diketahui dengan Ggl standar menggunakan perbandingan panjang kawat hambatan yang seragam.
-$$ \frac{\varepsilon_1}{\varepsilon_2} = \frac{L_1}{L_2} $$
+$$
+\Large \frac{\varepsilon_1}{\varepsilon_2} = \frac{L_1}{L_2}
+$$
 
 ---
 

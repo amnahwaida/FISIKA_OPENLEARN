@@ -22,7 +22,9 @@
 **Getaran Harmonis Sederhana (GHS)** adalah gerak bolak-balik berkala di sekitar titik keseimbangan dengan ciri khas: gaya yang bekerja pada benda selalu mengarah ke titik keseimbangan dan besarnya sebanding dengan simpangannya.
 
 Gaya pendorong ini disebut **Gaya Pemulih (*Restoring Force*)**. Berdasarkan **Hukum Hooke**:
-$$ F_p = -k \cdot x $$
+$$
+\Large F_p = -k \cdot x
+$$
 - **$k$:** Konstanta pegas (N/m).
 - **$x$:** Simpangan (jarak dari titik setimbang).
 - **Tanda $(-)$:** Menunjukkan arah gaya selalu berlawanan dengan arah simpangan (menarik benda kembali ke tengah).
@@ -34,7 +36,9 @@ $$ F_p = -k \cdot x $$
 Karena GHS adalah proyeksi dari gerak melingkar, posisinya berubah secara sinusoidal terhadap waktu.
 
 **Persamaan Umum Simpangan ($y$):**
-$$ y = A \sin(\omega t + \theta_0) $$
+$$
+\Large y = A \sin(\omega t + \theta_0)
+$$
 - **$A$:** Amplitudo (Simpangan maksimum).
 - **$\omega$:** Frekuensi sudut ($\text{rad/s}$), di mana $\omega = 2\pi f = \frac{2\pi}{T}$.
 - **$\theta_0$:** Fase awal (posisi saat $t=0$).
@@ -47,12 +51,16 @@ Kecepatan dan percepatan diperoleh dari turunan matematis persamaan simpangan.
 
 ### 3.1 Kecepatan ($v$)
 Laju gerak benda saat melintasi titik tertentu.
-$$ v = \frac{dy}{dt} = \omega A \cos(\omega t + \theta_0) $$
+$$
+\Large v = \frac{dy}{dt} = \omega A \cos(\omega t + \theta_0)
+$$
 - **$v_{max}$:** Terjadi di **Titik Setimbang** ($v_{max} = \omega A$).
 
 ### 3.2 Percepatan ($a$)
 Perubahan kecepatan yang selalu mengincar titik tengah.
-$$ a = \frac{dv}{dt} = -\omega^2 A \sin(\omega t + \theta_0) = -\omega^2 y $$
+$$
+\Large a = \frac{dv}{dt} = -\omega^2 A \sin(\omega t + \theta_0) = -\omega^2 y
+$$
 - **$a_{max}$:** Terjadi di **Titik Terjauh/Amplitudo** ($a_{max} = \omega^2 A$).
 
 ---
@@ -60,7 +68,9 @@ $$ a = \frac{dv}{dt} = -\omega^2 A \sin(\omega t + \theta_0) = -\omega^2 y $$
 ## 4. Osilator Pegas Tunggal
 
 Untuk sebuah massa $m$ yang digantungkan pada pegas dengan konstanta $k$:
-$$ T = 2\pi \sqrt{\frac{m}{k}} \quad \text{dan} \quad f = \frac{1}{2\pi} \sqrt{\frac{k}{m}} $$
+$$
+\Large T = 2\pi \sqrt{\frac{m}{k}} \quad \text{dan} \quad f = \frac{1}{2\pi} \sqrt{\frac{k}{m}}
+$$
 
 > [!TIP]
 > **Hukum "Massa Berat, Gerak Lambat":**
@@ -71,7 +81,9 @@ $$ T = 2\pi \sqrt{\frac{m}{k}} \quad \text{dan} \quad f = \frac{1}{2\pi} \sqrt{\
 ## 5. Ayunan Bandul Sederhana (Pendulum)
 
 Untuk beban yang diayunkan pada tali sepanjang $L$ dengan sudut simpangan kecil ($\theta < 10^\circ$):
-$$ T = 2\pi \sqrt{\frac{L}{g}} \quad \text{dan} \quad f = \frac{1}{2\pi} \sqrt{\frac{g}{L}} $$
+$$
+\Large T = 2\pi \sqrt{\frac{L}{g}} \quad \text{dan} \quad f = \frac{1}{2\pi} \sqrt{\frac{g}{L}}
+$$
 
 > [!NOTE]
 > Pada bandul sederhana, massa beban **TIDAK** mempengaruhi periode getaran. Hanya panjang tali dan gravitasi yang menentukan ritme ayunannya.
@@ -84,11 +96,15 @@ Seringkali kita menggunakan lebih dari satu pegas untuk menopang beban (misal: s
 
 ### 6.1 Susunan Paralel (Samping-sampangan)
 Pegas terlihat lebih kaku.
-$$ k_p = k_1 + k_2 + k_3 + \dots $$
+$$
+\Large k_p = k_1 + k_2 + k_3 + \dots
+$$
 
 ### 6.2 Susunan Seri (Deret memanjang)
 Pegas terasa lebih lentur.
-$$ \frac{1}{k_s} = \frac{1}{k_1} + \frac{1}{k_2} + \frac{1}{k_3} + \dots $$
+$$
+\Large \frac{1}{k_s} = \frac{1}{k_1} + \frac{1}{k_2} + \frac{1}{k_3} + \dots
+$$
 
 ---
 

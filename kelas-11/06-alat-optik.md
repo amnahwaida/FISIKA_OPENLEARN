@@ -48,9 +48,13 @@ Lensa terlalu pipih, bayangan jatuh **di belakang** retina. Penderita tidak bisa
 Kekuatan lensa ($P$) diukur dalam satuan **Dioptri**.
 
 - **Untuk Miopi (Lensa Cekung/Negatif):**
-$$ P = -\frac{100}{PR} \quad (\text{Jika } PR \text{ dalam cm}) $$
+$$
+\Large P = -\frac{100}{PR} \quad (\text{Jika } PR \text{ dalam cm})
+$$
 - **Untuk Hipermetropi (Lensa Cembung/Positif):**
-$$ P = \frac{100}{S_n} - \frac{100}{PP} = 4 - \frac{100}{PP} $$
+$$
+\Large P = \frac{100}{S_n} - \frac{100}{PP} = 4 - \frac{100}{PP}
+$$
 - *$S_n = 25 \text{ cm}$ (jarak baca normal).*
 
 ---
@@ -61,9 +65,13 @@ Lensa cembung tunggal yang digunakan untuk memperbesar sudut pandang.
 
 **Perbesaran ($M$):**
 - **Mata Berakomodasi Maksimum:**
-$$ M = \frac{S_n}{f} + 1 $$
+$$
+\Large M = \frac{S_n}{f} + 1
+$$
 - **Mata Tak Berakomodasi:**
-$$ M = \frac{S_n}{f} $$
+$$
+\Large M = \frac{S_n}{f}
+$$
 
 ---
 
@@ -72,7 +80,9 @@ $$ M = \frac{S_n}{f} $$
 Menggunakan dua lensa cembung: **Objektif** (dekat benda) dan **Okuler** (dekat mata).
 - **Perbesaran Total:** $M_{tot} = M_{ob} \times M_{ok}$
 - **Panjang Mikroskop ($d$):** Jarak antar lensa.
-$$ d = s'_{ob} + s_{ok} $$
+$$
+\Large d = s'_{ob} + s_{ok}
+$$
 
 > [!IMPORTANT]
 > Lensa Objektif membentuk bayangan **nyata, terbalik, diperbesar**. Bayangan ini kemudian dianggap sebagai benda oleh lensa Okuler untuk diperbesar lagi secara **maya**.
@@ -83,9 +93,13 @@ $$ d = s'_{ob} + s_{ok} $$
 
 Digunakan untuk melihat benda yang sangat jauh (jarak benda $s_{ob} = \sim$).
 - **Perbesaran (Tak Berakomodasi):**
-$$ M = \frac{f_{ob}}{f_{ok}} $$
+$$
+\Large M = \frac{f_{ob}}{f_{ok}}
+$$
 - **Panjang Teropong:**
-$$ d = f_{ob} + f_{ok} $$
+$$
+\Large d = f_{ob} + f_{ok}
+$$
 
 ---
 

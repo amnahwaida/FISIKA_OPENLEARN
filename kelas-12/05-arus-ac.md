@@ -23,8 +23,12 @@ Berbeda dengan arus searah (DC) yang nilainya stabil, arus bolak-balik (AC) memi
 
 **Nilai Maksimum ($V_{max}$):** Tegangan puncak tertinggi pada gelombang.
 **Nilai Efektif ($V_{rms}$):** Nilai tegangan AC yang menghasilkan efek panas (disipasi daya) yang sama dengan tegangan DC. Inilah nilai yang dibaca oleh Voltmeter/Ammeter AC.
-$$ V_{ef} = \frac{V_{max}}{\sqrt{2}} \approx 0,707 \cdot V_{max} $$
-$$ I_{ef} = \frac{I_{max}}{\sqrt{2}} $$
+$$
+\Large V_{ef} = \frac{V_{max}}{\sqrt{2}} \approx 0,707 \cdot V_{max}
+$$
+$$
+\Large I_{ef} = \frac{I_{max}}{\sqrt{2}}
+$$
 
 ---
 
@@ -40,7 +44,9 @@ Pada hambatan murni ($R$), tegangan dan arus berubah secara bersamaan.
 
 Induktor ($L$) menghambat arus AC tidak hanya lewat hambatan kawat, tapi lewat Ggl induksi diri.
 - **Reaktansi Induktif ($X_L$):** 
-  $$ X_L = \omega \cdot L = 2\pi f \cdot L \quad (\text{Ohm}) $$
+  $$
+\Large X_L = \omega \cdot L = 2\pi f \cdot L \quad (\text{Ohm})
+$$
 - **Karakteristik Fase:** Tegangan **Mendahului** Arus sebesar $90^\circ$ (CIVIL: $V$ before $I$ in $L$).
 
 ---
@@ -49,7 +55,9 @@ Induktor ($L$) menghambat arus AC tidak hanya lewat hambatan kawat, tapi lewat G
 
 Kapasitor ($C$) menghambat arus AC melalui proses pengosongan dan pengisian muatan.
 - **Reaktansi Kapasitif ($X_C$):**
-  $$ X_C = \frac{1}{\omega \cdot C} = \frac{1}{2\pi f \cdot C} \quad (\text{Ohm}) $$
+  $$
+\Large X_C = \frac{1}{\omega \cdot C} = \frac{1}{2\pi f \cdot C} \quad (\text{Ohm})
+$$
 - **Karakteristik Fase:** Arus **Mendahului** Tegangan sebesar $90^\circ$ (CIVIL: $I$ before $V$ in $C$).
 
 ---
@@ -57,9 +65,13 @@ Kapasitor ($C$) menghambat arus AC melalui proses pengosongan dan pengisian muat
 ## 5. Rangkaian Seri RLC & Impedansi
 
 Saat $R, L,$ dan $C$ disusun seri, hambatan totalnya tidak bisa dijumlahkan secara aljabar biasa karena perbedaan fase. Kita menggunakan penjumlahan vektor (**Impedansi, $Z$**).
-$$ Z = \sqrt{R^2 + (X_L - X_C)^2} \quad (\text{Ohm}) $$
+$$
+\Large Z = \sqrt{R^2 + (X_L - X_C)^2} \quad (\text{Ohm})
+$$
 **Tegangan Total ($V$):**
-$$ V_{total} = \sqrt{V_R^2 + (V_L - V_C)^2} $$
+$$
+\Large V_{total} = \sqrt{V_R^2 + (V_L - V_C)^2}
+$$
 
 ---
 
@@ -67,7 +79,9 @@ $$ V_{total} = \sqrt{V_R^2 + (V_L - V_C)^2} $$
 
 Fasor (*Phase Vector*) adalah cara memvisualisasikan tegangan sebagai vektor yang berputar.
 - **Sudut Fase ($\phi$):** Pergeseran antara tegangan total dan arus total.
-  $$ \tan \phi = \frac{X_L - X_C}{R} $$
+  $$
+\Large \tan \phi = \frac{X_L - X_C}{R}
+$$
 
 ---
 
@@ -75,7 +89,9 @@ Fasor (*Phase Vector*) adalah cara memvisualisasikan tegangan sebagai vektor yan
 
 Daya pada AC hanya benar-benar terpakai (diserap) pada komponen Resistor ($R$).
 **Daya Nyata ($P$):**
-$$ P = V_{ef} \cdot I_{ef} \cdot \cos \phi \quad (\text{Watt}) $$
+$$
+\Large P = V_{ef} \cdot I_{ef} \cdot \cos \phi \quad (\text{Watt})
+$$
 - **Faktor Daya ($\cos \phi$):** Nilai efisiensi penggunaan daya. Idealnya bernilai $1$. Jika terlalu rendah, tagihan listrik membengkak akibat "Daya Buta" ($Q$) yang tidak terpakai tapi tetap mengalir.
 
 ---
@@ -85,7 +101,9 @@ $$ P = V_{ef} \cdot I_{ef} \cdot \cos \phi \quad (\text{Watt}) $$
 Resonansi terjadi saat hambatan induktif saling meniadakan hambatan kapasitif ($X_L = X_C$).
 - **Akibat:** Impedansi minimum ($Z = R$), Arus maksimum.
 - **Frekuensi Resonansi ($f_r$):**
-  $$ f_r = \frac{1}{2\pi \sqrt{L \cdot C}} $$
+  $$
+\Large f_r = \frac{1}{2\pi \sqrt{L \cdot C}}
+$$
 Prinsip ini digunakan pada **Tuning Radio**; kita mengubah nilai $C$ pada kapasitor variabel agar frekuensi resonansi rangkaian sama dengan frekuensi stasiun radio.
 
 ---

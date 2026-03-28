@@ -22,11 +22,15 @@
 Jika magnetisme diciptakan oleh arus listrik (Bab 3), maka sebaliknya, **Arus Listrik bisa diciptakan oleh Magnet**. Namun, magnetnya harus "Bergerak" atau Berubah.
 
 **Fluks Magnetik ($\Phi$):** Jumlah garis medan magnet yang menembus luasan tertentu.
-$$ \Phi = B \cdot A \cdot \cos \theta \quad (\text{Weber}) $$
+$$
+\Large \Phi = B \cdot A \cdot \cos \theta \quad (\text{Weber})
+$$
 
 **Hukum Faraday:**
 Gaya Gerak Listrik (Ggl) induksi timbul sebanding dengan laju perubahan fluks magnetik.
-$$ \varepsilon = -N \frac{d\Phi}{dt} \approx -N \frac{\Delta \Phi}{\Delta t} $$
+$$
+\Large \varepsilon = -N \frac{d\Phi}{dt} \approx -N \frac{\Delta \Phi}{\Delta t}
+$$
 
 ---
 
@@ -42,7 +46,9 @@ Ini adalah mekanisme alam untuk menjaga **Kekekalan Energi**. Kita tidak bisa me
 ## 3. Ggl Induksi Kawat Melintasi Medan
 
 Sebuah kawat penghantar sepanjang $L$ yang digerakkan memotong medan magnet $B$ dengan kecepatan $v$.
-$$ \varepsilon = B \cdot L \cdot v \cdot \sin \theta $$
+$$
+\Large \varepsilon = B \cdot L \cdot v \cdot \sin \theta
+$$
 - **Aturan Tangan Kanan:** Ibu jari ($v$), Telunjuk ($B$), Tengah ($I$ induksi).
 
 ---
@@ -50,25 +56,37 @@ $$ \varepsilon = B \cdot L \cdot v \cdot \sin \theta $$
 ## 4. Induktansi Diri (Solenoida)
 
 Kumparan memiliki sifat melawan perubahan arus yang melewatinya sendiri. Sifat ini disebut **Induktansi ($L$)**.
-$$ \varepsilon = -L \frac{dI}{dt} $$
+$$
+\Large \varepsilon = -L \frac{dI}{dt}
+$$
 **Induktansi Solenoida:**
-$$ L = \frac{\mu_0 \cdot N^2 \cdot A}{\ell} \quad (\text{Henry}) $$
+$$
+\Large L = \frac{\mu_0 \cdot N^2 \cdot A}{\ell} \quad (\text{Henry})
+$$
 
 ---
 
 ## 5. Energi dalam Medan Magnet Induktor
 
 Induktor menyimpan energi dalam bentuk **Medan Magnet**.
-$$ W = \frac{1}{2} L I^2 \quad (\text{Joule}) $$
+$$
+\Large W = \frac{1}{2} L I^2 \quad (\text{Joule})
+$$
 
 ---
 
 ## 6. Generator Arus Bolak-Balik (AC)
 
 Mengubah energi mekanik (putar) menjadi listrik. Sebuah loop kumparan diputar dalam medan magnet tetap.
-$$ \Phi = B \cdot A \cdot \cos(\omega t) $$
-$$ \varepsilon = N \cdot B \cdot A \cdot \omega \cdot \sin(\omega t) $$
-$$ \varepsilon = \varepsilon_{max} \sin(\omega t) $$
+$$
+\Large \Phi = B \cdot A \cdot \cos(\omega t)
+$$
+$$
+\Large \varepsilon = N \cdot B \cdot A \cdot \omega \cdot \sin(\omega t)
+$$
+$$
+\Large \varepsilon = \varepsilon_{max} \sin(\omega t)
+$$
 Inilah asal mula tegangan listrik yang berubah-ubah naik turun (AC).
 
 ---
@@ -77,7 +95,9 @@ Inilah asal mula tegangan listrik yang berubah-ubah naik turun (AC).
 
 Alat untuk menaikkan (**Step-up**) atau menurunkan (**Step-down**) tegangan AC tanpa bagian yang bergerak.
 - **Prinsip:** Induksi silang antar kumparan primer dan sekunder.
-$$ \frac{V_p}{V_s} = \frac{N_p}{N_s} = \frac{I_s}{I_p} $$
+$$
+\Large \frac{V_p}{V_s} = \frac{N_p}{N_s} = \frac{I_s}{I_p}
+$$
 
 ---
 
@@ -86,7 +106,9 @@ $$ \frac{V_p}{V_s} = \frac{N_p}{N_s} = \frac{I_s}{I_p} $$
 Trafo nyata tidak pernah $100\%$ efisien.
 - **Penyebab Rugi:** Panas Joule di kabel, **Arus Eddy** (arus pusar di inti besi), Kebocoran Fluks, dan Histeresis.
 **Efisiensi ($\eta$):**
-$$ \eta = \frac{P_{out}}{P_{in}} \times 100\% = \frac{V_s I_s}{V_p I_p} \times 100\% $$
+$$
+\Large \eta = \frac{P_{out}}{P_{in}} \times 100\% = \frac{V_s I_s}{V_p I_p} \times 100\%
+$$
 
 ---
 

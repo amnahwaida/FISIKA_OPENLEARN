@@ -48,10 +48,14 @@ Setiap skala memiliki titik tetap bawah (es mencair) dan titik tetap atas (air m
 </div>
 
 **Rumus Umum Konversi:**
-$$ \frac{T_X - TitikBawah_X}{TitikAtas_X - TitikBawah_X} = \frac{T_Y - TitikBawah_Y}{TitikAtas_Y - TitikBawah_Y} $$
+$$
+\Large \frac{T_X - TitikBawah_X}{TitikAtas_X - TitikBawah_X} = \frac{T_Y - TitikBawah_Y}{TitikAtas_Y - TitikBawah_Y}
+$$
 
 **Perbandingan Skala (C : R : F : K):**
-$$ 5 : 4 : 9 : 5 $$
+$$
+\Large 5 : 4 : 9 : 5
+$$
 
 > [!IMPORTANT]
 > **Mengapa Kelvin Tidak Menggunakan Derajat (°)?**
@@ -65,15 +69,23 @@ Ketika dipanaskan, partikel zat bergetar lebih kuat, sehingga jarak antar partik
 
 ### 3.1 Pemuaian Zat Padat
 1. **Pemuaian Panjang ($\Delta L$):** Berlaku untuk benda berbentuk kawat/batang.
-   $$ \Delta L = L_0 \cdot \alpha \cdot \Delta T $$
-   $$ L_t = L_0 (1 + \alpha \Delta T) $$
+   $$
+\Large \Delta L = L_0 \cdot \alpha \cdot \Delta T
+$$
+   $$
+\Large L_t = L_0 (1 + \alpha \Delta T)
+$$
    ($\alpha$ = koefisien muai panjang)
 
 2. **Pemuaian Luas ($\Delta A$):** Benda berupa lempengan.
-   $$ \Delta A = A_0 \cdot \beta \cdot \Delta T \quad (\beta = 2\alpha) $$
+   $$
+\Large \Delta A = A_0 \cdot \beta \cdot \Delta T \quad (\beta = 2\alpha)
+$$
 
 3. **Pemuaian Volume ($\Delta V$):** Benda pejal/3D.
-   $$ \Delta V = V_0 \cdot \gamma \cdot \Delta T \quad (\gamma = 3\alpha) $$
+   $$
+\Large \Delta V = V_0 \cdot \gamma \cdot \Delta T \quad (\gamma = 3\alpha)
+$$
 
 > [!WARNING]
 > **Aplikasi Teknis: Kaca Tahan Panas**
@@ -92,7 +104,9 @@ Zat cair umumnya hanya mengalami **pemuaian volume**. Namun, ada satu pengecuali
 ### 3.3 "Grandmaster Apex": Tegangan Termal (Thermal Stress)
 Apa yang terjadi jika sebatang logam dipanaskan ($\Delta T$) tetapi ujung-ujungnya **ditahan kaku** sehingga tidak bisa memuai? Benda tersebut akan membangkitkan **Gaya Internal** yang sangat merusak untuk memaksa memuai.
 Berdasarkan modulus elastisitas Young ($Y$):
-$$ F = Y \cdot A \cdot \alpha \cdot \Delta T $$
+$$
+\Large F = Y \cdot A \cdot \alpha \cdot \Delta T
+$$
 > Inilah alasan jembatan tanpa celah memuai akan hancur melengkung. Gaya termal ini bisa mencapai jutaan Newton!
 
 ---
@@ -101,7 +115,9 @@ $$ F = Y \cdot A \cdot \alpha \cdot \Delta T $$
 
 Ketika kalor menyumbang pada perubahan suhu benda tanpa mengubah wujudnya:
 
-$$ Q = m \cdot c \cdot \Delta T $$
+$$
+\Large Q = m \cdot c \cdot \Delta T
+$$
 
 Dimana:
 - $Q$ = Kalor (Joule)
@@ -115,7 +131,9 @@ Dimana:
 
 **Kapasitas Kalor ($C$):**
 Besaran untuk satu benda utuh (bukan per kg massa).
-$$ C = m \cdot c \implies Q = C \cdot \Delta T $$
+$$
+\Large C = m \cdot c \implies Q = C \cdot \Delta T
+$$
 
 ---
 
@@ -125,14 +143,18 @@ Saat zat mencapai titik lebur atau titik didihnya, energi kalor yang masuk **TID
 
 Kalor ini disebut Kalor "Tersembunyi" (Laten):
 
-$$ Q = m \cdot L $$
+$$
+\Large Q = m \cdot L
+$$
 
 - **Melebur / Membeku:** Gunakan Kalor Lebur ($L_f$).
 - **Menguap / Mengembun:** Gunakan Kalor Uap ($L_v$).
 
 ### 5.1 Kalor Sublimasi (Padat $\leftrightarrow$ Gas)
 Zat tertentu seperti Es Kering ($CO_2$ padat) atau kapur barus dapat menyublim menyerap kalor lompat wujud tanpa melewati fase cair. Laten Kalor Sublimasi ($L_s$) didefinisikan secara konseptual setara dengan totalitas kalor lebur ditambah kalor uap:
-$$ L_s \approx L_f + L_v $$
+$$
+\Large L_s \approx L_f + L_v
+$$
 
 ---
 
@@ -157,7 +179,9 @@ Untuk merubah Es $-10^\circ\text{C}$ menjadi Uap $120^\circ\text{C}$, kalor haru
 
 Berdasarkan Hukum Kekekalan Energi, jika dua benda beda suhu dicampur dalam wadah tertutup yang terisolasi sempurna (kalorimeter):
 
-$$ Q_{\text{lepas}} = Q_{\text{terima}} $$
+$$
+\Large Q_{\text{lepas}} = Q_{\text{terima}}
+$$
 
 - **Melepas Kalor:** Benda dengan suhu memula yang LEBIH TINGGI.
 - **Menerima Kalor:** Benda dengan suhu memula yang LEBIH RENDAH (termasuk kalor untuk perubahan wujud, jika ada es yang melebur).
@@ -169,7 +193,9 @@ $$ Q_{\text{lepas}} = Q_{\text{terima}} $$
 ### 7.1 Kalorimeter Non-Ideal (Wadah Aktif)
 Di soal tingkat dasar, wadah pencampur (Kalorimeter) diabaikan massa dan kapasitas kalornya. Di dunia nyata (dan OSN), **wadah logam juga ikut menyerap kalor**.
 Maka rumus kesetimbangan meluas menjadi:
-$$ Q_{lepas} = Q_{terima(\text{Zat Cair})} + Q_{terima(\text{Kalorimeter})} $$
+$$
+\Large Q_{lepas} = Q_{terima(\text{Zat Cair})} + Q_{terima(\text{Kalorimeter})}
+$$
 
 > **Nilai Air (Water Equivalent - $W_k$):** Untuk mempermudah, kapasitas kalor wadah sering disetarakan seperti sekian gram "massa air" fiktif ($W_k = \frac{C_{\text{wadah}}}{c_{\text{air}}}$). Siswa cukup menambahkan gram ini ke total massa air dingin seolah-olah volume air bertambah.
 
@@ -182,20 +208,26 @@ Terdapat tiga mode dasar bagaimana energi panas berpindah ruang:
 ### 8.1 Konduksi (Rambatan)
 Perpindahan kalor melalui benda padat tanpa materi yang ikut berpindah (disebabkan getaran elektron & kisi atom).
 **Laju Kalor ($H = Q/t$):**
-$$ H = \frac{k \cdot A \cdot \Delta T}{L} $$
+$$
+\Large H = \frac{k \cdot A \cdot \Delta T}{L}
+$$
 - $k$ = Konduktivitas Termal (Makin besar = penghantar baik / konduktor).
 - Sifat ini dimanfaatkan dalam pembuatan panci (alas logam $k$-tinggi, gagang kayu/plastik $k$-rendah).
 
 ### 8.2 Konveksi (Aliran)
 Perpindahan kalor yang disertai perpindahan massanya (terjadi pada fluida: cairan/gas).
-$$ H = h \cdot A \cdot \Delta T $$
+$$
+\Large H = h \cdot A \cdot \Delta T
+$$
 - $h$ = Koefisien konveksi.
 - **Contoh Real:** Aliran air mendidih dari bawah ke atas panci, sistem pendingin radiator mobil, dan arus angin lokal/global.
 
 ### 8.3 Radiasi (Pancaran)
 Perpindahan kalor dalam bentuk gelombang elektromagnetik (inframerah) **tanpa memerlukan medium**. Inilah cara energi matahari menembus ruang hampa mencapai bumi.
 **Hukum Stefan-Boltzmann (Daya Radiasi, $P$):**
-$$ P = e \cdot \sigma \cdot A \cdot T^4 $$
+$$
+\Large P = e \cdot \sigma \cdot A \cdot T^4
+$$
 - $e$ = Emisivitas benda ($0 \leq e \leq 1$, Hitam ideal $e=1$).
 - $\sigma$ = Tetapan Stefan-Boltzmann ($5,67 \times 10^{-8} \text{ W/m}^2\text{K}^4$).
 - $T$ = Suhu mutlak dalam **Kelvin**.
@@ -207,8 +239,12 @@ $$ P = e \cdot \sigma \cdot A \cdot T^4 $$
 ### 9.1 Kesetaraan Mekanik-Kalor (Joule's Experiment)
 James Prescott Joule membuktikan bahwa "Kalor" dan "Usaha Mekanik" adalah hal yang sama (keduanya energi).
 **Konversi Dewa:**
-$$ 1 \text{ kalori} = 4,184 \text{ Joule} $$
-$$ 1 \text{ Joule} = 0,24 \text{ kalori} $$
+$$
+\Large 1 \text{ kalori} = 4,184 \text{ Joule}
+$$
+$$
+\Large 1 \text{ Joule} = 0,24 \text{ kalori}
+$$
 
 > Aplikasi ekstrem: Suhu peluru yang jatuh perlahan meningkat murni karena usaha gesekan udara $\to$ energi kinetik musnah diubah $\to$ energi dalam (suhu peluru meroket).
 

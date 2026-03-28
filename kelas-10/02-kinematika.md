@@ -19,25 +19,37 @@ Sebelum kita masuk ke jenis-jenis gerak, sangat penting untuk memahami perbedaan
 
 ### 1.2 Kelajuan dan Kecepatan
 - **Kelajuan (Skalar):** Jarak per satuan waktu.
-  $$ v = \frac{s}{t} $$
+  $$
+\Large v = \frac{s}{t}
+$$
 - **Kecepatan (Vektor):** Perpindahan per satuan waktu.
-  $$ \vec{v} = \frac{\Delta \vec{x}}{\Delta t} = \frac{\vec{x}_t - \vec{x}_0}{t_t - t_0} $$
+  $$
+\Large \vec{v} = \frac{\Delta \vec{x}}{\Delta t} = \frac{\vec{x}_t - \vec{x}_0}{t_t - t_0}
+$$
 
 > [!TIP]
 > **Kecepatan Rata-rata Lintasan Bertahap:**
 > Jika benda menempuh paruh jarak pertama dengan $v_1$ dan paruh jarak kedua dengan $v_2$, kecepatan rata-ratanya adalah **rata-rata harmonik**:
-> $$ v_{avg} = \frac{2 \cdot v_1 \cdot v_2}{v_1 + v_2} $$
+> $$
+\Large v_{avg} = \frac{2 \cdot v_1 \cdot v_2}{v_1 + v_2}
+$$
 
 **Kecepatan Relatif 2 Dimensi (Kasus Vektor):**
 Jika sebuah benda (misal perahu) bergerak dengan kecepatan $\vec{v}_p$ di atas medium (misal sungai) yang juga bergerak dengan kecepatan $\vec{v}_s$, maka kecepatan total perahu terhadap pengamat diam di pinggir adalah:
-$$ \vec{v}_{\text{total}} = \vec{v}_p + \vec{v}_s $$
+$$
+\Large \vec{v}_{\text{total}} = \vec{v}_p + \vec{v}_s
+$$
 Jika perahu menyeberang tegak lurus arus, besar kecepatan resultannya adalah:
-$$ v_{\text{res}} = \sqrt{v_p^2 + v_s^2} $$
+$$
+\Large v_{\text{res}} = \sqrt{v_p^2 + v_s^2}
+$$
 
 > [!IMPORTANT]
 > **Notasi Vektor Formal Kecepatan Relatif:**
 > Secara umum, kecepatan benda A terhadap benda B ($\vec{v}_{AB}$) didefinisikan sebagai selisih vektor keduanya:
-> $$ \vec{v}_{AB} = \vec{v}_A - \vec{v}_B = (v_{Ax} - v_{Bx})\hat{i} + (v_{Ay} - v_{By})\hat{j} $$
+> $$
+\Large \vec{v}_{AB} = \vec{v}_A - \vec{v}_B = (v_{Ax} - v_{Bx})\hat{i} + (v_{Ay} - v_{By})\hat{j}
+$$
 > Konsep ini sangat vital untuk menganalisis pergerakan pesawat di tengah angin kencang dari sudut sembarang.
 
 > [!TIP]
@@ -48,7 +60,9 @@ $$ v_{\text{res}} = \sqrt{v_p^2 + v_s^2} $$
 
 ### 1.3 Percepatan (Acceleration)
 Perubahan kecepatan tiap satuan waktu. Percepatan bernilai positif ($+$) berarti benda dipercepat, sedangkan negatif ($-$) berarti benda diperlambat.
-$$ a = \frac{\Delta v}{\Delta t} = \frac{v_t - v_0}{t} $$
+$$
+\Large a = \frac{\Delta v}{\Delta t} = \frac{v_t - v_0}{t}
+$$
 
 > [!WARNING]
 > **Miskonsepsi Titik Balik (v = 0 ≠ a = 0):**
@@ -58,9 +72,13 @@ $$ a = \frac{\Delta v}{\Delta t} = \frac{v_t - v_0}{t} $$
 ### 1.4 Kinematika dengan Analisis Vektor (Kalkulus Dasar)
 Pada tingkat lanjut, besaran kinematika didefinisikan menggunakan operasi turunan (derivatif):
 - **Kecepatan Sesaat ($v$):** Turunan pertama fungsi posisi ($r$) terhadap waktu.
-  $$ v(t) = \frac{dr}{dt} $$
+  $$
+\Large v(t) = \frac{dr}{dt}
+$$
 - **Percepatan Sesaat ($a$):** Turunan pertama fungsi kecepatan ($v$) terhadap waktu.
-  $$ a(t) = \frac{dv}{dt} $$
+  $$
+\Large a(t) = \frac{dv}{dt}
+$$
 *(Contoh: Jika $r(t) = 2t^3$, maka $v(t) = 6t^2$ dan $a(t) = 12t$).*
 
 ### 1.5 Filosofi "Keluarga" Kinematika
@@ -83,17 +101,23 @@ GLB adalah gerak benda pada lintasan lurus dengan **kecepatan konstan ($v$ tetap
 
 - **Ciri Utama:** Dalam selang waktu yang sama, benda menempuh jarak yang sama.
 - **Rumus:**
-  $$ s = v \cdot t $$
+  $$
+\Large s = v \cdot t
+$$
 - **Grafik GLB:**
   - Grafik $s-t$ (Jarak-Waktu) berupa garis lurus miring ke atas (linear).
   - Grafik $v-t$ (Kecepatan-Waktu) berupa garis lurus mendatar (horizontal).
 
 - **Jika Keduanya GLB (Berlawanan Arah/Berpapasan):**
   Dua benda terpisah jarak $D$. Waktu bertemu ($t$):
-  $$ t = \frac{D}{v_A + v_B} $$
+  $$
+\Large t = \frac{D}{v_A + v_B}
+$$
 - **Jika Keduanya GLB (Searah/Menyusul):**
   Benda B mengejar A. Waktu menyusul ($t$):
-  $$ t = \frac{\Delta x_{awal}}{v_B - v_A} $$
+  $$
+\Large t = \frac{\Delta x_{awal}}{v_B - v_A}
+$$
 - **Jika Salah Satu atau Keduanya GLBB:**
   Gunakan persamaan posisi GLBB ($s = v_0 t + \frac{1}{2}at^2$) dan selesaikan persamaan kuadrat untuk mencari $t$. (Pastikan arah $a$ positif/negatif sesuai acuan).
 
@@ -198,7 +222,9 @@ Benda dilempar ke bawah dengan kecepatan awal ($v_0 \neq 0$). Gunakan rumus GLBB
 
 ### 5.4 Pertemuan Dua Benda di Udara
 Jika benda A dilempar ke atas dari tanah dan benda B dijatuhkan dari ketinggian $H$ di atasnya, mereka akan bertemu jika:
-$$ y_A + y_B = H $$
+$$
+\Large y_A + y_B = H
+$$
 (dengan $y_A$ adalah posisi bola A dan $y_B$ adalah jarak jatuh bola B).
 
 ---
@@ -212,23 +238,33 @@ Gerak parabola adalah perpaduan dua gerak pada dua sumbu koordinat yang saling t
 - **Kecepatan Awal di Sumbu X:** $v_{0x} = v_0 \cos \alpha$
 - **Kecepatan Awal di Sumbu Y:** $v_{0y} = v_0 \sin \alpha$
 - **Tinggi Maksimum ($h_{\text{max}}$):**
-  $$ h_{\text{max}} = \frac{v_0^2 \sin^2 \alpha}{2g} $$
+  $$
+\Large h_{\text{max}} = \frac{v_0^2 \sin^2 \alpha}{2g}
+$$
 - **Jarak Terjauh ($x_{\text{max}}$):**
-  $$ x_{\text{max}} = \frac{v_0^2 \sin 2\alpha}{g} $$
+  $$
+\Large x_{\text{max}} = \frac{v_0^2 \sin 2\alpha}{g}
+$$
 
 **Persamaan Posisi Setiap Saat ($t$):**
 Koordinat peluru pada sembarang waktu $t$ selama di udara:
 - **Posisi Mendatar ($x$):** $x(t) = v_0 \cos \alpha \cdot t$
 - **Posisi Vertikal ($y$):** $y(t) = v_0 \sin \alpha \cdot t - \frac{1}{2}gt^2$
 
-$$ v_t = \sqrt{v_x^2 + v_{ty}^2} \quad \text{di mana } v_{ty} = v_0 \sin \alpha - gt $$
+$$
+\Large v_t = \sqrt{v_x^2 + v_{ty}^2} \quad \text{di mana } v_{ty} = v_0 \sin \alpha - gt
+$$
 
 **Vektor Kecepatan dalam Notasi $\hat{i}, \hat{j}$:**
-$$ \vec{v}(t) = (v_0 \cos \alpha) \hat{i} + (v_0 \sin \alpha - gt) \hat{j} $$
+$$
+\Large \vec{v}(t) = (v_0 \cos \alpha) \hat{i} + (v_0 \sin \alpha - gt) \hat{j}
+$$
 
 **Vektor Posisi dalam Notasi $\hat{i}, \hat{j}$:**
 Untuk mengetahui koordinat persis benda di ruang 2D pada waktu $t$:
-$$ \vec{r}(t) = (v_0 \cos \alpha \cdot t) \hat{i} + (v_0 \sin \alpha \cdot t - \frac{1}{2}gt^2) \hat{j} $$
+$$
+\Large \vec{r}(t) = (v_0 \cos \alpha \cdot t) \hat{i} + (v_0 \sin \alpha \cdot t - \frac{1}{2}gt^2) \hat{j}
+$$
 
 **Analisis Sudut Elevasi Maksimum:**
 Jangkauan terjauh ($x_{\text{max}}$) akan dicapai jika $\sin 2\alpha$ bernilai maksimum (yaitu 1). Hal ini terjadi saat $2\alpha = 90^\circ$, atau **$\alpha = 45^\circ$**.
@@ -242,11 +278,15 @@ Jangkauan terjauh ($x_{\text{max}}$) akan dicapai jika $\sin 2\alpha$ bernilai m
 
 **Persamaan Lintasan ($y$ sebagai fungsi $x$):**
 Jika kita mengeliminasi variabel waktu ($t$), kita mendapatkan persamaan parabola murni:
-$$ y = x \tan \alpha - \frac{gx^2}{2v_0^2 \cos^2 \alpha} $$
+$$
+\Large y = x \tan \alpha - \frac{gx^2}{2v_0^2 \cos^2 \alpha}
+$$
 
 **Penembakan dari Ketinggian ($H$):**
 Jika benda ditembakkan dari puncak gedung setinggi $H$, maka posisi vertikalnya terhadap tanah adalah:
-$$ y(t) = H + v_0 \sin \alpha \cdot t - \frac{1}{2}gt^2 $$
+$$
+\Large y(t) = H + v_0 \sin \alpha \cdot t - \frac{1}{2}gt^2
+$$
 *(Benda mencapai tanah saat $y = 0$).*
 
 **Sifat Sudut Komplementer:**
@@ -258,8 +298,12 @@ Jangkauan mendatar ($x_{\text{max}}$) akan bernilai sama untuk dua sudut elevasi
 > 1. **Metode Putar Sumbu:** Anggap sumbu X sejajar bidang miring.
 > 2. Akibatnya, gravitasi memiliki komponen di sumbu X ($g \sin \beta$) dan sumbu Y ($g \cos \beta$).
 > 3. Gerak di sumbu X bukan lagi GLB, melainkan **GLBB diperlambat**.
-> $$ x(t) = (v_0 \cos \theta)t - \frac{1}{2}(g \sin \beta)t^2 $$
-> $$ y(t) = (v_0 \sin \theta)t - \frac{1}{2}(g \cos \beta)t^2 $$
+> $$
+\Large x(t) = (v_0 \cos \theta)t - \frac{1}{2}(g \sin \beta)t^2
+$$
+> $$
+\Large y(t) = (v_0 \sin \theta)t - \frac{1}{2}(g \cos \beta)t^2
+$$
 
 > [!WARNING]
 > **Jebakan Soal (Titik Tertinggi):**
@@ -284,14 +328,20 @@ GMB adalah gerak benda dalam lintasan lingkaran dengan laju tetap, namun arah ke
 - **Frekuensi ($f$):** Jumlah putaran tiap detik. ($f = n / t$, satuan Hertz).
 - **Periode ($T$):** Waktu untuk satu kali putaran penuh. ($T = t / n$, satuan sekon). ($T = 1/f$).
 - **Kecepatan Sudut ($\omega$):** Sudut yang ditempuh per satuan waktu.
-  $$ \omega = \frac{2\pi}{T} = 2\pi f $$
+  $$
+\Large \omega = \frac{2\pi}{T} = 2\pi f
+$$
 - **Kecepatan Linear ($v$):** Laju pada pinggir lingkaran.
-  $$ v = \omega \cdot R $$
+  $$
+\Large v = \omega \cdot R
+$$
 
 > [!TIP]
 > **Pintasan Konversi RPM:**
 > Satuan **RPM** (Rotations Per Minute) adalah satuan frekuensi yang sering muncul di alat teknik (mesin).
-> $$ 1 \text{ RPM} = \frac{2\pi}{60} \text{ rad/s} = \frac{\pi}{30} \mathbf{\text{ rad/s}} $$
+> $$
+\Large 1 \text{ RPM} = \frac{2\pi}{60} \text{ rad/s} = \frac{\pi}{30} \mathbf{\text{ rad/s}}
+$$
 > *(Contoh: $300 \text{ RPM} = 300 \cdot \frac{\pi}{30} = 10\pi \text{ rad/s}$).*
 
 > [!NOTE]
@@ -300,7 +350,9 @@ GMB adalah gerak benda dalam lintasan lingkaran dengan laju tetap, namun arah ke
 > Jika kita bagi kedua ruas dengan waktu ($t$):
 > $\frac{s}{t} = \frac{\theta}{t} \cdot R \implies \mathbf{v = \omega R}$.
 
-$$ a_s = \frac{v^2}{R} = \omega^2 \cdot R $$
+$$
+\Large a_s = \frac{v^2}{R} = \omega^2 \cdot R
+$$
 
 > [!NOTE]
 > **Derivasi Geometris $a_s$:**
@@ -330,11 +382,15 @@ GMBB adalah gerak melingkar dengan **Percepatan Sudut ($\alpha$)** konstan.
 - **Kecepatan Sudut Akhir:** $\omega_t = \omega_0 + \alpha \cdot t$
 - **Posisi Sudut (Sudut Tempuh):** $\theta = \omega_0 \cdot t + \frac{1}{2} \alpha \cdot t^2$
 - **Percepatan Tangensial ($a_t$):** Percepatan yang sejajar lintasan (mengubah laju linear).
-  $$ a_t = \alpha \cdot R $$
+  $$
+\Large a_t = \alpha \cdot R
+$$
 
 ### 7.5 Percepatan Total ($a_{\text{tot}}$)
 Pada GMBB, benda memiliki dua percepatan yang saling tegak lurus ($a_s$ dan $a_t$):
-$$ a_{\text{tot}} = \sqrt{a_s^2 + a_t^2} $$
+$$
+\Large a_{\text{tot}} = \sqrt{a_s^2 + a_t^2}
+$$
 
 > [!IMPORTANT]
 > **Generalisasi Percepatan pada Kurva Sembarang:**

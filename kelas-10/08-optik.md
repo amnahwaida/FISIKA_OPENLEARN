@@ -30,7 +30,9 @@ Cahaya di dalam optik geometri dimodelkan sebagai sekumpulan sinar lurus sejajar
 
 **2. Efek Dua Cermin Bersudut:**
 Jika Anda berdiri di tengah apitan dua cermin datar dengan sudut $\alpha$, kemunculan ilusi bayangan ($n$) yang memantul satu sama lain adalah:
-$$ n = \frac{360^\circ}{\alpha} - 1 $$
+$$
+\Large n = \frac{360^\circ}{\alpha} - 1
+$$
 *(Bila hasilnya desimal genap, bulatkan ke bawah rasional).*
 
 > [!TIP]
@@ -45,10 +47,14 @@ Cermin berlekuk merupakan irisan bola memusat raksasa. Terdapat dua jenis ekstri
 2. **Cermin Cembung** (Negatif / Divergen): Menghambur-pecahkan sinar yang jatuh menjauh dari kaca ($f$ bernilai NEGATIF). Kaca spion mobil/tikungan gila!
 
 **Rumus Fundamental Mutlak Optik (Mirror Equation):**
-$$ \frac{1}{f} = \frac{1}{s} + \frac{1}{s'} $$
+$$
+\Large \frac{1}{f} = \frac{1}{s} + \frac{1}{s'}
+$$
 
 **Perbesaran Lateral Bayangan ($M$):**
-$$ M = \left| \frac{s'}{s} \right| = \left| \frac{h'}{h} \right| $$
+$$
+\Large M = \left| \frac{s'}{s} \right| = \left| \frac{h'}{h} \right|
+$$
 
 > [!WARNING]
 > **ATURAN TANDA HARGA MATI (Rule of Optics)**
@@ -65,17 +71,23 @@ $$ M = \left| \frac{s'}{s} \right| = \left| \frac{h'}{h} \right| $$
 Terjadi ketika foton cahaya melintasi masuk perbatasan dua kepadatan atmosfer material (Misal: Udara menabrak masuk Kolam Air bening). Cahaya dipaksa mengerem lambat, arah merambat terpelanting menikung serong patah ke dasar.
 
 Setiap padatan/cairan di jagat raya memiliki angka "kekakuan menghambat laju absolut" alias **Indeks Bias Benda ($n$)** berbanding lari cepat di hampa udara Kosmos ($v_{hampa} = c$).
-$$ n = \frac{c}{v_{benda}} $$
+$$
+\Large n = \frac{c}{v_{benda}}
+$$
 
 **Hukum Belokan Maut Snellius:**
-$$ n_1 \cdot \sin \theta_1 = n_2 \cdot \sin \theta_2 $$
+$$
+\Large n_1 \cdot \sin \theta_1 = n_2 \cdot \sin \theta_2
+$$
 Dimana $\theta$ murni harus bertolak peluru diukur dari tongkat penancap palang Garis Normal tegak air (Bukan dari garis mendatar pinggir permukaan/horison!).
 
 ### 3.1 Pemantulan Internal Sempurna (Total Internal Reflection / TIR)
 Bila Anda menyelam di kolam, dan menyorot senter melesat menanjak menyasar tajam pinggiran mendatar pembatas air ke arah atmosfer udara yang merenggang ($n_{air} > n_{udara}$), cahaya bukannya menembus melepaskan diri menjadi terang luar riak, melainkan mendadak disiksa HANCUR dan DIPANTULKAN MURNI SEPENUHNYA kembali memutar ke jurang dasar kolam murni layaknya menabrak cermin ajaib mutlak.
 
 Syarat ini mensyaratkan tabrakan menabrak harus menyentuh Sudut Kritis ($\theta_k$) murni kematian batas pantul sempurna ke udara luar:
-$$ \sin \theta_k = \frac{n_{\text{renggang}}}{n_{\text{rapat}}} = \frac{n_2}{n_1} $$
+$$
+\Large \sin \theta_k = \frac{n_{\text{renggang}}}{n_{\text{rapat}}} = \frac{n_2}{n_1}
+$$
 Sistem fiber optik kabel data merantai kebal bocoran internet antar samudera seratus persen bergantung di prinsip pelipatan tertekan hancur cahaya TIR ini di dalam sumsum serat kaca silika.
 
 ---
@@ -92,14 +104,18 @@ Namun Aturan Bayangannya berkebalikan letaknya di Alam Lensa!
 
 **Kekuatan Lensa Optik Muka ($P$):**
 Aplikasi praktis resep dioptri kacamata dokter, bukan lagi milimeter fokus tapi satuan **Dioptri (D)** murni dengan variabel fokus paksaan seratus ditekuk:
-$$ P = \frac{1}{f \text{ (dalam meter)}} \quad \text{atau} \quad P = \frac{100}{f \text{ (dalam cm)}} $$
+$$
+\Large P = \frac{1}{f \text{ (dalam meter)}} \quad \text{atau} \quad P = \frac{100}{f \text{ (dalam cm)}}
+$$
 
 ---
 
 ## 5. Rumus Pembuat Lensa (Lens Maker's Equation)
 
 Bagi industri pabrikan mikroskop elit atau pemotong balok kaca bening kacamata, mereka tak repot memikirkan bayangan. Mereka hanya menilik kepadatan jenis batu murni indeksnya ($n_L$) dan mengeruk menderajatkan potong radius permukaan kiri ($R_1$) dan kanan irisan lensa lengkung bening tersebut ($R_2$).
-$$ \frac{1}{f} = \left(\frac{n_{\text{lensa}}}{n_{\text{medium}}} - 1 \right) \left( \frac{1}{R_1} + \frac{1}{R_2} \right) $$
+$$
+\Large \frac{1}{f} = \left(\frac{n_{\text{lensa}}}{n_{\text{medium}}} - 1 \right) \left( \frac{1}{R_1} + \frac{1}{R_2} \right)
+$$
 
 > [!WARNING]
 > Aturan lengkung potong Pabrik ($R_1$ dan $R_2$):
@@ -118,13 +134,17 @@ Mata normal (Emetropi) memaku lensa mencembung/menyabit rileks fleksibel dari Ti
 - Penyebab: Bola mata hiper panjang membujur atau lensa tebal cacat hiper.
 - Titik lelah pandang jauh $PR < \infty$ meter tak hingga (hanya sanggup jelas di letak $PR$ ini).
 - **Reparasi Lensa Kacamata (-) Minus Tipe Cekung Pembuka Sudut:**
-  $$ P_{\text{Miopi}} = -\frac{100}{PR (\text{dalam cm})} $$
+  $$
+\Large P_{\text{Miopi}} = -\frac{100}{PR (\text{dalam cm})}
+$$
 
 ### 6.2 Hipermetropi (Rabun Dekat Tua)
 - Kertas koran berjarak normal dekat 25 cm membias tertahan malah melesat JATUH terhempas tembus di BAWAH BELAKANG Retinanya sana (Kabur Blur tak meyakinkan terbaca).
 - Titik paling batas nampak dekatnya sangat parah memanjang jauh diletakkan $PP > 25 \text{ cm}$ mutlak tertarik.
 - **Reparasi Kacamata Bikonveks (+) Positif Kuat:**
-  $$ P_{\text{Hiper}} = 4 - \frac{100}{PP (\text{dalam cm})} \quad \text{*(Asumsi murni Sn = 25 cm)*} $$
+  $$
+\Large P_{\text{Hiper}} = 4 - \frac{100}{PP (\text{dalam cm})} \quad \text{*(Asumsi murni Sn = 25 cm)*}
+$$
 
 ---
 
@@ -134,9 +154,13 @@ Kacamata gila primitif lensa Cembung Positif pembuat besar ($+$). Digenggam tega
 
 **Kalkulasi Ganda Perbesaran Murni Serangga ($M$):**
 1. **Mata Paring Ekstrem Lelah Berakomodasi Seterangnya:** (Si bayangan diarahkan murni membentur masuk sejajar titik $s' = -25 \text{ cm}$ terkuat lelah lensa mata).
-   $$ M = \frac{25}{f} + 1 $$
+   $$
+\Large M = \frac{25}{f} + 1
+$$
 2. **Mata Rehat Melamun Santai Penuh Rileks (Tanpa Akomodasi):** Bayangan ditembak buang terlempar maya menjauh ke titik maya Infinity semesta $s' = \infty$.
-   $$ M = \frac{25}{f} $$
+   $$
+\Large M = \frac{25}{f}
+$$
 
 ---
 
@@ -148,13 +172,19 @@ Terlaksana absolut mutlak melalui paduan 2 lensa membedah rentang serangga.
 - **Lensa Okuler (Menempel Kornea Peneliti):** Bereaksi memungut tembakan raksasa objektif dan menggandakannya lagi melalui trik Kaca Pembesar Lupa mutlak yang menyiksa maya ekstrim bayang mutlak akhir di saraf Retina menjadi ilusi.
 
 **Total Magnifikasi Pembedahan Serangga Mutlak:**
-$$ M_{\text{total}} = M_{\text{objektif}} \times M_{\text{okuler}} $$
+$$
+\Large M_{\text{total}} = M_{\text{objektif}} \times M_{\text{okuler}}
+$$
 Panjang Tembaga Koridor Alat (Jarak antar $2$ sekian milimeter lensa $d$):
-$$ d = s'_{\text{ob}} + s_{\text{ok}} $$
+$$
+\Large d = s'_{\text{ob}} + s_{\text{ok}}
+$$
 
 ### 8.2 Teropong (Teleskop Bintang) Lensa Bikonveks Raksasa
 Terbalik total dari mikroskop, $f_{\text{objektif}}$ di astronomi harus raksasa menyerap tembusan jutaan serpihan sinar rembulan, sementara the $f_{\text{okuler}}$ sekadar tipisan pemfokus intai kecil di mata peramal. Pembesaran astronomi santai mata tak lelah (Tanpa Akomodasi Bintang):
-$$ M = \frac{f_{\text{ob}}}{f_{\text{ok}}} \qquad \text{Dan tabung terpotong panjang} \ d = f_{\text{ob}} + f_{\text{ok}} $$
+$$
+\Large M = \frac{f_{\text{ob}}}{f_{\text{ok}}} \qquad \text{Dan tabung terpotong panjang} \ d = f_{\text{ob}} + f_{\text{ok}}
+$$
 
 ---
 

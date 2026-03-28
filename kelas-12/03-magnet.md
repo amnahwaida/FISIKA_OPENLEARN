@@ -33,7 +33,9 @@ Hukum Biot-Savart secara matematis mendefinisikan kontribusi kecil medan magnet 
 
 **Kawat Lurus Sangat Panjang:**
 Pada jarak $a$ dari kawat lurus tak hingga:
-$$ B = \frac{\mu_0 \cdot I}{2\pi \cdot a} $$
+$$
+\Large B = \frac{\mu_0 \cdot I}{2\pi \cdot a}
+$$
 - $\mu_0 = 4\pi \times 10^{-7} \text{ Wb/Am}$ (Permeabilitas vakum).
 
 ---
@@ -42,7 +44,9 @@ $$ B = \frac{\mu_0 \cdot I}{2\pi \cdot a} $$
 
 ### 3.1 Kawat Melingkar
 Kuat medan magnet di pusat lingkaran dengan jari-jari $a$ dan $N$ lilitan:
-$$ B = \frac{\mu_0 \cdot I \cdot N}{2a} $$
+$$
+\Large B = \frac{\mu_0 \cdot I \cdot N}{2a}
+$$
 
 ### 3.2 Solenoida (Kumparan Lurus)
 Kawat yang dililitkan rapat pada silinder panjang. Di dalam solenoida, medan magnet sangat homogen.
@@ -54,41 +58,55 @@ Kawat yang dililitkan rapat pada silinder panjang. Di dalam solenoida, medan mag
 ## 4. Hukum Ampere & Toroida
 
 **Hukum Ampere:** Analog dengan hukum Gauss pada listrik, hukum ini mempermudah perhitungan medan pada sistem simetri tinggi.
-$$ \oint \mathbf{B} \cdot d\mathbf{l} = \mu_0 \cdot I_{enc} $$
+$$
+\Large \oint \mathbf{B} \cdot d\mathbf{l} = \mu_0 \cdot I_{enc}
+$$
 
 **Toroida:** Solenoida yang ditekuk menjadi lingkaran (seperti donat).
-$$ B = \frac{\mu_0 \cdot I \cdot N}{2\pi \cdot r} $$
+$$
+\Large B = \frac{\mu_0 \cdot I \cdot N}{2\pi \cdot r}
+$$
 
 ---
 
 ## 5. Gaya Lorentz (Muatan Titik)
 
 Muatan $q$ yang bergerak dengan kecepatan $\mathbf{v}$ di dalam medan magnet $\mathbf{B}$ akan mengalami gaya magnet.
-$$ \mathbf{F} = q (\mathbf{v} \times \mathbf{B}) \implies F = q \cdot v \cdot B \sin \theta $$
+$$
+\Large \mathbf{F} = q (\mathbf{v} \times \mathbf{B}) \implies F = q \cdot v \cdot B \sin \theta
+$$
 
 **Lintasan Partikel:**
 Jika $\mathbf{v} \perp \mathbf{B}$, partikel akan bergerak **Melingkar** dengan jari-jari siklotron:
-$$ R = \frac{m \cdot v}{q \cdot B} $$
+$$
+\Large R = \frac{m \cdot v}{q \cdot B}
+$$
 
 ---
 
 ## 6. Gaya Lorentz (Kawat Berarus)
 
 Kawat sepanjang $L$ yang dialiri arus $I$ dalam medan $B$ akan merasakan gaya mekanik (prinsip pengeras suara/speaker).
-$$ F = B \cdot I \cdot L \sin \theta $$
+$$
+\Large F = B \cdot I \cdot L \sin \theta
+$$
 
 **Interaksi Dua Kawat Sejajar:**
 Dua kawat sejajar akan berinteraksi:
 - **Tarik-menarik:** Jika arus searah.
 - **Tolak-menolak:** Jika arus berlawanan arah.
-$$ F/L = \frac{\mu_0 \cdot I_1 \cdot I_2}{2\pi \cdot a} $$
+$$
+\Large F/L = \frac{\mu_0 \cdot I_1 \cdot I_2}{2\pi \cdot a}
+$$
 
 ---
 
 ## 7. Torsi pada Loop & Motor DC
 
 Loop kawat berarus dalam medan magnet homogen tidak hanya menerima gaya, tetapi juga **Momen Gaya (Torsi)** yang membuatnya berputar.
-$$ \tau = N \cdot I \cdot A \cdot B \sin \theta $$
+$$
+\Large \tau = N \cdot I \cdot A \cdot B \sin \theta
+$$
 - $A$: Luas Loop, $\mu = N I A$ (Momen Dipol Magnetik).
 Inilah jantung dari setiap **Motor Listrik** di dunia.
 

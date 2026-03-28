@@ -45,7 +45,9 @@ Setiap gelombang memiliki karakteristik matematis yang saling terikat:
 Gelombang yang amplitudonya tetap di setiap titik yang dilewati.
 
 **Persamaan Simpangan ($y$):**
-$$ y = \pm A \sin(\omega t \mp kx) $$
+$$
+\Large y = \pm A \sin(\omega t \mp kx)
+$$
 - **$\omega = 2\pi f$** (Kecepatan sudut).
 - **$k = \frac{2\pi}{\lambda}$** (Bilangan gelombang).
 - **Tanda $\mp$:** $(-)$ jika merambat ke Kanan, $(+)$ jika merambat ke Kiri.
@@ -58,11 +60,15 @@ Hasil superposisi (perpaduan) antara gelombang datang dan gelombang pantul. Ampl
 
 ### 4.1 Ujung Tetap (Terikat)
 Simpangan di ujung pantul selalu nol (Simpul).
-$$ y_s = 2A \sin(kx) \cos(\omega t) $$
+$$
+\Large y_s = 2A \sin(kx) \cos(\omega t)
+$$
 
 ### 4.2 Ujung Bebas
 Simpangan di ujung pantul selalu maksimum (Perut).
-$$ y_s = 2A \cos(kx) \sin(\omega t) $$
+$$
+\Large y_s = 2A \cos(kx) \sin(\omega t)
+$$
 
 ---
 
@@ -81,7 +87,9 @@ $$ y_s = 2A \cos(kx) \sin(\omega t) $$
 Cahaya melewati dua celah sempit dan membentuk pola garis **Terang** dan **Gelap** di layar.
 
 - **Syarat Terang (Maksimum):**
-$$ d \sin \theta = n \cdot \lambda \quad \text{atau} \quad \frac{d \cdot y}{L} = n \cdot \lambda $$
+$$
+\Large d \sin \theta = n \cdot \lambda \quad \text{atau} \quad \frac{d \cdot y}{L} = n \cdot \lambda
+$$
 - **$n$:** Orde (0, 1, 2, ...).
 - **$y$:** Jarak dari pusat terang.
 
@@ -100,7 +108,9 @@ Rumus pusat terang sama dengan interferensi Young: $d \sin \theta = n \lambda$.
 Pernah melihat warna warni di gelembung sabun atau tumpahan bensin? Itu adalah interferensi cahaya yang memantul dari permukaan atas dan bawah lapisan tipis.
 
 **Syarat Terang (Penguatan):**
-$$ 2nt \cos r = (m - \frac{1}{2}) \lambda $$
+$$
+\Large 2nt \cos r = (m - \frac{1}{2}) \lambda
+$$
 *(Ada pergeseran fase $\pi$ saat memantul dari medium lebih rapat).*
 
 ---

@@ -27,7 +27,9 @@ Muatan listrik adalah properti fisik materi yang menyebabkan interaksi gaya elek
 
 **Hukum Coulomb:**
 Gaya tarik atau tolak antara dua muatan titik sebanding dengan perkalian muatannya dan berbanding terbalik dengan kuadrat jaraknya.
-$$ F = k \cdot \frac{q_1 \cdot q_2}{r^2} $$
+$$
+\Large F = k \cdot \frac{q_1 \cdot q_2}{r^2}
+$$
 - $k = \frac{1}{4\pi\epsilon_0} \approx 9 \times 10^9 \text{ Nm}^2\text{/C}^2$.
 
 ---
@@ -35,7 +37,9 @@ $$ F = k \cdot \frac{q_1 \cdot q_2}{r^2} $$
 ## 2. Medan Listrik & Konsep Garis Gaya
 
 Medan listrik ($\mathbf{E}$) adalah besaran vektor yang menggambarkan pengaruh gaya listrik di sekitar suatu muatan.
-$$ \mathbf{E} = \frac{\mathbf{F}}{q_0} = k \cdot \frac{q}{r^2} \quad (\text{N/C}) $$
+$$
+\Large \mathbf{E} = \frac{\mathbf{F}}{q_0} = k \cdot \frac{q}{r^2} \quad (\text{N/C})
+$$
 
 **Garis Gaya Listrik:**
 - Berawal dari muatan **Positif**, berakhir di muatan **Negatif**.
@@ -47,11 +51,15 @@ $$ \mathbf{E} = \frac{\mathbf{F}}{q_0} = k \cdot \frac{q}{r^2} \quad (\text{N/C}
 ## 3. Hukum Gauss & Fluks Listrik
 
 **Fluks Listrik ($\Phi$):** Jumlah garis medan yang menembus suatu permukaan.
-$$ \Phi = E \cdot A \cdot \cos \theta $$
+$$
+\Large \Phi = E \cdot A \cdot \cos \theta
+$$
 
 **Hukum Gauss:**
 Fluks listrik total yang menembus permukaan tertutup sebanding dengan total muatan yang dilingkupi permukaan tersebut.
-$$ \oint \mathbf{E} \cdot d\mathbf{A} = \frac{Q_{\text{terlingkup}}}{\epsilon_0} $$
+$$
+\Large \oint \mathbf{E} \cdot d\mathbf{A} = \frac{Q_{\text{terlingkup}}}{\epsilon_0}
+$$
 
 > [!IMPORTANT]
 > Hukum Gauss sangat sakti untuk menghitung medan pada benda kontinu seperti bola konduktor ($E_{dalam}=0$), kawat panjang, dan pelat sejajar.
@@ -61,7 +69,9 @@ $$ \oint \mathbf{E} \cdot d\mathbf{A} = \frac{Q_{\text{terlingkup}}}{\epsilon_0}
 ## 4. Energi Potensial Listrik Mutlak
 
 Usaha ($W$) yang diperlukan untuk memindahkan muatan dari titik tak terhingga ke jarak $r$.
-$$ Ep = k \cdot \frac{q_1 \cdot q_2}{r} \quad (\text{Joule}) $$
+$$
+\Large Ep = k \cdot \frac{q_1 \cdot q_2}{r} \quad (\text{Joule})
+$$
 Berbeda dengan gaya, $Ep$ adalah besaran skalar (tanda muatan $\pm$ wajib dimasukkan dalam hitungan).
 
 ---
@@ -69,11 +79,15 @@ Berbeda dengan gaya, $Ep$ adalah besaran skalar (tanda muatan $\pm$ wajib dimasu
 ## 5. Potensial Listrik & Bidang Ekipotensial
 
 Potensial Listrik ($V$) adalah energi potensial per satuan muatan.
-$$ V = \frac{Ep}{q} = k \cdot \frac{q}{r} \quad (\text{Volt}) $$
+$$
+\Large V = \frac{Ep}{q} = k \cdot \frac{q}{r} \quad (\text{Volt})
+$$
 
 **Hubungan Medan & Potensial:**
 Medan listrik adalah gradien negatif dari potensial. Cahaya atau muatan positif akan mengalir "turun" dari potensial tinggi ke rendah.
-$$ E = -\frac{\Delta V}{\Delta r} $$
+$$
+\Large E = -\frac{\Delta V}{\Delta r}
+$$
 
 ---
 
@@ -88,10 +102,14 @@ Dua keping sejajar dengan muatan berbeda akan menciptakan medan listrik homogen 
 ## 7. Kapasitor & Kapasitansi Geometris
 
 Kapasitor adalah alat untuk menyimpan muatan dan energi listrik. Kemampuannya disebut **Kapasitansi ($C$)**.
-$$ C = \frac{Q}{V} \quad (\text{Farad}) $$
+$$
+\Large C = \frac{Q}{V} \quad (\text{Farad})
+$$
 
 **Kapasitansi Keping Sejajar:**
-$$ C = \epsilon_0 \cdot \frac{A}{d} $$
+$$
+\Large C = \epsilon_0 \cdot \frac{A}{d}
+$$
 - Terlihat bahwa kapasitas hanya bergantung pada geometri (luas $A$ dan jarak $d$), bukan muatan $Q$ atau tegangan $V$.
 
 ---
@@ -99,11 +117,15 @@ $$ C = \epsilon_0 \cdot \frac{A}{d} $$
 ## 8. Analisis Dielektrik & Energi Kapasitor
 
 Jika di sela-sela keping diisi bahan isolator (**Dielektrik** dengan konstanta $\kappa$), maka kapasitasnya akan melonjak:
-$$ C_{baru} = \kappa \cdot C_0 $$
+$$
+\Large C_{baru} = \kappa \cdot C_0
+$$
 
 **Energi Tersimpan ($W$):**
 Kerja yang dilakukan untuk memuati kapasitor disimpan dalam bentuk medan listrik di antara keping.
-$$ W = \frac{1}{2} C V^2 = \frac{1}{2} Q V = \frac{1}{2} \frac{Q^2}{C} $$
+$$
+\Large W = \frac{1}{2} C V^2 = \frac{1}{2} Q V = \frac{1}{2} \frac{Q^2}{C}
+$$
 
 ---
 
