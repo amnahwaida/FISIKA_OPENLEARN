@@ -92,12 +92,16 @@ Dari $F = \frac{\Delta p}{\Delta t}$, jika $\Delta p$ sama, maka:
 - **$\Delta t$ kecil** → Gaya besar (bahaya!)
 - **$\Delta t$ besar** → Gaya kecil (aman!)
 
+<div align="center">
+
 | Perangkat | Mekanisme | Efek |
 | :--- | :--- | :--- |
 | **Airbag** | Memperpanjang waktu tumbukan kepala | Gaya tumbukan berkurang drastis |
 | **Helm** | Busa menyerap deformasi | Waktu tumbukan otak diperpanjang |
 | **Matras Lompat Tinggi** | Badan "tenggelam" perlahan | Waktu penghentian menjadi lama |
 | **Teknik Guling (Parkour)** | Mengubah tumbukan menjadi putaran | Menyebar gaya ke seluruh tubuh |
+
+</div>
 
 > [!IMPORTANT]
 > **Divine Insight:**
@@ -143,11 +147,15 @@ Koefisien restitusi mengukur "keelastisan" tumbukan:
 
 $$ e = -\frac{v_1' - v_2'}{v_1 - v_2} = \frac{\text{kecepatan relatif setelah}}{\text{kecepatan relatif sebelum}} $$
 
+<div align="center">
+
 | Nilai $e$ | Jenis Tumbukan | Sifat |
 | :---: | :--- | :--- |
 | $e = 1$ | **Lenting Sempurna** | $EK$ kekal sempurna |
 | $0 < e < 1$ | **Lenting Sebagian** | Sebagian $EK$ hilang |
 | $e = 0$ | **Tidak Lenting Sempurna** | Benda menyatu, $EK$ hilang maksimum |
+
+</div>
 
 ### 5.2 Tumbukan Lenting Sempurna ($e = 1$)
 Dua hukum berlaku sekaligus:

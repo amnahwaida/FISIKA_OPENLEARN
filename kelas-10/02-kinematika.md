@@ -346,6 +346,8 @@ $$ a_{\text{tot}} = \sqrt{a_s^2 + a_t^2} $$
 ### 7.6 Analogi Gerak: Lurus vs Melingkar
 GMBB memiliki pola rumus yang identik dengan GLBB. Anda cukup mengganti variabelnya saja:
 
+<div align="center">
+
 | Besaran | Gerak Lurus (GLBB) | Gerak Melingkar (GMBB) | Hubungan Kedua Gerak |
 | :--- | :--- | :--- | :--- |
 | **Posisi** | Jarak/Perpindahan ($s$) | Posisi Sudut ($\theta$) | $s = \theta \cdot R$ |
@@ -354,6 +356,8 @@ GMBB memiliki pola rumus yang identik dengan GLBB. Anda cukup mengganti variabel
 | **Rumus 1** | $v_t = v_0 + a t$ | $\omega_t = \omega_0 + \alpha t$ | — |
 | **Rumus 2** | $s = v_0 t + \frac{1}{2} a t^2$ | $\theta = \omega_0 t + \frac{1}{2} \alpha t^2$ | — |
 | **Rumus 3** | $v_t^2 = v_0^2 + 2 a s$ | $\omega_t^2 = \omega_0^2 + 2 \alpha \theta$ | — |
+
+</div>
 
 ### 7.7 Aplikasi Nyata: Menikung Tajam
 Pernahkah Anda melihat pelari atletik atau pembalap motor mencondongkan badan ke arah dalam saat menikung? 

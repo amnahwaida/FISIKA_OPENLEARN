@@ -1,6 +1,8 @@
 ```markdown
 # Product Requirements Document (PRD): Repositori Belajar Fisika SMA
 
+<div align="center">
+
 | Informasi Dokumen | Detail |
 | :--- | :--- |
 | **Nama Proyek** | FisikaSMA-OpenLearn |
@@ -10,6 +12,8 @@
 | **Tanggal** | 24 Mei 2024 |
 | **Status** | Final Draft |
 | **Pemilik** | AmnaMinaaaa |
+
+</div>
 
 ---
 
@@ -73,6 +77,8 @@ Semua navigasi menggunakan **Relative Links**. Ini memastikan link tetap bekerja
 Materi harus dipecah menjadi file `.md` terpisah per Bab/Sub-bab agar mudah dibaca dan dinavigasi.
 
 ### 3.1 Kelas 10 (Dasar)
+<div align="center">
+
 | File Markdown | Topik Utama |
 | :--- | :--- |
 | `01-besaran-satuan.md` | Besaran, Satuan, Dimensi, Vektor |
@@ -84,7 +90,11 @@ Materi harus dipecah menjadi file `.md` terpisah per Bab/Sub-bab agar mudah diba
 | `07-gelombang-bunyi.md` | Gelombang, Bunyi, Efek Doppler |
 | `08-optik.md` | Cermin, Lensa, Alat Optik |
 
+</div>
+
 ### 3.2 Kelas 11 (Lanjut)
+<div align="center">
+
 | File Markdown | Topik Utama |
 | :--- | :--- |
 | `01-fluida.md` | Fluida Statis & Dinamis |
@@ -93,7 +103,11 @@ Materi harus dipecah menjadi file `.md` terpisah per Bab/Sub-bab agar mudah diba
 | `04-getaran.md` | Getaran Harmonis Sederhana |
 | `05-gelombang-cahaya.md` | Interferensi, Difraksi, Polarisasi |
 
+</div>
+
 ### 3.3 Kelas 12 (Modern & Listrik)
+<div align="center">
+
 | File Markdown | Topik Utama |
 | :--- | :--- |
 | `01-listrik-statis.md` | Coulomb, Medan Listrik, Potensial, Kapasitor |
@@ -101,6 +115,8 @@ Materi harus dipecah menjadi file `.md` terpisah per Bab/Sub-bab agar mudah diba
 | `03-magnet.md` | Medan Magnet, Gaya Lorentz, Induksi |
 | `04-fisika-inti.md` | Radioaktivitas, Fisika Inti |
 | `05-relativitas.md` | Relativitas Khusus, Fisika Kuantum |
+
+</div>
 
 ---
 
@@ -164,6 +180,8 @@ $$ F = m \cdot a $$
 
 ## 6. Rencana Implementasi (Roadmap)
 
+<div align="center">
+
 | Tahap | Aktivitas | Output |
 | :--- | :--- | :--- |
 | **1. Setup** | Inisialisasi Repo, Buat Struktur Folder | Struktur folder kosong siap isi |
@@ -173,6 +191,8 @@ $$ F = m \cdot a $$
 | **5. Config** | Setup GitHub Pages & MathJax | Web hidup dengan rumus rapi |
 | **6. Review** | Cek semua link navigasi | Tidak ada link rusak (404) |
 | **7. Launch** | Publikasi link repo ke media sosial | Proyek Live |
+
+</div>
 
 ---
 
@@ -187,11 +207,15 @@ Selamat datang di repositori rangkuman Fisika SMA lengkap. Pilih kelas untuk mul
 
 ## 🗂️ Daftar Kelas
 
+<div align="center">
+
 | Kelas | Fokus Materi | Link |
 | :---: | :--- | :--- |
 | **10** | Dasar Fisika, Gerak, Energi | [Masuk Kelas 10](./kelas-10/) |
 | **11** | Fluida, Termodinamika, Gelombang | [Masuk Kelas 11](./kelas-11/) |
 | **12** | Listrik, Magnet, Fisika Modern | [Masuk Kelas 12](./kelas-12/) |
+
+</div>
 
 ## 🛠️ Fitur
 - ✅ Rangkuman Ringkas
@@ -223,8 +247,12 @@ Proyek ini direkomendasikan menggunakan lisensi **Creative Commons Attribution-S
 
 ## 10. Persetujuan
 
+<div align="center">
+
 | Peran | Nama | Tanggal |
 | :--- | :--- | :--- |
 | **Project Owner** | [Nama Anda] | 24 Mei 2024 |
 | **Contributor** | - | - |
+
+</div>
 ```

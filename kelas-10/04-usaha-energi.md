@@ -47,11 +47,15 @@ Dimana:
 > Mengapa ada $\cos\theta$? Karena hanya **komponen gaya yang searah dengan perpindahan** yang melakukan usaha. Jika Anda menarik koper dengan tali miring $30^\circ$, hanya komponen horizontal gaya ($F \cos 30^\circ$) yang "bekerja" memindahkan koper.
 
 ### 2.2 Tanda Usaha (Positif, Negatif, Nol)
+<div align="center">
+
 | Kondisi | $\theta$ | $\cos\theta$ | Tanda $W$ | Makna Fisis |
 | :--- | :---: | :---: | :---: | :--- |
 | Gaya searah perpindahan | $0^\circ$ | $+1$ | **Positif** | Gaya **mempercepat** benda |
 | Gaya berlawanan perpindahan | $180^\circ$ | $-1$ | **Negatif** | Gaya **memperlambat** benda (misalnya gesekan) |
 | Gaya tegak lurus perpindahan | $90^\circ$ | $0$ | **Nol** | Gaya **tidak melakukan usaha** (misalnya gaya normal) |
+
+</div>
 
 > [!IMPORTANT]
 > **Insight Kritis:**
@@ -80,12 +84,16 @@ Jika gaya tidak konstan (berubah-ubah), maka usaha **tidak bisa** dihitung langs
 ### 2.5 Konversi Energi Global (Multidisiplin)
 Meskipun satuan SI usaha adalah Joule, berbagai cabang ilmu menggunakan satuan lain. Berikut adalah tabel "Mastery" untuk persiapan bab selanjutnya:
 
+<div align="center">
+
 | Satuan | Simbol | Nilai dalam Joule | Penggunaan Utama |
 | :--- | :---: | :--- | :--- |
 | **kalori** | `kal` | $1 \text{ kal} \approx 4,186 \text{ J}$ | Termodinamika & Gizi |
 | **electron-Volt** | `eV` | $1,6 \times 10^{-19} \text{ J}$ | Fisika Atom & Nuklir |
 | **kilowatt-hour** | `kWh` | $3,6 \times 10^{6} \text{ J}$ | Teknik Listrik (PLN) |
 | **erg** | `erg` | $10^{-7} \text{ J}$ | Sistem CGS (Legacy) |
+
+</div>
 
 ### 2.6 Paradoks Usaha: Fisika vs Biologis
 Mengapa kita lelah saat menahan beban diam?
@@ -371,11 +379,15 @@ $$ KM = \frac{F_{beban}}{F_{kuasa}} = \frac{s_{kuasa}}{s_{beban}} $$
 
 ### 9.2 Tuas (Pengungkit)
 Tuas dibagi menjadi tiga jenis berdasarkan posisi titik tumpu (T), beban (B), dan kuasa (K):
+<div align="center">
+
 | Jenis | Susunan | Contoh |
 | :---: | :--- | :--- |
 | **I** | B — T — K | Gunting, Jungkat-jungkit |
 | **II** | T — B — K | Pembuka botol, Gerobak |
 | **III** | T — K — B | Pinset, Lengan manusia |
+
+</div>
 
 Rumus Tuas:
 $$ F_1 \cdot l_1 = F_2 \cdot l_2 $$
@@ -387,11 +399,15 @@ $$ F \cdot s = W \cdot h \implies F = W \cdot \frac{h}{s} = mg \sin\theta $$
 $$ KM = \frac{s}{h} = \frac{1}{\sin\theta} $$
 
 ### 9.4 Katrol
+<div align="center">
+
 | Jenis | KM | Keterangan |
 | :--- | :---: | :--- |
 | **Katrol Tetap** | $1$ | Hanya mengubah arah gaya |
 | **Katrol Bebas** | $2$ | Memperkecil gaya $2\times$ |
 | **Katrol Majemuk** ($n$ tali) | $n$ | Memperkecil gaya $n$ kali |
+
+</div>
 
 ### 9.5 Roda Gigi (Gears)
 Gears mengubah torsi dan kecepatan putar. Keuntungan mekanisnya ditentukan oleh perbandingan jumlah gigi:

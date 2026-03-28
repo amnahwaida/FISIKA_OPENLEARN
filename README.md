@@ -12,11 +12,15 @@ Repositori ini dibagi menjadi tiga tingkatan utama sesuai dengan kurikulum nasio
 
 <div align="center">
 
+<div align="center">
+
 | Kelas | Fokus Domain | Status | Link |
 | :---: | :--- | :---: | :---: |
 | **Kelas 10** | Mekanika Klasik, Besaran, & Optik Dasar | ✅ Complete | [Masuk](./kelas-10/) |
 | **Kelas 11** | Fluida, Termodinamika, & Gelombang | ✅ Complete | [Masuk](./kelas-11/) |
 | **Kelas 12** | Elektromagnetisme, Fisika Inti, & Relativitas | 🔱 Divine | [Masuk](./kelas-12/) |
+
+</div>
 
 </div>
 

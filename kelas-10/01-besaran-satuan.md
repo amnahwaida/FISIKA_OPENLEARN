@@ -68,6 +68,8 @@ Terdapat tujuh besaran dasar yang disepakati secara internasional (Sistem Intern
 > - **Panjang (m):** Didefinisikan melalui kecepatan cahaya ($c$).
 > Perubahan ini memastikan standar pengukuran tetap akurat di mana pun, bahkan di luar angkasa.
 
+<div align="center">
+
 | Besaran Pokok | Satuan (SI) | Simbol | Dimensi |
 | :--- | :--- | :---: | :---: |
 | Panjang | meter | m | [L] |
@@ -77,6 +79,8 @@ Terdapat tujuh besaran dasar yang disepakati secara internasional (Sistem Intern
 | Kuat Arus | ampere | A | [I] |
 | Intensitas Cahaya | candela | cd | [J] |
 | Jumlah Zat | mol | mol | [N] |
+
+</div>
 
 > [!NOTE]
 > **Misteri Variasi Nilai Gravitasi ($g$):**
@@ -89,11 +93,15 @@ Besaran yang diturunkan dari kombinasi besaran pokok disebut **Besaran Turunan**
 
 Berikut adalah 7 contoh cara menurunkan dimensi dari yang paling sederhana hingga lebih kompleks:
 
+<div align="center">
+
 | No | Besaran Turunan | Rumus Dasar | Penurunan Dimensi | Dimensi Akhir |
 | :-- | :--- | :--- | :--- | :---: |
 | 1 | **Luas** | $p \times l$ | $[L] \times [L]$ | $[L]^2$ |
 | 2 | **Volume** | $p \times l \times t$ | $[L] \times [L] \times [L]$ | $[L]^3$ |
 | 3 | **Massa Jenis** | $m / V$ | $[M] / [L]^3$ | $[M][L]^{-3}$ |
+
+</div>
 
 > [!IMPORTANT]
 > **Prinsip Homogenitas Dimensi (Equation Auditor):**
@@ -123,6 +131,8 @@ Dalam Fisika, kita sering berhadapan dengan angka yang sangat besar atau sangat 
 #### A. Konversi Satuan Panjang dan Massa
 Konversi ini menggunakan aturan dasar "Tangga Satuan". Setiap perpindahan satu langkah (anak tangga) akan mengubah nilai sebesar faktor 10.
 
+<div align="center">
+
 | Awalan | Simbol | Panjang | Massa | Aturan Main |
 | :--- | :---: | :--- | :--- | :--- |
 | **kilo** | k | km (kilometer) | kg (kilogram) | ⬇️ **Turun:** Kali 10 |
@@ -132,6 +142,8 @@ Konversi ini menggunakan aturan dasar "Tangga Satuan". Setiap perpindahan satu l
 | **desi** | d | dm (desimeter) | dg (desigram) | |
 | **centi** | c | cm (centimeter) | cg (centigram) | |
 | **mili** | m | mm (milimeter) | mg (miligram) | |
+
+</div>
 
 #### B. Konversi Satuan Luas ($L^2$) dan Volume ($L^3$)
 Konversi satuan berpangkat mengikuti aturan eksponensial. Jika tangga satuan panjang memiliki faktor 10, maka satuan berpangkat memiliki faktor pengali **$10^n$**, di mana **$n$** adalah pangkat dari satuan tersebut.
@@ -156,6 +168,8 @@ $$ \text{Faktor Konversi} = (10^{\text{jumlah tangga}})^n $$
 > [!TIP]
 > **Ingat:** $1 \text{ dm}^3 = 1 \text{ liter}$ dan $1 \text{ cm}^3 = 1 \text{ mL} = 1 \text{ cc}$. Hubungan ini sangat sering muncul dalam soal-soal fisika fluida dan kimia.
 
+<div align="center">
+
 | Satuan Asal | Satuan Tujuan | Faktor Kali | Contoh Aplikasi |
 | :--- | :---: | :---: | :--- |
 | **Pangkat 2 (Luas)** | | | |
@@ -165,6 +179,8 @@ $$ \text{Faktor Konversi} = (10^{\text{jumlah tangga}})^n $$
 | $1 \text{ cm}^3$ | $\text{mm}^3$ | $1.000$ | Volume tetesan air |
 | $1 \text{ m}^3$ | $\text{dm}^3$ (L) | $1.000$ | Volume bak mandi |
 | $1 \text{ m}^3$ | $\text{cm}^3$ | $1.000.000$ | Massa jenis air |
+
+</div>
 
 
 #### C. Konversi Satuan Lain (Waktu)
@@ -403,6 +419,8 @@ Metode ini digunakan untuk dua vektor yang pangkalnya bertemu dan membentuk sudu
 > [!TIP]
 > **Cheat Sheet Trigonometri (Senjata Vektor):**
 > Untuk mempermudah perhitungan, berikut nilai sudut yang sangat sering muncul:
+<div align="center">
+
 > | Sudut ($\theta$) | $\sin \theta$ | $\cos \theta$ | $\tan \theta$ |
 > | :---: | :---: | :---: | :---: |
 > | **$0^\circ$** | $0$ | $1$ | $0$ |
@@ -412,6 +430,8 @@ Metode ini digunakan untuk dua vektor yang pangkalnya bertemu dan membentuk sudu
 > | **$53^\circ$** | **$0,8$** ($4/5$) | **$0,6$** ($3/5$) | $4/3$ |
 > | **$60^\circ$** | $1/2\sqrt{3}$ | $1/2$ | $\sqrt{3}$ |
 > | **$90^\circ$** | $1$ | $0$ | $\sim$ |
+
+</div>
 
 1. **Penjumlahan Vektor ($R = F_1 + F_2$):**
    $$ R = \sqrt{F_1^2 + F_2^2 + 2 \cdot F_1 \cdot F_2 \cdot \cos(\alpha)} $$
@@ -456,12 +476,16 @@ Vektor satuan adalah vektor yang besarnya satu satuan dan berfungsi untuk menunj
 
 > [!TIP]
 > **Unit Vector Mastery (Aturan Cepat Perkalian):**
+<div align="center">
+
 > | Operasi | Aturan Main |
 > | :--- | :--- |
 > | **Dot Product** | Identik = 1, Berbeda = 0. ($\hat{i} \cdot \hat{i} = 1$; $\hat{i} \cdot \hat{j} = 0$) |
 > | **Cross Product** | **Aturan Siklik:** $i \to j \to k \to i$ |
 > | | $(\hat{i} \times \hat{j} = \hat{k})$; $(\hat{j} \times \hat{k} = \hat{i})$; $(\hat{k} \times \hat{i} = \hat{j})$ |
 > | | Jika arahnya terbalik, hasilnya negatif $(\hat{j} \times \hat{i} = -\hat{k})$. |
+
+</div>
 
 Penulisan vektor $\vec{A}$ dalam koordinat tiga dimensi adalah:
 $$ \vec{A} = A_x\hat{i} + A_y\hat{j} + A_z\hat{k} $$

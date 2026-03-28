@@ -36,12 +36,16 @@ Untuk mengukur derajat panas, kita membutuhkan skala. Semua termometer bekerja b
 ### 2.1 Kalibrasi dan Konversi Skala
 Setiap skala memiliki titik tetap bawah (es mencair) dan titik tetap atas (air mendidih) pada tekanan 1 atm.
 
+<div align="center">
+
 | Skala | Titik Bawah | Titik Atas | Rentang |
 | :--- | :---: | :---: | :---: |
 | **Celsius (C)** | 0° | 100° | 100 |
 | **Reamur (R)** | 0° | 80° | 80 |
 | **Fahrenheit (F)** | 32° | 212° | 180 |
 | **Kelvin (K)** | 273 | 373 | 100 |
+
+</div>
 
 **Rumus Umum Konversi:**
 $$ \frac{T_X - TitikBawah_X}{TitikAtas_X - TitikBawah_X} = \frac{T_Y - TitikBawah_Y}{TitikAtas_Y - TitikBawah_Y} $$
