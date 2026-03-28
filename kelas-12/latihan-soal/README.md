@@ -1,86 +1,34 @@
-# 📝 Latihan Soal Fisika Kelas 12
+# 📝 Bank Soal Fisika: Kelas 12 (Divine Genesis)
 
-Daftar latihan soal disusun berdasarkan bab untuk mempermudah pemahaman konsep tingkat "Divine Genesis".
+[< Kembali ke Materi Kelas 12](../README.md)
+
+Selamat datang di Bank Soal Kelas 12. Seluruh latihan di bawah ini telah ditingkatkan ke standar **Grandmaster** untuk melatih ketajaman analisis Anda pada sistem elektromagnetik dan fisika modern.
 
 ---
 
-### Bab 1: Listrik Statis (Elektrostatika)
-- [1.1 Interaksi Muatan & Hukum Coulomb](./01.1-hukum-coulomb-latihan.md)
-- [1.2 Vektor Medan Listrik & Titik Nol](./01.2-medan-listrik-latihan.md)
-- [1.3 Fluks & Hukum Gauss Benda Kontinu](./01.3-hukum-gauss-latihan.md)
-- [1.4 Energi Potensial & Usaha Muatan](./01.4-energi-potensial-latihan.md)
-- [1.5 Beda Potensial & Gradien Medan](./01.5-potensial-listrik-latihan.md)
-- [1.6 Dinamika Elektron di Keping Sejajar](./01.6-keping-sejajar-latihan.md)
+## 📚 Daftar Latihan per Bab
+
+### ⚡ Bab 1: Listrik Statis
+- [1.1 Hukum Coulomb & Interaksi Muatan](./01.1-hukum-coulomb-latihan.md)
+- [1.3 Hukum Gauss & Fluks Magnetik](./01.3-hukum-gauss-latihan.md)
+- [1.5 Potensial Listrik & Gradien Medan](./01.5-potensial-listrik-latihan.md)
 - [1.7 Kapasitor & Rangkaian Pengisi](./01.7-kapasitor-dasar-latihan.md)
-- [1.8 Dielektrik & Tabungan Energi Listrik](./01.8-dielektrik-energi-latihan.md)
-- [1.9 Implementasi Teknologi Elektrostatik](./01.9-teknologi-statis-latihan.md)
 
-### Bab 2: Listrik Dinamis (Arus Searah)
-- [2.1 Mekanika Arus & Kecepatan Drif](./02.1-arus-drif-latihan.md)
-- [2.2 Analisis Hambatan & Koefisien Suhu](./02.2-hambatan-suhu-latihan.md)
-- [2.3 Hukum Ohm & Material Non-Ohmik](./02.3-hukum-ohm-latihan.md)
-- [2.4 Hukum Kirchhoff I: Konservasi Muatan](./02.4-kirchhoff-cabang-latihan.md)
-- [2.5 Hukum Kirchhoff II: Analisis Loop & Ggl](./02.5-kirchhoff-loop-latihan.md)
-- [2.6 Jembatan Wheatstone & Transformasi Delta-Y](./02.6-jembatan-wheatstone-latihan.md)
-- [2.7 Efisiensi Daya & Transmisi Listrik](./02.7-daya-energi-listrik-latihan.md)
-- [2.8 Rekayasa Batas Ukur Ammeter & Voltmeter](./02.8-alat-ukur-listrik-latihan.md)
-- [2.9 Potensiometer & Jembatan Kawat](./02.9-potensiometer-latihan.md)
+### 🔌 Bab 2: Listrik Dinamis (DC)
+- [2.1 Arus Drif & Mekanika Elektron](./02.1-arus-drif-latihan.md)
+- [2.5 Hukum Kirchhoff & Analisis Loop](./02.5-kirchhoff-loop-latihan.md)
+- [2.6 Jembatan Wheatstone & Transformasi](./02.6-jembatan-wheatstone-latihan.md)
 
-### Bab 3: Magnetisme & Gaya Lorentz
-- [3.1 Medan Magnet Oersted & Biot-Savart](./03.1-oersted-biotsavart-latihan.md)
-- [3.2 Analisis Solenoida & Toroida](./03.2-solenoida-toroida-latihan.md)
-- [3.3 Aplikasi Hukum Ampere Dinamis](./03.3-hukum-ampere-latihan.md)
-- [3.4 Lintasan Siklotron Muatan Titik](./03.4-lorentz-muatan-latihan.md)
-- [3.5 Gaya Lorentz & Interaksi Kawat](./03.5-lorentz-kawat-latihan.md)
-- [3.6 Duel Kawat Sejajar Tak Hingga](./03.6-interactivity-kawat-sejajar-latihan.md)
-- [3.7 Torsi & Efisiensi Motor Listrik](./03.7-torsi-motor-latihan.md)
-- [3.8 Mekanika Spin & Sifat Bahan](./03.8-sifat-bahan-magnet-latihan.md)
-- [3.9 Spektrometer Massa & Teknologi Maglev](./03.9-siklotron-spektrometer-latihan.md)
+### 🧲 Bab 3-5: Magnet & Induksi
+- **Magnetisme:** [Gaya Lorentz & Maglev](./03.9-siklotron-spektrometer-latihan.md)
+- **Induksi EM:** [Faraday & Transformator](./04.7-transformator-ideal-latihan.md)
+- **Arus AC:** [Impedansi & Resonansi RLC](./05.5-impedansi-rlc-latihan.md)
 
-### Bab 4: Induksi Elektromagnetik
-- [4.1 Fluks Magnetik & Hukum Faraday](./04.1-fluks-faraday-latihan.md)
-- [4.2 Hukum Lenz & Arah Arus Induksi](./04.2-hukum-lenz-latihan.md)
-- [4.3 Ggl Induksi Konduktor Bergerak](./04.3-ggl-konduktor-latihan.md)
-- [4.4 Karakteristik Induktansi Diri](./04.4-induktansi-diri-latihan.md)
-- [4.5 Tabungan Energi Medan Magnet](./04.5-energi-induktor-latihan.md)
-- [4.6 Dinamika Generator Arus Bolak-Balik](./04.6-generator-ac-latihan.md)
-- [4.7 Transformator Ideal & Perbandingan](./04.7-transformator-ideal-latihan.md)
-- [4.8 Analisis Efisiensi & Rugi Trafo](./04.8-efisiensi-trafo-latihan.md)
-- [4.9 Teknologi Wireless & Induksi Masak](./04.9-teknologi-induksi-latihan.md)
-
-### Bab 5: Arus Bolak-Balik (AC)
-- [5.1 Nilai Efektif & Maksimum Sinusoidal](./05.1-nilai-efektif-latihan.md)
-- [5.2 Karakteristik Beban Resisitif Murni](./05.2-rangkaian-r-latihan.md)
-- [5.3 Hambatan Induktif & Pergeseran Fase](./05.3-rangkaian-l-latihan.md)
-- [5.4 Hambatan Kapasitif & Akumulasi Muatan](./05.4-rangkaian-c-latihan.md)
-- [5.5 Impedansi Total Seri RLC](./05.5-impedansi-rlc-latihan.md)
-- [5.6 Analisis Vektor Fasor Tegangan](./05.6-fasor-tegangan-latihan.md)
-- [5.7 Daya Nyata & Faktor Daya (Cos Phi)](./05.7-daya-ac-latihan.md)
-- [5.8 Frekuensi Resonansi & Tuning Radio](./05.8-resonansi-radio-latihan.md)
-- [5.9 Sistem Inverter & Konversi Energi](./05.9-inverter-rectifier-latihan.md)
-
-### Bab 6: Fisika Inti & Radioaktivitas
-- [6.1 Struktur Inti & Gaya Nuklir Kuat](./06.1-struktur-inti-latihan.md)
-- [6.2 Analisis Defek Massa & Energi Ikat](./06.2-energi-ikat-latihan.md)
-- [6.3 Mekanisme Peluruhan Alfha, Beta, Gamma](./06.3-peluruhan-radiasi-latihan.md)
-- [6.4 Kalkulasi Waktu Paruh & Aktivitas](./06.4-waktu-paruh-latihan.md)
-- [6.5 Transmutasi & Deret Radioaktif](./06.5-transmutasi-unsur-latihan.md)
-- [6.6 Reaksi Fisi & Reaktor Nuklir](./06.6-fisi-nuklir-latihan.md)
-- [6.7 Reaksi Fusi & Energi Termonuklir](./06.7-fusi-termonuklir-latihan.md)
-- [6.8 Alat Ukur Radiasi & Dosis Serap](./06.8-detektor-radiasi-latihan.md)
-- [6.9 Carbon Dating & Aplikasi Isotop](./06.9-karbon-dating-latihan.md)
-
-### Bab 7: Fisika Modern & Relativitas Khusus
-- [7.1 Dilatasi Waktu & Paradoks Kembar Einstein](./07.1-dilatasi-waktu-latihan.md)
-- [7.2 Kontraksi Panjang & Geometri Ruang Relativistik](./07.2-kontraksi-panjang-latihan.md)
-- [7.3 Analisis Massa-Energi $E=mc^2$](./07.3-massa-energi-relativistik-latihan.md)
-- [7.4 Efek Fotolistrik & Kuantisasi Cahaya](./07.4-efek-fotolistrik-latihan.md)
-- [7.5 Efek Compton & Momentum Foton](./07.5-efek-compton-latihan.md)
-- [7.6 Panjang Gelombang De Broglie Materi](./07.6-panjang-gelombang-debroglie-latihan.md)
-- [7.7 Ketidakpastian Heisenberg & Batas Alam](./07.7-ketidakpastian-heisenberg-latihan.md)
-- [7.8 Radiasi Benda Hitam & Hukum Wien](./07.8-radiasi-benda-hitam-latihan.md)
-- [7.9 Model Atom Bohr & Spektrum Hidrogen](./07.9-atom-bohr-spektrum-latihan.md)
+### ☢️ Bab 6-7: Nuklir & Fisika Modern
+- **Fisika Inti:** [Energi Ikat & Fisi-Fusi](./06.6-fisi-nuklir-latihan.md)
+- **Radioaktivitas:** [Peluruhan & Aktivitas](./06.4-waktu-paruh-latihan.md)
+- **Relativitas:** [E=mc2 & Dilatasi Waktu](./07.1-dilatasi-waktu-latihan.md)
+- **Kuantum:** [Efek Fotolistrik & Compton](./07.4-efek-fotolistrik-latihan.md)
 
 ---
-
-[< Kembali ke Daftar Materi Kelas 12](../README.md)
+*Fisika adalah puisi alam semesta yang ditulis dalam bahasa matematika.*

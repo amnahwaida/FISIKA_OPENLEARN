@@ -1,13 +1,25 @@
-# 📘 Kelas 11 Fisika
+# 📘 Kelas 11: Fluida, Termodinamika, & Mekanika Langit
 
-Selamat datang di materi Fisika Kelas 11. Berikut adalah daftar bab yang dapat dipelajari:
+[< Kembali ke Beranda Utama](../README.md)
 
-1. [Fluida Statis & Dinamis](./01-fluida.md)
-2. [Suhu, Kalor Lanjut, Termodinamika](./02-termodinamika.md)
-3. [Hukum Newton tentang Gravitasi, Kepler](./03-gravitasi.md)
-4. [Getaran Harmonis Sederhana](./04-getaran.md)
-5. [Interferensi, Difraksi, Polarisasi Cahaya](./05-gelombang-cahaya.md)
-6. [Alat-Alat Optik Lanjut (Mikroskop & Teleskop)](./06-alat-optik.md)
+Kelas 11 membawa Anda melampaui benda titik sederhana menuju analisis sistem yang lebih kompleks: aliran fluida, mesin kalor, getaran, hingga gerak planet di luar angkasa.
+
+## 🗂️ Kurikulum Teori
+
+| No | Materi Pembelajaran | Fokus Konsep | Link |
+| :---: | :--- | :--- | :---: |
+| 1 | **Fluida Statis & Dinamis** | Archimedes, Bernoulli, & Viskositas | [Buka](./01-fluida.md) |
+| 2 | **Termodinamika** | Teori Kinetik Gas & Siklus Carnot | [Buka](./02-termodinamika.md) |
+| 3 | **Gravitasi & Astronomi** | Hukum Newton & Hukum Kepler | [Buka](./03-gravitasi.md) |
+| 4 | **Getaran Harmonis** | Osilasi Pegas & Bandul | [Buka](./04-getaran.md) |
+| 5 | **Gelombang Cahaya** | Interferensi, Difraksi, & Polarisasi | [Buka](./05-gelombang-cahaya.md) |
+| 6 | **Alat Optik Lanjut** | Mikroskop & Teleskop Modern | [Buka](./06-alat-optik.md) |
 
 ---
-[< Kembali ke Beranda Utama](../README.md)
+
+## 📝 Bank Soal
+Uji pemahaman Anda dengan kumpulan soal latihan tingkat lanjut:
+👉 **[Eksplorasi Latihan Soal Kelas 11](./latihan-soal/README.md)**
+
+---
+*Semesta tidak hanya memberikan jawaban, dia memberikan petunjuk bagi mereka yang mau bertanya.*

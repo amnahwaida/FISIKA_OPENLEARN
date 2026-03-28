@@ -1,74 +1,34 @@
-# Latihan Soal Fisika Kelas 11
+# 📝 Bank Soal Fisika: Kelas 11
 
-Repositori ini memuat seluruh latihan soal untuk materi Fisika Tingkat Sekolah Menengah Atas (Kelas 11). Seluruh latihan soal ini telah disesuaikan dan dirancang menembus level batas absolut (Grandmaster/Olympus) berdasarkan kurikulum *Fisika SMA-OpenLearn* yang telah dimekarkan sempurna.
+[< Kembali ke Materi Kelas 11](../README.md)
 
-## Daftar Latihan Soal Kelas 11
-
-### Bab 1: Fluida Statis & Dinamis
-- [1.1 Tekanan Mutlak & Paradoks Hidrostatis](./01.1-hidrostatik-latihan.md)
-- [1.2 Hukum Pascal & Mekanika Hidrolik](./01.2-pascal-latihan.md)
-- [1.3 Hukum Archimedes & Berat Semu](./01.3-archimedes-latihan.md)
-- [1.4 Tegangan Permukaan & Kapilaritas](./01.4-tegangan-permukaan-latihan.md)
-- [1.5 Debit Aliran & Persamaan Kontinuitas](./01.5-kontinuitas-latihan.md)
-- [1.6 Asas Fundamental Bernoulli](./01.6-asas-bernoulli-latihan.md)
-- [1.7 Aplikasi Bernoulli I (Tangki Bocor & Venturimeter)](./01.7-torricelli-venturi-latihan.md)
-- [1.8 Aplikasi Bernoulli II (Tabung Pitot & Pesawat Lift)](./01.8-pitot-sayap-pesawat-latihan.md)
-- [1.9 Fluida Kental Realitas (Viskositas & Stokes)](./01.9-hukum-stokes-viskositas-latihan.md)
-
-### Bab 2: Kinetik Gas & Termodinamika Lanjut
-- [2.1 Persamaan Keadaan Gas Ideal](./02.1-gas-ideal-latihan.md)
-- [2.2 Kecepatan Efektif ($v_{rms}$) Kinetika Gas](./02.2-kecepatan-rms-latihan.md)
-- [2.3 Ekipartisi Derajat Kebebasan & Energi Dalam](./02.3-energi-dalam-latihan.md)
-- [2.4 Hukum I Termodinamika (Konvensi $\pm$)](./02.4-hukum-termo-satu-latihan.md)
-- [2.5 Luasan Kalkulus Grafik Pembakaran $P-V$](./02.5-usaha-grafik-pv-latihan.md)
-- [2.6 Eksekusi Ekstrim 4 Pilar Proses (Iso/Adia)](./02.6-proses-kuadran-latihan.md)
-- [2.7 Siklus Mesin Carnot & Efisiensi Maksimum](./02.7-siklus-carnot-latihan.md)
-- [2.8 Koefisien Performansi Refrigeran (Kulkas/AC)](./02.8-mesin-pendingin-latihan.md)
-- [2.9 Hukum II Entropi & Kiamat Keteraturan Semesta](./02.9-entropi-alam-latihan.md)
-
-### Bab 3: Medan Gravitasi & Mekanika Langit
-- [3.1 Interaksi Hukum Gravitasi Newton](./03.1-hukum-gravitasi-latihan.md)
-- [3.2 Medan Gravitasi & Variasi g](./03.2-medan-gravitasi-latihan.md)
-- [3.3 Energi Potensial Gravitasi Mutlak](./03.3-energi-potensial-latihan.md)
-- [3.4 Potensial Gravitasi & Sumur Energi](./03.4-potensial-gravitasi-latihan.md)
-- [3.5 Kecepatan Lepas (Escape Velocity)](./03.5-kecepatan-lepas-latihan.md)
-- [3.6 Gerak Orbit Satelit LEO/GEO](./03.6-orbit-satelit-latihan.md)
-- [3.7 Tarian 3 Hukum Kepler](./03.7-hukum-kepler-latihan.md)
-- [3.8 Titik Lagrange & Medan Nol](./03.8-titik-lagrange-latihan.md)
-- [3.9 Aplikasi Astronomi & Ruang-Waktu](./03.9-aplikasi-astronomi-latihan.md)
-
-### Bab 4: Getaran Harmonis & Mekanika Pegas
-- [4.1 Hukum Hooke & Gaya Pemulih](./04.1-gaya-pemulih-latihan.md)
-- [4.2 Kinematika Simpangan GHS](./04.2-simpangan-ghs-latihan.md)
-- [4.3 Kecepatan & Percepatan Maksimum](./04.3-kecepatan-percepatan-ghs-latihan.md)
-- [4.4 Dinamika Osilator Pegas](./04.4-periode-pegas-latihan.md)
-- [4.5 Rahasia Periode Bandul Sederhana](./04.5-periode-bandul-latihan.md)
-- [4.6 Rekayasa Susunan Pegas Seri-Paralel](./04.6-susunan-pegas-latihan.md)
-- [4.7 Kekekalan Energi Mekanik GHS](./04.7-energi-ghs-latihan.md)
-- [4.8 Analogi GMB & Dasar Trigonometri](./04.8-analogi-gmb-latihan.md)
-- [4.9 Fenomena Resonansi & Getaran Paksa](./04.9-resonansi-getaran-latihan.md)
-
-### Bab 5: Gelombang & Optik Fisis Ekstrem
-- [5.1 Hakikat & Klasifikasi Gelombang](./05.1-hakikat-gelombang-latihan.md)
-- [5.2 Persamaan Umum Kecepatan Rambat](./05.2-persamaan-gelombang-latihan.md)
-- [5.3 Analisis Fase Gelombang Berjalan](./05.3-gelombang-berjalan-latihan.md)
-- [5.4 Simpul & Perut Gelombang Stasioner](./05.4-gelombang-stasioner-latihan.md)
-- [5.5 Karakteristik Umum Sifat Gelombang](./05.5-sifat-umum-gelombang-latihan.md)
-- [5.6 Interferensi Celah Ganda Young](./05.6-interferensi-young-latihan.md)
-- [5.7 Resolusi Kisi Difraksi Rapat](./05.7-difraksi-kisi-latihan.md)
-- [5.8 Seni Interferensi Lapisan Tipis](./05.8-lapisan-tipis-latihan.md)
-- [5.9 Penyerapan Getaran Polarisasi Cahaya](./05.9-polarisasi-cahaya-latihan.md)
-
-### Bab 6: Instrumen & Alat-Alat Optik Lanjut
-- [6.1 Anatomi Optik Mata & Kamera](./06.1-mata-kamera-latihan.md)
-- [6.2 Analisis Cacat Mata Miopi](./06.2-cacat-mata-miopi-latihan.md)
-- [6.3 Hipermetropi & Presbiopi](./06.3-hipermetropi-presbiopi-latihan.md)
-- [6.4 Penggunaan Lup Kaca Pembesar](./06.4-kaca-pembesar-lup-latihan.md)
-- [6.5 Mekanika Lensa Mikroskop Majemuk](./06.5-mikroskop-akomodasi-latihan.md)
-- [6.6 Teropong Bintang (Teleskop Bias)](./06.6-teropong-bintang-latihan.md)
-- [6.7 Teropong Bumi (Lensa Pembalik)](./06.7-teropong-bumi-latihan.md)
-- [6.8 Keunggulan Teropong Pantul](./06.8-teropong-pantul-latihan.md)
-- [6.9 Teropong Angkasa JWST & Modern](./06.9-teknologi-optik-latihan.md)
+Selamat datang di Bank Soal Kelas 11. Materi di tingkat ini mulai mengintegrasikan kalkulus dasar dan analisis sistem dinamis. Pastikan Anda telah menguasai konsep dasar di Kelas 10.
 
 ---
-[< Kembali ke Daftar Materi Kelas 11](../README.md)
+
+## 📚 Daftar Latihan per Bab
+
+### 🌊 Bab 1: Fluida (Cair & Gas)
+- [1.1 Tekanan Mutlak & Hidrostatis](./01.1-hidrostatik-latihan.md)
+- [1.3 Hukum Archimedes & Berat Semu](./01.3-archimedes-latihan.md)
+- [1.6 Asas Fundamental Bernoulli](./01.6-asas-bernoulli-latihan.md)
+- [1.9 Fluida Kental (Viskositas & Stokes)](./01.9-hukum-stokes-viskositas-latihan.md)
+
+### 🌡️ Bab 2: Kinetika Gas & Termodinamika
+- [2.1 Persamaan Gas Ideal](./02.1-gas-ideal-latihan.md)
+- [2.3 Energi Dalam & Derajat Kebebasan](./02.3-energi-dalam-latihan.md)
+- [2.5 Usaha pada Grafik P-V](./02.5-usaha-grafik-pv-latihan.md)
+- [2.7 Siklus Carnot & Efisiensi Mesin](./02.7-siklus-carnot-latihan.md)
+
+### 🌍 Bab 3: Gravitasi & Astronomi
+- [3.1 Hukum Gravitasi Newton](./03.1-hukum-gravitasi-latihan.md)
+- [3.5 Kecepatan Lepas (Escape Velocity)](./03.5-kecepatan-lepas-latihan.md)
+- [3.7 Tarian 3 Hukum Kepler](./03.7-hukum-kepler-latihan.md)
+
+### 🔄 Bab 4-6: Osilasi, Gelombang, & Optik
+- **Osilasi:** [Getaran Pegas & Bandul](./04.4-periode-pegas-latihan.md)
+- **Gelombang:** [Interferensi & Celah Ganda](./05.6-interferensi-young-latihan.md)
+- **Optik:** [Teleskop Bintang & Modern](./06.6-teropong-bintang-latihan.md)
+
+---
+*Fisika bukan tentang menghafal rumus, tapi tentang mengerti mengapa rumus itu ada.*
