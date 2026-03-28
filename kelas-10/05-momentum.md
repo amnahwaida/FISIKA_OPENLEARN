@@ -73,34 +73,39 @@ Dari $F = \frac{\Delta p}{\Delta t}$, jika $\Delta p$ sama, maka:
 **Bukti Formal:**
 Perhatikan dua benda ($m_1, m_2$) yang saling berinteraksi (tumbukan):
 
-1. **Berdasarkan Hukum Newton III:**
-   $$
-   \Large \vec{F}_{12} = -\vec{F}_{21}
-   $$
+**A. Berdasarkan Hukum Newton III (Aksi-Reaksi):**
 
-2. **Gaya adalah Laju Perubahan Momentum:**
-   $$
-   \Large \frac{\Delta \vec{p}_1}{\Delta t} = -\frac{\Delta \vec{p}_2}{\Delta t}
-   $$
+$$
+\Large \vec{F}_{12} = -\vec{F}_{21}
+$$
 
-3. **Kalikan dengan $\Delta t$ (Internal Interaction):**
-   $$
-   \Large \Delta \vec{p}_1 = -\Delta \vec{p}_2
-   $$
+**B. Gaya adalah Laju Perubahan Momentum:**
 
-4. **Jumlahkan Seluruh Perubahan Momentum:**
-   $$
-   \Large \Delta \vec{p}_1 + \Delta \vec{p}_2 = 0
-   $$
+$$
+\Large \frac{\Delta \vec{p}_1}{\Delta t} = -\frac{\Delta \vec{p}_2}{\Delta t}
+$$
 
-5. **Maka Momentum Total Selalu Kekal:**
-   $$
-   \Large \mathbf{\vec{p}_{total,\text{awal}} = \vec{p}_{total,\text{akhir}}}
-   $$
+**C. Kalikan dengan $\Delta t$ (Internal Interaction):**
 
-   $$
-   \Large m_1 v_1 + m_2 v_2 = m_1 v_1' + m_2 v_2'
-   $$
+$$
+\Large \Delta \vec{p}_1 = -\Delta \vec{p}_2
+$$
+
+**D. Jumlahkan Seluruh Perubahan Momentum:**
+
+$$
+\Large \Delta \vec{p}_1 + \Delta \vec{p}_2 = 0
+$$
+
+**E. Maka Momentum Total Selalu Kekal:**
+
+$$
+\Large \mathbf{\vec{p}_{total,\text{awal}} = \vec{p}_{total,\text{akhir}}}
+$$
+
+$$
+\Large m_1 v_1 + m_2 v_2 = m_1 v_1' + m_2 v_2'
+$$
 
 **Q.E.D.** — Momentum total sistem selalu konstan.
 
