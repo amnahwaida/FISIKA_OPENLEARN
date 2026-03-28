@@ -124,13 +124,13 @@ Alat musik bernada tercipta ketika gelombang menjebak diri dalam stasioner spasi
 ### 6.1 Dawai (Gitar, Biola)
 - Syarat ujung: Terikat $\leftrightarrow$ Terikat (Simpul di kedua ujung).
 - Panjang efektif terbentuk pola perut murni:
-$$
-\Large L = (n+1) \cdot \frac{\lambda}{2}
-$$
+  $$
+  \Large L = (n+1) \cdot \frac{\lambda}{2}
+  $$
 - Modulus deret Frekuensinya:
-$$
-\Large f_0 : f_1 : f_2 = 1 : 2 : 3 \dots
-$$
+  $$
+  \Large f_0 : f_1 : f_2 = 1 : 2 : 3 \dots
+  $$
 $$
 \Large f_n = (n+1) \frac{v}{2L}
 $$
@@ -138,16 +138,16 @@ $$
 ### 6.2 Pipa Organa Terbuka - POT (Suling Bambu, Trompet)
 - Syarat ujung udara: Terbuka kedua rongganya (Perut di kedua ujung corong).
 - Sama mutlak polanya matematisnya dengan dawai. Deret $1 : 2 : 3 \dots$
-$$
-\Large f_n = (n+1) \frac{v}{2L}
-$$
+  $$
+  \Large f_n = (n+1) \frac{v}{2L}
+  $$
 
 ### 6.3 Pipa Organa Tertutup - PTB (Botol ditiup, Klarinet)
 - Syarat: Satu tertutup (Simpul tembok), satu ujung tiup terbuka (Perut hembus udara).
 - Deret Pipa Tertutup kehilangan bilangan genap (*Murni harmonik aneh ganjil*): $1 : 3 : 5 \dots$
-$$
-\Large f_n = (2n+1) \frac{v}{4L}
-$$
+  $$
+  \Large f_n = (2n+1) \frac{v}{4L}
+  $$
 
 ---
 

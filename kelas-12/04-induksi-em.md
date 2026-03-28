@@ -95,9 +95,9 @@ Inilah asal mula tegangan listrik yang berubah-ubah naik turun (AC).
 
 Alat untuk menaikkan (**Step-up**) atau menurunkan (**Step-down**) tegangan AC tanpa bagian yang bergerak.
 - **Prinsip:** Induksi silang antar kumparan primer dan sekunder.
-$$
-\Large \frac{V_p}{V_s} = \frac{N_p}{N_s} = \frac{I_s}{I_p}
-$$
+  $$
+  \Large \frac{V_p}{V_s} = \frac{N_p}{N_s} = \frac{I_s}{I_p}
+  $$
 
 ---
 

@@ -175,9 +175,9 @@ Pesawat rongsok Boeing bertonase ribuan MegaTon mampu ngangkang murni terangkat 
 - Jarak udara membanting membelah lewat lari punggung ATAS sayap wajib menyusuri melengkung gundukan jauh lebih berputar panjeng panjang. Terpaksa, lari melesat Udara atas **Lebar Cepat Lebih Gila** ($v_{\text{atas}} > v_{\text{bawah}}$).
 - Hukum Bernoulli meneriak: Jika gerak meriam $v_{\text{atas}}$ cepat lari, maka Tekanan atap Langit Sayap $P_{\text{atas}}$ Anjlok Hancur Hampa Kempos Kosong ($P_{\text{atas}} < P_{\text{bawah}}$) menyurut drastis.
 - Perbedaan Tekanan bawah padat vs atas bolong mendongkrak **Angkat Menyedor Mutlak (Lift Force $F_{\text{angkat}}$):**
-$$
-\Large F_{\text{angkat}} = (P_{\text{bawah}} - P_{\text{atas}}) \cdot A \implies F_{\text{angkat}} = \frac{1}{2} \rho_{\text{udara}} \cdot (v_{\text{atas}}^2 - v_{\text{bawah}}^2) \cdot A_{\text{sayap}}
-$$
+  $$
+  \Large F_{\text{angkat}} = (P_{\text{bawah}} - P_{\text{atas}}) \cdot A \implies F_{\text{angkat}} = \frac{1}{2} \rho_{\text{udara}} \cdot (v_{\text{atas}}^2 - v_{\text{bawah}}^2) \cdot A_{\text{sayap}}
+  $$
 Syarat lepas landas roda lari selamat (*Take Off*): Dorongan mutlak angkat maut menyedot ini wajib menang lebih gigih galak membanjir hancurkan tarikan mati total Massa beratan Pesawat baja ($F_{\text{angkat}} > W_{\text{pesawat}}$). 
 
 ---

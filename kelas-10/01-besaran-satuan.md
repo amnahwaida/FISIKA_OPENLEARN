@@ -159,9 +159,9 @@ $$
      - Langkah 1: Dari `m` ke `cm` turun **2 tangga**.
      - Langkah 2: Faktor pengali = $(10^2)^2 = 10^4 = 10.000$.
      - Langkah 3:
-$$
-\Large 5 \times 10.000 = \mathbf{50.000 \text{ cm}^2}
-$$
+       $$
+       \Large 5 \times 10.000 = \mathbf{50.000 \text{ cm}^2}
+       $$
 
 2. **Satuan Volume ($n=3$):**
    Setiap turun satu tangga, nilai dikali $10^3 = \mathbf{1.000}$. Sebaliknya, setiap naik satu tangga dibagi $1.000$.
@@ -320,8 +320,8 @@ Dilakukan beberapa kali untuk meminimalkan ralat acak. Data hasil pengukuran dil
 
 1. **Nilai Rata-rata ($\bar{x}$):**
    $$
-\Large \bar{x} = \frac{\sum x_i}{n} = \frac{x_1 + x_2 + \dots + x_n}{n}
-$$
+   \Large \bar{x} = \frac{\sum x_i}{n} = \frac{x_1 + x_2 + \dots + x_n}{n}
+   $$
    *Keterangan: $\sum x_i$ adalah jumlah seluruh data, dan $n$ adalah jumlah pengulangan.*
 
 2. **Ketidakpastian Pengukuran Berulang ($\Delta x$):**
@@ -460,12 +460,12 @@ Metode ini digunakan untuk dua vektor yang pangkalnya bertemu dan membentuk sudu
 
 1. **Penjumlahan Vektor ($R = F_1 + F_2$):**
    $$
-\Large R = \sqrt{F_1^2 + F_2^2 + 2 \cdot F_1 \cdot F_2 \cdot \cos(\alpha)}
-$$
+   \Large R = \sqrt{F_1^2 + F_2^2 + 2 \cdot F_1 \cdot F_2 \cdot \cos(\alpha)}
+   $$
 2. **Selisih Dua Vektor ($R = F_1 - F_2$):**
    $$
-\Large R = \sqrt{F_1^2 + F_2^2 - 2 \cdot F_1 \cdot F_2 \cdot \cos(\alpha)}
-$$
+   \Large R = \sqrt{F_1^2 + F_2^2 - 2 \cdot F_1 \cdot F_2 \cdot \cos(\alpha)}
+   $$
 
 - _Kondisi khusus (Penjumlahan):_
   - Jika searah ($\alpha = 0^\circ$): $R = F_1 + F_2$ (Maksimum).

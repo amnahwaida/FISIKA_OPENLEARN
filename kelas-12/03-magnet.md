@@ -95,9 +95,9 @@ $$
 Dua kawat sejajar akan berinteraksi:
 - **Tarik-menarik:** Jika arus searah.
 - **Tolak-menolak:** Jika arus berlawanan arah.
-$$
-\Large F/L = \frac{\mu_0 \cdot I_1 \cdot I_2}{2\pi \cdot a}
-$$
+  $$
+  \Large F/L = \frac{\mu_0 \cdot I_1 \cdot I_2}{2\pi \cdot a}
+  $$
 
 ---
 

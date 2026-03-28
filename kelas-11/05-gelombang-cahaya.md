@@ -87,9 +87,9 @@ $$
 Cahaya melewati dua celah sempit dan membentuk pola garis **Terang** dan **Gelap** di layar.
 
 - **Syarat Terang (Maksimum):**
-$$
-\Large d \sin \theta = n \cdot \lambda \quad \text{atau} \quad \frac{d \cdot y}{L} = n \cdot \lambda
-$$
+  $$
+  \Large d \sin \theta = n \cdot \lambda \quad \text{atau} \quad \frac{d \cdot y}{L} = n \cdot \lambda
+  $$
 - **$n$:** Orde (0, 1, 2, ...).
 - **$y$:** Jarak dari pusat terang.
 
@@ -120,9 +120,9 @@ $$
 Cahaya alami bergetar ke segala arah. **Polarisasi** adalah proses membatasi getaran cahaya hanya pada satu arah saja. 
 
 - **Hukum Malus:** Intensitas cahaya setelah melewati dua polarisator:
-$$
-\Large I = I_0 \cos^2 \theta
-$$
+  $$
+  \Large I = I_0 \cos^2 \theta
+  $$
 - **Sudut Brewster:** Cahaya terpolarisasi sempurna saat memantul dengan sudut $\tan \theta_p = \frac{n_2}{n_1}$.
 
 ---

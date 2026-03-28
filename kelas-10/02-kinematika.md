@@ -20,12 +20,12 @@ Sebelum kita masuk ke jenis-jenis gerak, sangat penting untuk memahami perbedaan
 ### 1.2 Kelajuan dan Kecepatan
 - **Kelajuan (Skalar):** Jarak per satuan waktu.
   $$
-\Large v = \frac{s}{t}
-$$
+  \Large v = \frac{s}{t}
+  $$
 - **Kecepatan (Vektor):** Perpindahan per satuan waktu.
   $$
-\Large \vec{v} = \frac{\Delta \vec{x}}{\Delta t} = \frac{\vec{x}_t - \vec{x}_0}{t_t - t_0}
-$$
+  \Large \vec{v} = \frac{\Delta \vec{x}}{\Delta t} = \frac{\vec{x}_t - \vec{x}_0}{t_t - t_0}
+  $$
 
 > [!TIP]
 > **Kecepatan Rata-rata Lintasan Bertahap:**
@@ -73,12 +73,12 @@ $$
 Pada tingkat lanjut, besaran kinematika didefinisikan menggunakan operasi turunan (derivatif):
 - **Kecepatan Sesaat ($v$):** Turunan pertama fungsi posisi ($r$) terhadap waktu.
   $$
-\Large v(t) = \frac{dr}{dt}
-$$
+  \Large v(t) = \frac{dr}{dt}
+  $$
 - **Percepatan Sesaat ($a$):** Turunan pertama fungsi kecepatan ($v$) terhadap waktu.
   $$
-\Large a(t) = \frac{dv}{dt}
-$$
+  \Large a(t) = \frac{dv}{dt}
+  $$
 *(Contoh: Jika $r(t) = 2t^3$, maka $v(t) = 6t^2$ dan $a(t) = 12t$).*
 
 ### 1.5 Filosofi "Keluarga" Kinematika
@@ -102,8 +102,8 @@ GLB adalah gerak benda pada lintasan lurus dengan **kecepatan konstan ($v$ tetap
 - **Ciri Utama:** Dalam selang waktu yang sama, benda menempuh jarak yang sama.
 - **Rumus:**
   $$
-\Large s = v \cdot t
-$$
+  \Large s = v \cdot t
+  $$
 - **Grafik GLB:**
   - Grafik $s-t$ (Jarak-Waktu) berupa garis lurus miring ke atas (linear).
   - Grafik $v-t$ (Kecepatan-Waktu) berupa garis lurus mendatar (horizontal).
@@ -239,21 +239,21 @@ Gerak parabola adalah perpaduan dua gerak pada dua sumbu koordinat yang saling t
 - **Kecepatan Awal di Sumbu Y:** $v_{0y} = v_0 \sin \alpha$
 - **Tinggi Maksimum ($h_{\text{max}}$):**
   $$
-\Large h_{\text{max}} = \frac{v_0^2 \sin^2 \alpha}{2g}
-$$
+  \Large h_{\text{max}} = \frac{v_0^2 \sin^2 \alpha}{2g}
+  $$
 - **Jarak Terjauh ($x_{\text{max}}$):**
   $$
-\Large x_{\text{max}} = \frac{v_0^2 \sin 2\alpha}{g}
-$$
+  \Large x_{\text{max}} = \frac{v_0^2 \sin 2\alpha}{g}
+  $$
 
 **Persamaan Posisi Setiap Saat ($t$):**
 Koordinat peluru pada sembarang waktu $t$ selama di udara:
 - **Posisi Mendatar ($x$):** $x(t) = v_0 \cos \alpha \cdot t$
 - **Posisi Vertikal ($y$):** $y(t) = v_0 \sin \alpha \cdot t - \frac{1}{2}gt^2$
 
-$$
-\Large v_t = \sqrt{v_x^2 + v_{ty}^2} \quad \text{di mana } v_{ty} = v_0 \sin \alpha - gt
-$$
+  $$
+  \Large v_t = \sqrt{v_x^2 + v_{ty}^2} \quad \text{di mana } v_{ty} = v_0 \sin \alpha - gt
+  $$
 
 **Vektor Kecepatan dalam Notasi $\hat{i}, \hat{j}$:**
 $$
@@ -329,12 +329,12 @@ GMB adalah gerak benda dalam lintasan lingkaran dengan laju tetap, namun arah ke
 - **Periode ($T$):** Waktu untuk satu kali putaran penuh. ($T = t / n$, satuan sekon). ($T = 1/f$).
 - **Kecepatan Sudut ($\omega$):** Sudut yang ditempuh per satuan waktu.
   $$
-\Large \omega = \frac{2\pi}{T} = 2\pi f
-$$
+  \Large \omega = \frac{2\pi}{T} = 2\pi f
+  $$
 - **Kecepatan Linear ($v$):** Laju pada pinggir lingkaran.
   $$
-\Large v = \omega \cdot R
-$$
+  \Large v = \omega \cdot R
+  $$
 
 > [!TIP]
 > **Pintasan Konversi RPM:**
@@ -383,8 +383,8 @@ GMBB adalah gerak melingkar dengan **Percepatan Sudut ($\alpha$)** konstan.
 - **Posisi Sudut (Sudut Tempuh):** $\theta = \omega_0 \cdot t + \frac{1}{2} \alpha \cdot t^2$
 - **Percepatan Tangensial ($a_t$):** Percepatan yang sejajar lintasan (mengubah laju linear).
   $$
-\Large a_t = \alpha \cdot R
-$$
+  \Large a_t = \alpha \cdot R
+  $$
 
 ### 7.5 Percepatan Total ($a_{\text{tot}}$)
 Pada GMBB, benda memiliki dua percepatan yang saling tegak lurus ($a_s$ dan $a_t$):

@@ -70,8 +70,8 @@ Ketika dipanaskan, partikel zat bergetar lebih kuat, sehingga jarak antar partik
 ### 3.1 Pemuaian Zat Padat
 1. **Pemuaian Panjang ($\Delta L$):** Berlaku untuk benda berbentuk kawat/batang.
    $$
-\Large \Delta L = L_0 \cdot \alpha \cdot \Delta T
-$$
+   \Large \Delta L = L_0 \cdot \alpha \cdot \Delta T
+   $$
    $$
 \Large L_t = L_0 (1 + \alpha \Delta T)
 $$
@@ -79,13 +79,13 @@ $$
 
 2. **Pemuaian Luas ($\Delta A$):** Benda berupa lempengan.
    $$
-\Large \Delta A = A_0 \cdot \beta \cdot \Delta T \quad (\beta = 2\alpha)
-$$
+   \Large \Delta A = A_0 \cdot \beta \cdot \Delta T \quad (\beta = 2\alpha)
+   $$
 
 3. **Pemuaian Volume ($\Delta V$):** Benda pejal/3D.
    $$
-\Large \Delta V = V_0 \cdot \gamma \cdot \Delta T \quad (\gamma = 3\alpha)
-$$
+   \Large \Delta V = V_0 \cdot \gamma \cdot \Delta T \quad (\gamma = 3\alpha)
+   $$
 
 > [!WARNING]
 > **Aplikasi Teknis: Kaca Tahan Panas**

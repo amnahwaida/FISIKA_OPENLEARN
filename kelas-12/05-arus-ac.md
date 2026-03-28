@@ -45,8 +45,8 @@ Pada hambatan murni ($R$), tegangan dan arus berubah secara bersamaan.
 Induktor ($L$) menghambat arus AC tidak hanya lewat hambatan kawat, tapi lewat Ggl induksi diri.
 - **Reaktansi Induktif ($X_L$):** 
   $$
-\Large X_L = \omega \cdot L = 2\pi f \cdot L \quad (\text{Ohm})
-$$
+  \Large X_L = \omega \cdot L = 2\pi f \cdot L \quad (\text{Ohm})
+  $$
 - **Karakteristik Fase:** Tegangan **Mendahului** Arus sebesar $90^\circ$ (CIVIL: $V$ before $I$ in $L$).
 
 ---
@@ -56,8 +56,8 @@ $$
 Kapasitor ($C$) menghambat arus AC melalui proses pengosongan dan pengisian muatan.
 - **Reaktansi Kapasitif ($X_C$):**
   $$
-\Large X_C = \frac{1}{\omega \cdot C} = \frac{1}{2\pi f \cdot C} \quad (\text{Ohm})
-$$
+  \Large X_C = \frac{1}{\omega \cdot C} = \frac{1}{2\pi f \cdot C} \quad (\text{Ohm})
+  $$
 - **Karakteristik Fase:** Arus **Mendahului** Tegangan sebesar $90^\circ$ (CIVIL: $I$ before $V$ in $C$).
 
 ---
@@ -80,8 +80,8 @@ $$
 Fasor (*Phase Vector*) adalah cara memvisualisasikan tegangan sebagai vektor yang berputar.
 - **Sudut Fase ($\phi$):** Pergeseran antara tegangan total dan arus total.
   $$
-\Large \tan \phi = \frac{X_L - X_C}{R}
-$$
+  \Large \tan \phi = \frac{X_L - X_C}{R}
+  $$
 
 ---
 
@@ -102,8 +102,8 @@ Resonansi terjadi saat hambatan induktif saling meniadakan hambatan kapasitif ($
 - **Akibat:** Impedansi minimum ($Z = R$), Arus maksimum.
 - **Frekuensi Resonansi ($f_r$):**
   $$
-\Large f_r = \frac{1}{2\pi \sqrt{L \cdot C}}
-$$
+  \Large f_r = \frac{1}{2\pi \sqrt{L \cdot C}}
+  $$
 Prinsip ini digunakan pada **Tuning Radio**; kita mengubah nilai $C$ pada kapasitor variabel agar frekuensi resonansi rangkaian sama dengan frekuensi stasiun radio.
 
 ---

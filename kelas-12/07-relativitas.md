@@ -72,9 +72,9 @@ $$
 Cahaya tidak hanya berupa gelombang, tetapi juga paket energi diskrit yang disebut **Foton**.
 - **Peristiwa:** Lepasnya elektron dari logam akibat disinari cahaya frekuensi tinggi.
 - **Syarat:** Frekuensi cahaya ($f$) > Frekuensi ambang ($f_0$).
-$$
-\Large E_{foton} = W_0 + E_k \implies h \cdot f = h \cdot f_0 + E_k
-$$
+  $$
+  \Large E_{foton} = W_0 + E_k \implies h \cdot f = h \cdot f_0 + E_k
+  $$
 
 ---
 

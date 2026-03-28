@@ -102,9 +102,9 @@ Johannes Kepler memberikan hukum empiris mengenai tarian planet:
 1. **Hukum I (Lintasan):** Semua planet mengorbit Matahari dalam lintasan **Elips**, dengan Matahari berada di salah satu titik fokusnya.
 2. **Hukum II (Luas):** Garis hubung planet-matahari menyapu **Luas yang sama dalam selang waktu yang sama**. (Planet bergerak lebih cepat saat dekat matahari/perihelion).
 3. **Hukum III (Harmonik):** Kuadrat periode orbit ($T$) berbanding lurus dengan pangkat tiga jari-jari rata-rata lintasan ($R$).
-$$
-\Large \frac{T^2}{R^3} = \text{Konstan} \implies \frac{T_1^2}{R_1^3} = \frac{T_2^2}{R_2^3}
-$$
+   $$
+   \Large \frac{T^2}{R^3} = \text{Konstan} \implies \frac{T_1^2}{R_1^3} = \frac{T_2^2}{R_2^3}
+   $$
 
 ---
 

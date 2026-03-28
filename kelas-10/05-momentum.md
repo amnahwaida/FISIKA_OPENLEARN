@@ -126,14 +126,14 @@ Dari $F = \frac{\Delta p}{\Delta t}$, jika $\Delta p$ sama, maka:
 Perhatikan dua benda ($m_1, m_2$) yang saling berinteraksi (tumbukan):
 - Menurut Newton III: $\vec{F}_{12} = -\vec{F}_{21}$ (aksi-reaksi)
 - Maka:
-$$
-\Large \frac{\Delta \vec{p}_1}{\Delta t} = -\frac{\Delta \vec{p}_2}{\Delta t}
-$$
+  $$
+  \Large \frac{\Delta \vec{p}_1}{\Delta t} = -\frac{\Delta \vec{p}_2}{\Delta t}
+  $$
 - Kalikan $\Delta t$: $\Delta \vec{p}_1 = -\Delta \vec{p}_2$
 - Artinya:
-$$
-\Large \Delta \vec{p}_1 + \Delta \vec{p}_2 = 0
-$$
+  $$
+  \Large \Delta \vec{p}_1 + \Delta \vec{p}_2 = 0
+  $$
 
 $$
 \Large \mathbf{\vec{p}_{total,\text{awal}} = \vec{p}_{total,\text{akhir}}}

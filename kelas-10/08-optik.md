@@ -135,16 +135,16 @@ Mata normal (Emetropi) memaku lensa mencembung/menyabit rileks fleksibel dari Ti
 - Titik lelah pandang jauh $PR < \infty$ meter tak hingga (hanya sanggup jelas di letak $PR$ ini).
 - **Reparasi Lensa Kacamata (-) Minus Tipe Cekung Pembuka Sudut:**
   $$
-\Large P_{\text{Miopi}} = -\frac{100}{PR (\text{dalam cm})}
-$$
+  \Large P_{\text{Miopi}} = -\frac{100}{PR (\text{dalam cm})}
+  $$
 
 ### 6.2 Hipermetropi (Rabun Dekat Tua)
 - Kertas koran berjarak normal dekat 25 cm membias tertahan malah melesat JATUH terhempas tembus di BAWAH BELAKANG Retinanya sana (Kabur Blur tak meyakinkan terbaca).
 - Titik paling batas nampak dekatnya sangat parah memanjang jauh diletakkan $PP > 25 \text{ cm}$ mutlak tertarik.
 - **Reparasi Kacamata Bikonveks (+) Positif Kuat:**
   $$
-\Large P_{\text{Hiper}} = 4 - \frac{100}{PP (\text{dalam cm})} \quad \text{*(Asumsi murni Sn = 25 cm)*}
-$$
+  \Large P_{\text{Hiper}} = 4 - \frac{100}{PP (\text{dalam cm})} \quad \text{*(Asumsi murni Sn = 25 cm)*}
+  $$
 
 ---
 
@@ -155,12 +155,12 @@ Kacamata gila primitif lensa Cembung Positif pembuat besar ($+$). Digenggam tega
 **Kalkulasi Ganda Perbesaran Murni Serangga ($M$):**
 1. **Mata Paring Ekstrem Lelah Berakomodasi Seterangnya:** (Si bayangan diarahkan murni membentur masuk sejajar titik $s' = -25 \text{ cm}$ terkuat lelah lensa mata).
    $$
-\Large M = \frac{25}{f} + 1
-$$
+   \Large M = \frac{25}{f} + 1
+   $$
 2. **Mata Rehat Melamun Santai Penuh Rileks (Tanpa Akomodasi):** Bayangan ditembak buang terlempar maya menjauh ke titik maya Infinity semesta $s' = \infty$.
    $$
-\Large M = \frac{25}{f}
-$$
+   \Large M = \frac{25}{f}
+   $$
 
 ---
 

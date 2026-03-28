@@ -35,8 +35,8 @@ Oleh karena itu Gaya Gesek Statis ($f_s$) = $F_{\text{tarik}} = \mathbf{20 \text
    $f_k = \mu_k \times N = 0,4 \times 500 = 200 \text{ N}$.
 3. Terapkan Hukum II Newton (Cari $a$):
    $$
-\Large \Sigma F = m \times a
-$$
+   \Large \Sigma F = m \times a
+   $$
    $$
 \Large F_{\text{tarik}} - f_k = m \times a
 $$
