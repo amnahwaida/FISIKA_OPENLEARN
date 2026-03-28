@@ -26,6 +26,17 @@ Daftar latihan soal disusun berdasarkan bab untuk mempermudah pemahaman konsep t
 - [2.8 Rekayasa Batas Ukur Ammeter & Voltmeter](./02.8-alat-ukur-listrik-latihan.md)
 - [2.9 Potensiometer & Jembatan Kawat](./02.9-potensiometer-latihan.md)
 
+### Bab 3: Magnetisme & Gaya Lorentz
+- [3.1 Medan Magnet Oersted & Biot-Savart](./03.1-oersted-biotsavart-latihan.md)
+- [3.2 Analisis Solenoida & Toroida](./03.2-solenoida-toroida-latihan.md)
+- [3.3 Aplikasi Hukum Ampere Dinamis](./03.3-hukum-ampere-latihan.md)
+- [3.4 Lintasan Siklotron Muatan Titik](./03.4-lorentz-muatan-latihan.md)
+- [3.5 Gaya Lorentz & Interaksi Kawat](./03.5-lorentz-kawat-latihan.md)
+- [3.6 Duel Kawat Sejajar Tak Hingga](./03.6-interactivity-kawat-sejajar-latihan.md)
+- [3.7 Torsi & Efisiensi Motor Listrik](./03.7-torsi-motor-latihan.md)
+- [3.8 Mekanika Spin & Sifat Bahan](./03.8-sifat-bahan-magnet-latihan.md)
+- [3.9 Spektrometer Massa & Teknologi Maglev](./03.9-siklotron-spektrometer-latihan.md)
+
 ---
 
 [< Kembali ke Daftar Materi Kelas 12](../README.md)
