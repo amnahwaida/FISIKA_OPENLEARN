@@ -24,14 +24,18 @@ Jika magnetisme diciptakan oleh arus listrik (Bab 3), maka sebaliknya, **Arus Li
 **Fluks Magnetik ($\Phi$):** Jumlah garis medan magnet yang menembus luasan tertentu.
 
 $$
+
 \Large \Phi = B \cdot A \cdot \cos \theta \quad (\text{Weber})
+
 $$
 
 **Hukum Faraday:**
 Gaya Gerak Listrik (Ggl) induksi timbul sebanding dengan laju perubahan fluks magnetik.
 
 $$
+
 \Large \varepsilon = -N \frac{d\Phi}{dt} \approx -N \frac{\Delta \Phi}{\Delta t}
+
 $$
 
 ---
@@ -50,8 +54,11 @@ Ini adalah mekanisme alam untuk menjaga **Kekekalan Energi**. Kita tidak bisa me
 Sebuah kawat penghantar sepanjang $L$ yang digerakkan memotong medan magnet $B$ dengan kecepatan $v$.
 
 $$
+
 \Large \varepsilon = B \cdot L \cdot v \cdot \sin \theta
+
 $$
+
 - **Aturan Tangan Kanan:** Ibu jari ($v$), Telunjuk ($B$), Tengah ($I$ induksi).
 
 ---
@@ -61,12 +68,17 @@ $$
 Kumparan memiliki sifat melawan perubahan arus yang melewatinya sendiri. Sifat ini disebut **Induktansi ($L$)**.
 
 $$
+
 \Large \varepsilon = -L \frac{dI}{dt}
+
 $$
+
 **Induktansi Solenoida:**
 
 $$
+
 \Large L = \frac{\mu_0 \cdot N^2 \cdot A}{\ell} \quad (\text{Henry})
+
 $$
 
 ---
@@ -76,7 +88,9 @@ $$
 Induktor menyimpan energi dalam bentuk **Medan Magnet**.
 
 $$
+
 \Large W = \frac{1}{2} L I^2 \quad (\text{Joule})
+
 $$
 
 ---
@@ -86,16 +100,21 @@ $$
 Mengubah energi mekanik (putar) menjadi listrik. Sebuah loop kumparan diputar dalam medan magnet tetap.
 
 $$
+
 \Large \Phi = B \cdot A \cdot \cos(\omega t)
+
 $$
 
 $$
 \Large \varepsilon = N \cdot B \cdot A \cdot \omega \cdot \sin(\omega t)
+
 $$
 
 $$
 \Large \varepsilon = \varepsilon_{max} \sin(\omega t)
+
 $$
+
 Inilah asal mula tegangan listrik yang berubah-ubah naik turun (AC).
 
 ---
@@ -104,10 +123,11 @@ Inilah asal mula tegangan listrik yang berubah-ubah naik turun (AC).
 
 Alat untuk menaikkan (**Step-up**) atau menurunkan (**Step-down**) tegangan AC tanpa bagian yang bergerak.
 - **Prinsip:** Induksi silang antar kumparan primer dan sekunder.
-  
 
 $$
+
 \Large \frac{V_p}{V_s} = \frac{N_p}{N_s} = \frac{I_s}{I_p}
+
 $$
 
 ---
@@ -119,7 +139,9 @@ Trafo nyata tidak pernah $100\%$ efisien.
 **Efisiensi ($\eta$):**
 
 $$
+
 \Large \eta = \frac{P_{out}}{P_{in}} \times 100\% = \frac{V_s I_s}{V_p I_p} \times 100\%
+
 $$
 
 ---

@@ -130,8 +130,12 @@ Materi harus dipecah menjadi file `.md` terpisah per Bab/Sub-bab agar mudah diba
   - **Block:** `
 
 $$
+
 \Large E = mc^2
-$$`
+
+$$
+
+`
   - Pastikan tidak ada spasi antara tanda `$` dan rumus untuk inline.
 - **Gambar:** Simpan semua gambar di folder `assets/`. Jangan gunakan link eksternal yang mungkin mati (hotlinking). Gunakan format `.png` atau `.svg`.
 
@@ -155,7 +159,9 @@ Penjelasan teks...
 ## Rumus Utama
 
 $$
+
 \Large F = m \cdot a
+
 $$
 
 ## Contoh Soal

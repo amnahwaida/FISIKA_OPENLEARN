@@ -11,7 +11,9 @@
 Diketahui $m = 5 \text{ kg}$, $F = 15 \text{ N}$.
 
 $$
+
 \Large a = \frac{F}{m} = \frac{15}{5} = \mathbf{3 \text{ m/s}^2}
+
 $$
 
 ---
@@ -35,23 +37,25 @@ Oleh karena itu Gaya Gesek Statis ($f_s$) = $F_{\text{tarik}} = \mathbf{20 \text
 2. Hitung Gaya Gesek Kinetis ($f_k$):
    $f_k = \mu_k \times N = 0,4 \times 500 = 200 \text{ N}$.
 3. Terapkan Hukum II Newton (Cari $a$):
-   
 
 $$
+
 \Large \Sigma F = m \times a
+
 $$
-   
 
 $$
 \Large F_{\text{tarik}} - f_k = m \times a
+
 $$
-   
 
 $$
 \Large 400 - 200 = 50 \times a
+
 $$
-   
 
 $$
 \Large 200 = 50a \implies a = \frac{200}{50} = \mathbf{4 \text{ m/s}^2}
+
 $$
+

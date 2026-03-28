@@ -25,8 +25,11 @@ Sir Isaac Newton menyadari bahwa apel yang jatuh ke tanah dan Bulan yang mengorb
 Setiap benda bermassa di alam semesta ini saling tarik-menarik dengan gaya yang berbanding lurus dengan hasil kali kedua massa dan berbanding terbalik dengan kuadrat jarak antara pusat massa keduanya.
 
 $$
+
 \Large F = G \cdot \frac{M \cdot m}{r^2}
+
 $$
+
 - **$G$:** Konstanta Gravitasi Umum ($6,67 \times 10^{-11} \text{ Nm}^2\text{/kg}^2$).
 - **$r$:** Jarak antara **Pusat** benda (bukan permukaan!).
 
@@ -40,14 +43,18 @@ $$
 **Medan Gravitasi** adalah ruang di sekitar benda bermassa di mana benda lain akan merasakan gaya gravitasi. Besarnya kuat medan gravitasi di suatu titik setara dengan percepatan gravitasi ($g$).
 
 $$
+
 \Large g = G \cdot \frac{M}{r^2}
+
 $$
 
 ### 2.1 Variasi Ketinggian ($h$)
 Semakin jauh Anda menjauh dari pusat planet ($r = R + h$), tarikan gravitasi akan melemah sesuai kuadrat jaraknya.
 
 $$
+
 \Large g_h = g_{permukaan} \cdot \left( \frac{R}{R+h} \right)^2
+
 $$
 
 ### 2.2 Berat Astronot di Luar Angkasa
@@ -60,7 +67,9 @@ Mengapa astronot melayang di Stasiun Luar Angkasa (ISS)? Bukan karena tidak ada 
 Energi Potensial ($Ep$) yang kita pelajari di kelas 10 ($mgh$) hanyalah penyederhanaan untuk jarak dekat. Untuk mekanika langit, kita menggunakan definisi mutlak:
 
 $$
+
 \Large Ep = -G \cdot \frac{M \cdot m}{r}
+
 $$
 
 > [!IMPORTANT]
@@ -74,7 +83,9 @@ $$
 Potensial Gravitasi adalah energi potensial per satuan massa di suatu titik medan. Ini adalah besaran skalar yang menggambarkan "kedalaman" sumur gravitasi.
 
 $$
+
 \Large V = \frac{Ep}{m} = -G \cdot \frac{M}{r} \quad (\text{J/kg})
+
 $$
 
 ---
@@ -84,8 +95,11 @@ $$
 Ingin pergi dari Bumi dan tidak pernah kembali? Roket Anda harus memiliki kecepatan awal yang cukup besar agar Energi Totalnya $\geq 0$. Kecepatan minimum ini disebut **Kecepatan Lepas**.
 
 $$
+
 \Large v_e = \sqrt{\frac{2 \cdot G \cdot M}{R}} = \sqrt{2 \cdot g \cdot R}
+
 $$
+
 - Untuk Bumi, $v_e \approx \mathbf{11,2 \text{ km/s}}$ ($40.320 \text{ km/jam}$). Tanpa kecepatan ini, roket Anda akan selalu jatuh kembali ke pelukan Bumi.
 
 ---
@@ -95,7 +109,9 @@ $$
 Agar satelit tetap berkeliling melingkar tanpa jatuh, Gaya Gravitasi harus bertindak sebagai Gaya Sentripetal ($F_g = F_s$).
 
 $$
+
 \Large G \cdot \frac{Mm}{r^2} = \frac{m v^2}{r} \implies v_o = \sqrt{\frac{G \cdot M}{r}}
+
 $$
 
 ### 6.1 Satelit Geostasioner
@@ -109,10 +125,11 @@ Johannes Kepler memberikan hukum empiris mengenai tarian planet:
 1. **Hukum I (Lintasan):** Semua planet mengorbit Matahari dalam lintasan **Elips**, dengan Matahari berada di salah satu titik fokusnya.
 2. **Hukum II (Luas):** Garis hubung planet-matahari menyapu **Luas yang sama dalam selang waktu yang sama**. (Planet bergerak lebih cepat saat dekat matahari/perihelion).
 3. **Hukum III (Harmonik):** Kuadrat periode orbit ($T$) berbanding lurus dengan pangkat tiga jari-jari rata-rata lintasan ($R$).
-   
 
 $$
+
 \Large \frac{T^2}{R^3} = \text{Konstan} \implies \frac{T_1^2}{R_1^3} = \frac{T_2^2}{R_2^3}
+
 $$
 
 ---

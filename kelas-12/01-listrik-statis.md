@@ -29,8 +29,11 @@ Muatan listrik adalah properti fisik materi yang menyebabkan interaksi gaya elek
 Gaya tarik atau tolak antara dua muatan titik sebanding dengan perkalian muatannya dan berbanding terbalik dengan kuadrat jaraknya.
 
 $$
+
 \Large F = k \cdot \frac{q_1 \cdot q_2}{r^2}
+
 $$
+
 - $k = \frac{1}{4\pi\epsilon_0} \approx 9 \times 10^9 \text{ Nm}^2\text{/C}^2$.
 
 ---
@@ -40,7 +43,9 @@ $$
 Medan listrik ($\mathbf{E}$) adalah besaran vektor yang menggambarkan pengaruh gaya listrik di sekitar suatu muatan.
 
 $$
+
 \Large \mathbf{E} = \frac{\mathbf{F}}{q_0} = k \cdot \frac{q}{r^2} \quad (\text{N/C})
+
 $$
 
 **Garis Gaya Listrik:**
@@ -55,14 +60,18 @@ $$
 **Fluks Listrik ($\Phi$):** Jumlah garis medan yang menembus suatu permukaan.
 
 $$
+
 \Large \Phi = E \cdot A \cdot \cos \theta
+
 $$
 
 **Hukum Gauss:**
 Fluks listrik total yang menembus permukaan tertutup sebanding dengan total muatan yang dilingkupi permukaan tersebut.
 
 $$
+
 \Large \oint \mathbf{E} \cdot d\mathbf{A} = \frac{Q_{\text{terlingkup}}}{\epsilon_0}
+
 $$
 
 > [!IMPORTANT]
@@ -75,8 +84,11 @@ $$
 Usaha ($W$) yang diperlukan untuk memindahkan muatan dari titik tak terhingga ke jarak $r$.
 
 $$
+
 \Large Ep = k \cdot \frac{q_1 \cdot q_2}{r} \quad (\text{Joule})
+
 $$
+
 Berbeda dengan gaya, $Ep$ adalah besaran skalar (tanda muatan $\pm$ wajib dimasukkan dalam hitungan).
 
 ---
@@ -86,14 +98,18 @@ Berbeda dengan gaya, $Ep$ adalah besaran skalar (tanda muatan $\pm$ wajib dimasu
 Potensial Listrik ($V$) adalah energi potensial per satuan muatan.
 
 $$
+
 \Large V = \frac{Ep}{q} = k \cdot \frac{q}{r} \quad (\text{Volt})
+
 $$
 
 **Hubungan Medan & Potensial:**
 Medan listrik adalah gradien negatif dari potensial. Cahaya atau muatan positif akan mengalir "turun" dari potensial tinggi ke rendah.
 
 $$
+
 \Large E = -\frac{\Delta V}{\Delta r}
+
 $$
 
 ---
@@ -111,14 +127,19 @@ Dua keping sejajar dengan muatan berbeda akan menciptakan medan listrik homogen 
 Kapasitor adalah alat untuk menyimpan muatan dan energi listrik. Kemampuannya disebut **Kapasitansi ($C$)**.
 
 $$
+
 \Large C = \frac{Q}{V} \quad (\text{Farad})
+
 $$
 
 **Kapasitansi Keping Sejajar:**
 
 $$
+
 \Large C = \epsilon_0 \cdot \frac{A}{d}
+
 $$
+
 - Terlihat bahwa kapasitas hanya bergantung pada geometri (luas $A$ dan jarak $d$), bukan muatan $Q$ atau tegangan $V$.
 
 ---
@@ -128,14 +149,18 @@ $$
 Jika di sela-sela keping diisi bahan isolator (**Dielektrik** dengan konstanta $\kappa$), maka kapasitasnya akan melonjak:
 
 $$
+
 \Large C_{baru} = \kappa \cdot C_0
+
 $$
 
 **Energi Tersimpan ($W$):**
 Kerja yang dilakukan untuk memuati kapasitor disimpan dalam bentuk medan listrik di antara keping.
 
 $$
+
 \Large W = \frac{1}{2} C V^2 = \frac{1}{2} Q V = \frac{1}{2} \frac{Q^2}{C}
+
 $$
 
 ---

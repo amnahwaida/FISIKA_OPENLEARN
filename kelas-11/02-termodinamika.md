@@ -33,22 +33,30 @@ Gas Ideal adalah benda hantu siluman ciptaan fisika: Tidak peduli jenis gasnya (
 Tekanan ($P$), Volume ($V$), dan Suhu Absolut Mutlak Kelvin ($T$) diikat pelukan kosmik konstan murni:
 
 $$
+
 \Large \frac{P_1 \cdot V_1}{T_1} = \frac{P_2 \cdot V_2}{T_2}
+
 $$
 
 Tatkala mol partikel dihitung spesifik, persamaannya dibelah mematikan:
 **Dalam Skala Makro Molar Kimia ($n$ = mol):**
 
 $$
+
 \Large P \cdot V = n \cdot R \cdot T
+
 $$
+
 - $R$ = Tetapan Gas Universal Mutlak ($8,314 \text{ J/mol}\cdot\text{K}$).
 
 **Dalam Skala Mikro Cakaran Molekul Spesifik ($N$ = jumlah total juta atom bertabrakan):**
 
 $$
+
 \Large P \cdot V = N \cdot k \cdot T
+
 $$
+
 - $k$ = Konstanta magis pelik Boltzmann ($1,38 \times 10^{-23} \text{ J/K}$).
 
 ---
@@ -61,8 +69,11 @@ Panci itu sejatinya SEDANG DIPENUHI BILIUNAN MOLEKUL AIR YANG MEMACU KECEPATAN B
 **Root Mean Square Velocity (Akar Kuadrat Rata-Rata Kecepatan Pecahan):**
 
 $$
+
 \Large v_{rms} = \sqrt{\frac{3 \cdot R \cdot T}{M}} \quad \text{atau} \quad v_{rms} = \sqrt{\frac{3 \cdot k \cdot T}{m_0}}
+
 $$
+
 - $M$ = Massa Atom Molar Gas ($\text{Kg/mol}$) // $m_0$ = Massa murni timbangan sebiji molekul ($\text{Kg}$).
 > **Hukum Mutlak Gas Tancap:** Makin tipis diet massa murni sebuah jenis atom (Hidrogen vs O2 gemuk), makin gila kecepatannya pada Suhu yang setara! Hidrogen adalah dewa terbang tercepat mutlak di udara atmosfer bumi!  
 
@@ -93,7 +104,9 @@ Dua atom terikat barbel ikatan bisa meliuk menari gasing mutlak!
 Energi panas disuap pasok ke dalam kawah tabung tabung ($Q$) pastinya pecah terbagi murni mutlak: 1) Digunakan Murni MEMBAKAR MENDIDIHKAN Hawa Panas tabung ($\Delta U$ Energi Dalam), dan 2) Digunakan murni MENDOBRAK MENDESAK PISTON TABUNG (Usaha Kerja Mesin Ekstpansi $W$).
 
 $$
+
 \Large Q = \Delta U + W
+
 $$
 
 **Konvensi Tanda Pengadilan Hukuman Tanda Mata Fisika:**
@@ -133,10 +146,11 @@ Botol silinder dikubur murni rendam di kolam perairan lautan panas raksasa (Rese
 - **Perubahan Energi Dalam Hampa Beku:** $\Delta U = 0$ (Rata suhu stabil).
 - Seluruh Kalor Suap langsung membius ditukar 100 persen tuntas laku memutar otot mesin murni mutlak: **$Q = W_{\text{Logaritma Murni}}$**. 
 - Usaha Integral Melengkung Log Natural:
-  
 
 $$
+
 \Large W = n \cdot R \cdot T \cdot \ln\left(\frac{V_2}{V_1}\right)
+
 $$
 
 ### 4. Adiabatik (Tembakan Rudal Terisolasi Cepat Kilat Kebut, $Q=0$)
@@ -157,13 +171,19 @@ Siklus Carnot adalah "Mesin Paling Dewa Idaman yang Tidak Mungkin Dikalahkan Kes
 Keseimbangan Rumus Maksimal Efisiensi Roda Emas Murni ($\eta$):
 
 $$
+
 \Large \eta = \left( 1 - \frac{Q_{\text{buang dingin laut}}}{Q_{\text{suap api panas raksasa}}} \right) \times 100\%
+
 $$
+
 Kala Tuhan mencipta Mesin Ghaib Termal Sempurna Carnot, energi Kalor diringkas takluk setara dengan angka Suhu Mutlak KELVIN-nya! 
 
 $$
+
 \Large \eta_{Max\_Alam\_Semesta} = \left( 1 - \frac{T_r \ (\text{Suhu Knalpot Dingin KELVIN})}{T_t \ (\text{Suhu Tungku Bara KELVIN})} \right) \times 100\%
+
 $$
+
 *(Hati-hati Celcius haram dimasukkan ke pecahan ini, harus direbus ubah murni + 273 memeluk Kelvin murni!).*
 
 ---
@@ -175,13 +195,17 @@ Hukum Alam membuktikan panas lari mutlak membanjiri ruang dingin secara otodidak
 Mesin pengeruk peras dingin ini tak memakai nilai cacat Efisiensi (\%). Mereka bangga menggunakan patokan Nilai Bintang Sakti **Koefisien Performansi Maut Kerja (KP atau $C_p$)**:
 
 $$
+
 \Large K_p = \frac{Q_r \ (\text{Kalor tersadap dalam Box Es Kulkas dingin})}{W \ (\text{Daya tagih Listrik Memeras Kompresor Tegangan murni})}
-$$  
+
+$$
 
 Jika diringkas kembali mencium mencontek Skala Absolut Carnot mesin idaman Tuhan (Murni T Kelvin):
 
 $$
+
 \Large K_p = \frac{T_r \ (\text{Suhu Dingin Kulkas Dalam})}{T_t \ (\text{Suhu Panas Kondensor Pantat Kulkas Luar}) - T_r}
+
 $$
 
 > Koefisien KP Kulkas normal mendarat di jejeran angka bongkar rasion gila Absolut $3$ hingga $5$. Angka $KP=4$ berarti Mesin ajaib listrik ini dengan memeras nyedot listrik murni $1.000$ Joule sanggup mencabut membongkar membuang membedah panas rahib senilai Rp $4.000$ Joule murni mutlak dipindah buang lempar menaik drastis keluar. Hal inilah keajaiban panggung raksasa kompresi siklik menakjubkan refrigeran freon!
@@ -193,8 +217,11 @@ $$
 Fisika mekanika Newtonian mengijinkan telur pecah menyatukan lemparan dirinya pecah mendarat lantai terbang murni membalik ke meja berbentuk bulat oval kencang (Hukum Newton bisa dibalik mundur waktunya). Tapi Realita Semesta Alam Murni mendikte keras **Panah Waktu Hanya Merayap Maju Satu Arah Penghancuran. Telur Hancur Takkan Kembali Sempurna Mulus Tetas**. Alam selalu berlari berlomba melesat menuju Puncakan KEKACAUBALAUAN BERANTAKAN SEMBARA MUTLAK MURNI **(Entropi Meningkat Mutlak).**
 
 $$
+
 \Large \Delta S = \frac{Q_{\text{Kalor diserap murni Reversible}}}{T \text{ (Suhu Tetap Kelvin)}}
+
 $$
+
 Kamar Anda tidak mungkin merapihkan kasur dirinya sendiri murni setrika, debu tak mungkin berbalik melayang memoles kaca debu debu murni terbang lenyap mutlak, alam semesta memburuk murni entropinya secara mendidih rata beraturan ke puncak menembus maut "Kematian Murni Suhu Membeku Seragam Mutlak (*Heat Death of the Universe Absolut*)". 
 
 ---

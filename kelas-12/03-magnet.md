@@ -35,8 +35,11 @@ Hukum Biot-Savart secara matematis mendefinisikan kontribusi kecil medan magnet 
 Pada jarak $a$ dari kawat lurus tak hingga:
 
 $$
+
 \Large B = \frac{\mu_0 \cdot I}{2\pi \cdot a}
+
 $$
+
 - $\mu_0 = 4\pi \times 10^{-7} \text{ Wb/Am}$ (Permeabilitas vakum).
 
 ---
@@ -47,7 +50,9 @@ $$
 Kuat medan magnet di pusat lingkaran dengan jari-jari $a$ dan $N$ lilitan:
 
 $$
+
 \Large B = \frac{\mu_0 \cdot I \cdot N}{2a}
+
 $$
 
 ### 3.2 Solenoida (Kumparan Lurus)
@@ -62,13 +67,17 @@ Kawat yang dililitkan rapat pada silinder panjang. Di dalam solenoida, medan mag
 **Hukum Ampere:** Analog dengan hukum Gauss pada listrik, hukum ini mempermudah perhitungan medan pada sistem simetri tinggi.
 
 $$
+
 \Large \oint \mathbf{B} \cdot d\mathbf{l} = \mu_0 \cdot I_{enc}
+
 $$
 
 **Toroida:** Solenoida yang ditekuk menjadi lingkaran (seperti donat).
 
 $$
+
 \Large B = \frac{\mu_0 \cdot I \cdot N}{2\pi \cdot r}
+
 $$
 
 ---
@@ -78,14 +87,18 @@ $$
 Muatan $q$ yang bergerak dengan kecepatan $\mathbf{v}$ di dalam medan magnet $\mathbf{B}$ akan mengalami gaya magnet.
 
 $$
+
 \Large \mathbf{F} = q (\mathbf{v} \times \mathbf{B}) \implies F = q \cdot v \cdot B \sin \theta
+
 $$
 
 **Lintasan Partikel:**
 Jika $\mathbf{v} \perp \mathbf{B}$, partikel akan bergerak **Melingkar** dengan jari-jari siklotron:
 
 $$
+
 \Large R = \frac{m \cdot v}{q \cdot B}
+
 $$
 
 ---
@@ -95,17 +108,20 @@ $$
 Kawat sepanjang $L$ yang dialiri arus $I$ dalam medan $B$ akan merasakan gaya mekanik (prinsip pengeras suara/speaker).
 
 $$
+
 \Large F = B \cdot I \cdot L \sin \theta
+
 $$
 
 **Interaksi Dua Kawat Sejajar:**
 Dua kawat sejajar akan berinteraksi:
 - **Tarik-menarik:** Jika arus searah.
 - **Tolak-menolak:** Jika arus berlawanan arah.
-  
 
 $$
+
 \Large F/L = \frac{\mu_0 \cdot I_1 \cdot I_2}{2\pi \cdot a}
+
 $$
 
 ---
@@ -115,8 +131,11 @@ $$
 Loop kawat berarus dalam medan magnet homogen tidak hanya menerima gaya, tetapi juga **Momen Gaya (Torsi)** yang membuatnya berputar.
 
 $$
+
 \Large \tau = N \cdot I \cdot A \cdot B \sin \theta
+
 $$
+
 - $A$: Luas Loop, $\mu = N I A$ (Momen Dipol Magnetik).
 Inilah jantung dari setiap **Motor Listrik** di dunia.
 
