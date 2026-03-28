@@ -26,5 +26,16 @@ Repositori ini memuat seluruh latihan soal untuk materi Fisika Tingkat Sekolah M
 - [2.8 Koefisien Performansi Refrigeran (Kulkas/AC)](./02.8-mesin-pendingin-latihan.md)
 - [2.9 Hukum II Entropi & Kiamat Keteraturan Semesta](./02.9-entropi-alam-latihan.md)
 
+### Bab 3: Medan Gravitasi & Mekanika Langit
+- [3.1 Interaksi Hukum Gravitasi Newton](./03.1-hukum-gravitasi-latihan.md)
+- [3.2 Medan Gravitasi & Variasi g](./03.2-medan-gravitasi-latihan.md)
+- [3.3 Energi Potensial Gravitasi Mutlak](./03.3-energi-potensial-latihan.md)
+- [3.4 Potensial Gravitasi & Sumur Energi](./03.4-potensial-gravitasi-latihan.md)
+- [3.5 Kecepatan Lepas (Escape Velocity)](./03.5-kecepatan-lepas-latihan.md)
+- [3.6 Gerak Orbit Satelit LEO/GEO](./03.6-orbit-satelit-latihan.md)
+- [3.7 Tarian 3 Hukum Kepler](./03.7-hukum-kepler-latihan.md)
+- [3.8 Titik Lagrange & Medan Nol](./03.8-titik-lagrange-latihan.md)
+- [3.9 Aplikasi Astronomi & Ruang-Waktu](./03.9-aplikasi-astronomi-latihan.md)
+
 ---
 [< Kembali ke Daftar Materi Kelas 11](../README.md)
