@@ -15,6 +15,17 @@ Daftar latihan soal disusun berdasarkan bab untuk mempermudah pemahaman konsep t
 - [1.8 Dielektrik & Tabungan Energi Listrik](./01.8-dielektrik-energi-latihan.md)
 - [1.9 Implementasi Teknologi Elektrostatik](./01.9-teknologi-statis-latihan.md)
 
+### Bab 2: Listrik Dinamis (Arus Searah)
+- [2.1 Mekanika Arus & Kecepatan Drif](./02.1-arus-drif-latihan.md)
+- [2.2 Analisis Hambatan & Koefisien Suhu](./02.2-hambatan-suhu-latihan.md)
+- [2.3 Hukum Ohm & Material Non-Ohmik](./02.3-hukum-ohm-latihan.md)
+- [2.4 Hukum Kirchhoff I: Konservasi Muatan](./02.4-kirchhoff-cabang-latihan.md)
+- [2.5 Hukum Kirchhoff II: Analisis Loop & Ggl](./02.5-kirchhoff-loop-latihan.md)
+- [2.6 Jembatan Wheatstone & Transformasi Delta-Y](./02.6-jembatan-wheatstone-latihan.md)
+- [2.7 Efisiensi Daya & Transmisi Listrik](./02.7-daya-energi-listrik-latihan.md)
+- [2.8 Rekayasa Batas Ukur Ammeter & Voltmeter](./02.8-alat-ukur-listrik-latihan.md)
+- [2.9 Potensiometer & Jembatan Kawat](./02.9-potensiometer-latihan.md)
+
 ---
 
 [< Kembali ke Daftar Materi Kelas 12](../README.md)
