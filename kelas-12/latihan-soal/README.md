@@ -48,6 +48,17 @@ Daftar latihan soal disusun berdasarkan bab untuk mempermudah pemahaman konsep t
 - [4.8 Analisis Efisiensi & Rugi Trafo](./04.8-efisiensi-trafo-latihan.md)
 - [4.9 Teknologi Wireless & Induksi Masak](./04.9-teknologi-induksi-latihan.md)
 
+### Bab 5: Arus Bolak-Balik (AC)
+- [5.1 Nilai Efektif & Maksimum Sinusoidal](./05.1-nilai-efektif-latihan.md)
+- [5.2 Karakteristik Beban Resisitif Murni](./05.2-rangkaian-r-latihan.md)
+- [5.3 Hambatan Induktif & Pergeseran Fase](./05.3-rangkaian-l-latihan.md)
+- [5.4 Hambatan Kapasitif & Akumulasi Muatan](./05.4-rangkaian-c-latihan.md)
+- [5.5 Impedansi Total Seri RLC](./05.5-impedansi-rlc-latihan.md)
+- [5.6 Analisis Vektor Fasor Tegangan](./05.6-fasor-tegangan-latihan.md)
+- [5.7 Daya Nyata & Faktor Daya (Cos Phi)](./05.7-daya-ac-latihan.md)
+- [5.8 Frekuensi Resonansi & Tuning Radio](./05.8-resonansi-radio-latihan.md)
+- [5.9 Sistem Inverter & Konversi Energi](./05.9-inverter-rectifier-latihan.md)
+
 ---
 
 [< Kembali ke Daftar Materi Kelas 12](../README.md)
