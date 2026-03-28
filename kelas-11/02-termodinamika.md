@@ -127,7 +127,10 @@ Panci Baut Presto mati Las Besi! Digedor panas sejuta surya pun, panci ini panta
 Botol silinder dikubur murni rendam di kolam perairan lautan panas raksasa (Reservoir). Seluruh molekuler geraknya kecepatan gas takkan berubah ngebut maupun telat mereda ($T_1 = T_2$). P-V Meliuk melengkung Landai Eksponensial Logaritma (Hukum Boyle $P_1 V_1 = P_2 V_2$).
 - **Perubahan Energi Dalam Hampa Beku:** $\Delta U = 0$ (Rata suhu stabil).
 - Seluruh Kalor Suap langsung membius ditukar 100 persen tuntas laku memutar otot mesin murni mutlak: **$Q = W_{\text{Logaritma Murni}}$**. 
-- Usaha Integral Melengkung Log Natural: $W = n \cdot R \cdot T \cdot \ln\left(\frac{V_2}{V_1}\right)$.
+- Usaha Integral Melengkung Log Natural:
+$$
+\Large W = n \cdot R \cdot T \cdot \ln\left(\frac{V_2}{V_1}\right)
+$$
 
 ### 4. Adiabatik (Tembakan Rudal Terisolasi Cepat Kilat Kebut, $Q=0$)
 Botol Termos tebal berlapis Styrofoam dan busa gila tahan panas seratus persen murni tak mengijikan rembes sekutip elektron kalor menyusup atau lari ghaib membocori keluar ($\mathbf{Q_{\text{Masuk/Keluar}} = 0}$). Atap piston ditendang meledak ekspansi kilat hitungan mikrodetik menyilet angkasa.

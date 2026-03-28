@@ -123,8 +123,14 @@ Alat musik bernada tercipta ketika gelombang menjebak diri dalam stasioner spasi
 
 ### 6.1 Dawai (Gitar, Biola)
 - Syarat ujung: Terikat $\leftrightarrow$ Terikat (Simpul di kedua ujung).
-- Panjang efektif terbentuk pola perut murni: $L = (n+1) \cdot \frac{\lambda}{2}$.
-- Modulus deret Frekuensinya: $f_0 : f_1 : f_2 = 1 : 2 : 3 \dots$
+- Panjang efektif terbentuk pola perut murni:
+$$
+\Large L = (n+1) \cdot \frac{\lambda}{2}
+$$
+- Modulus deret Frekuensinya:
+$$
+\Large f_0 : f_1 : f_2 = 1 : 2 : 3 \dots
+$$
 $$
 \Large f_n = (n+1) \frac{v}{2L}
 $$

@@ -147,8 +147,14 @@ $$
 
 ### 3.1 Benda di Bidang Miring
 Balok di bidang miring dengan sudut $\theta$:
-- Komponen gaya berat searah bidang: $w \sin \theta = m \cdot g \cdot \sin \theta$
-- Komponen gaya berat tegak lurus bidang: $w \cos \theta = m \cdot g \cdot \cos \theta$
+- Komponen gaya berat searah bidang:
+$$
+\Large w \sin \theta = m \cdot g \cdot \sin \theta
+$$
+- Komponen gaya berat tegak lurus bidang:
+$$
+\Large w \cos \theta = m \cdot g \cdot \cos \theta
+$$
 - **Gaya Normal:** $N = m \cdot g \cdot \cos \theta$ (jika tidak ada gaya luar lain).
 
 > [!NOTE]
@@ -158,16 +164,31 @@ Balok di bidang miring dengan sudut $\theta$:
 
 ### 3.2 Gaya Tarik pada Sudut Miring (Decomposition)
 Jika sebuah benda di bidang datar ditarik dengan gaya $F$ yang membentuk sudut $\alpha$ terhadap horizontal:
-- Komponen gaya horizontal (penggerak): $F_x = F \cos \alpha$
+- Komponen gaya horizontal (penggerak):
+$$
+\Large F_x = F \cos \alpha
+$$
 - Komponen gaya vertikal (mengurangi $N$): $F_y = F \sin \alpha$
 - **Gaya Normal menjadi:** $N = mg - F \sin \alpha$
-- Percepatan: $a = \frac{F\cos\alpha - \mu_k(mg - F\sin\alpha)}{m}$
+- Percepatan:
+$$
+\Large a = \frac{F\cos\alpha - \mu_k(mg - F\sin\alpha)}{m}
+$$
 
 ### 3.3 Gaya Dorong pada Sudut ke Bawah (Push Force)
 Kebalikan dari gaya tarik: jika benda **didorong** dengan sudut $\alpha$ ke bawah:
-- Komponen horizontal tetap: $F_x = F \cos \alpha$
-- Komponen vertikal kini **menambah** Normal: $N = mg + F \sin \alpha$
-- Gesek jadi lebih besar: $f_k = \mu_k \cdot (mg + F\sin\alpha)$
+- Komponen horizontal tetap:
+$$
+\Large F_x = F \cos \alpha
+$$
+- Komponen vertikal kini **menambah** Normal:
+$$
+\Large N = mg + F \sin \alpha
+$$
+- Gesek jadi lebih besar:
+$$
+\Large f_k = \mu_k \cdot (mg + F\sin\alpha)
+$$
 
 > [!TIP]
 > **Menarik vs Mendorong: Mana Lebih Efisien?**
@@ -227,23 +248,38 @@ Dua balok diletakkan bersentuhan berdampingan ($m_1$ dan $m_2$) di atas lantai l
 Dalam fluida (cair/gas), benda mengalami gaya ke atas ($F_a$) yang berlawanan dengan gravitasi. 
 - **Resultan Gaya:** $\Sigma F = w - F_a$ (jika mengabaikan gesekan fluida).
 - **Hukum Newton:** $m \cdot g - \rho_f \cdot V_{celup} \cdot g = m \cdot a$.
-- Jika benda bergerak cepat, tambahkan Gaya Stokes: $\Sigma F = w - F_a - f_{stokes}$.
+- Jika benda bergerak cepat, tambahkan Gaya Stokes:
+$$
+\Large \Sigma F = w - F_a - f_{stokes}
+$$
 
 ### 3.8 Percepatan Maksimum Alas (Benda di Bak Truk)
 Sebuah balok diletakkan secara bebas di atas bak truk yang melaju dengan percepatan $a$. Agar balok **tidak merosot ke belakang**, gaya gesek statis ($f_s$) antarmuka-lah yang menarik balok ke depan untuk "ikut melaju" bersama truk.
-- Syarat balok ikut melaju tanpa selip: $\Sigma F_{\text{balok}} = m_{\text{balok}} \cdot a \implies f_s = m \cdot a$
+- Syarat balok ikut melaju tanpa selip:
+$$
+\Large \Sigma F_{\text{balok}} = m_{\text{balok}} \cdot a \implies f_s = m \cdot a
+$$
 - Batas percepatan truk maksimum sebelum selip ke belakang: 
   $f_{s,max} = m \cdot a_{max} \implies \mu_s \cdot mg = m \cdot a_{max} \implies \mathbf{a_{max} = \mu_s \cdot g}$
 
 ### 3.9 Benda Bertumpuk (Stacked Blocks)
 Dua balok ditumpuk: balok A (atas, massa $m_A$) dan balok B (bawah, massa $m_B$). Gaya $F$ diterapkan pada balok A secara horizontal.
 - Gaya gesek statis antar permukaan ($f_{AB}$) adalah **satu-satunya gaya** yang menggerakkan balok B.
-- Percepatan sistem: $a = \frac{F}{m_A + m_B}$
-- Gaya gesek pada B: $f_{AB} = m_B \cdot a$
+- Percepatan sistem:
+$$
+\Large a = \frac{F}{m_A + m_B}
+$$
+- Gaya gesek pada B:
+$$
+\Large f_{AB} = m_B \cdot a
+$$
 - **Syarat agar tidak selip:** $f_{AB} \leq \mu_s \cdot m_A \cdot g$
 
 ### 3.8 Gaya pada Lift (Elevator)
-- Lift Diam/GLB: $N = w = mg$
+- Lift Diam/GLB:
+$$
+\Large N = w = mg
+$$
 - Lift Dipercepat ke Atas ($+a$): $N = m(g + a)$ (Terasa lebih berat)
 - Lift Dipercepat ke Bawah ($-a$): $N = m(g - a)$ (Terasa lebih ringan)
 - **Lift Jatuh Bebas ($a = g$):** $N = m(g - g) = 0$ (Keadaan *Weightless/Melayang/Tanpa Bobot*)

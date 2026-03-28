@@ -158,7 +158,10 @@ $$
    - **Contoh:** Ubah $5 \text{ m}^2$ menjadi $\text{cm}^2$.
      - Langkah 1: Dari `m` ke `cm` turun **2 tangga**.
      - Langkah 2: Faktor pengali = $(10^2)^2 = 10^4 = 10.000$.
-     - Langkah 3: $5 \times 10.000 = \mathbf{50.000 \text{ cm}^2}$.
+     - Langkah 3:
+$$
+\Large 5 \times 10.000 = \mathbf{50.000 \text{ cm}^2}
+$$
 
 2. **Satuan Volume ($n=3$):**
    Setiap turun satu tangga, nilai dikali $10^3 = \mathbf{1.000}$. Sebaliknya, setiap naik satu tangga dibagi $1.000$.

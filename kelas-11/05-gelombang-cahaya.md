@@ -119,7 +119,10 @@ $$
 
 Cahaya alami bergetar ke segala arah. **Polarisasi** adalah proses membatasi getaran cahaya hanya pada satu arah saja. 
 
-- **Hukum Malus:** Intensitas cahaya setelah melewati dua polarisator: $I = I_0 \cos^2 \theta$.
+- **Hukum Malus:** Intensitas cahaya setelah melewati dua polarisator:
+$$
+\Large I = I_0 \cos^2 \theta
+$$
 - **Sudut Brewster:** Cahaya terpolarisasi sempurna saat memantul dengan sudut $\tan \theta_p = \frac{n_2}{n_1}$.
 
 ---
