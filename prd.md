@@ -130,9 +130,7 @@ Materi harus dipecah menjadi file `.md` terpisah per Bab/Sub-bab agar mudah diba
   - **Block:** `
 
 $$
-
 \Large E = mc^2
-
 $$
 
 `
@@ -159,9 +157,7 @@ Penjelasan teks...
 ## Rumus Utama
 
 $$
-
 \Large F = m \cdot a
-
 $$
 
 ## Contoh Soal

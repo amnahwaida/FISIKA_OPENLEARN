@@ -31,17 +31,13 @@ Karena proton-proton di dalam inti sangat berdekatan, muncul gaya tolak-menolak 
 Anehnya, massa inti atom selalu **lebih kecil** daripada jumlah massa proton dan neutron penyusunnya secara terpisah. Selisih massa ini disebut **Defek Massa ($\Delta m$)**.
 
 $$
-
 \Large \Delta m = [Z \cdot m_p + (A - Z) \cdot m_n] - m_{\text{inti}}
-
 $$
 
 Massa yang "hilang" ini sebenarnya berubah menjadi **Energi Ikat Inti** yang menyatukan nukleon.
 
 $$
-
 \Large E = \Delta m \cdot c^2 \quad (\text{Dalam sma: } E = \Delta m \cdot 931,5 \text{ MeV})
-
 $$
 
 ---
@@ -60,9 +56,7 @@ Inti yang tidak stabil (terlalu besar atau rasio N/Z tidak seimbang) akan meluru
 Peluruhan radioaktif adalah proses acak secara statistik. Jumlah inti yang tersisa ($N$) berkurang secara eksponensial terhadap waktu ($t$).
 
 $$
-
 \Large N(t) = N_0 \cdot e^{-\lambda t} \approx N_0 \left(\frac{1}{2}\right)^{\frac{t}{T_{1/2}}}
-
 $$
 
 - **Waktu Paruh ($T_{1/2}$):** Waktu yang dibutuhkan agar jumlah inti meluruh menjadi setengah dari semula.

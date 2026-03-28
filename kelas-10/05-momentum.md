@@ -32,22 +32,17 @@ Di Bab 4, kita menganalisis gerak menggunakan **Energi** (skalar). Bab ini mempe
 Momentum linear ($\vec{p}$) adalah besaran **vektor** yang menggambarkan kuantitas gerak suatu benda:
 
 $$
-
 \Large \vec{p} = m \cdot \vec{v}
-
 $$
 
 > [!IMPORTANT]
 > **Eternal Bridge: Momentum Relativistik:**
 > Pada kecepatan mendekati cahaya, massa benda tampak bertambah ($m_{\text{rel}} = \gamma m_0$). Oleh karena itu, rumus momentum menjadi:
 > 
-
-$$
-
-\Large \vec{p} = \gamma m_0 \vec{v} = \frac{m_0 \vec{v}}{\sqrt{1 - \frac{v^2}{c^2}}}
-
-$$
-
+> $$
+> \Large \vec{p} = \gamma m_0 \vec{v} = \frac{m_0 \vec{v}}{\sqrt{1 - \frac{v^2}{c^2}}}
+> $$
+> 
 > Tanpa faktor Lorentz ($\gamma$), perhitungan momentum roket antar bintang atau partikel atom akan salah total.
 
 Dimana:
@@ -63,16 +58,14 @@ Dimana:
 Hukum Newton II dalam bentuk aslinya (yang ditulis Newton sendiri) bukan $F = ma$, melainkan:
 
 $$
-
 \Large \vec{F} = \frac{d\vec{p}}{dt} = \frac{\Delta \vec{p}}{\Delta t}
-
 $$
 
 Artinya: **Gaya adalah laju perubahan momentum**. Bentuk $F = ma$ hanyalah kasus khusus saat massa konstan ($F = \frac{d(mv)}{dt} = m\frac{dv}{dt} = ma$).
 
 > [!TIP]
 > **Mengapa Bentuk Momentum Lebih Fundamental?**
-> Karena bentuk $F = ma$ tidak berlaku untuk benda yang massanya berubah (seperti roket yang membakar bahan bakar). Bentuk $F = \frac{dp}{dt}$ selalu berlaku untuk semua situasi.
+> Karena bentuk $F = ma$ tidak berlaku untuk benda yang massanya berubah (seperti roket yang membakar bahan bakar). Bentuk $F = \frac{dp}{dt}$ selalu berlaku for all situasi.
 
 ### 2.3 Satuan dan Dimensi
 - Satuan SI: $\text{kg} \cdot \text{m/s}$ (tidak punya nama khusus)
@@ -87,9 +80,7 @@ Artinya: **Gaya adalah laju perubahan momentum**. Bentuk $F = ma$ hanyalah kasus
 Impuls ($\vec{J}$) adalah efek kumulatif gaya yang bekerja selama selang waktu tertentu:
 
 $$
-
 \Large \vec{J} = \vec{F} \cdot \Delta t = \Delta \vec{p} = m\vec{v}_2 - m\vec{v}_1
-
 $$
 
 Ini adalah **Teorema Impuls-Momentum**: Impuls yang diberikan pada benda sama dengan perubahan momentumnya.
@@ -98,13 +89,10 @@ Ini adalah **Teorema Impuls-Momentum**: Impuls yang diberikan pada benda sama de
 > **Asal-Usul Teorema:**
 > Dari $F = \frac{\Delta p}{\Delta t}$, kalikan kedua ruas dengan $\Delta t$:
 > 
-
-$$
-
-\Large F \cdot \Delta t = \Delta p
-
-$$
-
+> $$
+> \Large F \cdot \Delta t = \Delta p
+> $$
+> 
 > Ruas kiri = Impuls. Ruas kanan = Perubahan momentum. Q.E.D.
 
 ### 3.2 Impuls dari Grafik $F$-$t$
@@ -142,30 +130,21 @@ Dari $F = \frac{\Delta p}{\Delta t}$, jika $\Delta p$ sama, maka:
 Perhatikan dua benda ($m_1, m_2$) yang saling berinteraksi (tumbukan):
 - Menurut Newton III: $\vec{F}_{12} = -\vec{F}_{21}$ (aksi-reaksi)
 - Maka:
-
-$$
-
-\Large \frac{\Delta \vec{p}_1}{\Delta t} = -\frac{\Delta \vec{p}_2}{\Delta t}
-
-$$
-
+  $$
+  \Large \frac{\Delta \vec{p}_1}{\Delta t} = -\frac{\Delta \vec{p}_2}{\Delta t}
+  $$
 - Kalikan $\Delta t$: $\Delta \vec{p}_1 = -\Delta \vec{p}_2$
 - Artinya:
-
-$$
-
-\Large \Delta \vec{p}_1 + \Delta \vec{p}_2 = 0
-
-$$
+  $$
+  \Large \Delta \vec{p}_1 + \Delta \vec{p}_2 = 0
+  $$
 
 $$
 \Large \mathbf{\vec{p}_{total,\text{awal}} = \vec{p}_{total,\text{akhir}}}
-
 $$
 
 $$
 \Large m_1 v_1 + m_2 v_2 = m_1 v_1' + m_2 v_2'
-
 $$
 
 **Q.E.D.** — Momentum total sistem selalu konstan.
@@ -192,9 +171,7 @@ HKML hanya berlaku jika:
 Koefisien restitusi mengukur "keelastisan" tumbukan:
 
 $$
-
 \Large e = -\frac{v_1' - v_2'}{v_1 - v_2} = \frac{\text{kecepatan relatif setelah}}{\text{kecepatan relatif sebelum}}
-
 $$
 
 <div align="center">
@@ -215,14 +192,11 @@ Dua hukum berlaku sekaligus:
 **Rumus Cepat (target awalnya diam, $v_2 = 0$):**
 
 $$
-
 \Large v_1' = \frac{m_1 - m_2}{m_1 + m_2} v_1
-
 $$
 
 $$
 \Large v_2' = \frac{2m_1}{m_1 + m_2} v_1
-
 $$
 
 > [!TIP]
@@ -235,26 +209,20 @@ $$
 Kedua benda **menyatu** setelah tumbukan dan bergerak dengan kecepatan yang sama:
 
 $$
-
 \Large m_1 v_1 + m_2 v_2 = (m_1 + m_2) v'
-
 $$
 
 $$
 \Large v' = \frac{m_1 v_1 + m_2 v_2}{m_1 + m_2}
-
 $$
 
 > [!CAUTION]
 > **Energi "Hilang":**
 > Pada tumbukan tidak lenting sempurna, energi kinetik yang hilang berubah menjadi panas, bunyi, dan deformasi. Jumlah energi yang hilang:
 > 
-
-$$
-
-\Large \Delta EK = \frac{1}{2} \frac{m_1 m_2}{m_1 + m_2} (v_1 - v_2)^2
-
-$$
+> $$
+> \Large \Delta EK = \frac{1}{2} \frac{m_1 m_2}{m_1 + m_2} (v_1 - v_2)^2
+> $$
 
 ### 5.4 Tumbukan Lenting Sebagian ($0 < e < 1$)
 Gunakan dua persamaan:
@@ -274,7 +242,7 @@ Dalam tumbukan miring (seperti bola biliar), HKML berlaku **secara terpisah** pa
 
 ### 6.2 Teknik Pemecahan
 1. Tentukan sumbu $x$ (biasanya searah gerak awal benda pertama).
-2. Uraikan semua kecepatan ke komponen $x$ dan $y$ menggunakan trigonometri.
+2. Uraikan semua kecepatan ke komponen $x$ and $y$ menggunakan trigonometri.
 3. Terapkan HKML pada masing-masing sumbu secara independen.
 4. Gabungkan hasil untuk mendapatkan besar dan arah kecepatan akhir.
 
@@ -294,26 +262,20 @@ Dalam tumbukan miring (seperti bola biliar), HKML berlaku **secara terpisah** pa
 Pusat massa adalah titik rata-rata posisi massa dalam suatu sistem:
 
 $$
-
 \Large x_{cm} = \frac{\sum m_i x_i}{\sum m_i} = \frac{m_1 x_1 + m_2 x_2 + \ldots}{m_1 + m_2 + \ldots}
-
 $$
 
 ### 7.2 Kecepatan Pusat Massa
 
 $$
-
 \Large v_{cm} = \frac{p_{total}}{m_{total}} = \frac{m_1 v_1 + m_2 v_2}{m_1 + m_2}
-
 $$
 
 ### 7.3 Massa Tereduksi (Reduced Mass - $\mu$)
 Untuk sistem dua benda yang saling berinteraksi (seperti planet dan satelit, atau dua atom), kita bisa menyederhanakan masalah dengan menganggap salah satu benda diam dan benda lainnya memiliki massa "terreduksi":
 
 $$
-
 \Large \mu = \frac{m_1 \cdot m_2}{m_1 + m_2}
-
 $$
 
 Ini adalah teknik "Sakti" untuk menghitung energi kinetik relatif sistem tanpa harus menganalisis dua benda secara terpisah: $EK_{\text{rel}} = \frac{1}{2}\mu v_{\text{rel}}^2$.
@@ -330,22 +292,17 @@ Ini adalah teknik "Sakti" untuk menghitung energi kinetik relatif sistem tanpa h
 Energi Kinetik dapat dinyatakan dalam momentum:
 
 $$
-
 \Large EK = \frac{p^2}{2m}
-
 $$
 
 > [!NOTE]
 > **Asal-Usul:**
 > Dari $p = mv \implies v = \frac{p}{m}$. Substitusi ke $EK = \frac{1}{2}mv^2$:
 > 
-
-$$
-
-\Large EK = \frac{1}{2}m\left(\frac{p}{m}\right)^2 = \frac{p^2}{2m}
-
-$$
-
+> $$
+> \Large EK = \frac{1}{2}m\left(\frac{p}{m}\right)^2 = \frac{p^2}{2m}
+> $$
+> 
 > Rumus ini sangat berguna dalam soal olimpiade yang melibatkan momentum dan energi sekaligus.
 
 ### 8.2 Analisis Kehilangan Energi pada Tumbukan
@@ -366,9 +323,7 @@ Sebuah peluru bermassa $m$ menghantam balok bermassa $M$ yang tergantung (pendul
 **Rumus Cepat Kecepatan Peluru:**
 
 $$
-
 \Large v_{peluru} = \frac{m + M}{m} \sqrt{2gh}
-
 $$
 
 > [!IMPORTANT]
@@ -381,9 +336,7 @@ Roket bekerja berdasarkan HKML: gas dikeluarkan ke belakang, roket terdorong ke 
 **Persamaan Gaya Dorong Roket:**
 
 $$
-
 \Large F_{thrust} = v_{rel} \cdot \frac{dm}{dt}
-
 $$
 
 - $v_{rel}$ = Kecepatan gas relatif terhadap roket (m/s)
@@ -397,9 +350,7 @@ $$
 Pada ledakan, benda yang awalnya diam terpecah menjadi beberapa bagian. HKML tetap berlaku:
 
 $$
-
 \Large 0 = m_1 v_1' + m_2 v_2' + \ldots
-
 $$
 
 Artinya, jumlah vektor momentum semua pecahan setelah ledakan = **nol**.

@@ -25,14 +25,11 @@ Berbeda dengan arus searah (DC) yang nilainya stabil, arus bolak-balik (AC) memi
 **Nilai Efektif ($V_{rms}$):** Nilai tegangan AC yang menghasilkan efek panas (disipasi daya) yang sama dengan tegangan DC. Inilah nilai yang dibaca oleh Voltmeter/Ammeter AC.
 
 $$
-
 \Large V_{ef} = \frac{V_{max}}{\sqrt{2}} \approx 0,707 \cdot V_{max}
-
 $$
 
 $$
 \Large I_{ef} = \frac{I_{max}}{\sqrt{2}}
-
 $$
 
 ---
@@ -51,9 +48,7 @@ Induktor ($L$) menghambat arus AC tidak hanya lewat hambatan kawat, tapi lewat G
 - **Reaktansi Induktif ($X_L$):** 
 
 $$
-
 \Large X_L = \omega \cdot L = 2\pi f \cdot L \quad (\text{Ohm})
-
 $$
 
 - **Karakteristik Fase:** Tegangan **Mendahului** Arus sebesar $90^\circ$ (CIVIL: $V$ before $I$ in $L$).
@@ -66,9 +61,7 @@ Kapasitor ($C$) menghambat arus AC melalui proses pengosongan dan pengisian muat
 - **Reaktansi Kapasitif ($X_C$):**
 
 $$
-
 \Large X_C = \frac{1}{\omega \cdot C} = \frac{1}{2\pi f \cdot C} \quad (\text{Ohm})
-
 $$
 
 - **Karakteristik Fase:** Arus **Mendahului** Tegangan sebesar $90^\circ$ (CIVIL: $I$ before $V$ in $C$).
@@ -80,17 +73,13 @@ $$
 Saat $R, L,$ dan $C$ disusun seri, hambatan totalnya tidak bisa dijumlahkan secara aljabar biasa karena perbedaan fase. Kita menggunakan penjumlahan vektor (**Impedansi, $Z$**).
 
 $$
-
 \Large Z = \sqrt{R^2 + (X_L - X_C)^2} \quad (\text{Ohm})
-
 $$
 
 **Tegangan Total ($V$):**
 
 $$
-
 \Large V_{total} = \sqrt{V_R^2 + (V_L - V_C)^2}
-
 $$
 
 ---
@@ -101,9 +90,7 @@ Fasor (*Phase Vector*) adalah cara memvisualisasikan tegangan sebagai vektor yan
 - **Sudut Fase ($\phi$):** Pergeseran antara tegangan total dan arus total.
 
 $$
-
 \Large \tan \phi = \frac{X_L - X_C}{R}
-
 $$
 
 ---
@@ -114,9 +101,7 @@ Daya pada AC hanya benar-benar terpakai (diserap) pada komponen Resistor ($R$).
 **Daya Nyata ($P$):**
 
 $$
-
 \Large P = V_{ef} \cdot I_{ef} \cdot \cos \phi \quad (\text{Watt})
-
 $$
 
 - **Faktor Daya ($\cos \phi$):** Nilai efisiensi penggunaan daya. Idealnya bernilai $1$. Jika terlalu rendah, tagihan listrik membengkak akibat "Daya Buta" ($Q$) yang tidak terpakai tapi tetap mengalir.
@@ -130,9 +115,7 @@ Resonansi terjadi saat hambatan induktif saling meniadakan hambatan kapasitif ($
 - **Frekuensi Resonansi ($f_r$):**
 
 $$
-
 \Large f_r = \frac{1}{2\pi \sqrt{L \cdot C}}
-
 $$
 
 Prinsip ini digunakan pada **Tuning Radio**; kita mengubah nilai $C$ pada kapasitor variabel agar frekuensi resonansi rangkaian sama dengan frekuensi stasiun radio.
