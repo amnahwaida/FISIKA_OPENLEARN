@@ -48,5 +48,16 @@ Repositori ini memuat seluruh latihan soal untuk materi Fisika Tingkat Sekolah M
 - [4.8 Analogi GMB & Dasar Trigonometri](./04.8-analogi-gmb-latihan.md)
 - [4.9 Fenomena Resonansi & Getaran Paksa](./04.9-resonansi-getaran-latihan.md)
 
+### Bab 5: Gelombang & Optik Fisis Ekstrem
+- [5.1 Hakikat & Klasifikasi Gelombang](./05.1-hakikat-gelombang-latihan.md)
+- [5.2 Persamaan Umum Kecepatan Rambat](./05.2-persamaan-gelombang-latihan.md)
+- [5.3 Analisis Fase Gelombang Berjalan](./05.3-gelombang-berjalan-latihan.md)
+- [5.4 Simpul & Perut Gelombang Stasioner](./05.4-gelombang-stasioner-latihan.md)
+- [5.5 Karakteristik Umum Sifat Gelombang](./05.5-sifat-umum-gelombang-latihan.md)
+- [5.6 Interferensi Celah Ganda Young](./05.6-interferensi-young-latihan.md)
+- [5.7 Resolusi Kisi Difraksi Rapat](./05.7-difraksi-kisi-latihan.md)
+- [5.8 Seni Interferensi Lapisan Tipis](./05.8-lapisan-tipis-latihan.md)
+- [5.9 Penyerapan Getaran Polarisasi Cahaya](./05.9-polarisasi-cahaya-latihan.md)
+
 ---
 [< Kembali ke Daftar Materi Kelas 11](../README.md)
